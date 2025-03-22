@@ -1,0 +1,3681 @@
+cve,file_func_name
+CVE-2002-2443,"schpw.c, krb_pingpong.nasl"
+CVE-2006-3635,
+CVE-2006-5331,"altivec_unavailable_exception, arch/powerpc/kernel/traps.c, CONFIG_ALTIVEC"
+CVE-2007-6761,"drivers/media/video/videobuf-vmalloc.c, videobuf_mapping"
+CVE-2007-6762,"net/netlabel/netlabel_cipso_v4.c, doi_def->tags[]"
+CVE-2008-4539,
+CVE-2008-7316,mm/filemap.c
+CVE-2009-0385,"fourxm_read_header, libavformat/4xm.c"
+CVE-2009-1194,"pango_glyph_string_set_size, pango/glyphstring.c"
+CVE-2009-3616,vnc.c
+CVE-2009-3627,"decode_entities, util.c"
+CVE-2010-1152,memcached.c
+CVE-2010-1155,
+CVE-2010-2060,"dispatch_cmd, prot.c"
+CVE-2010-2958,libraries/Error.class.php
+CVE-2010-3055,scripts/setup.php
+CVE-2010-3429,flicvideo.c
+CVE-2010-3844,
+CVE-2010-4250,"inotify_init1, fs/notify/inotify/inotify_user.c"
+CVE-2010-4329,"PMA_linkOrButton, libraries/common.lib.php"
+CVE-2010-4481,phpinfo.php
+CVE-2010-4648,"orinoco_ioctl_set_auth, drivers/net/wireless/orinoco/wext.c"
+CVE-2010-4650,"fuse_do_ioctl, fs/fuse/file.c"
+CVE-2010-4704,"vorbis_floor0_decode, libavcodec/vorbis_dec.c"
+CVE-2010-5313,arch/x86/kvm/x86.c
+CVE-2010-5328,include/linux/init_task.h
+CVE-2010-5329,"video_usercopy, drivers/media/video/v4l2-ioctl.c, v4l2_ext_controls"
+CVE-2010-5331,drivers/gpu/drm/radeon/atombios.c
+CVE-2010-5332,"mlx4_register_vlan, mlx4_register_mac, drivers/net/mlx4/port.c"
+CVE-2011-0006,"ima_lsm_rule_init, security/integrity/ima/ima_policy.c"
+CVE-2011-0480,vorbis_dec.c
+CVE-2011-0530,nbd-server.c
+CVE-2011-0716,"br_multicast_add_group, net/bridge/br_multicast.c"
+CVE-2011-0986,"README, ChangeLog, LICENSE"
+CVE-2011-0987,"PMA_Bookmark_get, libraries/bookmark.lib.php"
+CVE-2011-1019,"dev_load, net/core/dev.c"
+CVE-2011-1021,"drivers/acpi/debugfs.c, /sys/kernel/debug/acpi/custom_method"
+CVE-2011-1023,
+CVE-2011-1078,"sco_sock_getsockopt_old, net/bluetooth/sco.c"
+CVE-2011-1079,"bnep_sock_ioctl, net/bluetooth/bnep/sock.c"
+CVE-2011-1080,"do_replace, net/bridge/netfilter/ebtables.c"
+CVE-2011-1160,"tpm_open, drivers/char/tpm/tpm.c"
+CVE-2011-1180,"iriap_getvaluebyclass_indication, net/irda/iriap.c"
+CVE-2011-1182,kernel/signal.c
+CVE-2011-1476,/dev/sequencer
+CVE-2011-1477,sound/oss/opl3.c
+CVE-2011-1479,
+CVE-2011-1488,$RepeatedMsgReduction
+CVE-2011-1489,
+CVE-2011-1490,
+CVE-2011-1493,"rose_parse_national, net/rose/rose_subr.c"
+CVE-2011-1575,ftp_parser.c
+CVE-2011-1585,"cifs_find_smb_ses, fs/cifs/connect.c"
+CVE-2011-1759,"sys_oabi_semtimedop, arch/arm/kernel/sys_oabi-compat.c, CONFIG_OABI_COMPAT"
+CVE-2011-1767,net/ipv4/ip_gre.c
+CVE-2011-1768,
+CVE-2011-1833,"ecryptfs_mount, fs/ecryptfs/main.c"
+CVE-2011-1927,"ip_expire, net/ipv4/ip_fragment.c, ICMP_TIME_EXCEEDED"
+CVE-2011-1931,sp5xdec.c
+CVE-2011-1940,"libraries/tbl_links.inc.php, tbl_tracking.php"
+CVE-2011-1941,
+CVE-2011-2161,"ape_read_header, ape.c"
+CVE-2011-2182,"ldm_frag_add, fs/partitions/ldm.c"
+CVE-2011-2183,"scan_get_next_rmap_item, mm/ksm.c"
+CVE-2011-2208,"osf_getdomainname, arch/alpha/kernel/osf_sys.c"
+CVE-2011-2209,"osf_sysinfo, arch/alpha/kernel/osf_sys.c"
+CVE-2011-2210,"osf_getsysinfo, arch/alpha/kernel/osf_sys.c, GSI_GET_HWRPB"
+CVE-2011-2211,"osf_wait4, arch/alpha/kernel/osf_sys.c"
+CVE-2011-2479,/dev/zero
+CVE-2011-2482,"sctp_sock_migrate, net/sctp/socket.c"
+CVE-2011-2486,NPNVprivateModeBool
+CVE-2011-2491,LOCK_UN
+CVE-2011-2493,"ext4_fill_super, fs/ext4/super.c"
+CVE-2011-2494,kernel/taskstats.c
+CVE-2011-2495,fs/proc/base.c
+CVE-2011-2496,"vma_to_resize, mm/mremap.c"
+CVE-2011-2505,libraries/auth/swekey/swekey.auth.lib.php
+CVE-2011-2506,setup/lib/ConfigGenerator.class.php
+CVE-2011-2507,libraries/server_synchronize.lib.php
+CVE-2011-2508,libraries/display_tbl.lib.php
+CVE-2011-2517,net/wireless/nl80211.c
+CVE-2011-2518,"tomoyo_mount_acl, security/tomoyo/mount.c, kern_path"
+CVE-2011-2521,"x86_assign_hw_event, arch/x86/kernel/cpu/perf_event.c"
+CVE-2011-2642,tbl_printview.php
+CVE-2011-2643,sql.php
+CVE-2011-2699,
+CVE-2011-2707,"ptrace_setxregs, arch/xtensa/kernel/ptrace.c"
+CVE-2011-2718,"libraries/schema/User_Schema.class.php, schema_export.php"
+CVE-2011-2719,libraries/auth/swekey/swekey.auth.lib.php
+CVE-2011-2898,net/packet/af_packet.c
+CVE-2011-2905,"perf_config, tools/perf/util/config.c"
+CVE-2011-2906,"pmcraid_ioctl_passthrough, drivers/scsi/pmcraid.c"
+CVE-2011-2909,"do_devinfo_ioctl, drivers/staging/comedi/comedi_fops.c"
+CVE-2011-2918,PERF_COUNT_SW_CPU_CLOCK
+CVE-2011-3188,
+CVE-2011-3191,"CIFSFindNext, fs/cifs/cifssmb.c"
+CVE-2011-3209,"div_long_long_rem, include/asm-x86/div64.h"
+CVE-2011-3353,"fuse_notify_inval_entry, fs/fuse/dev.c"
+CVE-2011-3359,"dma_rx, drivers/net/wireless/b43/dma.c"
+CVE-2011-3362,"decode_residual_block, cavsdec.c"
+CVE-2011-3363,"setup_cifs_sb, fs/cifs/connect.c"
+CVE-2011-3591,"js/functions.js, js/tbl_structure.js"
+CVE-2011-3592,"PMA_unInlineEditRow, js/sql.js"
+CVE-2011-3602,device-linux.c
+CVE-2011-3619,"apparmor_setprocattr, security/apparmor/lsm.c"
+CVE-2011-3637,"m_stop, fs/proc/task_mmu.c"
+CVE-2011-3638,fs/ext4/extents.c
+CVE-2011-3934,"vp3_update_thread_context, libavcodec/vp3.c"
+CVE-2011-3935,"codec_get_buffer, ffmpeg.c"
+CVE-2011-3937,libavcodec/h263dec.c
+CVE-2011-3940,nsvdec.c
+CVE-2011-3941,"decode_mb, libavcodec/error_resilience.c"
+CVE-2011-3944,"smacker_decode_header_tree, libavcodec/smacker.c"
+CVE-2011-3945,"decode_frame, kgv1dec.c"
+CVE-2011-3946,"ff_h264_decode_sei, libavcodec/h264_sei.c"
+CVE-2011-3947,mjpegbdec.c
+CVE-2011-3973,"decode_residual_block, check_for_slice, cavs_decode_frame, cavsdec.c"
+CVE-2011-3974,"decode_residual_inter, cavsdec.c"
+CVE-2011-4031,"asfrtp_parse_packet, libavformat/rtpdec_asf.c"
+CVE-2011-4080,"sysrq_sysctl_handler, kernel/sysctl.c, dmesg_restrict"
+CVE-2011-4081,"ghash_setkey, ghash_update, ghash_final, crypto/ghash-generic.c"
+CVE-2011-4086,"journal_unmap_buffer, fs/jbd2/transaction.c"
+CVE-2011-4087,"br_parse_ip_options, net/bridge/br_netfilter.c"
+CVE-2011-4098,
+CVE-2011-4112,"IFF_TX_SKB_SHARING, /proc/net/pktgen/pgctrl"
+CVE-2011-4127,
+CVE-2011-4131,NFSv4
+CVE-2011-4324,"encode_share_access, fs/nfs/nfs4xdr.c"
+CVE-2011-4326,"udp6_ufo_fragment, net/ipv6/udp.c"
+CVE-2011-4348,"sctp_rcv, net/sctp/input.c"
+CVE-2011-4352,"vp3_dequant, vp3.c"
+CVE-2011-4364,
+CVE-2011-4579,"svq1_decode_frame, svq1dec.c"
+CVE-2011-4594,"__sys_sendmsg, net/socket.c"
+CVE-2011-4604,"bat_socket_read, net/batman-adv/icmp_socket.c"
+CVE-2011-4611,"perf_event_interrupt, arch/powerpc/kernel/perf_event.c"
+CVE-2011-4621,
+CVE-2011-4634,
+CVE-2011-4718,
+CVE-2011-4780,libraries/display_export.lib.php
+CVE-2011-4782,libraries/config/ConfigFile.class.php
+CVE-2011-4913,"rose_parse_ccitt, net/rose/rose_subr.c, FAC_CCITT_DEST_NSAP, FAC_CCITT_SRC_NSAP"
+CVE-2011-4914,
+CVE-2011-5321,"tty_open, drivers/tty/tty_io.c"
+CVE-2011-5327,"tcm_loop_make_naa_tpg, drivers/target/loopback/tcm_loop.c"
+CVE-2012-0028,
+CVE-2012-0037,
+CVE-2012-0038,"xfs_acl_from_disk, fs/xfs/xfs_acl.c"
+CVE-2012-0044,"drm_mode_dirtyfb_ioctl, drivers/gpu/drm/drm_crtc.c"
+CVE-2012-0045,"em_syscall, arch/x86/kvm/emulate.c"
+CVE-2012-0207,"igmp_heard_query, net/ipv4/igmp.c"
+CVE-2012-0807,"suhosin_encrypt_single_cookie, suhosin.cookie.encrypt, suhosin.multiheader"
+CVE-2012-0848,"ws_snd_decode_frame, libavcodec/ws-snd1.c"
+CVE-2012-0850,"sbr_qmf_synthesis, libavcodec/aacsbr.c, v_off"
+CVE-2012-0851,"ff_h264_decode_seq_parameter_set, h264_ps.c, chroma_format_idc"
+CVE-2012-0852,"adpcm_decode_frame, adpcm.c"
+CVE-2012-0853,"decodeTonalComponents, atrac3.c"
+CVE-2012-0854,"dpcm_decode_frame, libavcodec/dpcm.c"
+CVE-2012-0858,shorten.c
+CVE-2012-0859,"render_line, vorbis.c"
+CVE-2012-0879,CLONE_IO
+CVE-2012-0957,"override_release, kernel/sys.c"
+CVE-2012-1013,"check_1_6_dummy, lib/kadm5/srv/svr_principal.c"
+CVE-2012-1097,".get, .set, PTRACE_GETREGSET, PTRACE_SETREGSET"
+CVE-2012-1107,"analyzeCurrent, ape/apeproperties.cpp"
+CVE-2012-1108,ogg/xiphcomment.cpp
+CVE-2012-1146,"mem_cgroup_usage_unregister_event, mm/memcontrol.c"
+CVE-2012-1176,fribidi_utf8_to_unicode
+CVE-2012-1190,"replication-setup, js/replication.js"
+CVE-2012-1583,"xfrm6_tunnel_rcv, net/ipv6/xfrm6_tunnel.c"
+CVE-2012-1584,toolkit/tbytevector.cpp
+CVE-2012-1902,show_config_errors.php
+CVE-2012-1909,
+CVE-2012-2100,"ext4_fill_flex_info, fs/ext4/super.c, FLEX_BG, s_log_groups_per_flex"
+CVE-2012-2119,
+CVE-2012-2123,"cap_bprm_set_creds, security/commoncap.c"
+CVE-2012-2127,"fs/proc/root.c, CLONE_NEWPID"
+CVE-2012-2133,
+CVE-2012-2136,"sock_alloc_send_pskb, net/core/sock.c"
+CVE-2012-2143,crypt_des
+CVE-2012-2313,"rio_ioctl, drivers/net/ethernet/dlink/dl2k.c"
+CVE-2012-2319,
+CVE-2012-2375,"__nfs4_get_acl_uncached, fs/nfs/nfs4proc.c"
+CVE-2012-2383,"i915_gem_execbuffer2, drivers/gpu/drm/i915/i915_gem_execbuffer.c"
+CVE-2012-2384,"i915_gem_do_execbuffer, drivers/gpu/drm/i915/i915_gem_execbuffer.c"
+CVE-2012-2386,"phar_parse_tarfile, tar.c"
+CVE-2012-2390,"mm/hugetlb.c, MAP_HUGETLB"
+CVE-2012-2669,tools/hv/hv_kvp_daemon.c
+CVE-2012-2674,"chk_malloc, leak_malloc, leak_memalign, libc/bionic/malloc_debug_leak.c, libc.debug.malloc"
+CVE-2012-2675,"CallMalloc, nedmalloc.c"
+CVE-2012-2744,net/ipv6/netfilter/nf_conntrack_reasm.c
+CVE-2012-2745,"copy_creds, kernel/cred.c"
+CVE-2012-2772,"ff_rv34_decode_frame, libavcodec/rv34.c"
+CVE-2012-2775,"read_var_block_data, libavcodec/alsdec.c"
+CVE-2012-2776,"decode_cell_data, libavcodec/indeo3.c"
+CVE-2012-2777,"decode_pic, libavcodec/cavsdec.c"
+CVE-2012-2779,"decode_frame, libavcodec/indeo5.c"
+CVE-2012-2783,libavcodec/vp56.c
+CVE-2012-2784,"decode_pic, libavcodec/cavsdec.c"
+CVE-2012-2786,"decode_wdlt, libavcodec/dfa.c"
+CVE-2012-2787,"decode_frame, libavcodec/indeo4.c"
+CVE-2012-2788,"avi_read_packet, libavformat/avidec.c"
+CVE-2012-2789,"avi_read_packet, libavformat/avidec.c, num_vec_coeffs"
+CVE-2012-2790,"read_var_block_data, libavcodec/alsdec.c"
+CVE-2012-2791,"decode_band_hdr, ff_ivi_decode_blocks, indeo4.c, ivi_common.c, libavcodec/"
+CVE-2012-2793,"lag_decode_zero_run_line, libavcodec/lagarith.c"
+CVE-2012-2794,"decode_mb_info, libavcodec/indeo5.c"
+CVE-2012-2796,"vc1_decode_frame, libavcodec/vc1dec.c"
+CVE-2012-2797,"decode_frame_mp3on4, libavcodec/mpegaudiodec.c"
+CVE-2012-2798,"decode_dds1, libavcodec/dfa.c"
+CVE-2012-2800,"ff_ivi_process_empty_tile, libavcodec/ivi_common.c"
+CVE-2012-2801,libavcodec/avs.c
+CVE-2012-2802,"ac3_decode_frame, libavcodec/ac3dec.c"
+CVE-2012-2803,"mpeg_decode_frame, libavcodec/mpeg12.c"
+CVE-2012-2804,libavcodec/indeo3.c
+CVE-2012-3363,"Zend_XmlRpc, SimpleXMLElement"
+CVE-2012-3364,
+CVE-2012-3375,"epoll_ctl, fs/eventpoll.c, EPOLL_CTL_ADD"
+CVE-2012-3400,"udf_load_logicalvol, fs/udf/super.c"
+CVE-2012-3430,"rds_recvmsg, net/rds/recv.c"
+CVE-2012-3501,"squidclamav_check_preview_handler, squidclamav.c"
+CVE-2012-3510,"xacct_add_tsk, kernel/tsacct.c, TASKSTATS_CMD_ATTR_PID"
+CVE-2012-3511,"madvise_remove, mm/madvise.c"
+CVE-2012-3520,SCM_CREDENTIALS
+CVE-2012-3552,
+CVE-2012-4219,"show_config_errors.php, common.inc.php"
+CVE-2012-4444,"ip6_frag_queue, net/ipv6/reassembly.c"
+CVE-2012-4467,"do_siocgstamp, do_siocgstampns, net/socket.c"
+CVE-2012-4508,fs/ext4/extents.c
+CVE-2012-4530,"load_script, fs/binfmt_script.c"
+CVE-2012-4565,"tcp_illinois_info, net/ipv4/tcp_illinois.c, net.ipv4.tcp_congestion_control"
+CVE-2012-5116,
+CVE-2012-5374,CRC32C
+CVE-2012-5375,CRC32C
+CVE-2012-5517,"online_pages, mm/memory_hotplug.c"
+CVE-2012-5532,tools/hv/hv_kvp_daemon.c
+CVE-2012-6075,"e1000_receive, hw/e1000.c"
+CVE-2012-6112,classes/GoogleSpell.php
+CVE-2012-6113,"openssl_encrypt, ext/openssl/openssl.c"
+CVE-2012-6536,net/xfrm/xfrm_user.c
+CVE-2012-6537,net/xfrm/xfrm_user.c
+CVE-2012-6538,"copy_to_user_auth, net/xfrm/xfrm_user.c"
+CVE-2012-6539,"dev_ifconf, net/socket.c"
+CVE-2012-6540,"do_ip_vs_get_ctl, net/netfilter/ipvs/ip_vs_ctl.c, IP_VS_SO_GET_TIMEOUT"
+CVE-2012-6541,"ccid3_hc_tx_getsockopt, net/dccp/ccids/ccid3.c"
+CVE-2012-6542,"llc_ui_getname, net/llc/af_llc.c"
+CVE-2012-6543,"l2tp_ip6_getname, net/l2tp/l2tp_ip6.c"
+CVE-2012-6544,"L2CAP, HCI"
+CVE-2012-6545,
+CVE-2012-6546,ATM
+CVE-2012-6547,"__tun_chr_ioctl, drivers/net/tun.c"
+CVE-2012-6548,"udf_encode_fh, fs/udf/namei.c"
+CVE-2012-6549,"isofs_export_encode_fh, fs/isofs/export.c"
+CVE-2012-6617,"prepare_sdp_description, ffserver.c"
+CVE-2012-6618,"av_probe_input_buffer, libavformat/utils.c"
+CVE-2012-6638,"tcp_rcv_state_process, net/ipv4/tcp_input.c"
+CVE-2012-6647,"futex_wait_requeue_pi, kernel/futex.c"
+CVE-2012-6657,"sock_setsockopt, net/core/sock.c"
+CVE-2012-6689,"netlink_sendmsg, net/netlink/af_netlink.c"
+CVE-2012-6696,
+CVE-2012-6701,fs/aio.c
+CVE-2012-6703,"snd_compr_allocate_buffer, sound/core/compress_offload.c"
+CVE-2012-6704,"sock_setsockopt, net/core/sock.c, sk_sndbuf, sk_rcvbuf"
+CVE-2012-6712,drivers/net/wireless/iwlwifi/iwl-agn-sta.c
+CVE-2013-0211,"archive_write_zip_data, archive_write_set_format_zip.c"
+CVE-2013-0216,
+CVE-2013-0217,drivers/net/xen-netback/netback.c
+CVE-2013-0268,"msr_open, arch/x86/kernel/msr.c"
+CVE-2013-0290,"__skb_recv_datagram, net/core/datagram.c, MSG_PEEK"
+CVE-2013-0310,"cipso_v4_validate, net/ipv4/cipso_ipv4.c"
+CVE-2013-0311,"translate_desc, drivers/vhost/vhost.c"
+CVE-2013-0313,"evm_update_evmxattr, security/integrity/evm/evm_crypto.c"
+CVE-2013-0349,"hidp_setup_hid, net/bluetooth/hidp/core.c, HIDPCONNADD"
+CVE-2013-0844,"adpcm_decode_frame, libavcodec/adpcm.c"
+CVE-2013-0845,libavcodec/alsdec.c
+CVE-2013-0846,"qdm2_decode_super_block, libavcodec/qdm2.c"
+CVE-2013-0848,"decode_init, libavcodec/huffyuv.c"
+CVE-2013-0849,"roq_decode_init, libavcodec/roqvideodec.c"
+CVE-2013-0850,"decode_slice_header, libavcodec/h264.c"
+CVE-2013-0851,"decode_frame, libavcodec/eamad.c"
+CVE-2013-0852,"parse_picture_segment, libavcodec/pgssubdec.c"
+CVE-2013-0853,"wavpack_decode_frame, libavcodec/wavpack.c"
+CVE-2013-0854,"mjpeg_decode_scan_progressive_ac, libavcodec/mjpegdec.c"
+CVE-2013-0855,"alac_decode_close, libavcodec/alac.c"
+CVE-2013-0856,"lpc_prediction, libavcodec/alac.c"
+CVE-2013-0857,"decode_frame_ilbm, libavcodec/iff.c"
+CVE-2013-0858,"atrac3_decode_init, libavcodec/atrac3.c"
+CVE-2013-0860,"ff_er_frame_end, libavcodec/error_resilience.c"
+CVE-2013-0865,"vqa_decode_chunk, libavcodec/vqavideo.c"
+CVE-2013-0866,"aac_decode_init, libavcodec/aacdec.c"
+CVE-2013-0867,"decode_slice_header, libavcodec/h264.c"
+CVE-2013-0868,init_vlc
+CVE-2013-0869,"field_end, libavcodec/h264.c"
+CVE-2013-0871,ptrace_death
+CVE-2013-0873,"read_header, libavcodec/shorten.c"
+CVE-2013-0894,"vorbis_parse_setup_hdr_floors, vorbisdec.c"
+CVE-2013-0914,"flush_signal_handlers, kernel/signal.c"
+CVE-2013-1643,"soap_xmlParseFile, soap_xmlParseMemory"
+CVE-2013-1763,"__sock_diag_rcv_msg, net/core/sock_diag.c"
+CVE-2013-1767,"shmem_remount_fs, mm/shmem.c"
+CVE-2013-1773,
+CVE-2013-1774,"chase_port, drivers/usb/serial/io_ti.c"
+CVE-2013-1792,"install_user_keyrings, security/keys/process_keys.c"
+CVE-2013-1796,"kvm_set_msr_common, arch/x86/kvm/x86.c, MSR_KVM_SYSTEM_TIME"
+CVE-2013-1797,"arch/x86/kvm/x86.c, MSR_KVM_SYSTEM_TIME, kvm_set_msr_common"
+CVE-2013-1798,"ioapic_read_indirect, virt/kvm/ioapic.c, IOAPIC_REG_SELECT, IOAPIC_REG_WINDOW"
+CVE-2013-1819,"_xfs_buf_find, fs/xfs/xfs_buf.c"
+CVE-2013-1824,"soap_xmlParseFile, soap_xmlParseMemory"
+CVE-2013-1826,"xfrm_state_netlink, net/xfrm/xfrm_user.c, dump_one_state"
+CVE-2013-1828,"sctp_getsockopt_assoc_stats, net/sctp/socket.c"
+CVE-2013-1830,user/view.php
+CVE-2013-1831,lib/setuplib.php
+CVE-2013-1832,repository/webdav/lib.php
+CVE-2013-1833,
+CVE-2013-1834,notes/edit.php
+CVE-2013-1835,login_as
+CVE-2013-1836,
+CVE-2013-1848,fs/ext3/super.c
+CVE-2013-1858,"CLONE_NEWUSER, CLONE_FS"
+CVE-2013-1860,"wdm_in_callback, drivers/usb/class/cdc-wdm.c"
+CVE-2013-1928,"do_video_set_spu_palette, fs/compat_ioctl.c"
+CVE-2013-1929,"tg3_read_vpd, drivers/net/ethernet/broadcom/tg3.c"
+CVE-2013-1943,"arch/x86/kvm/paging_tmpl.h, virt/kvm/kvm_main.c"
+CVE-2013-1956,"create_user_ns, kernel/user_namespace.c"
+CVE-2013-1957,"clone_mnt, fs/namespace.c"
+CVE-2013-1958,"scm_check_creds, net/core/scm.c"
+CVE-2013-1959,"kernel/user_namespace.c, uid_map, gid_map"
+CVE-2013-2015,"ext4_orphan_del, fs/ext4/namei.c"
+CVE-2013-2016,virtio-rng
+CVE-2013-2017,
+CVE-2013-2058,"host_start, drivers/usb/chipidea/host.c"
+CVE-2013-2061,"openvpn_decrypt, crypto.c"
+CVE-2013-2080,core_grade
+CVE-2013-2081,
+CVE-2013-2082,
+CVE-2013-2083,"MoodleQuickForm, lib/formslib.php"
+CVE-2013-2094,"perf_swevent_init, kernel/events/core.c"
+CVE-2013-2124,inspect-fs.c
+CVE-2013-2126,"LibRaw::unpack, libraw_cxx.cpp"
+CVE-2013-2127,
+CVE-2013-2128,"tcp_read_sock, net/ipv4/tcp.c"
+CVE-2013-2130,modules/webadmin.cpp
+CVE-2013-2140,"dispatch_discard_io, drivers/block/xen-blkback/blkback.c, BLKIF_OP_DISCARD"
+CVE-2013-2141,"do_tkill, kernel/signal.c"
+CVE-2013-2146,arch/x86/kernel/cpu/perf_event_intel.c
+CVE-2013-2206,"sctp_sf_do_5_2_4_dupcook, net/sctp/sm_statefuns.c"
+CVE-2013-2220,radius_get_vendor_attr
+CVE-2013-2232,"ip6_sk_dst_check, net/ipv6/ip6_output.c"
+CVE-2013-2234,"key_notify_sa_flush, key_notify_policy_flush, net/key/af_key.c"
+CVE-2013-2237,"key_notify_policy_flush, net/key/af_key.c"
+CVE-2013-2277,"ff_h264_decode_seq_parameter_set, h264_ps.c"
+CVE-2013-2495,"iff_read_header, iff.c"
+CVE-2013-2496,"msrle_decode_8_16_24_32, msrledec.c"
+CVE-2013-2546,
+CVE-2013-2547,"crypto_report_one, crypto/crypto_user.c"
+CVE-2013-2548,"crypto_report_one, crypto/crypto_user.c"
+CVE-2013-2596,"fb_mmap, drivers/video/fbmem.c"
+CVE-2013-2634,net/dcb/dcbnl.c
+CVE-2013-2635,"rtnl_fill_ifinfo, net/core/rtnetlink.c"
+CVE-2013-2636,net/bridge/br_mdb.c
+CVE-2013-2850,"iscsi_add_notunderstood_response, drivers/target/iscsi/iscsi_target_parameters.c"
+CVE-2013-2929,"kernel/ptrace.c, arch/ia64/include/asm/processor.h"
+CVE-2013-2930,"perf_trace_event_perm, kernel/trace/trace_event_perf.c"
+CVE-2013-3076,"hash_recvmsg, crypto/algif_hash.c, skcipher_recvmsg, crypto/algif_skcipher.c"
+CVE-2013-3222,"vcc_recvmsg, net/atm/common.c"
+CVE-2013-3223,"ax25_recvmsg, net/ax25/af_ax25.c"
+CVE-2013-3224,"bt_sock_recvmsg, net/bluetooth/af_bluetooth.c"
+CVE-2013-3225,"rfcomm_sock_recvmsg, net/bluetooth/rfcomm/sock.c"
+CVE-2013-3226,"sco_sock_recvmsg, net/bluetooth/sco.c"
+CVE-2013-3227,"caif_seqpkt_recvmsg, net/caif/caif_socket.c"
+CVE-2013-3228,"irda_recvmsg_dgram, net/irda/af_irda.c"
+CVE-2013-3229,"iucv_sock_recvmsg, net/iucv/af_iucv.c"
+CVE-2013-3230,"l2tp_ip6_recvmsg, net/l2tp/l2tp_ip6.c"
+CVE-2013-3231,"llc_ui_recvmsg, net/llc/af_llc.c"
+CVE-2013-3232,"nr_recvmsg, net/netrom/af_netrom.c"
+CVE-2013-3233,"llcp_sock_recvmsg, net/nfc/llcp/sock.c"
+CVE-2013-3234,"rose_recvmsg, net/rose/af_rose.c"
+CVE-2013-3235,net/tipc/socket.c
+CVE-2013-3236,"vmci_transport_dgram_dequeue, net/vmw_vsock/vmci_transport.c"
+CVE-2013-3237,"vsock_stream_sendmsg, net/vmw_vsock/af_vsock.c"
+CVE-2013-3239,SaveDir
+CVE-2013-3301,"set_ftrace_pid, set_graph_function"
+CVE-2013-3302,"smb_send_rqst, fs/cifs/transport.c"
+CVE-2013-3670,"rle_unpack, vmdav.c"
+CVE-2013-3672,"mm_decode_inter, mmvideo.c"
+CVE-2013-3674,"cdg_decode_frame, cdgraphics.c"
+CVE-2013-3722,lookup.c
+CVE-2013-3735,
+CVE-2013-3742,view_create.php
+CVE-2013-4113,"ext/xml/xml.c, xml_parse_into_struct"
+CVE-2013-4118,
+CVE-2013-4119,
+CVE-2013-4125,"fib6_add_rt2node, net/ipv6/ip6_fib.c"
+CVE-2013-4127,"vhost_net_set_backend, drivers/vhost/net.c"
+CVE-2013-4129,"net/bridge/br_mdb.c, net/bridge/br_multicast.c"
+CVE-2013-4148,"virtio_net_load, hw/net/virtio-net.c"
+CVE-2013-4149,"virtio_net_load, net/virtio-net.c"
+CVE-2013-4150,"virtio_net_load, hw/net/virtio-net.c, curr_queues, max_queues"
+CVE-2013-4151,"virtio_load, virtio/virtio.c"
+CVE-2013-4160,"cmsStageAllocLabV2ToV4curves, cmsPipelineDup, cmsAllocProfileSequenceDescription, CurvesAlloc"
+CVE-2013-4162,"udp_v6_push_pending_frames, net/ipv6/udp.c, UDP_CORK"
+CVE-2013-4163,"ip6_append_data_mtu, net/ipv6/ip6_output.c, IPV6_MTU, UDP_CORK"
+CVE-2013-4205,"unshare_userns, kernel/user_namespace.c"
+CVE-2013-4220,"bad_mode, arch/arm64/kernel/traps.c"
+CVE-2013-4244,
+CVE-2013-4247,"build_unc_path_to_root, fs/cifs/connect.c"
+CVE-2013-4248,"openssl_x509_parse, openssl.c"
+CVE-2013-4254,"validate_event, arch/arm/kernel/perf_event.c"
+CVE-2013-4263,
+CVE-2013-4264,"kempf_decode_tile, libavcodec/g2meet.c"
+CVE-2013-4265,"av_reallocp_array, libavutil/mem.c"
+CVE-2013-4270,"net_ctl_permissions, net/sysctl_net.c"
+CVE-2013-4299,drivers/md/dm-snap-persistent.c
+CVE-2013-4300,"scm_check_creds, net/core/scm.c"
+CVE-2013-4312,"net/unix/af_unix.c, net/unix/garbage.c"
+CVE-2013-4350,net/sctp/ipv6.c
+CVE-2013-4358,libavcodec/h264.c
+CVE-2013-4387,"net/ipv6/ip6_output.c, UFO"
+CVE-2013-4470,"ip_ufo_append_data, net/ipv4/ip_output.c, ip6_ufo_append_data, net/ipv6/ip6_output.c"
+CVE-2013-4483,"ipc_rcu_putref, ipc/util.c"
+CVE-2013-4511,"au1100fb_fb_mmap, drivers/video/au1100fb.c, au1200fb_fb_mmap, drivers/video/au1200fb.c"
+CVE-2013-4512,"exitcode_proc_write, arch/um/kernel/exitcode.c"
+CVE-2013-4513,"oz_cdev_write, drivers/staging/ozwpan/ozcdev.c"
+CVE-2013-4514,"wvlan_uil_put_info, wvlan_set_station_nickname, drivers/staging/wlags49_h2/wl_priv.c"
+CVE-2013-4515,"bcm_char_ioctl, drivers/staging/bcm/Bcmchar.c"
+CVE-2013-4516,"mp_get_count, drivers/staging/sb105x/sb_pci_mp.c"
+CVE-2013-4526,hw/ide/ahci.c
+CVE-2013-4527,hw/timer/hpet.c
+CVE-2013-4530,"hw/ssi/pl022.c, tx_fifo_head, rx_fifo_head"
+CVE-2013-4531,"cpreg_vmstate_array_len, target-arm/machine.c"
+CVE-2013-4532,
+CVE-2013-4533,"pxa2xx_ssp_load, hw/arm/pxa2xx.c, s->rx_level"
+CVE-2013-4534,"hw/intc/openpic.c, IRQDest"
+CVE-2013-4535,"virtqueue_map_sg, hw/virtio/virtio.c"
+CVE-2013-4537,"ssi_sd_transfer, hw/sd/ssi-sd.c"
+CVE-2013-4538,"ssd0323_load, hw/display/ssd0323.c"
+CVE-2013-4539,"tsc210x_load, hw/input/tsc210x.c"
+CVE-2013-4540,scoop_gpio_handler_update
+CVE-2013-4541,"usb_device_post_load, hw/usb/bus.c"
+CVE-2013-4542,"virtio_scsi_load_request, hw/scsi/scsi-bus.c"
+CVE-2013-4544,hw/net/vmxnet3.c
+CVE-2013-4563,"udp6_ufo_fragment, net/ipv6/udp_offload.c"
+CVE-2013-4587,"kvm_vm_ioctl_create_vcpu, virt/kvm/kvm_main.c"
+CVE-2013-4588,"do_ip_vs_get_ctl, do_ip_vs_set_ctl, net/netfilter/ipvs/ip_vs_ctl.c"
+CVE-2013-4591,"__nfs4_get_acl_uncached, fs/nfs/nfs4proc.c"
+CVE-2013-4592,"__kvm_set_memory_region, virt/kvm/kvm_main.c"
+CVE-2013-4729,"import.php, GLOBALS"
+CVE-2013-5029,Header.class.php
+CVE-2013-5634,arch/arm/kvm/arm.c
+CVE-2013-5705,apache2/modsecurity.c
+CVE-2013-6367,"apic_get_tmcct, arch/x86/kvm/lapic.c, TMICT"
+CVE-2013-6368,
+CVE-2013-6376,"recalculate_apic_map, arch/x86/kvm/lapic.c"
+CVE-2013-6378,"lbs_debugfs_write, drivers/net/wireless/libertas/debugfs.c"
+CVE-2013-6380,"aac_send_raw_srb, drivers/scsi/aacraid/commctrl.c"
+CVE-2013-6381,"qeth_snmp_command, drivers/s390/net/qeth_core_main.c"
+CVE-2013-6383,"aac_compat_ioctl, drivers/scsi/aacraid/linit.c"
+CVE-2013-6399,"virtio_load, hw/virtio/virtio.c"
+CVE-2013-6401,
+CVE-2013-6420,"asn1_time_to_time_t, ext/openssl/openssl.c, openssl_x509_parse"
+CVE-2013-6431,"fib6_add, net/ipv6/ip6_fib.c"
+CVE-2013-6432,"ping_recvmsg, net/ipv4/ping.c"
+CVE-2013-6712,ext/date/lib/parse_iso_intervals.c
+CVE-2013-6763,"uio_mmap_physical, drivers/uio/uio.c"
+CVE-2013-7008,"decode_slice_header, libavcodec/h264.c"
+CVE-2013-7009,"rpza_decode_stream, libavcodec/rpza.c"
+CVE-2013-7010,libavcodec/dsputil.c
+CVE-2013-7011,"read_header, libavcodec/ffv1dec.c"
+CVE-2013-7012,"get_siz, libavcodec/jpeg2000dec.c"
+CVE-2013-7013,"g2m_init_buffers, libavcodec/g2meet.c"
+CVE-2013-7014,"add_bytes_l2_c, libavcodec/pngdsp.c"
+CVE-2013-7015,"flashsv_decode_frame, libavcodec/flashsv.c"
+CVE-2013-7016,"get_siz, libavcodec/jpeg2000dec.c"
+CVE-2013-7017,libavcodec/jpeg2000.c
+CVE-2013-7018,libavcodec/jpeg2000dec.c
+CVE-2013-7019,"get_cox, libavcodec/jpeg2000dec.c"
+CVE-2013-7020,"read_header, libavcodec/ffv1dec.c"
+CVE-2013-7021,"filter_frame, libavfilter/vf_fps.c"
+CVE-2013-7022,"g2m_init_buffers, libavcodec/g2meet.c"
+CVE-2013-7023,"ff_combine_frame, libavcodec/parser.c"
+CVE-2013-7024,"jpeg2000_decode_tile, libavcodec/jpeg2000dec.c"
+CVE-2013-7026,"ipc/shm.c, IPC_RMID"
+CVE-2013-7027,"ieee80211_radiotap_iterator_init, net/wireless/radiotap.c"
+CVE-2013-7226,"gdImageCrop, ext/gd/gd.c"
+CVE-2013-7262,"msPostGISLayerSetTimeFilter, mappostgis.c"
+CVE-2013-7263,"net/ipv4/ping.c, net/ipv4/raw.c, net/ipv4/udp.c, net/ipv6/raw.c, net/ipv6/udp.c"
+CVE-2013-7264,"l2tp_ip_recvmsg, net/l2tp/l2tp_ip.c"
+CVE-2013-7265,"pn_recvmsg, net/phonet/datagram.c"
+CVE-2013-7266,"mISDN_sock_recvmsg, drivers/isdn/mISDN/socket.c"
+CVE-2013-7267,"atalk_recvmsg, net/appletalk/ddp.c"
+CVE-2013-7268,"ipx_recvmsg, net/ipx/af_ipx.c"
+CVE-2013-7269,"nr_recvmsg, net/netrom/af_netrom.c"
+CVE-2013-7270,"packet_recvmsg, net/packet/af_packet.c"
+CVE-2013-7271,"x25_recvmsg, net/x25/af_x25.c"
+CVE-2013-7281,"dgram_recvmsg, net/ieee802154/dgram.c"
+CVE-2013-7327,"gdImageCrop, ext/gd/gd.c"
+CVE-2013-7328,"gdImageCrop, ext/gd/gd.c"
+CVE-2013-7339,"rds_ib_laddr_check, net/rds/ib.c"
+CVE-2013-7341,playerId
+CVE-2013-7348,"ioctx_alloc, fs/aio.c, aio_setup_ring"
+CVE-2013-7421,"AF_ALG, salg_name"
+CVE-2013-7441,
+CVE-2013-7446,net/unix/af_unix.c
+CVE-2013-7449,"ssl_do_connect, common/server.c"
+CVE-2013-7455,"DefaultICCintents, cmscnvrt.c"
+CVE-2013-7456,gd_interpolation.c
+CVE-2013-7459,"ALGnew, block_templace.c"
+CVE-2014-0038,"compat_sys_recvmmsg, net/compat.c, CONFIG_X86_X32"
+CVE-2014-0049,"complete_emulated_mmio, arch/x86/kvm/x86.c"
+CVE-2014-0063,MAXDATELEN
+CVE-2014-0064,path_in
+CVE-2014-0069,"cifs_iovec_write, fs/cifs/file.c"
+CVE-2014-0077,"drivers/vhost/net.c, handle_rx, get_rx_bufs"
+CVE-2014-0101,"sctp_sf_do_5_1D_ce, net/sctp/sm_statefuns.c, sctp_sf_authenticate"
+CVE-2014-0122,"mod/chat/chat_ajax.php, mod/chat:chat"
+CVE-2014-0123,
+CVE-2014-0124,"mod/forum/renderer.php, mod/quiz/override_form.php"
+CVE-2014-0125,repository/alfresco/lib.php
+CVE-2014-0126,enrol/imsenterprise/importnow.php
+CVE-2014-0127,"mod/feedback/complete.php, mod/feedback/complete_guest.php"
+CVE-2014-0129,badges/mybadges.php
+CVE-2014-0131,"skb_segment, net/core/skbuff.c"
+CVE-2014-0142,"block/parallels.c, block/bochs.c"
+CVE-2014-0143,"parallels_open, block/parallels.c, bochs_open, bochs.c, qcow2_snapshot_load_tmp, qcow2-snapshot.c, qcow2_grow_l1_table, qcow2-cluster.c, bdrv_check_byte_request, block.c, get_refcount, qcow2-refcount.c, cloop_open, cloop.c"
+CVE-2014-0145,"qcow2_snapshot_load_tmp, block/qcow2-snapshot.c, block/dmg.c"
+CVE-2014-0146,"qcow2_open, block/qcow2.c, snapshot_offset, nb_snapshots"
+CVE-2014-0182,"virtio_load, hw/virtio/virtio.c"
+CVE-2014-0185,sapi/fpm/fpm/fpm_unix.c
+CVE-2014-0196,"n_tty_write, drivers/tty/n_tty.c"
+CVE-2014-0203,"__do_follow_link, fs/namei.c"
+CVE-2014-0205,"futex_wait, kernel/futex.c"
+CVE-2014-0206,"aio_read_events_ring, fs/aio.c"
+CVE-2014-0213,mod/assign/locallib.php
+CVE-2014-0214,"login/token.php, MoodleMobile"
+CVE-2014-0216,"block_html_pluginfile, blocks/html/lib.php"
+CVE-2014-0217,"enrol/index.php, moodle/course:viewhiddencourses"
+CVE-2014-0218,repository/url/lib.php
+CVE-2014-0236,"cdf.c, readcdf.c"
+CVE-2014-1439,"libxml_disable_entity_loader, runtime/ext/ext_simplexml.cpp"
+CVE-2014-1444,"fst_get_iface, drivers/net/wan/farsync.c"
+CVE-2014-1445,"wanxl_ioctl, drivers/net/wan/wanxl.c"
+CVE-2014-1446,"yam_ioctl, drivers/net/hamradio/yam.c"
+CVE-2014-1690,net/netfilter/nf_nat_irc.c
+CVE-2014-1737,"raw_cmd_copyin, drivers/block/floppy.c"
+CVE-2014-1738,"raw_cmd_copyout, drivers/block/floppy.c"
+CVE-2014-1739,"media_device_enum_entities, drivers/media/media-device.c, /dev/media0"
+CVE-2014-1832,"control_process.pid, generation-*"
+CVE-2014-1874,"security_context_to_sid_core, security/selinux/ss/services.c"
+CVE-2014-1879,import.php
+CVE-2014-2020,ext/gd/gd.c
+CVE-2014-2038,"nfs_can_extend_write, fs/nfs/write.c"
+CVE-2014-2098,libavcodec/wmalosslessdec.c
+CVE-2014-2209,"hphp/util/capability.cpp, hphp/util/light-process.cpp"
+CVE-2014-2263,"mpegts_write_pmt, libavformat/mpegtsenc.c"
+CVE-2014-2523,"net/netfilter/nf_conntrack_proto_dccp.c, dccp_new, dccp_packet, dccp_error"
+CVE-2014-2567,"OpenConnectionTask::handleStateHelper, Imap/Tasks/OpenConnectionTask.cpp"
+CVE-2014-2571,"quiz_question_tostring, mod/quiz/editlib.php"
+CVE-2014-2572,mod/assign/externallib.php
+CVE-2014-2669,"hstore_recv, hstore_from_arrays, hstore_from_array, contrib/hstore/hstore_io.c, hstoreArrayToPairs, contrib/hstore/hstore_op.c"
+CVE-2014-2672,"ath_tx_aggr_sleep, drivers/net/wireless/ath/ath9k/xmit.c"
+CVE-2014-2673,"arch_dup_task_struct, arch/powerpc/kernel/process.c"
+CVE-2014-2706,"sta_info.c, tx.c"
+CVE-2014-2739,"cma_req_handler, drivers/infiniband/core/cma.c"
+CVE-2014-2889,"bpf_jit_compile, arch/x86/net/bpf_jit_comp.c"
+CVE-2014-2907,"srtp_add_address, epan/dissectors/packet-rtp.c"
+CVE-2014-3122,"try_to_unmap_cluster, mm/rmap.c"
+CVE-2014-3144,"BPF_S_ANC_NLATTR, BPF_S_ANC_NLATTR_NEST, sk_run_filter, net/core/filter.c, __skb_get_nlattr, __skb_get_nlattr_nest"
+CVE-2014-3145,"BPF_S_ANC_NLATTR_NEST, sk_run_filter, net/core/filter.c, __skb_get_nlattr_nest"
+CVE-2014-3153,"futex_requeue, kernel/futex.c, FUTEX_REQUEUE"
+CVE-2014-3158,options.c
+CVE-2014-3181,"magicmouse_raw_event, drivers/hid/hid-magicmouse.c"
+CVE-2014-3182,"logi_dj_raw_event, drivers/hid/hid-logitech-dj.c, REPORT_TYPE_NOTIF_DEVICE_UNPAIRED"
+CVE-2014-3183,"logi_dj_ll_raw_request, drivers/hid/hid-logitech-dj.c"
+CVE-2014-3184,"report_fixup, drivers/hid/hid-cherry.c, drivers/hid/hid-kye.c, drivers/hid/hid-lg.c, drivers/hid/hid-monterey.c, drivers/hid/hid-petalynx.c, drivers/hid/hid-sunplus.c"
+CVE-2014-3185,"command_port_read_callback, drivers/usb/serial/whiteheat.c"
+CVE-2014-3186,"picolcd_raw_event, devices/hid/hid-picolcd_core.c"
+CVE-2014-3515,"ArrayObject, SPLObjectStorage"
+CVE-2014-3534,"arch/s390/kernel/ptrace.c, PTRACE_POKEUSR_AREA"
+CVE-2014-3535,"include/linux/netdevice.h, netdev_printk"
+CVE-2014-3541,Repositories
+CVE-2014-3542,mod/lti/service.php
+CVE-2014-3543,mod/imscp/locallib.php
+CVE-2014-3544,user/profile.php
+CVE-2014-3545,
+CVE-2014-3546,"notes/index.php, user/edit.php"
+CVE-2014-3547,badges/renderer.php
+CVE-2014-3548,
+CVE-2014-3551,advanced-grading
+CVE-2014-3553,"mod/forum/classes/post_form.php, moodle/site:accessallgroups"
+CVE-2014-3587,"cdf_read_property_info, cdf.c"
+CVE-2014-3597,"php_parserr, ext/standard/dns.c, dns_get_record, dn_expand"
+CVE-2014-3601,"kvm_iommu_map_pages, virt/kvm/iommu.c"
+CVE-2014-3610,"wrmsr_interception, arch/x86/kvm/svm.c, handle_wrmsr, arch/x86/kvm/vmx.c"
+CVE-2014-3611,"__kvm_migrate_pit_timer, arch/x86/kvm/i8254.c"
+CVE-2014-3615,
+CVE-2014-3617,"forum_print_latest_discussions, mod/forum/lib.php, mod/forum:viewqandawithoutposting"
+CVE-2014-3631,"assoc_array_gc, lib/assoc_array.c"
+CVE-2014-3645,arch/x86/kvm/vmx.c
+CVE-2014-3646,arch/x86/kvm/vmx.c
+CVE-2014-3647,arch/x86/kvm/emulate.c
+CVE-2014-3668,"date_from_ISO8601, libxmlrpc/xmlrpc.c, xmlrpc_set_type, xmlrpc_decode"
+CVE-2014-3669,"object_custom, ext/standard/var_unserializer.c"
+CVE-2014-3670,"exif_ifd_make_value, exif.c, exif_thumbnail"
+CVE-2014-3673,"net/sctp/sm_make_chunk.c, net/sctp/sm_statefuns.c"
+CVE-2014-3687,"sctp_assoc_lookup_asconf_ack, net/sctp/associola.c"
+CVE-2014-3688,"net/sctp/inqueue.c, net/sctp/sm_statefuns.c"
+CVE-2014-3690,"arch/x86/kvm/vmx.c, /dev/kvm, PR_SET_TSC"
+CVE-2014-3710,readelf.c
+CVE-2014-3971,"CmdAuthenticate::_authenticateX509, db/commands/authentication_commands.cpp"
+CVE-2014-3981,"acinclude.m4, /tmp/phpglibccheck"
+CVE-2014-3985,"getHTTPResponse, miniwget.c"
+CVE-2014-4014,
+CVE-2014-4020,"dissect_frame, epan/dissectors/packet-frame.c"
+CVE-2014-4027,"rd_build_device_space, drivers/target/target_core_rd.c, ramdisk_mcp"
+CVE-2014-4343,"init_ctx_reselect, lib/gssapi/spnego/spnego_mech.c"
+CVE-2014-4348,
+CVE-2014-4349,
+CVE-2014-4608,"lzo1x_decompress_safe, lib/lzo/lzo1x_decompress_safe.c"
+CVE-2014-4611,"lz4_uncompress, lib/lz4/lz4_decompress.c"
+CVE-2014-4652,"snd_ctl_elem_user_tlv, sound/core/control.c"
+CVE-2014-4653,"sound/core/control.c, /dev/snd/controlCX"
+CVE-2014-4654,"snd_ctl_elem_add, sound/core/control.c, SNDRV_CTL_IOCTL_ELEM_REPLACE, /dev/snd/controlCX"
+CVE-2014-4655,"snd_ctl_elem_add, sound/core/control.c, user_ctl_count, /dev/snd/controlCX, SNDRV_CTL_IOCTL_ELEM_REPLACE"
+CVE-2014-4656,"snd_ctl_add, snd_ctl_remove_numid_conflict, sound/core/control.c, /dev/snd/controlCX"
+CVE-2014-4667,"sctp_association_free, net/sctp/associola.c"
+CVE-2014-4668,"cherokee_validator_ldap_check, validator_ldap.c"
+CVE-2014-4943,"PPPoL2TP, net/l2tp/l2tp_ppp.c"
+CVE-2014-4954,"PMA_getHtmlForActionLinks, libraries/structure.lib.php"
+CVE-2014-4955,"PMA_TRI_getRowForList, libraries/rte/rte_list.lib.php"
+CVE-2014-4978,"rs_filter_graph, librawstudio/rs-filter.c"
+CVE-2014-4986,js/functions.js
+CVE-2014-4987,"server_user_groups.php, viewUsers"
+CVE-2014-5045,"mountpoint_last, fs/namei.c"
+CVE-2014-5077,"sctp_assoc_update, net/sctp/associola.c"
+CVE-2014-5161,"dissect_log, plugins/irda/packet-irda.c"
+CVE-2014-5162,"read_new_line, wiretap/catapult_dct2000.c"
+CVE-2014-5163,"epan/dissectors/packet-gtp.c, epan/dissectors/packet-gsm_a_gm.c"
+CVE-2014-5164,"rlc_decode_li, epan/dissectors/packet-rlc.c"
+CVE-2014-5165,"dissect_ber_constrained_bitstring, epan/dissectors/packet-ber.c"
+CVE-2014-5206,"do_remount, fs/namespace.c, MNT_LOCK_READONLY"
+CVE-2014-5207,"fs/namespace.c, MNT_NODEV, MNT_NOSUID, MNT_NOEXEC, MNT_ATIME_MASK"
+CVE-2014-5263,"vmstate_xhci_event, hw/usb/hcd-xhci.c, VMSTATE_END_OF_LIST"
+CVE-2014-5271,"encode_slice, libavcodec/proresenc_kostya.c"
+CVE-2014-5272,"libavcodec/iff.c, rgb8"
+CVE-2014-5273,"js/sql.js, js/functions.js, js/server_status_monitor.js, js/tbl_chart.js, libraries/tbl_relation.lib.php"
+CVE-2014-5274,js/functions.js
+CVE-2014-5351,"kadm5_randkey_principal_3, lib/kadm5/srv/svr_principal.c"
+CVE-2014-5352,"krb5_gss_process_context_token, lib/gssapi/krb5/process_context_token.c, libgssapi_krb5"
+CVE-2014-5353,"krb5_ldap_get_password_policy_from_dn, plugins/kdb/ldap/libkdb_ldap/ldap_pwd_policy.c"
+CVE-2014-5354,plugins/kdb/ldap/libkdb_ldap/ldap_principal2.c
+CVE-2014-5355,"krb5_read_message, appl/user_user/server.c, lib/krb5/krb/recvauth.c"
+CVE-2014-5386,"mcrypt_create_iv, hphp/runtime/ext/mcrypt/ext_mcrypt.cpp"
+CVE-2014-5388,"pci_read, hw/acpi/pcihp.c"
+CVE-2014-5471,"parse_rock_ridge_inode_internal, fs/isofs/rock.c"
+CVE-2014-5472,"parse_rock_ridge_inode_internal, fs/isofs/rock.c"
+CVE-2014-6228,"string_chunk_split, hphp/runtime/base/zend-string.cpp"
+CVE-2014-6229,"HashContext, hphp/runtime/ext/ext_hash.cpp"
+CVE-2014-6300,js/ajax.js
+CVE-2014-6395,"dissector_postgresql, dissectors/ec_postgresql.c"
+CVE-2014-6396,"dissector_postgresql, dissectors/ec_postgresql.c"
+CVE-2014-6410,"__udf_read_inode, fs/udf/inode.c"
+CVE-2014-6416,net/ceph/auth_x.c
+CVE-2014-6417,net/ceph/auth_x.c
+CVE-2014-6418,net/ceph/auth_x.c
+CVE-2014-6421,
+CVE-2014-6422,
+CVE-2014-6423,"tvb_raw_text_add, epan/dissectors/packet-megaco.c"
+CVE-2014-6424,"dissect_v9_v10_pdu_data, epan/dissectors/packet-netflow.c"
+CVE-2014-6425,"get_quoted_string, get_unquoted_string, epan/dissectors/packet-cups.c"
+CVE-2014-6426,"dissect_hip_tlv, epan/dissectors/packet-hip.c"
+CVE-2014-6427,"is_rtsp_request_or_reply, epan/dissectors/packet-rtsp.c"
+CVE-2014-6428,"dissect_spdu, epan/dissectors/packet-ses.c"
+CVE-2014-6429,"SnifferDecompress, wiretap/ngsniffer.c"
+CVE-2014-6430,"SnifferDecompress, wiretap/ngsniffer.c"
+CVE-2014-6431,"SnifferDecompress, wiretap/ngsniffer.c"
+CVE-2014-6432,"SnifferDecompress, wiretap/ngsniffer.c"
+CVE-2014-7145,"SMB2_tcon, fs/cifs/smb2pdu.c"
+CVE-2014-7217,"libraries/TableSearch.class.php, libraries/Util.class.php"
+CVE-2014-7283,"xfs_da3_fixhashpath, fs/xfs/xfs_da_btree.c"
+CVE-2014-7284,"net_get_random_once, net/core/utils.c"
+CVE-2014-7815,"set_pixel_format, ui/vnc.c"
+CVE-2014-7822,splice_write
+CVE-2014-7825,kernel/trace/trace_syscalls.c
+CVE-2014-7826,kernel/trace/trace_syscalls.c
+CVE-2014-7830,mod/feedback/mapcourse.php
+CVE-2014-7831,"lib/classes/grades_external.php, get_grades"
+CVE-2014-7832,mod/lti/launch.php
+CVE-2014-7833,mod/data/edit.php
+CVE-2014-7834,"mod/forum/externallib.php, forum_get_discussions"
+CVE-2014-7835,webservice/upload.php
+CVE-2014-7836,"mod/lti/request_tool.php, mod/lti/instructor_edit_tool_type.php"
+CVE-2014-7837,mod/wiki/admin.php
+CVE-2014-7838,"mod/forum/deprecatedlib.php, mod/forum/forum.js, mod/forum/index.php, mod/forum/lib.php"
+CVE-2014-7840,"host_from_stream_offset, arch_init.c"
+CVE-2014-7841,"sctp_process_param, net/sctp/sm_make_chunk.c"
+CVE-2014-7842,arch/x86/kvm/x86.c
+CVE-2014-7845,generate_password
+CVE-2014-7846,"tag/tag_autocomplete.php, moodle/tag:edit"
+CVE-2014-7847,iplookup/index.php
+CVE-2014-7848,lib/phpunit/bootstrap.php
+CVE-2014-7933,"matroska_read_seek, libavformat/matroskadec.c"
+CVE-2014-7937,libavcodec/vorbisdec.c
+CVE-2014-8106,hw/display/cirrus_vga.c
+CVE-2014-8130,"_TIFFmalloc, tif_unix.c, TIFFWriteScanline, tif_write.c"
+CVE-2014-8133,"arch/x86/kernel/tls.c, set_thread_area"
+CVE-2014-8142,"process_nested_data, ext/standard/var_unserializer.re"
+CVE-2014-8160,net/netfilter/nf_conntrack_proto_generic.c
+CVE-2014-8172,
+CVE-2014-8326,"libraries/DatabaseInterface.class.php, js/server_status_monitor.js"
+CVE-2014-8369,"kvm_iommu_map_pages, virt/kvm/iommu.c"
+CVE-2014-8480,arch/x86/kvm/emulate.c
+CVE-2014-8481,arch/x86/kvm/emulate.c
+CVE-2014-8483,"blowfishECB, core/cipher.cpp"
+CVE-2014-8509,lazy_bdecode
+CVE-2014-8541,libavcodec/mjpegdec.c
+CVE-2014-8542,libavcodec/utils.c
+CVE-2014-8543,libavcodec/mmvideo.c
+CVE-2014-8544,libavcodec/tiff.c
+CVE-2014-8545,libavcodec/pngdec.c
+CVE-2014-8546,libavcodec/cinepak.c
+CVE-2014-8547,libavcodec/gifdec.c
+CVE-2014-8548,libavcodec/smc.c
+CVE-2014-8549,libavcodec/on2avc.c
+CVE-2014-8626,"date_from_ISO8601, ext/xmlrpc/libxmlrpc/xmlrpc.c"
+CVE-2014-8709,"ieee80211_fragment, net/mac80211/tx.c"
+CVE-2014-8710,"decompress_sigcomp_message, epan/sigcomp-udvm.c"
+CVE-2014-8711,epan/dissectors/packet-amqp.c
+CVE-2014-8712,"build_expert_data, epan/dissectors/packet-ncp2222.inc"
+CVE-2014-8713,"build_expert_data, epan/dissectors/packet-ncp2222.inc"
+CVE-2014-8714,"dissect_write_structured_field, epan/dissectors/packet-tn5250.c"
+CVE-2014-8884,"ttusbdecfe_dvbs_diseqc_send_master_cmd, drivers/media/usb/ttusb-dec/ttusbdecfe.c"
+CVE-2014-8958,
+CVE-2014-8959,libraries/gis/GIS_Factory.class.php
+CVE-2014-8960,libraries/error_report.lib.php
+CVE-2014-8961,libraries/error_report.lib.php
+CVE-2014-9059,lib/setup.php
+CVE-2014-9060,"mod/lti/locallib.php, mod/lti/return.php"
+CVE-2014-9090,"do_double_fault, arch/x86/kernel/traps.c, modify_ldt, sigreturn_32"
+CVE-2014-9114,Blkid
+CVE-2014-9218,libraries/common.inc.php
+CVE-2014-9219,url.php
+CVE-2014-9273,lib/handle.c
+CVE-2014-9316,"mjpeg_decode_app, libavcodec/mjpegdec.c"
+CVE-2014-9317,"decode_ihdr_chunk, libavcodec/pngdec.c"
+CVE-2014-9318,"raw_decode, libavcodec/rawdec.c, avpicture_get_size"
+CVE-2014-9319,"ff_hevc_decode_nal_sps, libavcodec/hevc_ps.c"
+CVE-2014-9322,arch/x86/kernel/entry_64.S
+CVE-2014-9419,"__switch_to, arch/x86/kernel/process_64.c"
+CVE-2014-9420,"rock_continue, fs/isofs/rock.c"
+CVE-2014-9421,"auth_gssapi_unwrap_data, lib/rpc/auth_gssapi_misc.c"
+CVE-2014-9422,"check_rpcsec_auth, kadmin/server/kadm_rpc_svc.c"
+CVE-2014-9423,"svcauth_gss_accept_sec_context, lib/rpc/svc_auth_gss.c"
+CVE-2014-9425,"zend_ts_hash_graceful_destroy, zend_ts_hash.c"
+CVE-2014-9427,sapi/cgi/cgi_main.c
+CVE-2014-9428,"batadv_frag_merge_packets, net/batman-adv/fragmentation.c"
+CVE-2014-9491,devzvol_readdir
+CVE-2014-9496,"sd2_parse_rsrc_fork, sd2.c"
+CVE-2014-9529,"key_gc_unused_keys, security/keys/gc.c"
+CVE-2014-9584,"parse_rock_ridge_inode_internal, fs/isofs/rock.c"
+CVE-2014-9602,libavcodec/xface.h
+CVE-2014-9603,"vmd_decode, libavcodec/vmdvideo.c"
+CVE-2014-9604,"restore_median, restore_median_il, libavcodec/utvideodec.c"
+CVE-2014-9625,"GetUpdateFile, misc/update.c"
+CVE-2014-9626,"MP4_ReadBox_String, modules/demux/mp4/libmp4.c"
+CVE-2014-9627,"MP4_ReadBox_String, modules/demux/mp4/libmp4.c"
+CVE-2014-9628,"MP4_ReadBox_String, modules/demux/mp4/libmp4.c"
+CVE-2014-9629,modules/codec/schroedinger.c
+CVE-2014-9630,"rtp_packetize_xiph_config, modules/stream_out/rtpfmt.c"
+CVE-2014-9644,"AF_ALG, salg_name"
+CVE-2014-9683,"ecryptfs_decode_from_filename, fs/ecryptfs/crypto.c"
+CVE-2014-9710,xattr-replacement
+CVE-2014-9714,"WddxPacket::recursiveAddVar, wddx_serialize_value"
+CVE-2014-9717,"fs/namespace.c, MNT_DETACH, umount2, MNT_LOCKED"
+CVE-2014-9718,"bmdma_prepare_buf, ahci_dma_prepare_buf"
+CVE-2014-9728,"fs/udf/inode.c, fs/udf/symlink.c"
+CVE-2014-9729,"udf_read_inode, fs/udf/inode.c"
+CVE-2014-9730,"udf_pc_to_char, fs/udf/symlink.c"
+CVE-2014-9731,"fs/udf/symlink.c, fs/udf/unicode.c"
+CVE-2014-9756,"psf_fwrite, file_io.c"
+CVE-2014-9767,"ZipArchive::extractTo, ext/zip/php_zip.c, ext/zip/ext_zip.cpp"
+CVE-2014-9773,modules/chanserv/flags.c
+CVE-2014-9803,arch/arm64/include/asm/pgtable.h
+CVE-2014-9854,coders/tiff.c
+CVE-2014-9870,TPIDRURW
+CVE-2014-9888,arch/arm/mm/dma-mapping.c
+CVE-2014-9895,drivers/media/media-device.c
+CVE-2014-9903,"sched_read_attr, kernel/sched/core.c"
+CVE-2014-9904,"snd_compress_check_input, sound/core/compress_offload.c"
+CVE-2014-9914,"ip4_datagram_release_cb, net/ipv4/datagram.c"
+CVE-2014-9922,"fs/ecryptfs/main.c, fs/overlayfs/super.c"
+CVE-2014-9940,"regulator_ena_gpio_free, drivers/regulator/core.c"
+CVE-2015-0211,"mod/lti/ajax.php, moodle/course:manageactivities, mod/lti:addinstance"
+CVE-2015-0212,course/pending.php
+CVE-2015-0213,"editcategories.html, editcategories.php"
+CVE-2015-0214,message/externallib.php
+CVE-2015-0215,calendar/externallib.php
+CVE-2015-0216,RISK_XSS
+CVE-2015-0217,filter/mediaplugin/filter.php
+CVE-2015-0218,auth/shibboleth/logout.php
+CVE-2015-0228,"lua_websocket_read, lua_request.c"
+CVE-2015-0231,"process_nested_data, ext/standard/var_unserializer.re"
+CVE-2015-0232,"exif_process_unicode, ext/exif/exif.c"
+CVE-2015-0239,"em_sysenter, arch/x86/kvm/emulate.c"
+CVE-2015-0253,"read_request_line, server/protocol.c"
+CVE-2015-0273,"php_date_timezone_initialize_from_hash, php_date_initialize_from_hash, ext/date/php_date.c"
+CVE-2015-0274,
+CVE-2015-0275,"ext4_zero_range, fs/ext4/extents.c"
+CVE-2015-0559,epan/dissectors/packet-wccp.c
+CVE-2015-0560,"dissect_wccp2r1_address_table_info, epan/dissectors/packet-wccp.c"
+CVE-2015-0561,asn1/lpp/lpp.cnf
+CVE-2015-0562,epan/dissectors/packet-dec-dnart.c
+CVE-2015-0563,epan/dissectors/packet-smtp.c
+CVE-2015-0564,"ssl_decrypt_record, epan/dissectors/packet-ssl-utils.c"
+CVE-2015-0856,daemon/Greeter.cpp
+CVE-2015-1191,
+CVE-2015-1208,"mov_read_default, libavformat/mov.c"
+CVE-2015-1331,lxclock.c
+CVE-2015-1333,"__key_link_end, security/keys/keyring.c"
+CVE-2015-1334,attach.c
+CVE-2015-1335,lxc-start
+CVE-2015-1339,"cuse_channel_release, fs/fuse/cuse.c"
+CVE-2015-1342,
+CVE-2015-1344,lxcfs.c
+CVE-2015-1351,"_zend_shared_memdup, zend_shared_alloc.c"
+CVE-2015-1352,"build_tablename, pgsql.c"
+CVE-2015-1421,"sctp_assoc_update, net/sctp/associola.c"
+CVE-2015-1465,
+CVE-2015-1493,"min_get_slash_argument, lib/configonlylib.php"
+CVE-2015-1521,analyzer/protocol/dnp3/DNP3.cc
+CVE-2015-1522,analyzer/protocol/dnp3/DNP3.cc
+CVE-2015-1573,"nft_flush_table, net/netfilter/nf_tables_api.c"
+CVE-2015-1593,"randomize_stack_top, fs/binfmt_elf.c, stack_maxrandom_size, arch/x86/mm/mmap.c"
+CVE-2015-1805,"pipe_read, pipe_write, fs/pipe.c, __copy_to_user_inatomic, __copy_from_user_inatomic"
+CVE-2015-1872,"ff_mjpeg_decode_sof, libavcodec/mjpegdec.c"
+CVE-2015-2041,net/llc/sysctl_net_llc.c
+CVE-2015-2042,net/rds/sysctl.c
+CVE-2015-2141,"InvertibleRWFunction::CalculateInverse, rw.cpp"
+CVE-2015-2150,
+CVE-2015-2187,"dissect_atn_cpdlc_heur, asn1/atn-cpdlc/packet-atn-cpdlc-template.c"
+CVE-2015-2188,epan/dissectors/packet-wcp.c
+CVE-2015-2189,"pcapng_read, wiretap/pcapng.c"
+CVE-2015-2190,epan/proto.c
+CVE-2015-2191,"dissect_tnef, epan/dissectors/packet-tnef.c"
+CVE-2015-2192,"dissect_osd2_cdb_continuation, epan/dissectors/packet-scsi-osd.c"
+CVE-2015-2206,libraries/select_lang.lib.php
+CVE-2015-2266,"message/index.php, moodle/site:readallmessages"
+CVE-2015-2267,mdeploy.php
+CVE-2015-2268,filter/urltolink/filter.php
+CVE-2015-2269,lib/javascript-static.js
+CVE-2015-2270,"lib/moodlelib.php, blocks-regions"
+CVE-2015-2271,moodle/tag:flag
+CVE-2015-2272,login/token.php
+CVE-2015-2273,mod/quiz/report/statistics/statistics_question_table.php
+CVE-2015-2301,"phar_rename_archive, phar_object.c"
+CVE-2015-2304,
+CVE-2015-2331,"_zip_cdir_new, zip_dirent.c"
+CVE-2015-2348,"move_uploaded_file, ext/standard/basic_functions.c"
+CVE-2015-2666,"get_matching_model_microcode, arch/x86/kernel/cpu/microcode/intel_early.c"
+CVE-2015-2686,"copy_from_iter, iov_iter, net/socket.c"
+CVE-2015-2694,"plugins/preauth/otp/main.c, plugins/preauth/pkinit/pkinit_srv.c"
+CVE-2015-2695,"lib/gssapi/spnego/spnego_mech.c, gss_inquire_context"
+CVE-2015-2696,"lib/gssapi/krb5/iakerb.c, gss_inquire_context"
+CVE-2015-2697,"build_principal_va, lib/krb5/krb/bld_princ.c"
+CVE-2015-2698,"iakerb_gss_export_sec_context, lib/gssapi/krb5/iakerb.c, gss_export_sec_context"
+CVE-2015-2778,
+CVE-2015-2779,
+CVE-2015-2831,XAUTHORITY
+CVE-2015-2922,"ndisc_router_discovery, net/ipv6/ndisc.c"
+CVE-2015-2923,
+CVE-2015-2925,"prepend_path, fs/dcache.c"
+CVE-2015-3174,"mod/quiz/db/access.php, RISK_XSS"
+CVE-2015-3175,
+CVE-2015-3176,login/confirm.php
+CVE-2015-3178,"external_format_text, lib/externallib.php"
+CVE-2015-3179,login/confirm.php
+CVE-2015-3180,lib/navigationlib.php
+CVE-2015-3181,"files/externallib.php, moodle/user:manageownfiles"
+CVE-2015-3185,"ap_some_auth_required, server/request.c"
+CVE-2015-3212,net/sctp/socket.c
+CVE-2015-3214,"pit_ioport_read, i8254.c"
+CVE-2015-3272,"clean_param, lib/moodlelib.php"
+CVE-2015-3274,"user_get_user_details, user/lib.php"
+CVE-2015-3275,"mod/scorm/player.php, mod/scorm/prereqs.php"
+CVE-2015-3288,mm/memory.c
+CVE-2015-3329,"phar_set_inode, phar_internal.h"
+CVE-2015-3330,"php_handler, sapi/apache2handler/sapi_apache2.c"
+CVE-2015-3331,"__driver_rfc4106_decrypt, arch/x86/crypto/aesni-intel_glue.c"
+CVE-2015-3339,"prepare_binprm, fs/exec.c"
+CVE-2015-3395,"msrle_decode_pal4, msrledec.c"
+CVE-2015-3411,
+CVE-2015-3412,"stream_resolve_include_path, ext/standard/streamsfuncs.c"
+CVE-2015-3417,"ff_h264_free_tables, libavcodec/h264.c"
+CVE-2015-3456,"FD_CMD_READ_ID, FD_CMD_DRIVE_SPECIFICATION_COMMAND"
+CVE-2015-3636,"ping_unhash, net/ipv4/ping.c"
+CVE-2015-3808,"dissect_lbmr_pser, epan/dissectors/packet-lbmr.c"
+CVE-2015-3809,"dissect_lbmr_pser, epan/dissectors/packet-lbmr.c"
+CVE-2015-3810,epan/dissectors/packet-websocket.c
+CVE-2015-3811,epan/dissectors/packet-wcp.c
+CVE-2015-3812,"x11_init_protocol, epan/dissectors/packet-x11.c"
+CVE-2015-3813,"fragment_add_work, epan/reassemble.c"
+CVE-2015-3814,"dissect_tfs_request, dissect_tfs_response, epan/dissectors/packet-ieee80211.c"
+CVE-2015-3815,"detect_version, wiretap/logcat.c"
+CVE-2015-3885,ljpeg_start
+CVE-2015-3902,
+CVE-2015-3903,libraries/Config.class.php
+CVE-2015-3906,"logcat_dump_text, wiretap/logcat.c"
+CVE-2015-4001,"oz_hcd_get_desc_cnf, drivers/staging/ozwpan/ozhcd.c"
+CVE-2015-4002,"drivers/staging/ozwpan/ozusbsvc1.c, oz_usb_rx, oz_usb_handle_ep_data"
+CVE-2015-4003,"oz_usb_handle_ep_data, drivers/staging/ozwpan/ozusbsvc1.c"
+CVE-2015-4036,"tcm_vhost_make_tpg, drivers/vhost/scsi.c, vhost_scsi_make_tpg"
+CVE-2015-4054,
+CVE-2015-4116,"spl_ptr_heap_insert, ext/spl/spl_heap.c, SplMinHeap::compare"
+CVE-2015-4167,"udf_read_inode, fs/udf/inode.c"
+CVE-2015-4170,"ldsem_cmpxchg, drivers/tty/tty_ldsem.c"
+CVE-2015-4176,fs/namespace.c
+CVE-2015-4177,"collect_mounts, fs/namespace.c, MNT_DETACH, umount2"
+CVE-2015-4178,"fs/fs_pin.c, include/linux/fs_pin.h"
+CVE-2015-4471,"lzxd_decompress, lzxd.c"
+CVE-2015-4599,"SoapFault::__toString, ext/soap/soap.c"
+CVE-2015-4600,"SoapClient::__getLastRequest, SoapClient::__getLastResponse, SoapClient::__getLastRequestHeaders, SoapClient::__getLastResponseHeaders, SoapClient::__getCookies, SoapClient::__setCookie"
+CVE-2015-4601,"ext/soap/php_encoding.c, ext/soap/php_http.c, ext/soap/soap.c"
+CVE-2015-4602,"__PHP_Incomplete_Class, ext/standard/incomplete_class.c"
+CVE-2015-4604,softmagic.c
+CVE-2015-4605,softmagic.c
+CVE-2015-4643,"ftp_genlist, ext/ftp/ftp.c"
+CVE-2015-4644,"php_pgsql_meta_data, pgsql.c"
+CVE-2015-4645,"read_fragment_table_4, unsquash-4.c"
+CVE-2015-4646,"unsquash-1.c, unsquash-2.c, unsquash-3.c, unsquash-4.c"
+CVE-2015-4651,"dissect_wccp2r1_address_table_info, epan/dissectors/packet-wccp.c"
+CVE-2015-4652,"epan/dissectors/packet-gsm_a_dtap.c, de_emerg_num_list, de_bcd_num"
+CVE-2015-4700,"bpf_int_jit_compile, arch/x86/net/bpf_jit_comp.c"
+CVE-2015-5156,"virtnet_probe, drivers/net/virtio_net.c"
+CVE-2015-5221,"mif_process_cmpt, libjasper/mif/mif_cod.c"
+CVE-2015-5224,login-utils
+CVE-2015-5232,"opa-fm, opa-ff"
+CVE-2015-5239,
+CVE-2015-5257,drivers/usb/serial/whiteheat.c
+CVE-2015-5264,
+CVE-2015-5265,mod/wiki:managefiles
+CVE-2015-5266,"enrol_meta_sync, enrol/meta/locallib.php"
+CVE-2015-5267,"lib/moodlelib.php, mt_rand, random_string, complex_random_string"
+CVE-2015-5268,
+CVE-2015-5269,group/overview.php
+CVE-2015-5273,"abrt-action-install-debuginfo-to-abrt-cache, unpacked.cpio"
+CVE-2015-5279,"ne2000_receive, hw/net/ne2000.c"
+CVE-2015-5283,"sctp_init, net/sctp/protocol.c"
+CVE-2015-5287,"abrt-hook-ccpp, /var/tmp/abrt/abrt-hax-coredump, /var/spool/abrt/abrt-hax-coredump"
+CVE-2015-5307,"svm.c, vmx.c"
+CVE-2015-5335,admin/registration/register.php
+CVE-2015-5336,
+CVE-2015-5337,Flowplayer
+CVE-2015-5338,"mod/lesson/mediafile.php, mod/lesson/view.php"
+CVE-2015-5339,"core_enrol_get_enrolled_users, enrol/externallib.php"
+CVE-2015-5340,"moodle/badges:viewbadges, badges/overview.php, badges/view.php"
+CVE-2015-5341,mod_scorm
+CVE-2015-5342,
+CVE-2015-5364,"udp_recvmsg, udpv6_recvmsg"
+CVE-2015-5366,"udp_recvmsg, udpv6_recvmsg"
+CVE-2015-5589,"phar_convert_to_other, ext/phar/phar_object.c, Phar::convertToData"
+CVE-2015-5590,"phar_fix_filepath, ext/phar/phar.c"
+CVE-2015-5685,"lazy_bdecode, bootstrap-dht"
+CVE-2015-5697,"get_bitmap_file, drivers/md/md.c"
+CVE-2015-5706,"path_openat, fs/namei.c"
+CVE-2015-5707,"sg_start_req, drivers/scsi/sg.c, iov_count"
+CVE-2015-5745,"send_control_msg, hw/char/virtio-serial-bus.c"
+CVE-2015-6241,"proto_tree_add_bytes_item, epan/proto.c"
+CVE-2015-6242,"wmem_block_split_free_chunk, epan/wmem/wmem_allocator_block.c"
+CVE-2015-6243,"dissector-table, epan/packet.c, dissector_get_string_handle, dissector_get_default_string_handle"
+CVE-2015-6244,"dissect_zbee_secure, epan/dissectors/packet-zbee-security.c"
+CVE-2015-6245,epan/dissectors/packet-gsm_rlcmac.c
+CVE-2015-6246,"dissect_wa_payload, epan/dissectors/packet-waveagent.c"
+CVE-2015-6247,"dissect_openflow_tablemod_v5, epan/dissectors/packet-openflow_v5.c"
+CVE-2015-6248,"ptvcursor_add, epan/proto.c"
+CVE-2015-6249,"dissect_wccp2r1_address_table_info, epan/dissectors/packet-wccp.c"
+CVE-2015-6252,"vhost_dev_ioctl, drivers/vhost/vhost.c, VHOST_SET_LOG_FD"
+CVE-2015-6520,
+CVE-2015-6526,"perf_callchain_user_64, arch/powerpc/perf/callchain.c"
+CVE-2015-6563,"MONITOR_REQ_PAM_INIT_CTX, MONITOR_REQ_PWNAM, monitor.c, monitor_wrap.c"
+CVE-2015-6564,"mm_answer_pam_free_ctx, monitor.c, MONITOR_REQ_PAM_FREE_CTX"
+CVE-2015-6761,"update_dimensions, libavcodec/vp8.c"
+CVE-2015-6781,"FontData::Bound, data/font_data.cc"
+CVE-2015-6817,auth_user
+CVE-2015-6818,"decode_ihdr_chunk, libavcodec/pngdec.c"
+CVE-2015-6819,"ff_mjpeg_decode_frame, libavcodec/mjpegdec.c"
+CVE-2015-6820,"ff_sbr_apply, libavcodec/aacsbr.c"
+CVE-2015-6821,"ff_mpv_common_init, libavcodec/mpegvideo.c"
+CVE-2015-6822,"destroy_buffers, libavcodec/sanm.c"
+CVE-2015-6823,"allocate_buffers, libavcodec/alac.c"
+CVE-2015-6824,"sws_init_context, libswscale/utils.c"
+CVE-2015-6825,"ff_frame_thread_init, libavcodec/pthread_frame.c"
+CVE-2015-6826,"ff_rv34_decode_init_thread_copy, libavcodec/rv34.c"
+CVE-2015-6830,libraries/plugins/auth/AuthenticationCookie.class.php
+CVE-2015-6937,"__rds_conn_create, net/rds/connection.c"
+CVE-2015-7509,fs/ext4/namei.c
+CVE-2015-7512,"pcnet_receive, hw/net/pcnet.c"
+CVE-2015-7513,"arch/x86/kvm/x86.c, kvm_vm_ioctl_set_pit, kvm_vm_ioctl_set_pit2"
+CVE-2015-7515,"aiptek_probe, drivers/input/tablet/aiptek.c"
+CVE-2015-7519,agent/Core/Controller/SendRequest.cpp
+CVE-2015-7549,hw/pci/msix.c
+CVE-2015-7550,"keyctl_read_key, security/keys/keyctl.c"
+CVE-2015-7566,"clie_5_attach, drivers/usb/serial/visor.c"
+CVE-2015-7613,"ipc_addid, msg.c, shm.c, util.c"
+CVE-2015-7803,"phar_get_entry_data, ext/phar/util.c"
+CVE-2015-7804,"phar_parse_zipfile, ext/phar/zip.c"
+CVE-2015-7830,"pcapng_read_if_descr_block, wiretap/pcapng.c"
+CVE-2015-7872,"key_gc_unused_keys, security/keys/gc.c"
+CVE-2015-7873,url.php
+CVE-2015-7884,"vivid_fb_ioctl, drivers/media/platform/vivid/vivid-osd.c"
+CVE-2015-7885,"dgnc_mgmt_ioctl, drivers/staging/dgnc/dgnc_mgmt.c"
+CVE-2015-7990,"rds_sendmsg, net/rds/sendmsg.c"
+CVE-2015-8011,"lldp_decode, daemon/protocols/lldp.c"
+CVE-2015-8012,
+CVE-2015-8104,svm.c
+CVE-2015-8215,net/ipv6/addrconf.c
+CVE-2015-8216,"ljpeg_decode_yuv_scan, libavcodec/mjpegdec.c"
+CVE-2015-8217,"ff_hevc_parse_sps, libavcodec/hevc_ps.c"
+CVE-2015-8218,"decode_uncompressed, libavcodec/faxcompr.c"
+CVE-2015-8219,"init_tile, libavcodec/jpeg2000dec.c"
+CVE-2015-8324,ext4_fill_super
+CVE-2015-8363,"jpeg2000_read_main_headers, libavcodec/jpeg2000dec.c"
+CVE-2015-8364,"ff_ivi_init_planes, libavcodec/ivi.c"
+CVE-2015-8365,"smka_decode_frame, libavcodec/smacker.c"
+CVE-2015-8374,fs/btrfs/inode.c
+CVE-2015-8382,pcre_exec.c
+CVE-2015-8504,
+CVE-2015-8539,"security/keys/encrypted-keys/encrypted.c, security/keys/trusted.c, security/keys/user_defined.c"
+CVE-2015-8543,CLONE_NEWUSER
+CVE-2015-8558,"ehci_process_itd, hw/usb/hcd-ehci.c"
+CVE-2015-8569,"pptp_bind, pptp_connect, drivers/net/ppp/pptp.c"
+CVE-2015-8575,"sco_sock_bind, net/bluetooth/sco.c"
+CVE-2015-8617,"zend_throw_or_error, Zend/zend_execute_API.c"
+CVE-2015-8629,"xdr_nullstring, lib/kadm5/kadm_rpc_xdr.c"
+CVE-2015-8630,"kadm5_create_principal_3, kadm5_modify_principal, lib/kadm5/srv/svr_principal.c, KADM5_POLICY"
+CVE-2015-8631,kadmin/server/server_stubs.c
+CVE-2015-8660,"ovl_setattr, fs/overlayfs/inode.c"
+CVE-2015-8661,"h264_slice_header_init, libavcodec/h264_slice.c"
+CVE-2015-8662,"ff_dwt_decode, libavcodec/jpeg2000dwt.c"
+CVE-2015-8663,"ff_get_buffer, libavcodec/utils.c"
+CVE-2015-8666,Q35-chipset-based
+CVE-2015-8669,libraries/config/messages.inc.php
+CVE-2015-8702,"DNS::GetResult, dns.cpp"
+CVE-2015-8711,epan/dissectors/packet-nbap.c
+CVE-2015-8712,"dissect_hsdsch_channel_info, epan/dissectors/packet-umts_fp.c"
+CVE-2015-8713,epan/dissectors/packet-umts_fp.c
+CVE-2015-8714,"dissect_dcom_OBJREF, epan/dissectors/packet-dcom.c"
+CVE-2015-8715,epan/dissectors/packet-alljoyn.c
+CVE-2015-8716,"init_t38_info_conv, epan/dissectors/packet-t38.c"
+CVE-2015-8717,"dissect_sdp, epan/dissectors/packet-sdp.c"
+CVE-2015-8718,epan/dissectors/packet-nlm.c
+CVE-2015-8719,"dissect_dns_answer, epan/dissectors/packet-dns.c"
+CVE-2015-8720,"dissect_ber_GeneralizedTime, epan/dissectors/packet-ber.c"
+CVE-2015-8721,"tvb_uncompress, epan/tvbuff_zlib.c"
+CVE-2015-8722,epan/dissectors/packet-sctp.c
+CVE-2015-8723,"AirPDcapPacketProcess, epan/crypt/airpdcap.c"
+CVE-2015-8724,"AirPDcapDecryptWPABroadcastKey, epan/crypt/airpdcap.c"
+CVE-2015-8725,"dissect_diameter_base_framed_ipv6_prefix, epan/dissectors/packet-diameter.c"
+CVE-2015-8726,wiretap/vwr.c
+CVE-2015-8727,"dissect_rsvp_common, epan/dissectors/packet-rsvp.c"
+CVE-2015-8728,"epan/dissectors/packet-ansi_a.c, epan/dissectors/packet-gsm_a_common.c, tvb_bcd_dig_to_wmem_packet_str"
+CVE-2015-8729,"ascend_seek, wiretap/ascendtext.c"
+CVE-2015-8730,epan/dissectors/packet-nbap.c
+CVE-2015-8731,"dissct_rsl_ipaccess_msg, epan/dissectors/packet-rsl.c"
+CVE-2015-8732,"dissect_zcl_pwr_prof_pwrprofstatersp, epan/dissectors/packet-zbee-zcl-general.c"
+CVE-2015-8733,"ngsniffer_process_record, wiretap/ngsniffer.c"
+CVE-2015-8734,"dissect_nwp, epan/dissectors/packet-nwp.c"
+CVE-2015-8735,"get_value, epan/dissectors/packet-btatt.c"
+CVE-2015-8736,"mp2t_find_next_pcr, wiretap/mp2t.c"
+CVE-2015-8737,"mp2t_open, wiretap/mp2t.c"
+CVE-2015-8738,"s7comm_decode_ud_cpu_szl_subfunc, epan/dissectors/packet-s7comm_szl_ids.c"
+CVE-2015-8739,"ipmi_fmt_udpport, epan/dissectors/packet-ipmi.c"
+CVE-2015-8740,"dissect_tds7_colmetadata_token, epan/dissectors/packet-tds.c"
+CVE-2015-8741,"dissect_ppi, epan/dissectors/packet-ppi.c"
+CVE-2015-8742,"dissect_CPMSetBindings, epan/dissectors/packet-mswsp.c"
+CVE-2015-8744,
+CVE-2015-8745,CAP_SYS_RAWIO
+CVE-2015-8746,fs/nfs/nfs4proc.c
+CVE-2015-8767,"net/sctp/sm_sideeffect.c, sctp_accept"
+CVE-2015-8784,"NeXTDecode, tif_next.c"
+CVE-2015-8785,"fuse_fill_write_pages, fs/fuse/file.c"
+CVE-2015-8787,"nf_nat_redirect_ipv4, net/netfilter/nf_nat_redirect.c"
+CVE-2015-8812,drivers/infiniband/hw/cxgb3/iwch_cm.c
+CVE-2015-8816,"hub_activate, drivers/usb/core/hub.c"
+CVE-2015-8817,"address_space_translate, MemoryRegionSection, pci_dma_read, pci_dma_write"
+CVE-2015-8818,"cpu_physical_memory_write_rom_internal, exec.c"
+CVE-2015-8838,ext/mysqlnd/mysqlnd.c
+CVE-2015-8839,ext4
+CVE-2015-8844,
+CVE-2015-8845,"tm_reclaim_thread, arch/powerpc/kernel/process.c"
+CVE-2015-8863,jv_parse.c
+CVE-2015-8865,"file_check_mem, funcs.c"
+CVE-2015-8866,"ext/libxml/libxml.c, libxml_disable_entity_loader"
+CVE-2015-8867,"openssl_random_pseudo_bytes, ext/openssl/openssl.c, RAND_pseudo_bytes"
+CVE-2015-8872,"set_fat, fat.c"
+CVE-2015-8873,Zend/zend_exceptions.c
+CVE-2015-8877,"gdImageScaleTwoPass, gd_interpolation.c"
+CVE-2015-8894,coders/tga.c
+CVE-2015-8895,coders/icon.c
+CVE-2015-8896,coders/pict.c
+CVE-2015-8897,"SpliceImage, MagickCore/transform.c"
+CVE-2015-8898,"WriteImages, magick/constitute.c"
+CVE-2015-8900,"ReadHDRImage, coders/hdr.c"
+CVE-2015-8935,"sapi_header_op, main/SAPI.c"
+CVE-2015-8950,"arch/arm64/mm/dma-mapping.c, dma_mmap"
+CVE-2015-8952,
+CVE-2015-8953,fs/overlayfs/copy_up.c
+CVE-2015-8955,arch/arm64/kernel/perf_event.c
+CVE-2015-8956,"rfcomm_sock_bind, net/bluetooth/rfcomm/sock.c"
+CVE-2015-8957,
+CVE-2015-8958,coders/sun.c
+CVE-2015-8959,coders/dds.c
+CVE-2015-8961,"__ext4_journal_stop, fs/ext4/ext4_jbd2.c"
+CVE-2015-8962,"sg_common_write, drivers/scsi/sg.c"
+CVE-2015-8963,kernel/events/core.c
+CVE-2015-8964,"tty_set_termios_ldisc, drivers/tty/tty_ldisc.c"
+CVE-2015-8966,arch/arm/kernel/sys_oabi-compat.c
+CVE-2015-8967,arch/arm64/kernel/sys.c
+CVE-2015-8970,"crypto/algif_skcipher.c, crypto/lrw.c"
+CVE-2015-9004,"perf_pmu_register, perf_event_open, kernel/events/core.c"
+CVE-2015-9016,"blk_mq_tag_to_rq, blk-mq.c, blk_mq_complete_request"
+CVE-2015-9252,"QPDFTokenizer::resolveLiteral, QPDFTokenizer.cc, QPDF::resolve, QPDF.cc"
+CVE-2015-9253,"php-fpm, shell_exec, STDIN"
+CVE-2015-9289,drivers/media/dvb-frontends/cx24116.c
+CVE-2016-0723,"tty_ioctl, drivers/tty/tty_io.c, TIOCGETD, TIOCSETD"
+CVE-2016-0724,"core_enrol_get_course_enrolment_methods, enrol_self_get_instance_info, moodle/course:viewhiddencourses"
+CVE-2016-0728,"join_session_keyring, security/keys/process_keys.c"
+CVE-2016-0758,lib/asn1_decoder.c
+CVE-2016-0823,"pagemap_open, fs/proc/task_mmu.c"
+CVE-2016-1000004,"SimpleXMLElement_exportNode, simplexml_import_dom"
+CVE-2016-1000005,mcrypt_get_block_size
+CVE-2016-1000109,
+CVE-2016-10028,"virgl_cmd_get_capset, hw/display/virtio-gpu-3d.c, VIRTIO_GPU_CMD_GET_CAPSET"
+CVE-2016-10029,"virtio_gpu_set_scanout, VIRTIO_GPU_CMD_SET_SCANOUT, num_scanouts"
+CVE-2016-10030,"_prolog_error, slurmd/req.c"
+CVE-2016-10044,"aio_mount, fs/aio.c"
+CVE-2016-10049,"ReadRLEImage, coders/rle.c"
+CVE-2016-10050,"ReadRLEImage, coders/rle.c"
+CVE-2016-10051,"ReadPWPImage, coders/pwp.c"
+CVE-2016-10052,"WriteProfile, coders/jpeg.c"
+CVE-2016-10053,"WriteTIFFImage, coders/tiff.c"
+CVE-2016-10054,"WriteMAPImage, coders/map.c"
+CVE-2016-10055,"WritePDBImage, coders/pdb.c"
+CVE-2016-10056,"sixel_decode, coders/sixel.c"
+CVE-2016-10057,"WriteGROUP4Image, coders/tiff.c"
+CVE-2016-10058,"ReadPSDLayers, coders/psd.c"
+CVE-2016-10060,"ConcatenateImages, MagickWand/magick-cli.c"
+CVE-2016-10061,"ReadGROUP4Image, coders/tiff.c"
+CVE-2016-10063,coders/tiff.c
+CVE-2016-10064,coders/tiff.c
+CVE-2016-10065,"ReadVIFFImage, coders/viff.c"
+CVE-2016-10066,"ReadVIFFImage, coders/viff.c"
+CVE-2016-10070,"CalcMinMax, coders/mat.c"
+CVE-2016-10071,coders/mat.c
+CVE-2016-10088,"block/bsg.c, drivers/scsi/sg.c"
+CVE-2016-10092,"readContigStripsIntoBuffer, tif_unix.c"
+CVE-2016-10093,tools/tiffcp.c
+CVE-2016-10128,"git_pkt_parse_line, transports/smart_pkt.c"
+CVE-2016-10144,coders/ipl.c
+CVE-2016-10147,"crypto/mcryptd.c, AF_ALG, mcryptd(md5)"
+CVE-2016-10150,"kvm_ioctl_create_device, virt/kvm/kvm_main.c"
+CVE-2016-10153,net/ceph/crypto.c
+CVE-2016-10154,"fs/cifs/smbencrypt.c, CONFIG_VMAP_STACK"
+CVE-2016-10155,hw/watchdog/wdt_i6300esb.c
+CVE-2016-10156,/src/basic/fs-util.c
+CVE-2016-10158,"exif_convert_any_to_int, ext/exif/exif.c"
+CVE-2016-10159,"phar_parse_pharfile, ext/phar/phar.c"
+CVE-2016-10160,"phar_parse_pharfile, ext/phar/phar.c"
+CVE-2016-10161,"object_common1, ext/standard/var_unserializer.c"
+CVE-2016-10162,"php_wddx_pop_element, ext/wddx/wddx.c, wddxPacket, wddx_deserialize"
+CVE-2016-10165,"Type_MLU_Read, cmstypes.c"
+CVE-2016-10166,"_gdContributionsAlloc, gd_interpolation.c"
+CVE-2016-10167,"gdImageCreateFromGd2Ctx, gd_gd2.c"
+CVE-2016-10168,gd_io.c
+CVE-2016-10169,"read_code, read_words.c"
+CVE-2016-10170,"WriteCaffHeader, cli/caff.c"
+CVE-2016-10171,"unreorder_channels, cli/wvunpack.c"
+CVE-2016-10172,"read_new_config_info, open_utils.c"
+CVE-2016-10190,libavformat/http.c
+CVE-2016-10191,libavformat/rtmppkt.c
+CVE-2016-10192,ffserver.c
+CVE-2016-10200,"net/l2tp/l2tp_ip.c, net/l2tp/l2tp_ip6.c, SOCK_ZAPPED"
+CVE-2016-10208,"ext4_fill_super, fs/ext4/super.c"
+CVE-2016-10210,"yy_get_next_buffer, libyara/lexer.l"
+CVE-2016-10211,"yr_parser_lookup_loop_variable, libyara/grammar.y"
+CVE-2016-10229,udp.c
+CVE-2016-10248,"jpc_tsfb_synthesize, jpc_tsfb.c"
+CVE-2016-10249,"jpc_dec_tiledecode, jpc_dec.c"
+CVE-2016-10250,"jp2_colr_destroy, jp2_cod.c"
+CVE-2016-10251,"jpc_pi_nextcprl, jpc_t2cod.c"
+CVE-2016-10252,"IsOptionMember, MagickCore/option.c"
+CVE-2016-10266,libtiff/tif_read.c:351:22
+CVE-2016-10267,libtiff/tif_ojpeg.c:816:8
+CVE-2016-10268,"tools/tiffcp.c, libtiff/tif_unix.c:115:23"
+CVE-2016-10269,libtiff/tif_unix.c:340:2
+CVE-2016-10270,libtiff/tif_read.c:523:22
+CVE-2016-10271,"tools/tiffcrop.c, libtiff/tif_fax3.c:413:13"
+CVE-2016-10272,libtiff/tif_next.c:64:9
+CVE-2016-10318,"fscrypt_process_policy, fs/crypto/policy.c"
+CVE-2016-10397,"parse_url, php_url_parse_ex, ext/standard/url.c"
+CVE-2016-10504,"opj_mqc_byteout, mqc.c"
+CVE-2016-10506,"opj_pi_next_cprl, opj_pi_next_pcrl, opj_pi_next_rpcl, pi.c"
+CVE-2016-10712,stream_get_meta_data
+CVE-2016-10741,fs/xfs/xfs_aops.c
+CVE-2016-10746,"libvirt-domain.c, virDomainGetTime"
+CVE-2016-10764,"cqspi_setup_flash, drivers/mtd/spi-nor/cadence-quadspi.c, CQSPI_MAX_CHIPSELECT, ->f_pdata"
+CVE-2016-10906,"arc_emac_tx, arc_emac_tx_clean, drivers/net/ethernet/arc/emac_main.c"
+CVE-2016-1237,"nfs2acl.c, nfs3acl.c, nfs4acl.c"
+CVE-2016-1245,BUFSIZ
+CVE-2016-1248,"filetype', 'syntax'"
+CVE-2016-1541,"zip_read_mac_metadata, archive_read_support_format_zip.c"
+CVE-2016-1568,hw/ide/ahci.c
+CVE-2016-1583,"ecryptfs_privileged_open, fs/ecryptfs/kthread.c"
+CVE-2016-1709,"ByteArray::Get, data/byte_array.cc"
+CVE-2016-1904,"php_escape_shell_cmd, php_escape_shell_arg, ext/standard/exec.c"
+CVE-2016-1927,"suggestPassword, js/functions.js"
+CVE-2016-20014,"pam_tacplus.c, pam_sm_acct_mgmt"
+CVE-2016-2038,
+CVE-2016-2039,libraries/session.inc.php
+CVE-2016-2040,
+CVE-2016-2041,libraries/common.inc.php
+CVE-2016-2042,"libraries/phpseclib/Crypt/AES.php, libraries/phpseclib/Crypt/Rijndael.php"
+CVE-2016-2043,"goToFinish1NF, js/normalization.js"
+CVE-2016-2044,libraries/sql-parser/autoload.php
+CVE-2016-2045,
+CVE-2016-2053,"asn1_ber_decoder, lib/asn1_decoder.c, public_key_verify_signature, crypto/asymmetric_keys/public_key.c"
+CVE-2016-2069,arch/x86/mm/tlb.c
+CVE-2016-2070,"tcp_cwnd_reduction, net/ipv4/tcp_input.c"
+CVE-2016-2085,"evm_verify_hmac, security/integrity/evm/evm_main.c"
+CVE-2016-2117,"atl2_probe, drivers/net/ethernet/atheros/atlx/atl2.c"
+CVE-2016-2151,"user/index.php, moodle/course:viewhiddenuserfields"
+CVE-2016-2152,auth/db/auth.php
+CVE-2016-2153,"advanced-search, mod_data"
+CVE-2016-2154,"admin/tool/monitor/lib.php, moodle/course:viewhiddencourses"
+CVE-2016-2155,moodle/grade:manage
+CVE-2016-2156,"calendar/externallib.php, calendar-event"
+CVE-2016-2157,mod/assign/adminmanageplugins.php
+CVE-2016-2158,lib/ajax/getnavbranch.php
+CVE-2016-2159,"save_submission, mod/assign/externallib.php"
+CVE-2016-2184,"create_fixed_stream_quirk, sound/usb/quirks.c"
+CVE-2016-2185,"ati_remote2_probe, drivers/input/misc/ati_remote2.c"
+CVE-2016-2186,"powermate_probe, drivers/input/misc/powermate.c"
+CVE-2016-2187,"gtco_probe, drivers/input/tablet/gtco.c"
+CVE-2016-2188,"iowarrior_probe, drivers/usb/misc/iowarrior.c"
+CVE-2016-2190,
+CVE-2016-2213,"jpeg2000_decode_tile, libavcodec/jpeg2000dec.c"
+CVE-2016-2315,revision.c
+CVE-2016-2324,
+CVE-2016-2326,"asf_write_packet, libavformat/asfenc.c"
+CVE-2016-2327,"apng_encode_frame, encode_apng, libavcodec/pngenc.c"
+CVE-2016-2328,"bayer_to_rgb24_wrapper, bayer_to_yv12_wrapper, libswscale/swscale_unscaled.c"
+CVE-2016-2329,"tiff_decode_tag, decode_frame, libavcodec/tiff.c"
+CVE-2016-2330,"gif_image_write_image, gif_encode_init, gif_encode_close, libavcodec/gif.c"
+CVE-2016-2347,"decode_level3_header, lib/lha_file_header.c"
+CVE-2016-2383,"adjust_branches, kernel/bpf/verifier.c"
+CVE-2016-2384,"snd_usbmidi_create, sound/usb/midi.c"
+CVE-2016-2385,encode_msg.c
+CVE-2016-2391,"ohci_bus_start, hw/usb/hcd-ohci.c"
+CVE-2016-2392,"is_rndis, hw/usb/dev-network.c"
+CVE-2016-2521,ui/qt/wireshark_application.cpp
+CVE-2016-2522,"dissect_ber_constrained_bitstring, epan/dissectors/packet-ber.c"
+CVE-2016-2523,"dnp3_al_process_object, epan/dissectors/packet-dnp.c"
+CVE-2016-2524,epan/dissectors/packet-x509af.c
+CVE-2016-2526,epan/dissectors/packet-hiqnet.c
+CVE-2016-2527,wiretap/nettrace_3gpp_32_423.c
+CVE-2016-2528,"dissect_nhdr_extopt, epan/dissectors/packet-lbmc.c"
+CVE-2016-2529,"iseries_check_file_type, wiretap/iseries.c"
+CVE-2016-2530,"dissct_rsl_ipaccess_msg, epan/dissectors/packet-rsl.c"
+CVE-2016-2531,epan/dissectors/packet-rsl.c
+CVE-2016-2532,"dissect_llrp_parameters, epan/dissectors/packet-llrp.c"
+CVE-2016-2538,"rndis_query_response, rndis_set_response, usb_net_handle_dataout, hw/usb/dev-network.c"
+CVE-2016-2543,"snd_seq_ioctl_remove_events, sound/core/seq/seq_clientmgr.c"
+CVE-2016-2544,"queue_delete, sound/core/seq/seq_queue.c"
+CVE-2016-2545,"snd_timer_interrupt, sound/core/timer.c"
+CVE-2016-2546,sound/core/timer.c
+CVE-2016-2547,sound/core/timer.c
+CVE-2016-2548,"sound/core/timer.c, snd_timer_close, _snd_timer_stop"
+CVE-2016-2549,sound/core/hrtimer.c
+CVE-2016-2550,
+CVE-2016-2559,libraries/sql-parser/src/Utils/Error.php
+CVE-2016-2560,"libraries/Config.class.php, file_echo.php, js/functions.js, libraries/server_privileges.lib.php, libraries/controllers/TableSearchController.class.php"
+CVE-2016-2561,"normalization.php, js/normalization.js, templates/database/structure/sortable_header.phtml, db_central_columns.php"
+CVE-2016-2562,"checkHTTP, libraries/Config.class.php"
+CVE-2016-2782,"treo_attach, drivers/usb/serial/visor.c"
+CVE-2016-2841,"ne2000_receive, hw/net/ne2000.c, PSTART, PSTOP"
+CVE-2016-2847,fs/pipe.c
+CVE-2016-2857,"net_checksum_calculate, net/checksum.c"
+CVE-2016-2858,PRNG
+CVE-2016-3062,"mov_read_dref, libavformat/mov.c"
+CVE-2016-3070,"trace_writeback_dirty_page, include/trace/events/writeback.h, mm/migrate.c"
+CVE-2016-3074,
+CVE-2016-3078,"getFromIndex, getFromName, php_zip.c"
+CVE-2016-3119,"process_db_args, plugins/kdb/ldap/libkdb_ldap/ldap_principal2.c"
+CVE-2016-3120,"validate_as_request, kdc_util.c, restrict_anonymous_to_tgt"
+CVE-2016-3132,"SplDoublyLinkedList::offsetSet, ext/spl/spl_dllist.c"
+CVE-2016-3134,IPT_SO_SET_REPLACE
+CVE-2016-3135,"xt_alloc_table_info, net/netfilter/x_tables.c, IPT_SO_SET_REPLACE"
+CVE-2016-3136,"mct_u232_msr_to_state, drivers/usb/serial/mct_u232.c"
+CVE-2016-3137,"drivers/usb/serial/cypress_m8.c, cypress_generic_port_probe, cypress_open"
+CVE-2016-3138,"acm_probe, drivers/usb/class/cdc-acm.c"
+CVE-2016-3140,"digi_port_init, drivers/usb/serial/digi_acceleport.c"
+CVE-2016-3141,"wddx.c, wddx_deserialize"
+CVE-2016-3142,"phar_parse_zipfile, zip.c"
+CVE-2016-3156,IPv4
+CVE-2016-3178,"processRequest, minissdpd.c"
+CVE-2016-3179,"processRequest, minissdpd.c"
+CVE-2016-3183,"sycc422_t_rgb, common/color.c"
+CVE-2016-3185,"make_http_soap_request, ext/soap/php_http.c, SoapClient::__call, ext/soap/soap.c"
+CVE-2016-3672,"arch_pick_mmap_layout, arch/x86/mm/mmap.c"
+CVE-2016-3689,"ims_pcu_parse_cdc_data, drivers/input/misc/ims-pcu.c"
+CVE-2016-3698,
+CVE-2016-3713,"msr_mtrr_valid, arch/x86/kvm/mtrr.c, kvm_arch_vcpu"
+CVE-2016-3714,"EPHEMERAL, HTTPS, MVG, MSL, TEXT, SHOW, WIN"
+CVE-2016-3733,
+CVE-2016-3734,markposts.php
+CVE-2016-3841,IPv6
+CVE-2016-3951,drivers/net/usb/cdc_ncm.c
+CVE-2016-3955,"usbip_recv_xbuff, drivers/usb/usbip/usbip_common.c"
+CVE-2016-4001,"stellaris_enet_receive, hw/net/stellaris_enet.c"
+CVE-2016-4006,epan/proto.c
+CVE-2016-4020,hw/i386/kvmvapic.c
+CVE-2016-4037,"ehci_advance_state, hw/usb/hcd-ehci.c"
+CVE-2016-4070,"php_raw_url_encode, ext/standard/url.c"
+CVE-2016-4071,"php_snmp_error, ext/snmp/snmp.c, SNMP::get"
+CVE-2016-4072,"phar_analyze_path, ext/phar/phar.c"
+CVE-2016-4073,"mbfl_strcut, ext/mbstring/libmbfl/mbfl/mbfilter.c"
+CVE-2016-4076,epan/dissectors/packet-ncp2222.inc
+CVE-2016-4077,"epan/reassemble.c, Tvb"
+CVE-2016-4078,"epan/dissectors/packet-capwap.c, epan/dissectors/packet-ieee80211.c"
+CVE-2016-4079,epan/dissectors/packet-pktc.c
+CVE-2016-4080,epan/dissectors/packet-pktc.c
+CVE-2016-4081,epan/dissectors/packet-iax2.c
+CVE-2016-4082,epan/dissectors/packet-gsm_cbch.c
+CVE-2016-4083,epan/dissectors/packet-mswsp.c
+CVE-2016-4084,epan/dissectors/packet-mswsp.c
+CVE-2016-4300,"read_SubStreamsInfo, archive_read_support_format_7zip.c"
+CVE-2016-4301,"parse_device, archive_read_support_format_mtree.c"
+CVE-2016-4302,"parse_codes, archive_read_support_format_rar.c"
+CVE-2016-4440,"arch/x86/kvm/vmx.c, APICv, MSR, x2APIC"
+CVE-2016-4470,"key_reject_and_link, security/keys/key.c"
+CVE-2016-4478,"xmlrpc_char_encode, modules/transport/xmlrpc/xmlrpclib.c"
+CVE-2016-4482,"proc_connectinfo, drivers/usb/core/devio.c"
+CVE-2016-4485,"llc_cmsg_rcv, net/llc/af_llc.c"
+CVE-2016-4486,"rtnl_fill_link_ifmap, net/core/rtnetlink.c"
+CVE-2016-4537,ext/bcmath/bcmath.c
+CVE-2016-4538,"ext/bcmath/bcmath.c, _zero_, _one_, _two_"
+CVE-2016-4539,"xml_parse_into_struct, ext/xml/xml.c"
+CVE-2016-4540,"grapheme_stripos, ext/intl/grapheme/grapheme_string.c"
+CVE-2016-4541,"grapheme_strpos, ext/intl/grapheme/grapheme_string.c"
+CVE-2016-4542,"exif_process_IFD_TAG, ext/exif/exif.c"
+CVE-2016-4543,"exif_process_IFD_in_JPEG, ext/exif/exif.c"
+CVE-2016-4544,"exif_process_TIFF_in_JPEG, ext/exif/exif.c"
+CVE-2016-4557,"replace_map_fd_with_map_ptr, kernel/bpf/verifier.c"
+CVE-2016-4558,
+CVE-2016-4562,"DrawDashPolygon, MagickCore/draw.c"
+CVE-2016-4563,"TraceStrokePolygon, MagickCore/draw.c, BezierQuantum"
+CVE-2016-4564,"DrawImage, MagickCore/draw.c"
+CVE-2016-4565,
+CVE-2016-4568,drivers/media/v4l2-core/videobuf2-v4l2.c
+CVE-2016-4569,"snd_timer_user_params, sound/core/timer.c"
+CVE-2016-4578,"sound/core/timer.c, snd_timer_user_ccallback"
+CVE-2016-4580,"x25_negotiate_facilities, net/x25/x25_facilities.c"
+CVE-2016-4581,fs/pnode.c
+CVE-2016-4796,"color_cmyk_to_rgb, common/color.c"
+CVE-2016-4797,"opj_tcd_init_tile, tcd.c"
+CVE-2016-4804,"read_boot, boot.c, read_fat, get_fat"
+CVE-2016-4805,"ppp_register_net_channel, ppp_unregister_channel, drivers/net/ppp/ppp_generic.c"
+CVE-2016-4913,"get_rock_ridge_filename, fs/isofs/rock.c"
+CVE-2016-4951,"tipc_nl_publ_dump, net/tipc/socket.c"
+CVE-2016-4964,"mptsas_fetch_requests, hw/scsi/mptsas.c, s->state"
+CVE-2016-4997,IP6T_SO_SET_REPLACE
+CVE-2016-4998,IPT_SO_SET_REPLACE
+CVE-2016-5093,"get_icu_value_internal, ext/intl/locale/locale_methods.c, locale_get_primary_language"
+CVE-2016-5094,"php_html_entities, ext/standard/html.c"
+CVE-2016-5096,ext/standard/file.c
+CVE-2016-5097,
+CVE-2016-5099,
+CVE-2016-5104,"socket_create, common/socket.c"
+CVE-2016-5114,"sapi/fpm/fpm/fpm_log.c, REQUEST_URI"
+CVE-2016-5116,gd_xbm.c
+CVE-2016-5118,"OpenBlob, blob.c"
+CVE-2016-5126,"iscsi_aio_ioctl, block/iscsi.c"
+CVE-2016-5157,"opj_dwt_interleave_v, dwt.c"
+CVE-2016-5195,mm/gup.c
+CVE-2016-5243,"tipc_nl_compat_link_dump, net/tipc/netlink_compat.c"
+CVE-2016-5244,"rds_inc_info_copy, net/rds/recv.c"
+CVE-2016-5314,"PixarLogDecode, tif_pixarlog.c"
+CVE-2016-5337,"megasas_ctrl_get_info, hw/scsi/megasas.c"
+CVE-2016-5338,"esp_reg_read, esp_reg_write, hw/scsi/esp.c"
+CVE-2016-5350,epan/dissectors/packet-dcerpc-spoolss.c
+CVE-2016-5351,"epan/crypt/airpdcap.c, EAPOL_RSN_KEY"
+CVE-2016-5352,epan/crypt/airpdcap.c
+CVE-2016-5353,epan/dissectors/packet-umts_fp.c
+CVE-2016-5354,
+CVE-2016-5355,wiretap/toshiba.c
+CVE-2016-5356,wiretap/cosine.c
+CVE-2016-5357,wiretap/netscreen.c
+CVE-2016-5400,"airspy_probe, drivers/media/usb/airspy/airspy.c, VFL_TYPE_SDR, VFL_TYPE_SUBDEV"
+CVE-2016-5418,
+CVE-2016-5688,"SetImageExtent, SetPixelIndex, ScaleCharToQuantum"
+CVE-2016-5689,
+CVE-2016-5690,ReadDCMImage
+CVE-2016-5691,"pixel.red, pixel.green, pixel.blue"
+CVE-2016-5696,net/ipv4/tcp_input.c
+CVE-2016-5701,setup/frames/index.inc.php
+CVE-2016-5702,PHP_SELF
+CVE-2016-5703,libraries/central_columns.lib.php
+CVE-2016-5704,table-structure
+CVE-2016-5705,server-privileges
+CVE-2016-5706,js/get_scripts.js.php
+CVE-2016-5728,"vop_ioctl, drivers/misc/mic/vop/vop_vringh.c"
+CVE-2016-5730,"FormDisplay.php, validate.php, Validator.php"
+CVE-2016-5731,examples/openid.php
+CVE-2016-5732,"partition-range, templates/table/structure/display_partitions.phtml"
+CVE-2016-5733,"table_row.phtml, log_selector.phtml, js/ajax.js, js/tbl_chart.js, rows_zoom.phtml"
+CVE-2016-5734,preg_replace
+CVE-2016-5735,"rwpng_read_image24_libpng, rwpng.c"
+CVE-2016-5739,libraries/Header.php
+CVE-2016-5766,"_gd2GetHeader, gd_gd2.c"
+CVE-2016-5767,"gdImageCreate, gd.c"
+CVE-2016-5768,"_php_mb_regex_ereg_replace_exec, php_mbregex.c"
+CVE-2016-5769,"mcrypt.c, mcrypt_generic, mdecrypt_generic"
+CVE-2016-5770,"SplFileObject::fread, spl_directory.c"
+CVE-2016-5771,spl_array.c
+CVE-2016-5772,"php_wddx_process_data, wddx.c, wddx_deserialize"
+CVE-2016-5773,"php_zip.c, ZipArchive"
+CVE-2016-5829,"hiddev_ioctl_usage, drivers/hid/usbhid/hiddev.c, HIDIOCGUSAGES, HIDIOCSUSAGES"
+CVE-2016-5841,MagickCore/profile.c
+CVE-2016-5842,
+CVE-2016-5844,
+CVE-2016-6128,"gdImageCropThreshold, gd_crop.c"
+CVE-2016-6130,"sclp_ctl_ioctl_sccb, drivers/s390/char/sclp_ctl.c"
+CVE-2016-6136,"audit_log_single_execve_arg, kernel/auditsc.c"
+CVE-2016-6156,"ec_device_ioctl_xcmd, drivers/platform/chrome/cros_ec_dev.c"
+CVE-2016-6164,"mov_build_index, libavformat/mov.c"
+CVE-2016-6187,"apparmor_setprocattr, security/apparmor/lsm.c"
+CVE-2016-6197,fs/overlayfs/dir.c
+CVE-2016-6198,"fs/namei.c, fs/open.c"
+CVE-2016-6213,fs/namespace.c
+CVE-2016-6214,gd_tga.c
+CVE-2016-6254,network.c
+CVE-2016-6255,
+CVE-2016-6271,
+CVE-2016-6288,"php_url_parse_ex, ext/standard/url.c, smart_str"
+CVE-2016-6289,"virtual_file_ex, TSRM/tsrm_virtual_cwd.c"
+CVE-2016-6290,ext/session/session.c
+CVE-2016-6291,"exif_process_IFD_in_MAKERNOTE, ext/exif/exif.c"
+CVE-2016-6292,"exif_process_user_comment, ext/exif/exif.c"
+CVE-2016-6293,"uloc_acceptLanguageFromHTTP, common/uloc.cpp"
+CVE-2016-6294,"locale_accept_from_http, ext/intl/locale/locale_methods.c, uloc_acceptLanguageFromHTTP"
+CVE-2016-6295,ext/snmp/snmp.c
+CVE-2016-6296,"simplestring_addn, simplestring.c"
+CVE-2016-6297,"php_stream_zip_opener, ext/zip/zip_stream.c"
+CVE-2016-6327,drivers/infiniband/ulp/srpt/ib_srpt.c
+CVE-2016-6351,"esp_do_dma, hw/scsi/esp.c"
+CVE-2016-6490,"virtqueue_map_desc, hw/virtio/virtio.c"
+CVE-2016-6491,"Get8BIMProperty, MagickCore/property.c"
+CVE-2016-6494,.dbshell
+CVE-2016-6505,epan/dissectors/packet-packetbb.c
+CVE-2016-6506,epan/dissectors/packet-wsp.c
+CVE-2016-6508,epan/dissectors/packet-rlc.c
+CVE-2016-6509,epan/dissectors/packet-ldss.c
+CVE-2016-6510,epan/dissectors/packet-rlc.c
+CVE-2016-6511,epan/proto.c
+CVE-2016-6512,epan/dissectors/packet-wap.c
+CVE-2016-6513,epan/dissectors/packet-wbxml.c
+CVE-2016-6515,"auth_password, auth-passwd.c"
+CVE-2016-6516,"ioctl_file_dedupe_range, fs/ioctl.c"
+CVE-2016-6520,MagickCore/enhance.c
+CVE-2016-6561,
+CVE-2016-6786,kernel/events/core.c
+CVE-2016-6787,kernel/events/core.c
+CVE-2016-6823,
+CVE-2016-6833,"vmxnet3_io_bar0_write, hw/net/vmxnet3.c"
+CVE-2016-6834,"net_tx_pkt_do_sw_fragmentation, hw/net/net_tx_pkt.c"
+CVE-2016-6835,"vmxnet_tx_pkt_parse_headers, hw/net/vmxnet_tx_pkt.c"
+CVE-2016-6836,"vmxnet3_complete_packet, hw/net/vmxnet3.c, txcq_descr"
+CVE-2016-6870,"mb_detect_encoding, mb_send_mail, mb_detect_order"
+CVE-2016-6871,
+CVE-2016-6872,StringUtil::implode
+CVE-2016-6873,
+CVE-2016-6874,array_*_recursive
+CVE-2016-6875,
+CVE-2016-6888,"net_tx_pkt_init, hw/net/net_tx_pkt.c"
+CVE-2016-6906,"read_image_tga, gd_tga.c"
+CVE-2016-6920,"decode_block, libavcodec/exr.c"
+CVE-2016-7097,
+CVE-2016-7101,
+CVE-2016-7116,hw/9pfs/9p.c
+CVE-2016-7117,"__sys_recvmmsg, net/socket.c"
+CVE-2016-7124,ext/standard/var_unserializer.c
+CVE-2016-7125,ext/session/session.c
+CVE-2016-7126,ext/gd/gd.c
+CVE-2016-7127,ext/gd/gd.c
+CVE-2016-7128,"exif_process_IFD_in_TIFF, ext/exif/exif.c"
+CVE-2016-7129,"php_wddx_process_data, ext/wddx/wddx.c, wddx_deserialize, wddxPacket"
+CVE-2016-7130,"php_wddx_pop_element, ext/wddx/wddx.c, wddx_deserialize, wddxPacket"
+CVE-2016-7131,"ext/wddx/wddx.c, wddxPacket, wddx_deserialize"
+CVE-2016-7132,"wddxPacket, wddx_deserialize, ext/wddx/wddx.c"
+CVE-2016-7133,"Zend/zend_alloc.c, open_basedir"
+CVE-2016-7134,"ext/curl/interface.c, curl_escape"
+CVE-2016-7142,m_sasl
+CVE-2016-7144,"m_authenticate, modules/m_sasl.c"
+CVE-2016-7145,"m_authenticate, ircd/m_authenticate.c"
+CVE-2016-7155,hw/scsi/vmw_pvscsi.c
+CVE-2016-7156,"pvscsi_convert_sglist, hw/scsi/vmw_pvscsi.c"
+CVE-2016-7157,"mptsas_config_manufacturing_1, mptsas_config_ioc_0, hw/scsi/mptconfig.c, MPTSAS_CONFIG_PACK"
+CVE-2016-7161,xlnx.xps-ethernetlite
+CVE-2016-7163,"opj_pi_create_decode, pi.c"
+CVE-2016-7166,
+CVE-2016-7170,"vmsvga_fifo_run, hw/display/vmware_vga.c, cursor.mask[], cursor.image[], DEFINE_CURSOR"
+CVE-2016-7175,epan/dissectors/packet-qnet6.c
+CVE-2016-7176,epan/dissectors/packet-h225.c
+CVE-2016-7177,epan/dissectors/packet-catapult-dct2000.c
+CVE-2016-7178,epan/dissectors/packet-umts_fp.c
+CVE-2016-7179,epan/dissectors/packet-catapult-dct2000.c
+CVE-2016-7180,epan/dissectors/packet-ipmi-trace.c
+CVE-2016-7398,"merge_param, php_http_params.c"
+CVE-2016-7411,ext/standard/var_unserializer.re
+CVE-2016-7412,ext/mysqlnd/mysqlnd_wireprotocol.c
+CVE-2016-7413,"wddx_stack_destroy, ext/wddx/wddx.c, wddx_deserialize"
+CVE-2016-7414,"uncompressed_filesize, ext/phar/util.c, ext/phar/zip.c"
+CVE-2016-7416,"MessageFormatter::formatMessage, ext/intl/msgformat/msgformat_format.c"
+CVE-2016-7417,"ext/spl/spl_array.c, SplArray"
+CVE-2016-7418,"php_wddx_push_element, ext/wddx/wddx.c, wddxPacket, wddx_deserialize"
+CVE-2016-7421,"pvscsi_ring_pop_req_descr, hw/scsi/vmw_pvscsi.c"
+CVE-2016-7422,"virtqueue_map_desc, hw/virtio/virtio.c"
+CVE-2016-7423,"mptsas_process_scsi_io_request, MPTSASRequest"
+CVE-2016-7425,"arcmsr_iop_message_xfer, drivers/scsi/arcmsr/arcmsr_hba.c, ARCMSR_MESSAGE_WRITE_WQBUFFER"
+CVE-2016-7466,"usb_xhci_exit, hw/usb/hcd-xhci.c"
+CVE-2016-7480,"SplObjectStorage, ext/spl/spl_observer.c"
+CVE-2016-7514,"ReadPSDChannelPixels, coders/psd.c"
+CVE-2016-7515,"ReadRLEImage, coders/rle.c"
+CVE-2016-7520,coders/hdr.c
+CVE-2016-7521,coders/psd.c
+CVE-2016-7522,"ReadPSDImage, MagickCore/locale.c"
+CVE-2016-7524,coders/meta.c
+CVE-2016-7525,coders/psd.c
+CVE-2016-7526,coders/wpg.c
+CVE-2016-7527,coders/wpg.c
+CVE-2016-7528,"ReadVIFFImage, coders/viff.c"
+CVE-2016-7529,coders/xcf.c
+CVE-2016-7530,
+CVE-2016-7532,coders/psd.c
+CVE-2016-7533,"ReadWPGImage, coders/wpg.c"
+CVE-2016-7534,
+CVE-2016-7536,magick/profile.c
+CVE-2016-7537,MagickCore/memory.c
+CVE-2016-7538,coders/psd.c
+CVE-2016-7798,aes-*-gcm
+CVE-2016-7799,MagickCore/profile.c
+CVE-2016-7838,
+CVE-2016-7906,magick/attribute.c
+CVE-2016-7908,"mcf_fec_do_tx, hw/net/mcf_fec.c, bd.flags"
+CVE-2016-7910,"disk_seqf_stop, block/genhd.c"
+CVE-2016-7911,"get_task_ioprio, block/ioprio.c"
+CVE-2016-7912,"ffs_user_copy_worker, drivers/usb/gadget/function/f_fs.c"
+CVE-2016-7913,"xc2028_set_config, drivers/media/tuners/tuner-xc2028.c"
+CVE-2016-7914,"assoc_array_insert_into_terminal_node, lib/assoc_array.c"
+CVE-2016-7915,"hid_input_field, drivers/hid/hid-core.c"
+CVE-2016-7916,"environ_read, fs/proc/base.c"
+CVE-2016-7917,"nfnetlink_rcv_batch, net/netfilter/nfnetlink.c"
+CVE-2016-7957,epan/dissectors/packet-btl2cap.c
+CVE-2016-7958,epan/dissectors/CMakeLists.txt
+CVE-2016-7995,"ehci_process_itd, hw/usb/hcd-ehci.c"
+CVE-2016-8576,"xhci_ring_fetch, hw/usb/hcd-xhci.c"
+CVE-2016-8577,"v9fs_read, hw/9pfs/9p.c"
+CVE-2016-8630,"x86_decode_insn, arch/x86/kvm/emulate.c"
+CVE-2016-8633,drivers/firewire/net.c
+CVE-2016-8636,"mem_check_range, drivers/infiniband/sw/rxe/rxe_mr.c"
+CVE-2016-8645,"net/ipv4/tcp_ipv4.c, net/ipv6/tcp_ipv6.c"
+CVE-2016-8646,"hash_accept, crypto/algif_hash.c"
+CVE-2016-8649,lxc-attach
+CVE-2016-8650,"mpi_powm, lib/mpi/mpi-pow.c"
+CVE-2016-8654,"QMFB, JPC"
+CVE-2016-8655,"packet_set_ring, packet_setsockopt, net/packet/af_packet.c"
+CVE-2016-8658,"brcmf_cfg80211_start_ap, drivers/net/wireless/broadcom/brcm80211/brcmfmac/cfg80211.c"
+CVE-2016-8666,
+CVE-2016-8669,"serial_update_parameters, hw/char/serial.c"
+CVE-2016-8670,"dynamicGetbuf, gd_io_dp.c"
+CVE-2016-8675,"get_vlc2, get_bits.h"
+CVE-2016-8677,"AcquireQuantumPixels, MagickCore/quantum.c"
+CVE-2016-8687,"safe_fprintf, tar/util.c"
+CVE-2016-8688,"detect_form, bid_entry, libarchive/archive_read_support_format_mtree.c"
+CVE-2016-8689,"read_Header, archive_read_support_format_7zip.c"
+CVE-2016-8690,"bmp_getdata, libjasper/bmp/bmp_dec.c"
+CVE-2016-8691,"jpc_dec_process_siz, libjasper/jpc/jpc_dec.c"
+CVE-2016-8692,"jpc_dec_process_siz, libjasper/jpc/jpc_dec.c"
+CVE-2016-8693,"mem_close, jas_stream.c"
+CVE-2016-8858,"kex_input_kexinit, kex.c"
+CVE-2016-8860,or/buffers.c
+CVE-2016-8884,"bmp_getdata, libjasper/bmp/bmp_dec.c"
+CVE-2016-8887,"jp2_colr_destroy, libjasper/jp2/jp2_cod.c"
+CVE-2016-9083,vfio_pci.c
+CVE-2016-9084,drivers/vfio/pci/vfio_pci_intrs.c
+CVE-2016-9102,"v9fs_xattrcreate, hw/9pfs/9p.c"
+CVE-2016-9103,"v9fs_xattrcreate, hw/9pfs/9p.c"
+CVE-2016-9105,"v9fs_link, hw/9pfs/9p.c"
+CVE-2016-9106,"v9fs_write, hw/9pfs/9p.c"
+CVE-2016-9120,"ion_ioctl, drivers/staging/android/ion/ion.c, ION_IOC_FREE"
+CVE-2016-9137,"CURLFile, ext/curl/curl_file.c, __wakeup"
+CVE-2016-9191,
+CVE-2016-9262,"jas_realloc, base/jas_malloc.c, mem_resize, base/jas_stream.c"
+CVE-2016-9298,"WaveletDenoiseImage, MagickCore/fx.c"
+CVE-2016-9313,security/keys/big_key.c
+CVE-2016-9372,plugins/profinet/packet-pn-rtc-one.c
+CVE-2016-9373,"epan/dissectors/packet-dcerpc-nt.c, epan/dissectors/packet-dcerpc-spoolss.c"
+CVE-2016-9374,epan/dissectors/packet-alljoyn.c
+CVE-2016-9375,"epan/dissectors/packet-dtn.c, SDNV"
+CVE-2016-9376,epan/dissectors/packet-openflow_v5.c
+CVE-2016-9387,"jpc_dec_process_siz, libjasper/jpc/jpc_dec.c"
+CVE-2016-9388,"ras_getcmap, ras_dec.c"
+CVE-2016-9389,"jpc_irct, jpc_iict, jpc_mct.c"
+CVE-2016-9390,"jas_seq2d_create, jas_seq.c"
+CVE-2016-9391,"jpc_bitstream_getbits, jpc_bs.c"
+CVE-2016-9392,jpc_dec.c
+CVE-2016-9393,"jpc_pi_nextrpcl, jpc_t2cod.c"
+CVE-2016-9394,"jas_seq2d_create, jas_seq.c"
+CVE-2016-9395,"jas_seq2d_create, jas_seq.c"
+CVE-2016-9435,"HTMLtagproc1, file.c"
+CVE-2016-9436,parsetagx.c
+CVE-2016-9533,tif_pixarlog.c
+CVE-2016-9534,"TIFFFlushData1, tif_rawcc, tif_rawcp, tif_write.c"
+CVE-2016-9535,"tif_predict.h, tif_predict.c"
+CVE-2016-9536,"tools/tiff2pdf.c, t2p_process_jpeg_strip"
+CVE-2016-9537,tools/tiffcrop.c
+CVE-2016-9538,"readContigStripsIntoBuffer, tools/tiffcrop.c"
+CVE-2016-9539,"readContigTilesIntoBuffer, tools/tiffcrop.c"
+CVE-2016-9540,tools/tiffcp.c
+CVE-2016-9555,"sctp_sf_ootb, net/sctp/sm_statefuns.c"
+CVE-2016-9556,"IsPixelGray, MagickCore/pixel-accessor.h"
+CVE-2016-9557,jas_image.c
+CVE-2016-9559,coders/tiff.c
+CVE-2016-9560,"jpc_tsfb_getbands2, jpc_tsfb.c"
+CVE-2016-9576,"blk_rq_map_user_iov, block/blk-map.c"
+CVE-2016-9583,jpc_pi_nextpcrl
+CVE-2016-9588,arch/x86/kvm/vmx.c
+CVE-2016-9685,fs/xfs/xfs_attr_list.c
+CVE-2016-9754,"ring_buffer_resize, kernel/trace/ring_buffer.c, /sys/kernel/debug/tracing/buffer_size_kb"
+CVE-2016-9755,"net/ipv6/netfilter/nf_conntrack_reasm.c, net/ipv6/netfilter/nf_defrag_ipv6_hooks.c"
+CVE-2016-9756,arch/x86/kvm/emulate.c
+CVE-2016-9777,"arch/x86/kvm/ioapic.c, arch/x86/kvm/ioapic.h"
+CVE-2016-9793,"sock_setsockopt, net/core/sock.c, sk_sndbuf, sk_rcvbuf, SO_SNDBUFFORCE, SO_RCVBUFFORCE"
+CVE-2016-9794,"snd_pcm_period_elapsed, sound/core/pcm_lib.c, SNDRV_PCM_TRIGGER_START"
+CVE-2016-9806,"netlink_dump, net/netlink/af_netlink.c"
+CVE-2016-9840,inftrees.c
+CVE-2016-9841,inffast.c
+CVE-2016-9842,"inflateMark, inflate.c"
+CVE-2016-9843,"crc32_big, crc32.c"
+CVE-2016-9888,"tar_directory_for_file, gsf-infile-tar.c"
+CVE-2016-9913,"v9fs_device_unrealize_common, hw/9pfs/9p.c"
+CVE-2016-9914,FileOperations
+CVE-2016-9915,hw/9pfs/9p-handle.c
+CVE-2016-9916,hw/9pfs/9p-proxy.c
+CVE-2016-9919,"icmp6_send, net/ipv6/icmp.c"
+CVE-2016-9922,"cirrus_do_copy, hw/display/cirrus_vga.c"
+CVE-2016-9933,"gdImageFillToBorder, gd.c"
+CVE-2016-9934,ext/wddx/wddx.c
+CVE-2016-9935,"php_wddx_push_element, ext/wddx/wddx.c"
+CVE-2016-9936,ext/standard/var.c
+CVE-2017-0375,relay_send_end_cell_from_edge_
+CVE-2017-0376,connection_edge_process_relay_cell
+CVE-2017-0377,
+CVE-2017-0380,"rend_service_intro_established, or/rendservice.c, SafeLogging"
+CVE-2017-1000016,
+CVE-2017-1000251,
+CVE-2017-1000252,"arch/x86/kvm/vmx.c, virt/kvm/eventfd.c"
+CVE-2017-1000380,sound/core/timer.c
+CVE-2017-1000414,
+CVE-2017-1000418,WildMidi_Open
+CVE-2017-1000458,
+CVE-2017-1000494,"NameValueParserEndElt, upnpreplyparse.c"
+CVE-2017-10661,fs/timerfd.c
+CVE-2017-10662,"sanity_check_raw_super, fs/f2fs/super.c"
+CVE-2017-10663,"sanity_check_ckpt, fs/f2fs/super.c"
+CVE-2017-10671,"de_dotdot, libhttpd.c"
+CVE-2017-10807,"sasl.anonymous, c2s.xml"
+CVE-2017-10810,"virtio_gpu_object_create, drivers/gpu/drm/virtio/virtgpu_object.c"
+CVE-2017-10911,"make_response, drivers/block/xen-blkback/blkback.c"
+CVE-2017-11142,main/php_variables.c
+CVE-2017-11143,ext/wddx/wddx.c
+CVE-2017-11144,ext/openssl/openssl.c
+CVE-2017-11145,"ext/date/lib/parse_date.c, php_parse_date, timelib_meridian"
+CVE-2017-11147,"phar_parse_pharfile, ext/phar/phar.c"
+CVE-2017-11171,"accept_ice_connection, gsm-xsmp-server.c"
+CVE-2017-11176,mq_notify
+CVE-2017-11310,"read_user_chunk_callback, coders\png.c"
+CVE-2017-11328,"yr_object_array_set_item, object.c"
+CVE-2017-11368,"S4U2Self, S4U2Proxy"
+CVE-2017-11399,"ape_decode_frame, libavcodec/apedec.c"
+CVE-2017-11406,plugins/docsis/packet-docsis.c
+CVE-2017-11407,epan/dissectors/packet-mq.c
+CVE-2017-11408,epan/dissectors/packet-amqp.c
+CVE-2017-11410,epan/dissectors/packet-wbxml.c
+CVE-2017-11411,epan/dissectors/packet-opensafety.c
+CVE-2017-11447,"ReadSCREENSHOTImage, coders/screenshot.c"
+CVE-2017-11448,"ReadJPEGImage, coders/jpeg.c"
+CVE-2017-11462,
+CVE-2017-11472,"acpi_ns_terminate, drivers/acpi/acpica/nsutils.c"
+CVE-2017-11522,"WriteOnePNGImage, coders/png.c"
+CVE-2017-11523,"ReadTXTImage, coders/txt.c"
+CVE-2017-11628,"zend_ini_do_op, Zend/zend_ini_parser.c, parse_ini_string, parse_ini_file"
+CVE-2017-11664,"_WM_SetupMidiEvent, internal_midi.c:2122"
+CVE-2017-11665,"ff_amf_get_field_value, libavformat/rtmppkt.c"
+CVE-2017-11719,"dnxhd_decode_header, libavcodec/dnxhddec.c"
+CVE-2017-11721,ioquake3
+CVE-2017-12146,"driver_override, drivers/base/platform.c"
+CVE-2017-12154,"prepare_vmcs02, arch/x86/kvm/vmx.c"
+CVE-2017-12168,"access_pmu_evcntr, arch/arm64/kvm/sys_regs.c"
+CVE-2017-12190,"bio_map_user_iov, bio_unmap_user, block/bio.c, bio_add_pc_page"
+CVE-2017-12192,"keyctl_read_key, security/keys/keyctl.c"
+CVE-2017-12193,"assoc_array_insert_into_terminal_node, lib/assoc_array.c"
+CVE-2017-12427,"ProcessMSLScript, coders/msl.c, WriteMSLImage"
+CVE-2017-12595,"QPDFObjectHandle::parseInternal, libqpdf/QPDFObjectHandle.cc"
+CVE-2017-12640,"ReadOneMNGImage, coders/png.c"
+CVE-2017-12641,"ReadOneJNGImage, coders\png.c"
+CVE-2017-12643,"ReadOneJNGImage, coders\png.c"
+CVE-2017-12644,"ReadDCMImage, coders\dcm.c"
+CVE-2017-12662,"WritePDFImage, coders/pdf.c"
+CVE-2017-12663,"WriteMAPImage, coders/map.c"
+CVE-2017-12664,"WritePALMImage, coders/palm.c"
+CVE-2017-12665,"WritePICTImage, coders/pict.c"
+CVE-2017-12666,"WriteINLINEImage, coders/inline.c"
+CVE-2017-12667,"ReadMATImage, coders\mat.c"
+CVE-2017-12668,"WritePCXImage, coders/pcx.c"
+CVE-2017-12669,"WriteCALSImage, coders/cals.c"
+CVE-2017-12678,"rebuildAggregateFrames, id3v2framefactory.cpp"
+CVE-2017-12876,enhance.c
+CVE-2017-12877,"DestroyImage, image.c"
+CVE-2017-12904,
+CVE-2017-12932,ext/standard/var_unserializer.re
+CVE-2017-12982,"bmp_read_info_header, bin/jp2/convertbmp.c, opj_image_create, lib/openjp2/image.c, opj_aligned_alloc_n, opj_malloc.c"
+CVE-2017-13083,
+CVE-2017-13139,"ReadOneMNGImage, coders/png.c"
+CVE-2017-13143,"ReadMATImage, coders/mat.c"
+CVE-2017-13145,"ReadJP2Image, coders/jp2.c"
+CVE-2017-13146,"ReadMATImage, coders/mat.c"
+CVE-2017-13673,cpu_physical_memory_snapshot_get_dirty
+CVE-2017-13686,"net/ipv4/route.c, RTM_F_FIB_MATCH"
+CVE-2017-13715,"__skb_flow_dissect, net/core/flow_dissector.c, n_proto, ip_proto"
+CVE-2017-13764,epan/dissectors/packet-mbtcp.c
+CVE-2017-13765,plugins/irda/packet-ircomm.c
+CVE-2017-13766,plugins/profinet/packet-dcerpc-pn-io.c
+CVE-2017-13767,epan/dissectors/packet-msdp.c
+CVE-2017-14039,"opj_t2_encode_packet, lib/openjp2/t2.c"
+CVE-2017-14040,bin/jp2/convert.c
+CVE-2017-14041,bin/jp2/convert.c
+CVE-2017-14054,"ivr_read_header, libavformat/rmdec.c"
+CVE-2017-14055,"mv_read_header, libavformat/mvdec.c"
+CVE-2017-14056,"rl2_read_header, libavformat/rl2.c"
+CVE-2017-14057,asf_read_marker
+CVE-2017-14058,"read_data, libavformat/hls.c"
+CVE-2017-14059,cine_read_header
+CVE-2017-14106,"tcp_disconnect, net/ipv4/tcp.c"
+CVE-2017-14140,"move_pages, mm/migrate.c"
+CVE-2017-14151,"opj_tcd_code_block_enc_allocate_data, lib/openjp2/tcd.c, opj_mqc_flush, lib/openjp2/mqc.c, opj_t1_encode_cblk, lib/openjp2/t1.c"
+CVE-2017-14152,"opj_j2k_set_cinema_parameters, lib/openjp2/j2k.c, opj_write_bytes_LE, lib/openjp2/cio.c, opj_j2k_write_sot"
+CVE-2017-14164,"opj_j2k_write_sot, lib/openjp2/j2k.c, opj_write_bytes_LE, lib/openjp2/cio.c"
+CVE-2017-14166,"atol8, archive_read_support_format_xar.c"
+CVE-2017-14169,"mxf_read_primer_pack, libavformat/mxfdec.c, item_num"
+CVE-2017-14170,"mxf_read_index_entry_array, libavformat/mxfdec.c, nb_index_entries"
+CVE-2017-14171,"nsv_parse_NSVf_header, libavformat/nsvdec.c, table_entries_used"
+CVE-2017-14172,"ReadPSImage, coders/ps.c"
+CVE-2017-14173,"ReadTXTImage, coders/txt.c, GetQuantumRange"
+CVE-2017-14174,"ReadPSDLayersInternal, coders/psd.c"
+CVE-2017-14175,"ReadXBMImage, coders/xbm.c"
+CVE-2017-14222,"read_tfra, libavformat/mov.c"
+CVE-2017-14223,"asf_build_simple_index, libavformat/asfdec_f.c"
+CVE-2017-14225,"av_color_primaries_name, libavutil/pixdesc.c, avcodec_string, libavcodec/utils.c"
+CVE-2017-14341,"ReadWPGImage, coders/wpg.c"
+CVE-2017-14497,"tpacket_rcv, net/packet/af_packet.c"
+CVE-2017-14500,"pb_controller.cpp, queueloader.cpp"
+CVE-2017-14502,"read_header, archive_read_support_format_rar.c, archive_read_format_rar_read_header"
+CVE-2017-14604,metadata::trusted
+CVE-2017-14767,"sdp_parse_fmtp_config_h264, libavformat/rtpdec_h264.c"
+CVE-2017-14954,kernel/exit.c
+CVE-2017-14991,"sg_ioctl, drivers/scsi/sg.c"
+CVE-2017-15032,"ReadYCBCRImage, coders/ycbcr.c"
+CVE-2017-15033,"ReadYUVImage, coders/yuv.c"
+CVE-2017-15088,"get_matching_data, X509_NAME_oneline_ex, plugins/preauth/pkinit/pkinit_crypto_openssl.c"
+CVE-2017-15102,"tower_probe, drivers/usb/misc/legousbtower.c"
+CVE-2017-15115,"sctp_do_peeloff, net/sctp/socket.c"
+CVE-2017-15116,"rngapi_reset, crypto/rng.c"
+CVE-2017-15126,"fs/userfaultfd.c, userfaultfd_ctx_put"
+CVE-2017-15127,"hugetlb_mcopy_atomic_pte, mm/hugetlb.c, VM_SHARED"
+CVE-2017-15128,"hugetlb_mcopy_atomic_pte, mm/hugetlb.c"
+CVE-2017-15129,"get_net_ns_by_id, net/core/net_namespace.c, net::count, netns_ids"
+CVE-2017-15189,plugins/docsis/packet-docsis.c
+CVE-2017-15190,epan/dissectors/packet-rtsp.c
+CVE-2017-15191,epan/dissectors/packet-dmp.c
+CVE-2017-15192,epan/dissectors/packet-btatt.c
+CVE-2017-15193,epan/dissectors/packet-mbim.c
+CVE-2017-15265,"sound/core/seq/seq_clientmgr.c, sound/core/seq/seq_ports.c"
+CVE-2017-15274,security/keys/keyctl.c
+CVE-2017-15277,"ReadGIFImage, coders/gif.c"
+CVE-2017-15306,"kvm_vm_ioctl_check_extension, arch/powerpc/kvm/powerpc.c"
+CVE-2017-15365,sql/event_data_objects.cc
+CVE-2017-15537,"arch/x86/kernel/fpu/regset.c, arch/x86/kernel/fpu/signal.c"
+CVE-2017-15649,"fanout_add, packet_do_bind, net/packet/af_packet.c"
+CVE-2017-15672,"read_header, libavcodec/ffv1dec.c"
+CVE-2017-15868,"bnep_add_connection, net/bluetooth/bnep/core.c"
+CVE-2017-15924,"add_server, build_config, construct_command_line, manager.c"
+CVE-2017-15951,
+CVE-2017-16525,"usb_serial_console_disconnect, drivers/usb/serial/console.c"
+CVE-2017-16526,drivers/uwb/uwbd.c
+CVE-2017-16527,"sound/usb/mixer.c, snd_usb_mixer_interrupt"
+CVE-2017-16528,sound/core/seq_device.c
+CVE-2017-16529,"snd_usb_create_streams, sound/usb/card.c"
+CVE-2017-16530,"drivers/usb/storage/uas-detect.h, drivers/usb/storage/uas.c"
+CVE-2017-16531,drivers/usb/core/config.c
+CVE-2017-16532,"get_endpoints, drivers/usb/misc/usbtest.c"
+CVE-2017-16533,"usbhid_parse, drivers/hid/usbhid/hid-core.c"
+CVE-2017-16534,"cdc_parse_cdc_header, drivers/usb/core/message.c"
+CVE-2017-16535,"usb_get_bos_descriptor, drivers/usb/core/config.c"
+CVE-2017-16546,"ReadWPGImage, coders/wpg.c"
+CVE-2017-16643,"parse_hid_report_descriptor, drivers/input/tablet/gtco.c"
+CVE-2017-16645,"ims_pcu_get_cdc_union_desc, drivers/input/misc/ims-pcu.c, ims_pcu_parse_cdc_data"
+CVE-2017-16803,"smacker_decode_tree, libavcodec/smacker.c"
+CVE-2017-16818,"rgw/rgw_iam_policy.cc, rgw/rgw_basic_types.h, rgw/rgw_iam_types.h"
+CVE-2017-16820,"csnmp_read_table, snmp.c"
+CVE-2017-16840,"libavcodec/vc2enc.c, libavcodec/vc2enc_dwt.c"
+CVE-2017-16931,parser.c
+CVE-2017-16932,parser.c
+CVE-2017-16939,"net/xfrm/xfrm_user.c, XFRM_MSG_GETPOLICY"
+CVE-2017-16994,"walk_hugetlb_range, mm/pagewalk.c"
+CVE-2017-16995,"check_alu_op, kernel/bpf/verifier.c"
+CVE-2017-16996,kernel/bpf/verifier.c
+CVE-2017-17052,"mm_init, kernel/fork.c, ->exe_file, mm_struct"
+CVE-2017-17081,"gmc_mmx, libavcodec/x86/mpegvideodsp.c"
+CVE-2017-17083,epan/dissectors/packet-netbios.c
+CVE-2017-17084,epan/dissectors/packet-iwarp-mpa.c
+CVE-2017-17085,epan/dissectors/packet-cipsafety.c
+CVE-2017-17087,fileio.c
+CVE-2017-17439,"_kdc_as_rep, kdc/kerberos5.c, der_length_visible_string, lib/asn1/der_length.c"
+CVE-2017-17499,"Magick::Image::read, Magick++/lib/Image.cpp"
+CVE-2017-17712,"raw_sendmsg, net/ipv4/raw.c"
+CVE-2017-17805,"CONFIG_CRYPTO_USER_API_SKCIPHER, crypto/salsa20_generic.c, arch/x86/crypto/salsa20_glue.c"
+CVE-2017-17806,"crypto/hmac.c, CONFIG_CRYPTO_USER_API_HASH, CONFIG_CRYPTO_SHA3"
+CVE-2017-17807,"construct_get_dest_keyring, security/keys/request_key.c"
+CVE-2017-17852,kernel/bpf/verifier.c
+CVE-2017-17853,"kernel/bpf/verifier.c, BPF_RSH"
+CVE-2017-17854,kernel/bpf/verifier.c
+CVE-2017-17855,kernel/bpf/verifier.c
+CVE-2017-17856,kernel/bpf/verifier.c
+CVE-2017-17857,"check_stack_boundary, kernel/bpf/verifier.c"
+CVE-2017-17862,kernel/bpf/verifier.c
+CVE-2017-17935,"File_read_line, epan/wslua/wslua_file.c"
+CVE-2017-17997,epan/dissectors/packet-mrdisc.c
+CVE-2017-18017,"tcpmss_mangle_packet, net/netfilter/xt_TCPMSS.c, xt_TCPMSS"
+CVE-2017-18030,"cirrus_invalidate_region, hw/display/cirrus_vga.c"
+CVE-2017-18043,ROUND_UP
+CVE-2017-18075,"crypto/pcrypt.c, CONFIG_CRYPTO_USER_API_AEAD, CONFIG_CRYPTO_PCRYPT"
+CVE-2017-18079,"drivers/input/serio/i8042.c, port->exists"
+CVE-2017-18120,"read_gif, gifread.c"
+CVE-2017-18174,"amd_gpio_remove, pinctrl_unregister, drivers/pinctrl/pinctrl-amd.c"
+CVE-2017-18183,"QPDFWriter::enqueueObject, libqpdf/QPDFWriter.cc"
+CVE-2017-18184,"iterate_rc4, QPDF_encryption.cc"
+CVE-2017-18186,QPDF.cc
+CVE-2017-18190,"valid_host, scheduler/client.c"
+CVE-2017-18193,fs/f2fs/extent_cache.c
+CVE-2017-18200,f2fs_wait_discard_bios
+CVE-2017-18202,"__oom_reap_task_mm, mm/oom_kill.c"
+CVE-2017-18203,"dm_get_from_kobject, drivers/md/dm.c, __dm_destroy"
+CVE-2017-18204,"ocfs2_setattr, fs/ocfs2/file.c"
+CVE-2017-18208,"madvise_willneed, mm/madvise.c, MADVISE_WILLNEED"
+CVE-2017-18216,fs/ocfs2/cluster/nodemanager.c
+CVE-2017-18218,"hns_nic_net_xmit_hw, hns_nic_net_xmit, drivers/net/ethernet/hisilicon/hns/hns_enet.c"
+CVE-2017-18221,"__munlock_pagevec, mm/mlock.c"
+CVE-2017-18222,"hns_get_sset_count, ethtool_get_strings"
+CVE-2017-18224,fs/ocfs2/aops.c
+CVE-2017-18232,
+CVE-2017-18241,fs/f2fs/segment.c
+CVE-2017-18248,"add_job, scheduler/ipp.c"
+CVE-2017-18249,"add_free_nid, fs/f2fs/node.c"
+CVE-2017-18255,"perf_cpu_time_max_percent_handler, kernel/events/core.c"
+CVE-2017-18257,"__get_data_block, fs/f2fs/data.c"
+CVE-2017-18270,
+CVE-2017-18344,"timer_create, kernel/time/posix-timers.c, sigevent->sigev_notify, show_timer, /proc/$PID/timers, CONFIG_POSIX_TIMERS, CONFIG_CHECKPOINT_RESTORE"
+CVE-2017-18360,"change_port_settings, drivers/usb/serial/io_ti.c"
+CVE-2017-18379,drivers/nvme/target/fc.c
+CVE-2017-18509,"inet_csk_listen_stop, net/ipv6/ip6mr.c"
+CVE-2017-18551,"i2c_smbus_xfer_emulated, drivers/i2c/i2c-core-smbus.c"
+CVE-2017-18595,"allocate_trace_buffer, kernel/trace/trace.c"
+CVE-2017-18922,websockets.c
+CVE-2017-20006,"Unpack::CopyString, Unpack::Unpack5, CmdExtract::ExtractCurrentFile"
+CVE-2017-2583,"load_segment_descriptor, arch/x86/kvm/emulate.c"
+CVE-2017-2584,arch/x86/kvm/emulate.c
+CVE-2017-2616,
+CVE-2017-2630,NBD_OPT_LIST
+CVE-2017-2633,vnc_refresh_server_surface
+CVE-2017-2647,"keyring_search_iterator, keyring.c"
+CVE-2017-2671,"ping_unhash, net/ipv4/ping.c"
+CVE-2017-2920,.SVG
+CVE-2017-5207,#NAME?
+CVE-2017-5209,"base64decode, base64.c"
+CVE-2017-5225,tools/tiffcp
+CVE-2017-5226,TIOCSTI
+CVE-2017-5340,Zend/zend_hash.c
+CVE-2017-5473,"admin/add_user.lua, admin/change_user_prefs.lua, admin/delete_user.lua, admin/password_reset.lua"
+CVE-2017-5506,magick/profile.c
+CVE-2017-5507,coders/mpc.c
+CVE-2017-5509,coders/psd.c
+CVE-2017-5510,coders/psd.c
+CVE-2017-5511,coders/psd.c
+CVE-2017-5522,
+CVE-2017-5525,hw/audio/ac97.c
+CVE-2017-5526,hw/audio/es1370.c
+CVE-2017-5545,plistutil.c
+CVE-2017-5546,"freelist-randomization, mm/slab.c"
+CVE-2017-5547,"drivers/hid/hid-corsair.c, CONFIG_VMAP_STACK"
+CVE-2017-5548,"drivers/net/ieee802154/atusb.c, CONFIG_VMAP_STACK"
+CVE-2017-5549,"klsi_105_get_line_state, drivers/usb/serial/kl5kusb105.c"
+CVE-2017-5550,"pipe_advance, lib/iov_iter.c"
+CVE-2017-5551,"simple_set_acl, fs/posix_acl.c"
+CVE-2017-5552,"virgl_resource_attach_backing, hw/display/virtio-gpu-3d.c, VIRTIO_GPU_CMD_RESOURCE_ATTACH_BACKING"
+CVE-2017-5576,"vc4_get_bcl, drivers/gpu/drm/vc4/vc4_gem.c"
+CVE-2017-5577,"vc4_get_bcl, drivers/gpu/drm/vc4/vc4_gem.c"
+CVE-2017-5578,"virtio_gpu_resource_attach_backing, hw/display/virtio-gpu.c, VIRTIO_GPU_CMD_RESOURCE_ATTACH_BACKING"
+CVE-2017-5579,"serial_exit_core, hw/char/serial.c"
+CVE-2017-5592,
+CVE-2017-5596,epan/dissectors/packet-asterix.c
+CVE-2017-5597,epan/dissectors/packet-dhcpv6.c
+CVE-2017-5601,"lha_read_file_header_1(), archive_read_support_format_lha.c"
+CVE-2017-5667,"sdhci_sdma_transfer_multi_blocks, hw/sd/sdhci.c"
+CVE-2017-5669,"do_shmat, ipc/shm.c"
+CVE-2017-5847,"gst_asf_demux_process_ext_content_desc, gst/asfdemux/gstasfdemux.c"
+CVE-2017-5856,"megasas_handle_dcmd, hw/scsi/megasas.c"
+CVE-2017-5857,"virgl_cmd_resource_unref, hw/display/virtio-gpu-3d.c, VIRTIO_GPU_CMD_RESOURCE_UNREF"
+CVE-2017-5898,"emulated_apdu_from_guest, usb/dev-smartcard-reader.c"
+CVE-2017-5923,"yara_yyparse, libyara/grammar.y"
+CVE-2017-5931,"hw/virtio/virtio-crypto.c, virtio-crypto"
+CVE-2017-5953,
+CVE-2017-5970,"ipv4_pktinfo_prepare, net/ipv4/ip_sockglue.c"
+CVE-2017-5973,"xhci_kick_epctx, hw/usb/hcd-xhci.c"
+CVE-2017-5985,lxc-user-nic
+CVE-2017-5986,"sctp_wait_for_sndbuf, net/sctp/socket.c"
+CVE-2017-5987,"sdhci_sdma_transfer_multi_blocks, hw/sd/sdhci.c"
+CVE-2017-6001,"kernel/events/core.c, perf_event_open"
+CVE-2017-6058,"NetRxPkt::ehdr_buf, hw/net/net_rx_pkt.c"
+CVE-2017-6074,"dccp_rcv_state_process, net/dccp/input.c"
+CVE-2017-6214,"tcp_splice_read, net/ipv4/tcp.c"
+CVE-2017-6345,
+CVE-2017-6346,"net/packet/af_packet.c, PACKET_FANOUT"
+CVE-2017-6347,"ip_cmsg_recv_checksum, net/ipv4/ip_sockglue.c"
+CVE-2017-6348,"hashbin_delete, net/irda/irqueue.c"
+CVE-2017-6349,u_read_undo
+CVE-2017-6350,unserialize_uep
+CVE-2017-6353,net/sctp/socket.c
+CVE-2017-6435,"parse_string_node, bplist.c"
+CVE-2017-6436,"parse_string_node, bplist.c"
+CVE-2017-6439,"parse_string_node, bplist.c"
+CVE-2017-6467,wiretap/netscaler.c
+CVE-2017-6470,epan/dissectors/packet-iax2.c
+CVE-2017-6471,epan/dissectors/packet-wsp.c
+CVE-2017-6472,epan/dissectors/packet-rtmpt.c
+CVE-2017-6473,wiretap/k12.c
+CVE-2017-6474,wiretap/netscaler.c
+CVE-2017-6503,
+CVE-2017-6504,X-Frame-Options
+CVE-2017-6505,"ohci_service_ed_list, hw/usb/hcd-ohci.c"
+CVE-2017-6594,
+CVE-2017-6800,MAPIPrint()
+CVE-2017-6801,TNEFParse
+CVE-2017-6802,DecompressRTF()
+CVE-2017-6837,WAVE.cpp
+CVE-2017-6838,sfcommands/sfconvert.c
+CVE-2017-6839,modules/MSADPCM.cpp
+CVE-2017-6850,"jp2_cdef_destroy, jp2_cod.c"
+CVE-2017-6874,"put_ucounts, get_ucounts, kernel/ucount.c"
+CVE-2017-6886,"parse_tiff_ifd, internal/dcraw_common.cpp"
+CVE-2017-6887,"parse_tiff_ifd, internal/dcraw_common.cpp"
+CVE-2017-6889,"foveon_load_camf, dcraw_foveon.c"
+CVE-2017-6890,"foveon_load_camf, dcraw_foveon.c"
+CVE-2017-6892,"aiff_read_chanmap, aiff.c"
+CVE-2017-6903,auto-downloading
+CVE-2017-7184,"xfrm_replay_verify_len, net/xfrm/xfrm_user.c"
+CVE-2017-7185,"mg_http_multipart_wait_for_boundary, mongoose.c"
+CVE-2017-7189,main/streams/xp_socket.c
+CVE-2017-7272,
+CVE-2017-7273,"cp_report_fixup, drivers/hid/hid-cypress.c"
+CVE-2017-7277,"SCM_TIMESTAMPING_OPT_STATS, net/core/skbuff.c, net/socket.c"
+CVE-2017-7374,fs/crypto/
+CVE-2017-7377,"v9fs_create, v9fs_lcreate, hw/9pfs/9p.c"
+CVE-2017-7471,"VirtFS, 9pfs"
+CVE-2017-7472,"KEY_REQKEY_DEFL_THREAD_KEYRING, keyctl_set_reqkey_keyring"
+CVE-2017-7487,"ipxitf_ioctl, net/ipx/af_ipx.c"
+CVE-2017-7495,"fs/ext4/inode.c, needs-flushing-before-commit"
+CVE-2017-7524,
+CVE-2017-7533,"inotify_handle_event, vfs_rename"
+CVE-2017-7539,qemu-nbd
+CVE-2017-7541,"brcmf_cfg80211_mgmt_tx, drivers/net/wireless/broadcom/brcm80211/brcmfmac/cfg80211.c"
+CVE-2017-7542,"ip6_find_1stfragopt, net/ipv6/output_core.c"
+CVE-2017-7585,"flac_buffer_copy, flac.c"
+CVE-2017-7586,"header_read(), common.c"
+CVE-2017-7616,"set_mempolicy, mm/mempolicy.c"
+CVE-2017-7645,"net/sunrpc/svc.c, fs/nfsd/nfs3xdr.c, fs/nfsd/nfsxdr.c"
+CVE-2017-7700,wiretap/netscaler.c
+CVE-2017-7701,epan/dissectors/packet-bgp.c
+CVE-2017-7702,epan/dissectors/packet-wbxml.c
+CVE-2017-7703,epan/dissectors/packet-imap.c
+CVE-2017-7704,epan/dissectors/packet-dof.c
+CVE-2017-7705,epan/dissectors/packet-rpcrdma.c
+CVE-2017-7718,"hw/display/cirrus_vga_rop.h, cirrus_bitblt_rop_fwd_transp_, cirrus_bitblt_rop_fwd_"
+CVE-2017-7741,"flac_buffer_copy, flac.c"
+CVE-2017-7742,"flac_buffer_copy, flac.c"
+CVE-2017-7745,epan/dissectors/packet-sigcomp.c
+CVE-2017-7746,epan/dissectors/packet-slsk.c
+CVE-2017-7747,epan/dissectors/packet-packetbb.c
+CVE-2017-7748,epan/dissectors/packet-wsp.c
+CVE-2017-7862,"decode_frame, libavcodec/pictordec.c"
+CVE-2017-7863,"decode_frame_common, libavcodec/pngdec.c"
+CVE-2017-7865,"ipvideo_decode_block_opcode_0xA, libavcodec/interplayvideo.c, avcodec_align_dimensions2, libavcodec/utils.c"
+CVE-2017-7866,"decode_zbuf, libavcodec/pngdec.c"
+CVE-2017-7875,wallpaper.c
+CVE-2017-7889,"arch/x86/mm/init.c, drivers/char/mem.c"
+CVE-2017-7895,"fs/nfsd/nfs3xdr.c, fs/nfsd/nfsxdr.c"
+CVE-2017-7962,"iwgif_read_image, imagew-gif.c, libimageworsener.a"
+CVE-2017-8061,"drivers/media/usb/dvb-usb/dvb-usb-firmware.c, CONFIG_VMAP_STACK"
+CVE-2017-8062,"drivers/media/usb/dvb-usb/dw2102.c, CONFIG_VMAP_STACK"
+CVE-2017-8063,"drivers/media/usb/dvb-usb/cxusb.c, CONFIG_VMAP_STACK"
+CVE-2017-8064,"drivers/media/usb/dvb-usb-v2/dvb_usb_core.c, CONFIG_VMAP_STACK"
+CVE-2017-8065,
+CVE-2017-8066,"drivers/net/can/usb/gs_usb.c, CONFIG_VMAP_STACK"
+CVE-2017-8067,"drivers/char/virtio_console.c, CONFIG_VMAP_STACK"
+CVE-2017-8068,"drivers/net/usb/pegasus.c, CONFIG_VMAP_STACK"
+CVE-2017-8069,"drivers/net/usb/rtl8150.c, CONFIG_VMAP_STACK"
+CVE-2017-8070,"drivers/net/usb/catc.c, CONFIG_VMAP_STACK"
+CVE-2017-8071,drivers/hid/hid-cp2112.c
+CVE-2017-8072,"cp2112_gpio_direction_input, drivers/hid/hid-cp2112.c"
+CVE-2017-8073,irc_ctcp_dcc_filename_without_quotes
+CVE-2017-8086,"v9fs_list_xattr, hw/9pfs/9p-xattr.c"
+CVE-2017-8284,"disas_insn, target/i386/translate.c"
+CVE-2017-8294,"yr_re_exec, libyara/re.c"
+CVE-2017-8326,"libimageworsener.a, imagew-bmp.c, imagew-util.c"
+CVE-2017-8797,"NFSv4, pNFS, GETDEVICEINFO, LAYOUTGET"
+CVE-2017-8807,"vbf_stp_error, bin/varnishd/cache/cache_fetch.c, VFP_GetStorage, -sfile"
+CVE-2017-8825,low-level/imf/mailimf.c
+CVE-2017-8890,"inet_csk_clone_lock, net/ipv4/inet_connection_sock.c"
+CVE-2017-8891,
+CVE-2017-8924,"edge_bulk_in_callback, drivers/usb/serial/io_ti.c"
+CVE-2017-8925,"omninet_open, drivers/usb/serial/omninet.c"
+CVE-2017-8929,"sized_string_cmp, libyara/sizedstr.c"
+CVE-2017-9051,"nsv_read_chunk, libavformat/nsvdec.c"
+CVE-2017-9060,"virtio_gpu_set_scanout, hw/display/virtio-gpu.c"
+CVE-2017-9074,
+CVE-2017-9075,"sctp_v6_create_accept_sk, net/sctp/ipv6.c"
+CVE-2017-9076,"dccp_v6_request_recv_sock, net/dccp/ipv6.c"
+CVE-2017-9077,"tcp_v6_syn_recv_sock, net/ipv6/tcp_ipv6.c"
+CVE-2017-9098,"ReadRLEImage, coders/rle.c"
+CVE-2017-9141,"ResetImageProfileIterator, MagickCore/profile.c, ReadDDSImage, coders/dds.c"
+CVE-2017-9142,"MagickCore/blob.c, coders/png.c"
+CVE-2017-9143,"ReadARTImage, coders/art.c"
+CVE-2017-9144,coders/rle.c
+CVE-2017-9150,"do_check, kernel/bpf/verifier.c, allow_ptr_leaks, print_bpf_insn"
+CVE-2017-9201,"imagew-cmd.c, libimageworsener.a, imagew-api.c"
+CVE-2017-9202,"imagew-cmd.c:854:45, libimageworsener.a, imagew-api.c"
+CVE-2017-9203,"imagew-main.c, libimageworsener.a, imagew-bmp.c"
+CVE-2017-9204,"iw_get_ui16le, imagew-util.c:405:23, libimageworsener.a, imagew-jpeg.c"
+CVE-2017-9205,"iw_get_ui16be, imagew-util.c:422:24, libimageworsener.a, imagew-jpeg.c"
+CVE-2017-9206,"iw_get_ui16le, imagew-util.c:405:23, libimageworsener.a, imagew-jpeg.c"
+CVE-2017-9207,"iw_get_ui16be, imagew-util.c:422:24, libimageworsener.a, imagew-jpeg.c"
+CVE-2017-9211,"crypto_skcipher_init_tfm, crypto/skcipher.c"
+CVE-2017-9217,
+CVE-2017-9224,match_at
+CVE-2017-9225,"onigenc_unicode_get_case_fold_codes_by_str, unicode_unfold_key, expand_case_fold_string"
+CVE-2017-9226,"next_state_val, fetch_token, fetch_token_in_cc"
+CVE-2017-9227,"mbc_enc_len, reg->dmin, forward_search_range"
+CVE-2017-9228,"bitset_set_range, parse_char_class"
+CVE-2017-9229,"left_adjust_char_head(), reg->dmax, forward_search_range()"
+CVE-2017-9242,"__ip6_append_data, net/ipv6/ip6_output.c"
+CVE-2017-9330,
+CVE-2017-9343,epan/dissectors/packet-msnip.c
+CVE-2017-9344,epan/dissectors/packet-btl2cap.c
+CVE-2017-9345,epan/dissectors/packet-dns.c
+CVE-2017-9346,epan/dissectors/packet-slsk.c
+CVE-2017-9347,epan/dissectors/asn1/ros/packet-ros-template.c
+CVE-2017-9348,epan/dissectors/packet-dof.c
+CVE-2017-9349,epan/dissectors/packet-dcm.c
+CVE-2017-9350,epan/dissectors/packet-opensafety.c
+CVE-2017-9351,epan/dissectors/packet-bootp.c
+CVE-2017-9352,epan/dissectors/packet-bzr.c
+CVE-2017-9353,epan/dissectors/packet-ipv6.c
+CVE-2017-9354,epan/dissectors/packet-rgmp.c
+CVE-2017-9373,
+CVE-2017-9374,
+CVE-2017-9375,
+CVE-2017-9434,zinflate.cpp
+CVE-2017-9438,"_yr_re_emit, libyara/re.c"
+CVE-2017-9454,ares_parse_a_reply
+CVE-2017-9465,"yr_arena_write_data, yr_re_fast_exec, libyara/re.c, _yr_scan_match_callback, libyara/scan.c"
+CVE-2017-9499,SetPixelChannelAttributes
+CVE-2017-9527,"mark_context_stack, gc.c"
+CVE-2017-9605,"vmw_gb_surface_define_ioctl, DRM_IOCTL_VMW_GB_SURFACE_CREATE, drivers/gpu/drm/vmwgfx/vmwgfx_surface.c, backup_handle"
+CVE-2017-9608,
+CVE-2017-9732,read_packet
+CVE-2017-9766,"dissect_IODWriteReq, plugins/profinet/packet-dcerpc-pn-io.c"
+CVE-2017-9798,"ap_limit_section, server/core.c"
+CVE-2017-9984,"snd_msnd_interrupt, sound/isa/msnd/msnd_pinnacle.c"
+CVE-2017-9985,"snd_msndmidi_input_read, sound/isa/msnd/msnd_midi.c"
+CVE-2017-9990,"color_string_to_rgba, libavcodec/xpmdec.c"
+CVE-2017-9991,"xwd_decode_frame, libavcodec/xwddec.c"
+CVE-2017-9992,"decode_dds1, libavcodec/dfa.c"
+CVE-2017-9993,
+CVE-2017-9994,"libavcodec/webp.c, pix_fmt, vp8_decode_mb_row_no_filter, pred8x8_128_dc_8_c"
+CVE-2017-9995,libavcodec/scpr.c
+CVE-2017-9996,"cdxl_decode_frame, libavcodec/cdxl.c"
+CVE-2018-0429,
+CVE-2018-1000041,rsvg-io.c
+CVE-2018-1000050,stb_vorbis
+CVE-2018-1000052,fmt::print
+CVE-2018-10001,"decode_init, libavcodec/utvideodec.c"
+CVE-2018-1000115,UDP
+CVE-2018-1000127,items.c:item_free()
+CVE-2018-1000204,"/dev/sg0, dxfer_direction=SG_DXFER_FROM_DEV"
+CVE-2018-1000524,"layer_resize, map_engine.c, SetLayerSize"
+CVE-2018-10017,soundlib/Snd_fx.cpp
+CVE-2018-10021,drivers/scsi/libsas/sas_scsi_host.c
+CVE-2018-10074,"hi3660_stub_clk_probe, drivers/clk/hisilicon/clk-hi3660-stub.c"
+CVE-2018-10087,"kernel_wait4, kernel/exit.c"
+CVE-2018-10124,"kill_something_info, kernel/signal.c"
+CVE-2018-10188,"js/db_operations.js, js/tbl_operations.js, libraries/classes/Operations.php, sql.php"
+CVE-2018-10191,"src/vm.c::mrb_vm_exec, OP_GETUPVAR"
+CVE-2018-10199,src/io.c::File#initilialize_copy()
+CVE-2018-10536,"ParseRiffHeaderConfig, riff.c"
+CVE-2018-10537,"ParseWave64HeaderConfig, wave64.c"
+CVE-2018-10538,"ParseRiffHeaderConfig, riff.c"
+CVE-2018-10539,"ParseDsdiffHeaderConfig, dsdiff.c"
+CVE-2018-10540,"ParseWave64HeaderConfig, wave64.c"
+CVE-2018-1065,"arpt_do_table, net/ipv4/netfilter/arp_tables.c, ipt_do_table, net/ipv4/netfilter/ip_tables.c, ip6t_do_table, net/ipv6/netfilter/ip6_tables.c"
+CVE-2018-1066,fs/cifs/cifsencrypt.c:setup_ntlmv2_rsp()
+CVE-2018-10675,"do_get_mempolicy, mm/mempolicy.c"
+CVE-2018-10677,"DecodeGifImg, ngiflib.c"
+CVE-2018-1068,
+CVE-2018-10717,"DecodeGifImg, ngiflib.c"
+CVE-2018-10756,libtransmission/variant.c
+CVE-2018-10853,CPL
+CVE-2018-10876,ext4_ext_remove_space
+CVE-2018-10878,
+CVE-2018-10879,ext4_xattr_set_entry
+CVE-2018-10880,ext4_update_inline_data
+CVE-2018-10881,ext4_get_group_info
+CVE-2018-10882,fs/jbd2/transaction.c
+CVE-2018-10883,jbd2_journal_dirty_metadata
+CVE-2018-10902,"snd_rawmidi_input_params, snd_rawmidi_output_status, snd_rawmidi_ioctl, rawmidi.c"
+CVE-2018-1091,"flush_tmregs_to_thread, arch/powerpc/kernel/ptrace.c"
+CVE-2018-10938,"cipso_v4_optptr, net/ipv4/cipso_ipv4.c"
+CVE-2018-10940,"cdrom_ioctl_media_changed, drivers/cdrom/cdrom.c"
+CVE-2018-1120,"/proc/<pid>/cmdline, /proc/<pid>/environ"
+CVE-2018-11232,"etm_setup_aux, drivers/hwtracing/coresight/coresight-etm-perf.c"
+CVE-2018-1129,
+CVE-2018-1130,"dccp_write_xmit, net/dccp/output.c"
+CVE-2018-11354,epan/dissectors/packet-ieee1905.c
+CVE-2018-11355,epan/dissectors/packet-rtcp.c
+CVE-2018-11356,epan/dissectors/packet-dns.c
+CVE-2018-11357,epan/tvbuff.c
+CVE-2018-11358,epan/dissectors/packet-q931.c
+CVE-2018-11359,epan/proto.c
+CVE-2018-11360,epan/dissectors/packet-gsm_a_dtap.c
+CVE-2018-11361,"epan/crypt/dot11decrypt.c, Dot11DecryptTDLSDeriveKey"
+CVE-2018-11362,epan/dissectors/packet-ldss.c
+CVE-2018-11363,"jpeg_size, pdfgen.c"
+CVE-2018-11506,"sr_do_ioctl, drivers/scsi/sr_ioctl.c"
+CVE-2018-11508,"compat_get_timex, kernel/compat.c"
+CVE-2018-11590,jsutils.c
+CVE-2018-11591,jsvar.c
+CVE-2018-11592,libs/graphics/jswrap_graphics.c
+CVE-2018-11593,jslex.c
+CVE-2018-11594,jsparse.c
+CVE-2018-11595,
+CVE-2018-11596,jsvar.c
+CVE-2018-11597,jsparse.c
+CVE-2018-11598,jsparse.c
+CVE-2018-11743,"init_copy, kernel.c, initialize_copy, TT_ICLASS, mrb_hash_keys"
+CVE-2018-12232,"sock_close, sockfs_setattr, net/socket.c"
+CVE-2018-12247,"mrb_class, mrb_obj_clone, kernel.c"
+CVE-2018-12248,mrbgems/mruby-fiber/src/fiber.c
+CVE-2018-12249,"mrb_class_real, class.c"
+CVE-2018-12435,"dsa/dsa.cpp, ec_group/ec_group.cpp, ecdsa/ecdsa.cpp"
+CVE-2018-12436,wolfcrypt/src/ecc.c
+CVE-2018-12458,"mpeg4_encode_gop_header, libavcodec/mpeg4videoenc.c"
+CVE-2018-12459,"ff_mpeg4_decode_picture_header, libavcodec/mpeg4videodec.c"
+CVE-2018-12460,"idctdsp.c, mpegvideo.c"
+CVE-2018-12520,PRNG
+CVE-2018-12615,"switchGroup(), agent/ExecHelper/ExecHelperMain.cpp"
+CVE-2018-12633,"vbg_misc_device_ioctl, drivers/virt/vboxguest/vboxguest_linux.c, copy_from_user, hdr.size_in, hdr.size_out"
+CVE-2018-12713,"g_get_tmp_dir, gimp_write_and_read_file, app/tests/test-xcf.c"
+CVE-2018-12896,"kernel/time/posix-timers.c, timer_getoverrun, siginfo::si_overrun"
+CVE-2018-12904,arch/x86/kvm/vmx.c
+CVE-2018-13006,"hdlr_dump, isomedia/box_dump.c"
+CVE-2018-13093,"lookup_slow, fs/xfs/xfs_icache.c, inode->i_ops"
+CVE-2018-13094,"xfs_attr_leaf.c, xfs_da_shrink_inode"
+CVE-2018-13095,fs/xfs/libxfs/xfs_inode_buf.c
+CVE-2018-13096,fs/f2fs/super.c
+CVE-2018-13097,user_block_count
+CVE-2018-13099,fs/f2fs/inline.c
+CVE-2018-13100,"secs_per_zone, fs/f2fs/super.c"
+CVE-2018-13300,"avpriv_request_sample, handle_eac3, libavformat/movenc.c"
+CVE-2018-13301,"ff_mpeg4_decode_picture_header, libavcodec/mpeg4videodec.c"
+CVE-2018-13302,"handle_eac3, libavformat/movenc.c, EAC3_FRAME_TYPE_INDEPENDENT"
+CVE-2018-13303,"init_get_bits8, avpriv_ac3_parse_header, libavcodec/ac3_parser.c"
+CVE-2018-13304,"studio_profile, error_resilience.c, h263dec.c, mpeg4videodec.c"
+CVE-2018-13305,libavcodec/vc1_block.c
+CVE-2018-13405,"inode_init_owner, fs/inode.c"
+CVE-2018-13406,"uvesafb_setcmap, drivers/video/fbdev/uvesafb.c, kmalloc_array"
+CVE-2018-13785,"png_check_chunk_length, pngrutil.c"
+CVE-2018-14055,znc.conf
+CVE-2018-14056,
+CVE-2018-14339,epan/proto.c
+CVE-2018-14340,epan/tvbuff_zlib.c
+CVE-2018-14341,epan/dissectors/packet-dcm.c
+CVE-2018-14342,epan/dissectors/packet-bgp.c
+CVE-2018-14343,epan/dissectors/packet-ber.c
+CVE-2018-14344,epan/dissectors/packet-ismp.c
+CVE-2018-14345,"ReuseSession, daemon/Display.cpp, helper/backend/PamBackend.cpp"
+CVE-2018-14349,imap/command.c
+CVE-2018-14350,imap/message.c
+CVE-2018-14351,imap/command.c
+CVE-2018-14352,"imap_quote_string, imap/util.c"
+CVE-2018-14353,"imap_quote_string, imap/util.c"
+CVE-2018-14354,
+CVE-2018-14355,imap/util.c
+CVE-2018-14356,pop.c
+CVE-2018-14357,
+CVE-2018-14358,"imap/message.c, RFC822.SIZE"
+CVE-2018-14359,
+CVE-2018-14360,"nntp_add_group, newsrc.c"
+CVE-2018-14361,nntp.c
+CVE-2018-14362,pop.c
+CVE-2018-14363,newsrc.c
+CVE-2018-14367,epan/dissectors/packet-coap.c
+CVE-2018-14368,epan/dissectors/packet-bzr.c
+CVE-2018-14369,epan/dissectors/packet-http2.c
+CVE-2018-14370,epan/crypt/airpdcap.c
+CVE-2018-14394,libavformat/movenc.c
+CVE-2018-14395,libavformat/movenc.c
+CVE-2018-14553,"gdImageClone, gd.c"
+CVE-2018-14630,
+CVE-2018-14679,
+CVE-2018-14680,mspack/chmd.c
+CVE-2018-14681,"kwajd_read_headers, mspack/kwajd.c"
+CVE-2018-14682,
+CVE-2018-14734,"drivers/infiniband/core/ucma.c, ucma_leave_multicast, ucma_process_join"
+CVE-2018-14938,"handle_prism, wifipcap/wifipcap.cpp, handle_80211"
+CVE-2018-15132,ext/standard/link_win32.c
+CVE-2018-15503,
+CVE-2018-15572,"spectre_v2_select_mitigation, arch/x86/kernel/cpu/bugs.c"
+CVE-2018-15594,arch/x86/kernel/paravirt.c
+CVE-2018-15605,
+CVE-2018-15822,"flv_write_packet, libavformat/flvenc.c"
+CVE-2018-15836,"verify_signed_hash, lib/liboswkeys/signatures.c"
+CVE-2018-15853,xkbcomp/expr.c
+CVE-2018-15854,
+CVE-2018-15855,XkbFile
+CVE-2018-15856,compose/parser.c
+CVE-2018-15857,"ExprAppendMultiKeysymList, xkbcomp/ast-build.c"
+CVE-2018-15858,"CopyKeyAliasesToKeymap, xkbcomp/keycodes.c"
+CVE-2018-15859,"ExprResolveLhs, xkbcomp/expr.c"
+CVE-2018-15861,"ExprResolveLhs, xkbcomp/expr.c"
+CVE-2018-15862,"LookupModMask, xkbcomp/expr.c"
+CVE-2018-15863,"ResolveStateAndPredicate, xkbcomp/compat.c"
+CVE-2018-16056,epan/dissectors/packet-btatt.c
+CVE-2018-16057,epan/dissectors/packet-ieee80211-radiotap-iter.c
+CVE-2018-16058,epan/dissectors/packet-btavdtp.c
+CVE-2018-16149,"sig_verify, x509.c"
+CVE-2018-16150,"sig_verify, x509.c"
+CVE-2018-16253,"sig_verify, x509.c"
+CVE-2018-16276,"yurex_read, drivers/usb/misc/yurex.c"
+CVE-2018-16323,"ReadXBMImage, coders/xbm.c"
+CVE-2018-16329,"GetMagickProperty, MagickCore/property.c"
+CVE-2018-16391,"muscle_list_files, libopensc/card-muscle.c"
+CVE-2018-16392,"tcos_select_file, libopensc/card-tcos.c"
+CVE-2018-16393,"gemsafe_get_cert_len, libopensc/pkcs15-gemsafeV1.c"
+CVE-2018-16418,"util_acl_to_str, tools/util.c"
+CVE-2018-16419,"read_public_key, tools/cryptoflex-tool.c"
+CVE-2018-16420,"decrypt_response, libopensc/card-epass2003.c"
+CVE-2018-16421,"cac_get_serial_nr_from_CUID, libopensc/card-cac.c"
+CVE-2018-16422,"sc_pkcs15emu_esteid_init, libopensc/pkcs15-esteid.c"
+CVE-2018-16423,"sc_file_set_sec_attr, libopensc/sc.c"
+CVE-2018-16424,"read_file, tools/egk-tool.c"
+CVE-2018-16425,"sc_pkcs15emu_sc_hsm_init, libopensc/pkcs15-sc-hsm.c"
+CVE-2018-16426,"iasecc_select_file, libopensc/card-iasecc.c"
+CVE-2018-16435,"AllocateDataSet, cmscgats.c, SetData, cmsIT8LoadFromFile"
+CVE-2018-16597,
+CVE-2018-16640,"ReadOneJNGImage, coders/png.c"
+CVE-2018-16641,"TIFFWritePhotoshopLayers, coders/tiff.c"
+CVE-2018-16642,"InsertRow, coders/cut.c"
+CVE-2018-16643,"ReadDCMImage, coders/dcm.c, ReadPWPImage, coders/pwp.c, ReadCALSImage, coders/cals.c, ReadPICTImage, coders/pict.c"
+CVE-2018-16644,"ReadDCMImage, coders/dcm.c, ReadPICTImage, coders/pict.c"
+CVE-2018-16645,"ReadBMPImage, coders/bmp.c, ReadDIBImage, coders/dib.c"
+CVE-2018-16658,"cdrom_ioctl_drive_status, drivers/cdrom/cdrom.c"
+CVE-2018-16789,libhttp/url.c
+CVE-2018-16790,"_bson_iter_next_internal, bson-iter.c"
+CVE-2018-17019,analyzer/protocol/irc/IRC.cc
+CVE-2018-17082,"php_handler, sapi/apache2handler/sapi_apache2.c"
+CVE-2018-17182,"vmacache_flush_all, mm/vmacache.c"
+CVE-2018-17293,Programs/wavm/wavm.cpp
+CVE-2018-17294,"matchCurrentInput, lou_translateString.c"
+CVE-2018-17456,.gitmodules
+CVE-2018-17942,"convert_to_decimal, vasnprintf.c"
+CVE-2018-18021,"arch/arm64/kvm/guest.c, PSTATE.M"
+CVE-2018-18225,epan/dissectors/packet-coap.c
+CVE-2018-18226,epan/dissectors/packet-steam-ihs-discovery.c
+CVE-2018-18227,epan/dissectors/packet-mswsp.c
+CVE-2018-18281,"mremap(), ftruncate()"
+CVE-2018-18386,"drivers/tty/n_tty.c, TIOCINQ"
+CVE-2018-18397,"UFFDIO_, fs/userfaultfd.c, mm/userfaultfd.c"
+CVE-2018-18445,"adjust_scalar_min_max_vals, kernel/bpf/verifier.c"
+CVE-2018-18585,"chmd_read_headers, mspack/chmd.c"
+CVE-2018-18586,chmextract.c
+CVE-2018-18690,"xfs_attr_shortform_addname, fs/xfs/libxfs/xfs_attr.c, ATTR_REPLACE"
+CVE-2018-18710,"cdrom_ioctl_select_disc, drivers/cdrom/cdrom.c"
+CVE-2018-18839,api/v1/alarms
+CVE-2018-18955,"map_write, kernel/user_namespace.c"
+CVE-2018-19044,"PrintData, PrintStats"
+CVE-2018-19045,"PrintData, PrintStats"
+CVE-2018-19052,"mod_alias_physical_handler, mod_alias.c"
+CVE-2018-19489,"v9fs_wstat, hw/9pfs/9p.c"
+CVE-2018-19518,"imap_open, imap_rimap, c-client/imap4r1.c, tcp_aopen, osdep/unix/tcp_unix.c"
+CVE-2018-19622,epan/dissectors/packet-mmse.c
+CVE-2018-19623,epan/dissectors/packet-lbmpdm.c
+CVE-2018-19624,epan/dissectors/packet-pvfs2.c
+CVE-2018-19625,epan/tvbuff_composite.c
+CVE-2018-19626,epan/dissectors/packet-dcom.c
+CVE-2018-19627,wiretap/vwr.c
+CVE-2018-19628,epan/dissectors/packet-zbee-zcl-lighting.c
+CVE-2018-19824,"usb_audio_probe, sound/usb/card.c"
+CVE-2018-19840,"WavpackPackInit, pack_utils.c, libwavpack.a, WavpackSetConfiguration64"
+CVE-2018-19841,"WavpackVerifySingleBlock, open_utils.c, libwavpack.a"
+CVE-2018-19854,"crypto_report_one, crypto/crypto_user.c, CONFIG_CRYPTO_USER"
+CVE-2018-1999010,cced03dd667a5df6df8fd40d8de0bff477ee02e8
+CVE-2018-1999011,asf_o
+CVE-2018-1999012,
+CVE-2018-1999013,a7e032a277452366771951e29fd0bf2bd5c029f0
+CVE-2018-1999014,bab0716c7f4793ec42e05a5aa7e80d82a0dd4e75
+CVE-2018-1999015,ASF_F
+CVE-2018-20030,"EXIF_IFD_INTEROPERABILITY, EXIF_IFD_EXIF"
+CVE-2018-20169,"__usb_get_extra_descriptor, drivers/usb/core/usb.c"
+CVE-2018-20174,ui_clip_handle_data
+CVE-2018-20175,mcs.c
+CVE-2018-20176,secure.c
+CVE-2018-20177,rdp_in_unistr
+CVE-2018-20178,process_demand_active
+CVE-2018-20179,lspci_process
+CVE-2018-20180,rdpsnddbg_process
+CVE-2018-20181,seamless_process
+CVE-2018-20182,seamless_process_line
+CVE-2018-20217,
+CVE-2018-20467,coders/bmp.c
+CVE-2018-20511,"ipddp_ioctl, drivers/net/appletalk/ipddp.c"
+CVE-2018-20541,"libxsmm_sparse_csc_reader, generator_spgemm_csc_reader.c"
+CVE-2018-20542,"generator_spgemm_csc_reader.c, libxsmm_sparse_csc_reader"
+CVE-2018-20546,"get_rgba_default, caca/dither.c"
+CVE-2018-20684,"TSCPFileSystem::SCPSink, core/ScpFileSystem.cpp"
+CVE-2018-20685,scp.c
+CVE-2018-20742,ocall_malloc
+CVE-2018-20748,libvncclient/rfbproto.c
+CVE-2018-20749,libvncserver/rfbserver.c
+CVE-2018-20750,libvncserver/rfbserver.c
+CVE-2018-20760,"gf_text_get_utf8_line, media_tools/text_import.c, libgpac_static.a"
+CVE-2018-20761,"gf_sm_load_init, scene_manager.c, libgpac_static.a"
+CVE-2018-20762,"cat_multiple_files, applications/mp4box/fileimport.c"
+CVE-2018-20763,"gf_text_get_utf8_line, media_tools/text_import.c, libgpac_static.a, szLineConv"
+CVE-2018-20784,"kernel/sched/fair.c, cfs_rq"
+CVE-2018-20786,"screen.c, state.c, vterm.c"
+CVE-2018-20815,"load_device_tree, device_tree.c, load_image"
+CVE-2018-20820,"read_ujpg, jpgcoder.cc"
+CVE-2018-20836,"smp_task_timedout, smp_task_done, drivers/scsi/libsas/sas_expander.c"
+CVE-2018-20847,"p_tx0, p_tx1, p_ty0, p_ty1, opj_get_encoding_parameters, openjp2/pi.c"
+CVE-2018-20854,"drivers/phy/mscc/phy-ocelot-serdes.c, ctrl->phys"
+CVE-2018-20855,"create_qp_common, drivers/infiniband/hw/mlx5/qp.c, mlx5_ib_create_qp_resp"
+CVE-2018-20856,"__blk_drain_queue, block/blk-core.c"
+CVE-2018-20961,"f_midi_set_alt, drivers/usb/gadget/function/f_midi.c"
+CVE-2018-20976,"xfs_fs_fill_super, fs/xfs/xfs_super.c"
+CVE-2018-21008,"rsi_mac80211_detach, drivers/net/wireless/rsi/rsi_91x_mac80211.c"
+CVE-2018-21010,"color_apply_icc_profile, bin/common/color.c"
+CVE-2018-21017,"dinf_Read, isomedia/box_code_base.c"
+CVE-2018-25020,"kernel/bpf/core.c, net/core/filter.c"
+CVE-2018-25032,
+CVE-2018-5332,"rds_message_alloc_sgs, rds_rdma_extra_size, net/rds/rdma.c"
+CVE-2018-5333,"rds_cmsg_atomic, net/rds/rdma.c, rds_atomic_free_op"
+CVE-2018-5334,wiretap/vwr.c
+CVE-2018-5335,epan/dissectors/packet-wcp.c
+CVE-2018-5336,epan/tvbparse.c
+CVE-2018-5344,drivers/block/loop.c
+CVE-2018-5729,
+CVE-2018-5730,
+CVE-2018-5873,"__ns_get_path, fs/nsfs.c"
+CVE-2018-6196,"feed_table_block_tag, table.c"
+CVE-2018-6197,"formUpdateBuffer, form.c"
+CVE-2018-6198,~/.w3m
+CVE-2018-6337,folly::secureRandom
+CVE-2018-6340,Memcache::getextendedstats
+CVE-2018-6343,
+CVE-2018-6345,"number_format, $dec_points"
+CVE-2018-6346,Proxygen
+CVE-2018-6347,Proxygen
+CVE-2018-6392,"filter_slice, libavfilter/vf_transpose.c"
+CVE-2018-6412,"sbusfb_ioctl_helper, drivers/video/fbdev/sbuslib.c, FBIOPUTCMAP_SPARC, FBIOGETCMAP_SPARC"
+CVE-2018-6560,dbus-proxy/flatpak-proxy.c
+CVE-2018-6621,"decode_frame, libavcodec/utvideodec.c"
+CVE-2018-6758,"uwsgi_expand_path, core/utils.c"
+CVE-2018-6767,"ParseRiffHeaderConfig, cli/riff.c"
+CVE-2018-6836,"netmonrec_comment_destroy, wiretap/netmon.c"
+CVE-2018-6912,"decode_plane, libavcodec/utvideodec.c"
+CVE-2018-6927,"futex_requeue, kernel/futex.c"
+CVE-2018-7186,"gplotRead, ptaReadStream"
+CVE-2018-7191,"dev_get_valid_name, register_netdevice"
+CVE-2018-7247,"pixHtmlViewer, prog/htmlviewer.c"
+CVE-2018-7253,"ParseDsdiffHeaderConfig, cli/dsdiff.c"
+CVE-2018-7254,"ParseCaffHeaderConfig, cli/caff.c"
+CVE-2018-7260,db_central_columns.php
+CVE-2018-7320,epan/dissectors/packet-sigcomp.c
+CVE-2018-7321,epan/dissectors/packet-thrift.c
+CVE-2018-7322,epan/dissectors/packet-dcm.c
+CVE-2018-7323,epan/dissectors/packet-wccp.c
+CVE-2018-7324,epan/dissectors/packet-sccp.c
+CVE-2018-7325,epan/dissectors/packet-rpki-rtr.c
+CVE-2018-7326,epan/dissectors/packet-lltd.c
+CVE-2018-7327,epan/dissectors/packet-openflow_v6.c
+CVE-2018-7328,epan/dissectors/packet-usb.c
+CVE-2018-7329,epan/dissectors/packet-s7comm.c
+CVE-2018-7330,epan/dissectors/packet-thread.c
+CVE-2018-7331,epan/dissectors/packet-ber.c
+CVE-2018-7332,epan/dissectors/packet-reload.c
+CVE-2018-7333,epan/dissectors/packet-rpcrdma.c
+CVE-2018-7334,epan/dissectors/packet-umts_mac.c
+CVE-2018-7335,epan/crypt/airpdcap.c
+CVE-2018-7336,epan/dissectors/packet-fcp.c
+CVE-2018-7337,plugins/docsis/packet-docsis.c
+CVE-2018-7417,epan/dissectors/packet-ipmi-picmg.c
+CVE-2018-7418,epan/dissectors/packet-sigcomp.c
+CVE-2018-7419,epan/dissectors/asn1/nbap/nbap.cnf
+CVE-2018-7420,wiretap/pcapng.c
+CVE-2018-7421,epan/dissectors/packet-dmp.c
+CVE-2018-7480,"blkcg_init_queue, block/blk-cgroup.c"
+CVE-2018-7485,"SQLWriteFileDSN, odbcinst/SQLWriteFileDSN.c"
+CVE-2018-7492,"__rds_rdma_map, net/rds/rdma.c, RDS_GET_MR, RDS_GET_MR_FOR_DEST"
+CVE-2018-7557,"decode_init, libavcodec/utvideodec.c"
+CVE-2018-7584,"php_stream_url_wrap_http_ex, ext/standard/http_fopen_wrapper.c"
+CVE-2018-7648,mj2/opj_mj2_extract.c
+CVE-2018-7751,"svg_probe, libavformat/img2dec.c"
+CVE-2018-7752,"gf_media_avc_read_sps, media_tools/av_parsers.c"
+CVE-2018-7757,"sas_smp_get_phy_events, drivers/scsi/libsas/sas_expander.c, /sys/class/sas_phy, /sys/class/sas_phy/phy-1:0:12/invalid_dword_count"
+CVE-2018-8043,"unimac_mdio_probe, drivers/net/phy/mdio-bcm-unimac.c"
+CVE-2018-8050,"af_get_page, lib/afflib_pages.cpp"
+CVE-2018-8087,"hwsim_new_radio_nl, drivers/net/wireless/mac80211_hwsim.c"
+CVE-2018-8098,"read_entry, index.c"
+CVE-2018-8099,index.c:read_entry
+CVE-2018-8754,"libevt_record_values_read_event, libevt_record_values.c"
+CVE-2018-8784,zgfx_decompress_segment
+CVE-2018-8785,zgfx_decompress
+CVE-2018-8786,update_read_bitmap_update
+CVE-2018-8787,gdi_Bitmap_Decompress
+CVE-2018-8788,nsc_rle_decode
+CVE-2018-8789,
+CVE-2018-8791,rdpdr_process
+CVE-2018-8792,cssp_read_tsrequest
+CVE-2018-8793,cssp_read_tsrequest
+CVE-2018-8794,process_bitmap_updates
+CVE-2018-8795,process_bitmap_updates
+CVE-2018-8796,process_bitmap_updates
+CVE-2018-8797,process_plane
+CVE-2018-8798,rdpsnd_process_ping
+CVE-2018-8799,process_secondary_order
+CVE-2018-8800,ui_clip_handle_data
+CVE-2018-8897,"SYSCALL, SYSENTER, EFLAGS.IF"
+CVE-2018-9256,epan/dissectors/packet-lwapp.c
+CVE-2018-9257,epan/dissectors/packet-cql.c
+CVE-2018-9258,epan/dissectors/packet-tcp.c
+CVE-2018-9259,epan/dissectors/file-mp4.c
+CVE-2018-9260,epan/dissectors/packet-ieee802154.c
+CVE-2018-9261,"epan/dissectors/packet-nbap.c, DCH-IDs"
+CVE-2018-9262,epan/dissectors/packet-vlan.c
+CVE-2018-9263,epan/dissectors/packet-kerberos.c
+CVE-2018-9264,epan/dissectors/packet-adb.c
+CVE-2018-9265,epan/dissectors/packet-tn3270.c
+CVE-2018-9266,epan/dissectors/packet-isup.c
+CVE-2018-9267,epan/dissectors/packet-lapd.c
+CVE-2018-9268,epan/dissectors/packet-smb2.c
+CVE-2018-9269,epan/dissectors/packet-giop.c
+CVE-2018-9270,epan/oids.c
+CVE-2018-9271,epan/dissectors/packet-multipart.c
+CVE-2018-9272,epan/dissectors/packet-h223.c
+CVE-2018-9273,epan/dissectors/packet-pcp.c
+CVE-2018-9274,ui/failure_message.c
+CVE-2018-9275,"check_user_token, util.c"
+CVE-2018-9336,openvpnserv.exe
+CVE-2018-9841,libavfilter/vf_signature.c
+CVE-2018-9918,"QPDFObjectHandle, QPDF_Dictionary"
+CVE-2019-1000016,libavcodec/cbs_av1.c
+CVE-2019-1010065,"tsk/fs/hfs_dent.c:237, tsk/fs/hfs.c, hfs_cat_traverse"
+CVE-2019-1010247,src/mod_auth_openidc.c
+CVE-2019-1010305,"chmd_read_headers, libmspack/mspack/chmd.c"
+CVE-2019-1010315,"ParseDsdiffHeaderConfig, dsdiff.c:282"
+CVE-2019-1010317,"ParseCaffHeaderConfig, caff.c:486"
+CVE-2019-1010319,"ParseWave64HeaderConfig, wave64.c:211"
+CVE-2019-10124,"PIPELINE_PATH, fix-buildkite-agent-builds-permissions, br_multicast_add_group, net/bridge/br_multicast.c, $RepeatedMsgReduction, NIO+OpenSSL, NIO2+OpenSSL"
+CVE-2019-10131,"formatIPTCfromBuffer, coders/meta.c"
+CVE-2019-10133,
+CVE-2019-10154,
+CVE-2019-10638,
+CVE-2019-10639,
+CVE-2019-10664,"CWebServer::GetFloorplanImage, WebServer.cpp"
+CVE-2019-10672,"treeRead, hdf/btree.c"
+CVE-2019-10678,"\n, \r"
+CVE-2019-10714,"LocaleLowercase, MagickCore/locale.c"
+CVE-2019-10894,epan/dissectors/packet-gssapi.c
+CVE-2019-10895,wiretap/netscaler.c
+CVE-2019-10896,epan/dissectors/packet-dof.c
+CVE-2019-10897,epan/dissectors/packet-ieee80211.c
+CVE-2019-10898,epan/dissectors/packet-gsm_gsup.c
+CVE-2019-10899,epan/dissectors/packet-srvloc.c
+CVE-2019-10900,epan/dissectors/file-rbm.c
+CVE-2019-10901,epan/dissectors/packet-ldss.c
+CVE-2019-10902,epan/dissectors/packet-tsdns.c
+CVE-2019-10903,epan/dissectors/packet-dcerpc-spoolss.c
+CVE-2019-11072,"burl_normalize_2F_to_slash_fix, burl.c, lighttpd.conf"
+CVE-2019-11222,"gf_bin128_parse, utils/os_divers.c"
+CVE-2019-11338,libavcodec/hevcdec.c
+CVE-2019-11339,libavcodec/mpeg4videodec.c
+CVE-2019-11411,"Number#toFixed, jsnumber.c"
+CVE-2019-11412,jscompile.c
+CVE-2019-11413,regexp.c
+CVE-2019-11463,"archive_read_format_zip_cleanup, archive_read_support_format_zip.c, HAVE_LZMA_H"
+CVE-2019-11470,"ReadCINImage, coders/cin.c"
+CVE-2019-11486,drivers/tty/n_r3964.c
+CVE-2019-11487,"fs/fuse/dev.c, fs/pipe.c, fs/splice.c, include/linux/mm.h, include/linux/pipe_fs_i.h, kernel/trace/trace.c, mm/gup.c, mm/hugetlb.c"
+CVE-2019-11498,"WavpackSetConfiguration64, pack_utils.c, libwavpack.a"
+CVE-2019-11502,snap-confine
+CVE-2019-11596,"process_lru_command, memcached.c"
+CVE-2019-11599,"mmget_not_zero, get_task_mm, fs/userfaultfd.c, mm/mmap.c, fs/proc/task_mmu.c, drivers/infiniband/core/uverbs_main.c"
+CVE-2019-11768,
+CVE-2019-11810,"megasas_create_frame_pool, megasas_alloc_cmds, drivers/scsi/megaraid/megaraid_sas_base.c"
+CVE-2019-11811,"drivers/char/ipmi/ipmi_si_intf.c, drivers/char/ipmi/ipmi_si_mem_io.c, drivers/char/ipmi/ipmi_si_port_io.c"
+CVE-2019-11815,"rds_tcp_kill_sock, net/rds/tcp.c"
+CVE-2019-11833,fs/ext4/extents.c
+CVE-2019-11884,"do_hidp_sock_ioctl, net/bluetooth/hidp/sock.c"
+CVE-2019-11921,Base64
+CVE-2019-11925,
+CVE-2019-11926,M_SOFx
+CVE-2019-11929,number_format
+CVE-2019-11930,mb_detect_order
+CVE-2019-11934,AsyncSSLSocket
+CVE-2019-11935,mb_ereg_replace
+CVE-2019-11936,
+CVE-2019-11940,
+CVE-2019-12068,"lsi_execute_script, s->dsp"
+CVE-2019-12106,"updateDevice, minissdpd.c"
+CVE-2019-12107,"upnp_event_prepare, upnpevents.c"
+CVE-2019-12108,"GetOutboundPinholeTimeout, upnpsoap.c"
+CVE-2019-12109,"GetOutboundPinholeTimeout, upnpsoap.c"
+CVE-2019-12110,upnpredirect.c
+CVE-2019-12111,"copyIPv6IfDifferent, pcpserver.c"
+CVE-2019-12155,"interface_release_resource, hw/display/qxl.c"
+CVE-2019-12209,$HOME/.config/Yubico/u2f_keys
+CVE-2019-12210,debug_file
+CVE-2019-12295,epan/packet.c
+CVE-2019-12439,bubblewrap.c
+CVE-2019-12589,
+CVE-2019-12614,"dlpar_parse_cc_property, arch/powerpc/platforms/pseries/dlpar.c, prop->name"
+CVE-2019-12616,
+CVE-2019-12730,"aa_read_header, libavformat/aadec.c"
+CVE-2019-12816,Modules.cpp
+CVE-2019-12817,arch/powerpc/mm/mmu_context_book3s64.c
+CVE-2019-12818,"nfc_llcp_build_tlv, net/nfc/llcp_commands.c, nfc_llcp_build_gb, net/nfc/llcp_core.c"
+CVE-2019-12819,"__mdiobus_register, drivers/net/phy/mdio_bus.c, put_device, fixed_mdio_bus_init"
+CVE-2019-12922,
+CVE-2019-12951,"parse_mqtt, mg_mqtt.c"
+CVE-2019-12973,"opj_t1_encode_cblks, openjp2/t1.c"
+CVE-2019-12980,"SWFInput_readSBits, blocks/input.c"
+CVE-2019-12981,"SWFShape_setLeftFillStyle, blocks/shape.c"
+CVE-2019-12982,"decompileCAST, util/decompile.c, libutil.a"
+CVE-2019-12984,"nfc_genl_deactivate_target, net/nfc/netlink.c"
+CVE-2019-13133,"ReadBMPImage, coders/bmp.c"
+CVE-2019-13134,"ReadVIFFImage, coders/viff.c"
+CVE-2019-13135,"ReadCUTImage, coders/cut.c"
+CVE-2019-13136,"TIFFSeekCustomStream, coders/tiff.c"
+CVE-2019-13137,"ReadPSImage, coders/ps.c"
+CVE-2019-13164,"qemu-bridge-helper.c, bridge.conf, --br=bridge, IFNAMSIZ"
+CVE-2019-13217,start_decoder
+CVE-2019-13218,predict_point
+CVE-2019-13219,
+CVE-2019-13220,
+CVE-2019-13221,compute_codewords
+CVE-2019-13222,
+CVE-2019-13223,lookup1_values
+CVE-2019-13224,"onig_new_deluxe, regext.c"
+CVE-2019-13225,"match_at, regexec.c"
+CVE-2019-13226,Helper::temporaryMountDevice
+CVE-2019-13227,/tmp/.deepin-clone.log
+CVE-2019-13228,"BootDoctor::fix(), /tmp/repo.iso"
+CVE-2019-13229,"Helper::getPartitionSizeInfo(), /tmp/partclone.log"
+CVE-2019-13233,"arch/x86/lib/insn-eval.c, modify_ldt"
+CVE-2019-13272,"ptrace_link, kernel/ptrace.c, PTRACE_TRACEME, deny_ptrace"
+CVE-2019-13295,"MagickCore/threshold.c, AdaptiveThresholdImage"
+CVE-2019-13296,"CLIListOperatorImages, MagickWand/operation.c"
+CVE-2019-13297,"MagickCore/threshold.c, AdaptiveThresholdImage"
+CVE-2019-13298,"MagickCore/pixel-accessor.h, SetPixelViaPixelInfo, MagickCore/enhance.c"
+CVE-2019-13299,"GetPixelChannel, MagickCore/pixel-accessor.h"
+CVE-2019-13300,MagickCore/statistic.c
+CVE-2019-13301,AcquireMagickMemory
+CVE-2019-13302,"MagickCore/fourier.c, ComplexImages"
+CVE-2019-13303,"MagickCore/composite.c, CompositeImage"
+CVE-2019-13304,"WritePNMImage, coders/pnm.c"
+CVE-2019-13305,"WritePNMImage, coders/pnm.c"
+CVE-2019-13306,"coders/pnm.c, WritePNMImage"
+CVE-2019-13307,MagickCore/statistic.c
+CVE-2019-13308,"MagickCore/fourier.c, ComplexImage"
+CVE-2019-13309,"CLIListOperatorImages, MagickWand/operation.c"
+CVE-2019-13310,"AcquireMagickMemory, MagickWand/mogrify.c"
+CVE-2019-13311,"AcquireMagickMemory, wand/mogrify.c"
+CVE-2019-13391,"ComplexImages, MagickCore/fourier.c, GetCacheViewVirtualPixels"
+CVE-2019-13454,"RemoveDuplicateLayers, MagickCore/layer.c"
+CVE-2019-13619,epan/asn1.c
+CVE-2019-14283,"set_geometry, drivers/block/floppy.c"
+CVE-2019-14284,"drivers/block/floppy.c, .sect, .rate, F_SECT_PER_TRACK"
+CVE-2019-14323,"ssdp_recv, ssdpd.c"
+CVE-2019-14462,MODBUS_FC_WRITE_MULTIPLE_COILS
+CVE-2019-14463,MODBUS_FC_WRITE_MULTIPLE_REGISTERS
+CVE-2019-14495,webadmin.c
+CVE-2019-14763,"drivers/usb/dwc3/gadget.c, f_hid"
+CVE-2019-14814,
+CVE-2019-14815,mwifiex_set_wmm_params
+CVE-2019-14816,
+CVE-2019-14857,"mod_auth_openidc, mod_auth_mellon"
+CVE-2019-14934,"pdf_load_pages_kids, pdf.c"
+CVE-2019-14980,
+CVE-2019-14981,MeanShiftImage
+CVE-2019-15026,"conn_to_str, memcached.c"
+CVE-2019-15030,arch/powerpc/kernel/process.c
+CVE-2019-15031,"MSR_TM_ACTIVE, arch/powerpc/kernel/process.c"
+CVE-2019-15090,qedi_dbg_*
+CVE-2019-15139,"ReadXWDImage, coders/xwd.c"
+CVE-2019-15140,"coders/mat.c, ReadImage, MagickCore/constitute.c"
+CVE-2019-15146,"GPMF_Next, GPMF_parser.c"
+CVE-2019-15147,"GPMF_Next, GPMF_parser.c"
+CVE-2019-15148,"OpenMP4Source, demo/GPMF_mp4reader.c"
+CVE-2019-15211,"drivers/media/v4l2-core/v4l2-dev.c, drivers/media/radio/radio-raremono.c"
+CVE-2019-15212,drivers/usb/misc/rio500.c
+CVE-2019-15213,drivers/media/usb/dvb-usb/dvb-usb-init.c
+CVE-2019-15214,"sound/core/init.c, sound/core/info.c"
+CVE-2019-15215,drivers/media/usb/cpia2/cpia2_usb.c
+CVE-2019-15216,drivers/usb/misc/yurex.c
+CVE-2019-15217,drivers/media/usb/zr364xx/zr364xx.c
+CVE-2019-15218,drivers/media/usb/siano/smsusb.c
+CVE-2019-15219,drivers/usb/misc/sisusbvga/sisusb.c
+CVE-2019-15220,drivers/net/wireless/intersil/p54/p54usb.c
+CVE-2019-15221,sound/usb/line6/pcm.c
+CVE-2019-15222,"sound/usb/helper.c, motu_microbookii"
+CVE-2019-15226,
+CVE-2019-15239,net/ipv4/tcp_output.c
+CVE-2019-15292,"atalk_proc_exit, net/appletalk/atalk_proc.c, net/appletalk/ddp.c, net/appletalk/sysctl_net_atalk.c"
+CVE-2019-15296,"faad_resetbits, libfaad/bits.c, ld->buffer_size, getdword_n, ld->start, ld->bytes_left"
+CVE-2019-15522,"csync_daemon_session, daemon.c"
+CVE-2019-15538,"xfs_setattr_nonsize, fs/xfs/xfs_iops.c, xfs_qm_vop_chown_reserve, ILOCK"
+CVE-2019-15666,"__xfrm_policy_unlink, verify_newpolicy_info, net/xfrm/xfrm_user.c"
+CVE-2019-15681,
+CVE-2019-15683,cea98166008301e614e0d36776bf9435a536136e
+CVE-2019-15785,"PrefsUI_LoadPrefs, prefs.c"
+CVE-2019-15807,drivers/scsi/libsas/sas_expander.c
+CVE-2019-15900,
+CVE-2019-15901,
+CVE-2019-15916,"register_queue_kobjects, net/core/net-sysfs.c"
+CVE-2019-15917,"hci_uart_register_dev, hci_uart_set_proto, drivers/bluetooth/hci_ldisc.c"
+CVE-2019-15918,"SMB2_negotiate, fs/cifs/smb2pdu.c"
+CVE-2019-15919,"SMB2_write, fs/cifs/smb2pdu.c"
+CVE-2019-15920,"SMB2_read, fs/cifs/smb2pdu.c"
+CVE-2019-15921,"idr_alloc(), genl_register_family(), net/netlink/genetlink.c"
+CVE-2019-15922,drivers/block/paride/pf.c
+CVE-2019-15923,drivers/block/paride/pf.c
+CVE-2019-15924,"fm10k_init_module, drivers/net/ethernet/intel/fm10k/fm10k_main.c"
+CVE-2019-15926,"ath6kl_wmi_pstream_timeout_event_rx, ath6kl_wmi_cac_event_rx, drivers/net/wireless/ath/ath6kl/wmi.c"
+CVE-2019-15927,"build_audio_procunit, sound/usb/mixer.c"
+CVE-2019-15945,"decode_bit_string, libopensc/asn1.c"
+CVE-2019-15946,"asn1_decode_entry, libopensc/asn1.c"
+CVE-2019-16058,pam_p11
+CVE-2019-16163,"regcomp.c, regparse.c"
+CVE-2019-16319,plugins/epan/gryphon/packet-gryphon.c
+CVE-2019-16346,"WritePixel, ngiflib.c, DecodeGifImg"
+CVE-2019-16347,"WritePixels, ngiflib.c, DecodeGifImg"
+CVE-2019-16413,"i_size_write(), i_size_read()"
+CVE-2019-16714,"rds6_inc_info_copy, net/rds/recv.c"
+CVE-2019-16718,"bin_symbols, libr/core/cbin.c"
+CVE-2019-16921,"hns_roce_alloc_ucontext, drivers/infiniband/hw/hns/hns_roce_main.c"
+CVE-2019-16930,
+CVE-2019-16994,"sit_init_net, net/ipv6/sit.c, register_netdev, sitn->fb_tunnel_dev"
+CVE-2019-16995,"hsr_dev_finalize, net/hsr/hsr_device.c, hsr_add_port"
+CVE-2019-17052,"ax25_create, net/ax25/af_ax25.c"
+CVE-2019-17113,"ModPlug_InstrumentName, ModPlug_SampleName, libopenmpt_modplug.c"
+CVE-2019-17177,libfreerdp/codec/region.c
+CVE-2019-17178,"HuffmanTree_makeFromFrequencies, lodepng.c"
+CVE-2019-17534,"vips_foreign_load_gif_scan_image, foreign/gifload.c, DGifGetImageDesc"
+CVE-2019-17539,"avcodec_open2, libavcodec/utils.c"
+CVE-2019-17541,"DestroyStringInfo, MagickCore/string.c, coders/jpeg.c"
+CVE-2019-17542,"vqa_decode_chunk, vqa_decode_init, libavcodec/vqavideo.c"
+CVE-2019-17544,"acommon::unescape, common/getdata.cpp"
+CVE-2019-17545,"OGRExpatRealloc, ogr/ogr_expat.cpp"
+CVE-2019-17546,tif_getimage.c
+CVE-2019-17547,"TraceBezier, MagickCore/draw.c"
+CVE-2019-18198,"fib6_rule_suppress, net/ipv6/fib6_rules.c"
+CVE-2019-18224,"idn2_to_ascii_4i, lib/lookup.c"
+CVE-2019-18282,"flow_dissector, net/core/flow_dissector.c"
+CVE-2019-18397,"fribidi_get_par_embedding_levels_ex, lib/fribidi-bidi.c"
+CVE-2019-18408,"archive_read_format_rar_read_data, archive_read_support_format_rar.c, Ppmd7_DecodeSymbol"
+CVE-2019-18609,"amqp_handle_input, amqp_connection.c, CONNECTION_STATE_HEADER"
+CVE-2019-18622,
+CVE-2019-18660,"arch/powerpc/kernel/entry_64.S, arch/powerpc/kernel/security.c"
+CVE-2019-18675,"start_offset+size, cpia2_remap_buffer, drivers/media/usb/cpia2/cpia2_core.c"
+CVE-2019-18805,"net/ipv4/sysctl_net_ipv4.c, net/ipv4/tcp_input.c, tcp_ack_update_rtt, /proc/sys/net/ipv4/tcp_min_rtt_wlen"
+CVE-2019-18808,"ccp_run_sha_cmd, drivers/crypto/ccp/ccp-ops.c"
+CVE-2019-18809,"af9005_identify_state, drivers/media/usb/dvb-usb/af9005.c"
+CVE-2019-18811,"sof_set_get_large_ctrl_data, sound/soc/sof/ipc.c, sof_get_ctrl_copy_params"
+CVE-2019-18812,"sof_dfsentry_write, sound/soc/sof/debug.c"
+CVE-2019-18853,coders/svg.c
+CVE-2019-18885,"btrfs_verify_dev_extents, fs/btrfs/volumes.c, fs_devices->devices, find_device"
+CVE-2019-19043,"i40e_setup_macvlans, drivers/net/ethernet/intel/i40e/i40e_main.c, i40e_setup_channel"
+CVE-2019-19044,"v3d_submit_cl_ioctl, drivers/gpu/drm/v3d/v3d_gem.c, v3d_job_init"
+CVE-2019-19045,"mlx5_fpga_conn_create_cq, drivers/net/ethernet/mellanox/mlx5/core/fpga/conn.c, mlx5_vector2eqn"
+CVE-2019-19046,"__ipmi_bmc_register, drivers/char/ipmi/ipmi_msghandler.c, ida_simple_get"
+CVE-2019-19047,"mlx5_fw_fatal_reporter_dump, drivers/net/ethernet/mellanox/mlx5/core/health.c, mlx5_crdump_collect"
+CVE-2019-19048,"crypto_reportstat, drivers/virt/vboxguest/vboxguest_utils.c"
+CVE-2019-19049,"unittest_data_add, drivers/of/unittest.c"
+CVE-2019-19050,"crypto_reportstat, crypto/crypto_user_stat.c, crypto_reportstat_alg"
+CVE-2019-19051,"i2400m_op_rfkill_sw_toggle, drivers/net/wimax/i2400m/op-rfkill.c"
+CVE-2019-19052,"gs_can_open, drivers/net/can/usb/gs_usb.c, usb_submit_urb"
+CVE-2019-19053,"rpmsg_eptdev_write_iter, drivers/rpmsg/rpmsg_char.c, copy_from_iter_full"
+CVE-2019-19054,"cx23888_ir_probe, drivers/media/pci/cx23885/cx23888-ir.c, kfifo_alloc"
+CVE-2019-19055,"nl80211_get_ftm_responder_stats, net/wireless/nl80211.c, nl80211hdr_put"
+CVE-2019-19056,"mwifiex_pcie_alloc_cmdrsp_buf, drivers/net/wireless/marvell/mwifiex/pcie.c, mwifiex_map_pci_memory"
+CVE-2019-19057,"mwifiex_pcie_init_evt_ring, drivers/net/wireless/marvell/mwifiex/pcie.c, mwifiex_map_pci_memory"
+CVE-2019-19058,"alloc_sgtable, drivers/net/wireless/intel/iwlwifi/fw/dbg.c"
+CVE-2019-19059,"iwl_pcie_ctxt_info_gen3_init, drivers/net/wireless/intel/iwlwifi/pcie/ctxt-info-gen3.c, iwl_pcie_init_fw_sec, dma_alloc_coherent"
+CVE-2019-19060,"adis_update_scan_mode, drivers/iio/imu/adis_buffer.c"
+CVE-2019-19061,"adis_update_scan_mode_burst, drivers/iio/imu/adis_buffer.c"
+CVE-2019-19062,"crypto_report, crypto/crypto_user_base.c, crypto_report_alg"
+CVE-2019-19063,"rtl_usb_probe, drivers/net/wireless/realtek/rtlwifi/usb.c"
+CVE-2019-19064,"fsl_lpspi_probe(), drivers/spi/spi-fsl-lpspi.c, pm_runtime_get_sync(), CID-057b8945f78f"
+CVE-2019-19065,"sdma_init, drivers/infiniband/hw/hfi1/sdma.c, rhashtable_init"
+CVE-2019-19066,"bfad_im_get_stats(), drivers/scsi/bfa/bfad_attr.c, bfa_port_get_stats()"
+CVE-2019-19067,"acp_hw_init, drivers/gpu/drm/amd/amdgpu/amdgpu_acp.c, mfd_add_hotplug_devices, pm_genpd_add_device"
+CVE-2019-19068,"rtl8xxxu_submit_int_urb, drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu_core.c, usb_submit_urb"
+CVE-2019-19069,"fastrpc_dma_buf_attach, drivers/misc/fastrpc.c, dma_get_sgtable"
+CVE-2019-19070,"spi_gpio_probe, drivers/spi/spi-gpio.c, devm_add_action_or_reset"
+CVE-2019-19071,"rsi_send_beacon, drivers/net/wireless/rsi/rsi_91x_mgmt.c, rsi_prepare_beacon"
+CVE-2019-19072,"predicate_parse, kernel/trace/trace_events_filter.c"
+CVE-2019-19073,"drivers/net/wireless/ath/ath9k/htc_hst.c, wait_for_completion_timeout(), htc_config_pipe_credits(), htc_setup_complete(), htc_connect_service()"
+CVE-2019-19074,"ath9k_wmi_cmd, drivers/net/wireless/ath/ath9k/wmi.c"
+CVE-2019-19075,"ca8210_probe, drivers/net/ieee802154/ca8210.c, ca8210_get_platform_data"
+CVE-2019-19076,"nfp_abm_u32_knode_replace, drivers/net/ethernet/netronome/nfp/abm/cls.c"
+CVE-2019-19077,"bnxt_re_create_srq, drivers/infiniband/hw/bnxt_re/ib_verbs.c"
+CVE-2019-19078,"ath10k_usb_hif_tx_sg, drivers/net/wireless/ath/ath10k/usb.c, usb_submit_urb"
+CVE-2019-19079,"qrtr_tun_write_iter, net/qrtr/tun.c"
+CVE-2019-19080,"nfp_flower_spawn_phy_reprs, drivers/net/ethernet/netronome/nfp/flower/main.c"
+CVE-2019-19081,"nfp_flower_spawn_vnic_reprs, drivers/net/ethernet/netronome/nfp/flower/main.c"
+CVE-2019-19082,"dce120_create_resource_pool, drivers/gpu/drm/amd/display/dc/dce120/dce120_resource.c, dce110_create_resource_pool, drivers/gpu/drm/amd/display/dc/dce110/dce110_resource.c, dce100_create_resource_pool, drivers/gpu/drm/amd/display/dc/dce100/dce100_resource.c, dcn10_create_resource_pool, drivers/gpu/drm/amd/display/dc/dcn10/dcn10_resource.c, dce112_create_resource_pool, drivers/gpu/drm/amd/display/dc/dce112/dce112_resource.c"
+CVE-2019-19083,"clock_source_create, drivers/gpu/drm/amd/display/dc, dce112_clock_source_create, drivers/gpu/drm/amd/display/dc/dce112/dce112_resource.c, dce100_clock_source_create, drivers/gpu/drm/amd/display/dc/dce100/dce100_resource.c, dcn10_clock_source_create, drivers/gpu/drm/amd/display/dc/dcn10/dcn10_resource.c, dcn20_clock_source_create, drivers/gpu/drm/amd/display/dc/dcn20/dcn20_resource.c, dce120_clock_source_create, drivers/gpu/drm/amd/display/dc/dce120/dce120_resource.c, dce110_clock_source_create, drivers/gpu/drm/amd/display/dc/dce110/dce110_resource.c, dce80_clock_source_create, drivers/gpu/drm/amd/display/dc/dce80/dce80_resource.c, CID-055e547478a1"
+CVE-2019-19221,"archive_wstring_append_from_mbs, archive_string.c"
+CVE-2019-19227,"register_snap_client, net/appletalk/aarp.c, net/appletalk/ddp.c, unregister_snap_client"
+CVE-2019-19242,"pExpr->y.pTab, TK_COLUMN, sqlite3ExprCodeTarget, expr.c"
+CVE-2019-19244,"sqlite3Select, select.c"
+CVE-2019-19246,"str_lower_case_match, regexec.c"
+CVE-2019-19274,handle_keywordonly_args
+CVE-2019-19275,ast_for_arguments
+CVE-2019-19317,"lookupName, resolve.c"
+CVE-2019-19319,"ext4_xattr_set_entry, fs/ext4/xattr.c"
+CVE-2019-19479,libopensc/card-setcos.c
+CVE-2019-19480,"sc_pkcs15_decode_prkdf_entry, libopensc/pkcs15-prkey.c"
+CVE-2019-19481,libopensc/card-cac1.c
+CVE-2019-19523,drivers/usb/misc/adutux.c
+CVE-2019-19524,drivers/input/ff-memless.c
+CVE-2019-19525,"drivers/net/ieee802154/atusb.c, CID-7fd25e6fc035"
+CVE-2019-19526,drivers/nfc/pn533/usb.c
+CVE-2019-19527,"drivers/hid/usbhid/hiddev.c, CID-9c09b214f30e"
+CVE-2019-19528,drivers/usb/misc/iowarrior.c
+CVE-2019-19529,drivers/net/can/usb/mcba_usb.c
+CVE-2019-19530,"drivers/usb/class/cdc-acm.c, CID-c52873e5a1ef"
+CVE-2019-19531,drivers/usb/misc/yurex.c
+CVE-2019-19532,"drivers/hid/hid-axff.c, drivers/hid/hid-dr.c, drivers/hid/hid-emsff.c, drivers/hid/hid-gaff.c, drivers/hid/hid-holtekff.c, drivers/hid/hid-lg2ff.c, drivers/hid/hid-lg3ff.c, drivers/hid/hid-lg4ff.c, drivers/hid/hid-lgff.c, drivers/hid/hid-logitech-hidpp.c, drivers/hid/hid-microsoft.c, drivers/hid/hid-sony.c, drivers/hid/hid-tmff.c, drivers/hid/hid-zpff.c"
+CVE-2019-19533,drivers/media/usb/ttusb-dec/ttusb_dec.c
+CVE-2019-19534,drivers/net/can/usb/peak_usb/pcan_usb_core.c
+CVE-2019-19535,"drivers/net/can/usb/peak_usb/pcan_usb_fd.c, CID-30a8beeb3042"
+CVE-2019-19536,drivers/net/can/usb/peak_usb/pcan_usb_pro.c
+CVE-2019-19537,drivers/usb/core/file.c
+CVE-2019-19543,"serial_ir_init_module, drivers/media/rc/serial_ir.c"
+CVE-2019-19553,"epan/dissectors/asn1/cms/packet-cms-template.c, ContentInfo"
+CVE-2019-19603,
+CVE-2019-19617,"libraries/classes/Display/GitRevision.php, libraries/classes/Footer.php"
+CVE-2019-19624,"coarsest_scale, finest_scale, calc(), ocl_calc(), dis_flow.cpp, Ux, Uy"
+CVE-2019-19645,alter.c
+CVE-2019-19646,"pragma.c, integrity_check"
+CVE-2019-19767,"ext4_expand_extra_isize, __ext4_expand_extra_isize, ext4_xattr_set_entry, fs/ext4/inode.c, fs/ext4/super.c, CID-4ea99936a163"
+CVE-2019-19807,"snd_timer_open, snd_timer_close_locked, sound/core/timer.c"
+CVE-2019-19880,"exprListAppendList, window.c"
+CVE-2019-19922,"cpu.cfs_quota_us, kernel/sched/fair.c"
+CVE-2019-19923,"flattenSubquery, select.c"
+CVE-2019-19924,"expr.c, vdbeaux.c, window.c, sqlite3WindowRewrite"
+CVE-2019-19925,"zipfileUpdate, ext/misc/zipfile.c"
+CVE-2019-19926,"multiSelect, select.c, sqlite3WindowRewrite"
+CVE-2019-19927,"ttm_put_pages, drivers/gpu/drm/ttm/ttm_page_alloc.c"
+CVE-2019-19947,"drivers/net/can/usb/kvaser_usb/kvaser_usb_leaf.c, CID-da2311a6385c"
+CVE-2019-19959,ext/misc/zipfile.c
+CVE-2019-19962,wc_SignatureGenerateHash
+CVE-2019-19965,drivers/scsi/libsas/sas_discover.c
+CVE-2019-19966,"cpia2_exit, drivers/media/usb/cpia2/cpia2_v4l.c"
+CVE-2019-20016,"readOHDRHeaderMessageDatatype, dataobject.c, directblockRead, fractalhead.c"
+CVE-2019-20054,"drop_sysctl_table, fs/proc/proc_sysctl.c, put_links, CID-23da9588037e"
+CVE-2019-20079,window.c
+CVE-2019-20095,"mwifiex_tm_cmd, drivers/net/wireless/marvell/mwifiex/cfg80211.c"
+CVE-2019-20096,"__feat_register_sp, net/dccp/feat.c"
+CVE-2019-20176,ls.c
+CVE-2019-20218,"selectExpander, select.c"
+CVE-2019-20382,"zrle_compress_data, ui/vnc-enc-zrle.c, deflateInit2, deflateEnd"
+CVE-2019-20386,"button_open, login/logind-button.c"
+CVE-2019-20387,"repodata_schema2id, repodata.c"
+CVE-2019-20422,"fib6_rule_lookup, net/ipv6/ip6_fib.c, RT6_LOOKUP_F_DST_NOREF, CID-7b09c2d052db"
+CVE-2019-20503,sctp_load_addresses_from_init
+CVE-2019-20628,"gf_m2ts_process_pmt, media_tools/mpegts.c"
+CVE-2019-20629,"gf_m2ts_process_pmt, media_tools/mpegts.c"
+CVE-2019-20630,"BS_ReadByte, gf_bs_read_bit, utils/bitstream.c"
+CVE-2019-20636,"drivers/input/input.c, input_set_keycode"
+CVE-2019-20788,"libvncclient/cursor.c, HandleCursorShape"
+CVE-2019-20792,"coolkey_free_private_data, coolkey_add_object, libopensc/card-coolkey.c"
+CVE-2019-20805,p_lx_elf.cpp
+CVE-2019-20806,"tw5864_handle_frame, drivers/media/pci/tw5864/tw5864-video.c"
+CVE-2019-20807,
+CVE-2019-20808,"ati_cursor_define, ati_mm_write"
+CVE-2019-20810,"go7007_snd_init, drivers/media/usb/go7007/snd-go7007.c, snd_card_free, CID-9453264ef586"
+CVE-2019-20811,"rx_queue_add_kobject, netdev_queue_add_kobject, net/core/net-sysfs.c, CID-a3e23f719f5c"
+CVE-2019-20812,"prb_calc_retire_blk_tmo, net/packet/af_packet.c, TPACKET_V3"
+CVE-2019-20839,libvncclient/sockets.c
+CVE-2019-20840,"libvncserver/ws_decode.c, hybiReadAndDecode"
+CVE-2019-20908,"efivar_ssdt, drivers/firmware/efi/efi.c"
+CVE-2019-20917,
+CVE-2019-20918,
+CVE-2019-20934,show_numa_stats
+CVE-2019-25016,
+CVE-2019-25050,"nc4_get_att, nc4_get_att_tc, nc_get_att_text, uffd_cleanup, netCDFDataset::~netCDFDataset"
+CVE-2019-3552,cpp2
+CVE-2019-3553,
+CVE-2019-3556,dump-pcre-cache
+CVE-2019-3557,"readImpl, php://output"
+CVE-2019-3558,
+CVE-2019-3561,
+CVE-2019-3563,LineBasedFrameDecoder
+CVE-2019-3569,FastCGI
+CVE-2019-3847,
+CVE-2019-3849,
+CVE-2019-3850,
+CVE-2019-3851,
+CVE-2019-3852,"get_with_capability_join, get_users_by_capability"
+CVE-2019-5489,mm/mincore.c
+CVE-2019-5716,epan/dissectors/packet-6lowpan.c
+CVE-2019-5717,epan/dissectors/packet-p_mul.c
+CVE-2019-5718,"epan/charsets.c, get_t61_string"
+CVE-2019-5719,epan/dissectors/packet-isakmp.c
+CVE-2019-5721,epan/dissectors/packet-enip.c
+CVE-2019-6798,
+CVE-2019-6799,"AllowArbitraryServer, mysql.allow_local_infile, options(MYSQLI_OPT_LOCAL_INFILE"
+CVE-2019-6974,"kvm_ioctl_create_device, virt/kvm/kvm_main.c"
+CVE-2019-6976,iofuncs/memory.c
+CVE-2019-6978,"gdImage*Ptr(), gd_gif_out.c, gd_jpeg.c, gd_wbmp.c"
+CVE-2019-7175,"DecodeImage, coders/pcd.c"
+CVE-2019-7221,
+CVE-2019-7222,
+CVE-2019-7308,kernel/bpf/verifier.c
+CVE-2019-7395,"WritePSDChannel, coders/psd.c"
+CVE-2019-7396,"ReadSIXELImage, coders/sixel.c"
+CVE-2019-7397,"WritePDFImage, coders/pdf.c"
+CVE-2019-9003,drivers/char/ipmi/ipmi_msghandler.c
+CVE-2019-9162,"snmp_version, snmp_helper, net/ipv4/netfilter/nf_nat_snmp_basic_main.c"
+CVE-2019-9208,epan/dissectors/asn1/tcap/tcap.cnf
+CVE-2019-9209,epan/dissectors/packet-ber.c
+CVE-2019-9213,"expand_downwards, mm/mmap.c"
+CVE-2019-9214,epan/dissectors/packet-rpcap.c
+CVE-2019-9278,
+CVE-2019-9503,
+CVE-2019-9578,devs.c
+CVE-2019-9718,"ff_htmlmarkup_to_ass, libavcodec/htmlsubtitles.c"
+CVE-2019-9721,"handle_open_brace, libavcodec/htmlsubtitles.c"
+CVE-2019-9917,
+CVE-2020-10232,"yaffsfs_istat, fs/yaffs.c"
+CVE-2020-10702,PAuth
+CVE-2020-10720,
+CVE-2020-10732,
+CVE-2020-10738,
+CVE-2020-10751,
+CVE-2020-10757,
+CVE-2020-10766,"SSBD, STIPB"
+CVE-2020-10767,"IBPB, STIBP, IBRS"
+CVE-2020-10768,
+CVE-2020-10773,/proc/sys/vm/cmm_timeout
+CVE-2020-10781,/sys/class/zram-control/hot_add
+CVE-2020-10802,libraries/classes/Controllers/Table/TableSearchController.php
+CVE-2020-10803,"tbl_get_field.php, libraries/classes/Display/Results.php"
+CVE-2020-10804,"libraries/classes/Server/Privileges.php, libraries/classes/UserPassword.php"
+CVE-2020-10931,"try_read_command_binary, memcached.c"
+CVE-2020-11080,nghttp2_on_frame_recv_callback
+CVE-2020-11089,"parallel_process_irp_create, serial_process_irp_create, drive_process_irp_write, printer_process_irp_write, rdpei_recv_pdu, serial_process_irp_write"
+CVE-2020-11095,PRIMARY_DRAWING_ORDER_FIELD_BYTES
+CVE-2020-11096,"update_read_cache_bitmap_v3_order, -bitmap-cache"
+CVE-2020-11097,PRIMARY_DRAWING_ORDER_FIELD_BYTES
+CVE-2020-11098,"glyph_cache_put, +glyph-cache"
+CVE-2020-11099,license_read_new_or_upgrade_license_packet
+CVE-2020-11494,"slc_bump, drivers/net/can/slcan.c, can_frame, CONFIG_INIT_STACK_ALL"
+CVE-2020-11558,"audio_sample_entry_Read, isomedia/box_code_base.c, gf_isom_box_del, mdia_Read, gf_isom_delete_movie, gf_isom_parse_movie_boxes"
+CVE-2020-11565,"mpol_parse_str, mm/mempolicy.c"
+CVE-2020-11608,"drivers/media/usb/gspca/ov519.c, ov511_mode_init_regs, ov518_mode_init_regs"
+CVE-2020-11609,"drivers/media/usb/gspca/stv06xx/stv06xx.c, drivers/media/usb/gspca/stv06xx/stv06xx_pb0100.c"
+CVE-2020-11647,epan/dissectors/packet-bacapp.c
+CVE-2020-11668,drivers/media/usb/gspca/xirlink_cit.c
+CVE-2020-11669,"arch/powerpc/kernel/idle_book3s.S, PNV_POWERSAVE_AMR, PNV_POWERSAVE_UAMOR, PNV_POWERSAVE_AMOR"
+CVE-2020-11724,ngx_http_lua_subrequest.c
+CVE-2020-11735,ecc.c
+CVE-2020-11810,"P_DATA_V2, peer-id, PUSH_REPLY, NCP"
+CVE-2020-11869,"ati_2d_blt, hw/display/ati-2d.c, ati_mm_write"
+CVE-2020-11939,"concat_hash_string, ssh.c"
+CVE-2020-11940,"concat_hash_string, ssh.c"
+CVE-2020-11947,"iscsi_aio_ioctl_cb, block/iscsi.c"
+CVE-2020-12062,
+CVE-2020-12268,"jbig2_image_compose, jbig2_image.c"
+CVE-2020-12278,path.c
+CVE-2020-12284,"cbs_jpeg_split_fragment, libavcodec/cbs_jpeg.c, JPEG_MARKER_SOS"
+CVE-2020-12464,"usb_sg_cancel, drivers/usb/core/message.c"
+CVE-2020-12465,"mt76_add_fragment, drivers/net/wireless/mediatek/mt76/dma.c"
+CVE-2020-12607,
+CVE-2020-12652,"__mptctl_ioctl, drivers/message/fusion/mptctl.c"
+CVE-2020-12653,"mwifiex_cmd_append_vsie_tlv, drivers/net/wireless/marvell/mwifiex/scan.c"
+CVE-2020-12654,"mwifiex_ret_wmm_get_status, drivers/net/wireless/marvell/mwifiex/wmm.c"
+CVE-2020-12655,"xfs_agf_verify, fs/xfs/libxfs/xfs_alloc.c"
+CVE-2020-12657,"bfq_idle_slice_timer_body, block/bfq-iosched.c"
+CVE-2020-12658,"gp_worker_main, gp_workers.c"
+CVE-2020-12659,"xdp_umem_reg, net/xdp/xdp_umem.c"
+CVE-2020-12768,"svm_cpu_uninit, arch/x86/kvm/svm.c"
+CVE-2020-12769,"drivers/spi/spi-dw.c, dw_spi_irq, dw_spi_transfer_one"
+CVE-2020-12770,"sg_write, sg_remove_request"
+CVE-2020-13112,
+CVE-2020-13113,
+CVE-2020-13114,
+CVE-2020-13143,"gadget_dev_desc_UDC_store, drivers/usb/gadget/configfs.c"
+CVE-2020-13164,epan/dissectors/packet-nfs.c
+CVE-2020-13765,"rom_copy, hw/core/loader.c"
+CVE-2020-13775,
+CVE-2020-13848,"FindServiceControlURLPath, FindServiceEventURLPath, genlib/service_table/service_table.c"
+CVE-2020-13881,support.c
+CVE-2020-13904,"parse_playlist, libavformat/hls.c, av_probe_input_format3, libavformat/format.c"
+CVE-2020-13974,"drivers/tty/vt/keyboard.c, k_ascii"
+CVE-2020-14093,
+CVE-2020-14314,ext3/ext4
+CVE-2020-14381,
+CVE-2020-14385,XFS
+CVE-2020-14386,
+CVE-2020-14390,
+CVE-2020-14396,libvncclient/tls_openssl.c
+CVE-2020-14397,libvncserver/rfbregion.c
+CVE-2020-14398,libvncclient/sockets.c
+CVE-2020-14399,libvncclient/rfbproto.c
+CVE-2020-14400,libvncserver/translate.c
+CVE-2020-14401,"libvncserver/scale.c, pixel_value"
+CVE-2020-14402,libvncserver/corre.c
+CVE-2020-14403,libvncserver/hextile.c
+CVE-2020-14404,libvncserver/rre.c
+CVE-2020-14405,libvncclient/rfbproto.c
+CVE-2020-14415,"oss_write, audio/ossaudio.c"
+CVE-2020-14416,"tty->disc_data, drivers/net/slip/slip.c, drivers/net/can/slcan.c"
+CVE-2020-14954,
+CVE-2020-15007,"M_LoadDefaults, m_misc.c"
+CVE-2020-15121,
+CVE-2020-15260,
+CVE-2020-15261,
+CVE-2020-15393,"usbtest_disconnect, drivers/usb/misc/usbtest.c"
+CVE-2020-15466,epan/dissectors/packet-gvcp.c
+CVE-2020-15471,"ndpi_parse_packet_line_info, lib/ndpi_main.c"
+CVE-2020-15472,"ndpi_search_h323, lib/protocols/h323.c"
+CVE-2020-15473,"ndpi_search_openvpn, lib/protocols/openvpn.c"
+CVE-2020-15474,"extractRDNSequence, lib/protocols/tls.c"
+CVE-2020-15475,"ndpi_reset_packet_line_info, lib/ndpi_main.c"
+CVE-2020-15476,"ndpi_search_oracle, lib/protocols/oracle.c"
+CVE-2020-15503,"decoders/unpack_thumb.cpp, postprocessing/mem_image.cpp, utils/thumb_utils.cpp, libraw_processed_image_t, T.tlength"
+CVE-2020-15569,PlayerGeneric.cpp
+CVE-2020-15780,drivers/acpi/acpi_configfs.c
+CVE-2020-15852,tss_invalidate_io_bitmap
+CVE-2020-15863,hw/net/xgmac.c
+CVE-2020-15888,
+CVE-2020-15889,lgc.c
+CVE-2020-15900,
+CVE-2020-15908,tar/TarFileReader.cpp
+CVE-2020-15945,"ldebug.c, luaG_traceexec"
+CVE-2020-16166,"drivers/char/random.c, kernel/time/timer.c"
+CVE-2020-17498,epan/dissectors/packet-kafka.c
+CVE-2020-18750,
+CVE-2020-1888,handleBackslash
+CVE-2020-1892,JSON_parser
+CVE-2020-1893,TryParse
+CVE-2020-1898,fb_unserialize
+CVE-2020-1899,StringData
+CVE-2020-1900,
+CVE-2020-1916,ldap_escape
+CVE-2020-1917,"xbuf_format_converter, exif_read_data"
+CVE-2020-1918,
+CVE-2020-1919,substr_compare
+CVE-2020-1921,
+CVE-2020-19481,"gf_m2ts_process_pmt, media_tools/mpegts.c"
+CVE-2020-19488,"box_code_apple.c:119, ilst_item_Read"
+CVE-2020-19491,cgif.c
+CVE-2020-19667,"ReadXPMImage, coders/xpm.c"
+CVE-2020-19858,
+CVE-2020-19860,
+CVE-2020-20276,"handle_PORT, common.c"
+CVE-2020-20277,"compose_abspath, common.c"
+CVE-2020-20739,"im_vips2dz, /libvips/libvips/deprecated/im_vips2dz.c"
+CVE-2020-20740,pdf_get_version()
+CVE-2020-21572,src_parser_trans_stage_1_2_3
+CVE-2020-21674,"archive_string_append_from_wcs, archive_string.c"
+CVE-2020-22873,NumberToPrecisionCmd
+CVE-2020-22874,Jsi_ObjArraySizer
+CVE-2020-22875,Jsi_ObjSetLength
+CVE-2020-23914,"peg::AstOptimizer::optimize(), peglib.h"
+CVE-2020-23915,"peg::resolve_escape_sequence, peglib.h"
+CVE-2020-23928,"abst_box_read, box_code_adobe.c"
+CVE-2020-23930,"nhmldump_send_header, write_nhml.c"
+CVE-2020-23931,"abst_box_read, box_code_adobe.c"
+CVE-2020-23932,"dump_isom_sdp, filedump.c"
+CVE-2020-24342,"luaO_pushvfstring, luaD_callnoyield"
+CVE-2020-24352,"ati_2d_blt, hw/display/ati_2d.c, ati_mm_write"
+CVE-2020-24369,ldebug.c
+CVE-2020-24370,ldebug.c
+CVE-2020-24371,lgc.c
+CVE-2020-24394,fs/nfsd/vfs.c
+CVE-2020-24619,"setPeerVerifyMode, QSslSocket::VerifyNone, mainwindow.cpp"
+CVE-2020-24654,
+CVE-2020-24716,
+CVE-2020-24717,
+CVE-2020-24753,
+CVE-2020-24870,"LibRaw::identify_process_dng_fields, identify.cpp"
+CVE-2020-25211,"ctnetlink_parse_tuple_filter, net/netfilter/nf_conntrack_netlink.c"
+CVE-2020-25212,"fs/nfs/nfs4proc.c, fs/nfs/nfs4xdr.c"
+CVE-2020-25284,drivers/block/rbd.c
+CVE-2020-25285,mm/hugetlb.c
+CVE-2020-25427,gf_isom_get_track_id
+CVE-2020-25628,
+CVE-2020-25641,
+CVE-2020-25643,ppp_cp_parse_cr
+CVE-2020-25669,"sunkbd_reinit, sunkbd_interrupt, sunkbd_disconnect"
+CVE-2020-25698,
+CVE-2020-25704,PERF_EVENT_IOC_SET_FILTER
+CVE-2020-25862,epan/dissectors/packet-tcp.c
+CVE-2020-25863,epan/dissectors/packet-multipart.c
+CVE-2020-25866,epan/dissectors/packet-blip.c
+CVE-2020-26088,net/nfc/rawsock.c
+CVE-2020-26247,Nokogiri::XML::Schema
+CVE-2020-26298,:escape_html
+CVE-2020-26570,sc_oberthur_read_file
+CVE-2020-26572,tcos_decipher
+CVE-2020-26575,epan/dissectors/packet-fbzero.c
+CVE-2020-26759,
+CVE-2020-26934,
+CVE-2020-26935,SearchController
+CVE-2020-27194,"scalar32_min_max_or, kernel/bpf/verifier.c"
+CVE-2020-27209,
+CVE-2020-27347,"input_csi_dispatch_sgr_colon, input.c"
+CVE-2020-27560,"OptimizeLayerFrames, MagickCore/layer.c"
+CVE-2020-27638,receive.c
+CVE-2020-27673,
+CVE-2020-27675,drivers/xen/events/events_base.c
+CVE-2020-27678,"parse_user_name, lib/libpam/pam_framework.c"
+CVE-2020-27777,
+CVE-2020-27786,
+CVE-2020-27787,"invert_pt_dynamic, p_lx_elf.cpp"
+CVE-2020-27788,"PackLinuxElf64::canPack, p_lx_elf.cpp"
+CVE-2020-27790,"PackLinuxElf64::invert_pt_dynamic, p_lx_elf.cpp"
+CVE-2020-27793,core_java.c
+CVE-2020-27794,cmd_info.c:cmd_info()
+CVE-2020-27795,"libr/core/cmd_anal.c, anal_fcn_data, r_anal_get_fcn_in, core->anal, core->offset, ensure_fcn_range"
+CVE-2020-27829,coders/tiff.c
+CVE-2020-28030,epan/dissectors/packet-gquic.c
+CVE-2020-28097,"vgacon_scrolldelta, CID-973c096f6a85"
+CVE-2020-28196,lib/krb5/asn.1/asn1_encode.c
+CVE-2020-28374,"drivers/target/target_core_xcopy.c, CID-2896c93811e3"
+CVE-2020-28896,$ssl_force_tls
+CVE-2020-28915,
+CVE-2020-28941,drivers/accessibility/speakup/spk_ttyio.c
+CVE-2020-28974,"KD_FONT_OP_COPY, drivers/tty/vt/vt.c"
+CVE-2020-29074,"scan.c, IPC_CREAT|0777"
+CVE-2020-29260,rfbClientCleanup
+CVE-2020-29367,blosc2.c
+CVE-2020-29368,"__split_huge_pmd, mm/huge_memory.c"
+CVE-2020-29369,"expand_downwards, expand_upwards, mm/mmap.c"
+CVE-2020-29370,"kmem_cache_alloc_bulk, mm/slub.c"
+CVE-2020-29371,"romfs_dev_read, fs/romfs/storage.c"
+CVE-2020-29373,fs/io_uring.c
+CVE-2020-29660,"drivers/tty/tty_io.c, drivers/tty/tty_jobctrl.c, TIOCGSID"
+CVE-2020-29661,"drivers/tty/tty_jobctrl.c, TIOCSPGRP, CID-54ffccbf053b"
+CVE-2020-35508,
+CVE-2020-35517,
+CVE-2020-35518,
+CVE-2020-35530,"new_node(), libraw\src\x3f\x3f_utils_patched.cpp"
+CVE-2020-35531,"get_huffman_diff, libraw\src\x3f\x3f_utils_patched.cpp"
+CVE-2020-35532,"simple_decode_row(), libraw\src\x3f\x3f_utils_patched.cpp"
+CVE-2020-35533,"LibRaw::adobe_copy_pixel, libraw\src\decoders\dng.cpp"
+CVE-2020-35534,"crxFreeSubbandData(), libraw\src\decoders\crx.cpp"
+CVE-2020-35535,"LibRaw::parseSonySRF(), libraw\src\metadata\sony.cpp"
+CVE-2020-35605,graphics.c
+CVE-2020-35963,"flb_gzip_compress, flb_gzip.c"
+CVE-2020-35964,"track_header, libavformat/vividas.c"
+CVE-2020-35965,"decode_frame, libavcodec/exr.c"
+CVE-2020-35979,"gp_rtp_builder_do_avc, ietf/rtp_pck_mpeg4.c"
+CVE-2020-35980,"gf_isom_box_del, isomedia/box_funcs.c"
+CVE-2020-35981,"SetupWriters, isomedia/isom_store.c"
+CVE-2020-35982,"gf_hinter_track_finalize, media_tools/isom_hinter.c"
+CVE-2020-36158,"mwifiex_cmd_802_11_ad_hoc_start, drivers/net/wireless/marvell/mwifiex/join.c"
+CVE-2020-36177,"RsaPad_PSS, wolfcrypt/src/rsa.c"
+CVE-2020-36254,scp.c
+CVE-2020-36278,"findNextBorderPixel, ccbord.c"
+CVE-2020-36279,"rasteropGeneralLow, adaptmap_reg.c, adaptmap.c"
+CVE-2020-36280,"pixReadFromTiffStream, tiffio.c"
+CVE-2020-36281,"pixFewColorsOctcubeQuantMixed, colorquant1.c"
+CVE-2020-4030,TrioParse
+CVE-2020-4031,"gdi_SelectObject, /relax-order-checks"
+CVE-2020-4032,"update_recv_secondary_order, +glyph-cache, /relax-order-checks"
+CVE-2020-4033,RLEDECOMPRESS
+CVE-2020-6016,SNP_ReceiveUnreliableSegment
+CVE-2020-6017,SNP_ReceiveUnreliableSegment
+CVE-2020-6018,AES_GCM_DecryptContext::Decrypt
+CVE-2020-6019,CConnectionTransportUDPBase::Received_Data()
+CVE-2020-7041,"tunnel.c, X509_check_host"
+CVE-2020-7042,tunnel.c
+CVE-2020-7043,tunnel.c
+CVE-2020-7044,epan/dissectors/packet-wassp.c
+CVE-2020-7045,epan/dissectors/packet-btatt.c
+CVE-2020-7053,"i915_ppgtt_close, drivers/gpu/drm/i915/i915_gem_gtt.c, i915_gem_context_destroy_ioctl, drivers/gpu/drm/i915/i915_gem_context.c"
+CVE-2020-7670,Content-Length
+CVE-2020-8428,"fs/namei.c, may_create_in_sticky, CID-d0cb50185ae9"
+CVE-2020-8597,"eap.c, eap_request, eap_response"
+CVE-2020-8955,"irc_mode_channel_update, plugins/irc/irc-mode.c"
+CVE-2020-9274,"lookup_alias, print_aliases, init_aliases, diraliases.c"
+CVE-2020-9365,"pure_strcmp, utils.c"
+CVE-2020-9383,"set_fdc, drivers/block/floppy.c, wait_til_ready, CID-2e90ca68b0d2"
+CVE-2020-9428,epan/dissectors/packet-eap.c
+CVE-2020-9429,epan/dissectors/packet-wireguard.c
+CVE-2020-9430,plugins/epan/wimax/msg_dlmap.c
+CVE-2020-9431,epan/dissectors/packet-lte-rrc.c
+CVE-2020-9432,"openssl_x509_check_host, lua_pushboolean"
+CVE-2020-9433,"openssl_x509_check_email, lua_pushboolean"
+CVE-2020-9434,"openssl_x509_check_ip_asc, lua_pushboolean"
+CVE-2020-9760,
+CVE-2021-20223,"Double.parseDouble, PIPELINE_PATH, fix-buildkite-agent-builds-permissions, br_multicast_add_group, net/bridge/br_multicast.c, $RepeatedMsgReduction, NIO+OpenSSL, NIO2+OpenSSL"
+CVE-2021-20230,verifyChain
+CVE-2021-20257,process_tx_desc
+CVE-2021-21261,"flatpak-portal, org.freedesktop.portal.Flatpak"
+CVE-2021-21300,core.symlinks
+CVE-2021-21335,spnego-http-auth-nginx-module
+CVE-2021-21375,
+CVE-2021-21378,"`allow_missing`, `requires_any`, `JwtMissed`, `JwtUnknownIssuer`, `JwtRequirement`, `AnyVerifier`, `JwtMissing`"
+CVE-2021-21381,"@@, @@u, `exports/share/applications/*.desktop`, `~/.local/share/flatpak/exports/share/applications/*.desktop`, `/var/lib/flatpak/exports/share/applications/*.desktop`"
+CVE-2021-21401,
+CVE-2021-23158,"pspdf_export, ps-pdf.cxx"
+CVE-2021-23177,
+CVE-2021-23180,"file_extension, file.c"
+CVE-2021-23191,"image_load_jpeg, image.cxx"
+CVE-2021-23214,
+CVE-2021-23222,
+CVE-2021-24025,
+CVE-2021-24028,
+CVE-2021-24036,IOBuf
+CVE-2021-26567,frontend/main.c
+CVE-2021-26911,core/imap/MCIMAPSession.cpp
+CVE-2021-27815,
+CVE-2021-28041,ssh-agent
+CVE-2021-28855,"dbuf_write, src/deark-dbuf.c"
+CVE-2021-28856,src/fmtutil.c
+CVE-2021-29279,"gf_props_assign_value, filter_core/filter_props.c"
+CVE-2021-30014,"hevc_parse_slice_segment, media_tools/av_parsers.c"
+CVE-2021-30015,"gf_filter_pck_new_alloc_internal, filter_core/filter_pck.c, av1dmx_parse_flush_sample"
+CVE-2021-30019,"adts_dmx_process, filters/reframe_adts.c, ctx->hdr.frame_size, ctx->hdr.hdr_size"
+CVE-2021-30020,"gf_hevc_read_pps_bs_internal, media_tools/av_parsers.c, pps->num_tile_columns, pps->column_width"
+CVE-2021-30022,"gf_avc_read_pps_bs_internal, media_tools/av_parsers.c, avc->pps"
+CVE-2021-30027,"md_analyze_line, md4c.c"
+CVE-2021-30199,"gf_filter_pck_get_data, filters/reframe_latm.c"
+CVE-2021-30218,util.c
+CVE-2021-30219,build.c
+CVE-2021-3119,"sqlcipher_export, crypto.c, sqlite3StrICmp, sqlite3.c"
+CVE-2021-31254,tenc_box_read
+CVE-2021-31255,abst_box_read
+CVE-2021-31256,stbl_GetSampleInfos
+CVE-2021-31257,
+CVE-2021-31258,gf_isom_set_extraction_slc
+CVE-2021-31259,gf_isom_cenc_get_default_info_internal
+CVE-2021-31260,MergeTrack
+CVE-2021-31261,gf_hinter_track_new
+CVE-2021-31262,AV1_DuplicateConfig
+CVE-2021-31566,
+CVE-2021-31571,queue.c
+CVE-2021-31572,stream_buffer.c
+CVE-2021-31829,kernel/bpf/verifier.c
+CVE-2021-31916,"list_devices, drivers/md/dm-ioctl.c"
+CVE-2021-32020,
+CVE-2021-32055,"$imap_qresync, imap/util.c"
+CVE-2021-32132,abst_box_size
+CVE-2021-32134,"gf_odf_desc_copy, MP4Box"
+CVE-2021-32135,trak_box_size
+CVE-2021-32136,print_udta
+CVE-2021-32137,
+CVE-2021-32138,DumpTrackInfo
+CVE-2021-32139,"gf_isom_vp_config_get, MP4Box"
+CVE-2021-32268,"gf_fprintf, os_file.c"
+CVE-2021-32272,mp4read.c
+CVE-2021-32399,net/bluetooth/hci_request.c
+CVE-2021-32434,"calculate_beam, draw.c"
+CVE-2021-32435,"get_key, parse.c"
+CVE-2021-32436,"write_title, subs.c"
+CVE-2021-32437,gf_hinter_finalize
+CVE-2021-32438,gf_media_export_filters
+CVE-2021-32439,stbl_AppendSize
+CVE-2021-32440,"Media_RewriteODFrame, MP4Box"
+CVE-2021-32613,
+CVE-2021-32686,
+CVE-2021-32762,"redis-cli, redis-sentinel"
+CVE-2021-32765,"RESP, mult-bulk, multi-bulk, redisReply*, SIZE_MAX"
+CVE-2021-32791,"mod_auth_openidc, aes-gcm"
+CVE-2021-32792,OIDCPreservePost
+CVE-2021-3331,
+CVE-2021-33361,afra_box_read
+CVE-2021-33362,hevc_parse_vps_extension
+CVE-2021-33363,infe_box_read
+CVE-2021-33364,def_parent_box_new
+CVE-2021-33365,gf_isom_get_root_od
+CVE-2021-33366,gf_isom_oinf_read_entry
+CVE-2021-3347,CID-34b1a1ce1458
+CVE-2021-3348,"nbd_add_socket, drivers/block/nbd.c"
+CVE-2021-33586,
+CVE-2021-33624,kernel/bpf/verifier.c
+CVE-2021-33815,"dwa_uncompress, libavcodec/exr.c"
+CVE-2021-33909,fs/seq_file.c
+CVE-2021-35039,"kernel/module.c, CONFIG_MODULE_SIG, init_module, module.sig_enforce=1"
+CVE-2021-3566,
+CVE-2021-36084,"__cil_verify_classperms, __cil_verify_classpermission, __cil_pre_verify_helper"
+CVE-2021-36085,"__cil_verify_classperms, __verify_map_perm_classperms, hashtab_map"
+CVE-2021-36086,"cil_reset_classpermission, cil_reset_classperms_set, cil_reset_classperms_list"
+CVE-2021-36087,"ebitmap_match_any, cil_check_neverallow"
+CVE-2021-36088,"flb_free, flb_parser_json_do, flb_parser_do"
+CVE-2021-3609,net/can/bcm.c
+CVE-2021-3610,"ReadTIFFImage, coders/tiff.c"
+CVE-2021-36143,"vq_endchains, hw/pci/virtio/virtio.c"
+CVE-2021-36148,"dmar_free_irte, hypervisor/arch/x86/vtd.c, irte_alloc_bitmap"
+CVE-2021-3622,_get_children
+CVE-2021-36222,"ec_verify, kdc/kdc_preauth_ec.c"
+CVE-2021-3639,mod_auth_mellon
+CVE-2021-3640,"sco_sock_sendmsg, sco_conn_del, UFFDIO_REGISTER"
+CVE-2021-3656,
+CVE-2021-3671,
+CVE-2021-37232,"APar_read64, src/util.cpp, uint32_buffer"
+CVE-2021-3732,
+CVE-2021-3736,"mbochs_ioctl, samples/vfio-mdev/mbochs.c"
+CVE-2021-3739,"btrfs_rm_device, fs/btrfs/volumes.c"
+CVE-2021-3743,
+CVE-2021-3744,"ccp_run_aes_gcm_cmd, drivers/crypto/ccp/ccp-ops.c"
+CVE-2021-3748,num_buffers
+CVE-2021-3751,
+CVE-2021-3753,"vt_k_ioctl, drivers/tty/vt/vt_ioctl.c, vc_mode, vt_ioctl"
+CVE-2021-3756,
+CVE-2021-37594,"wf_cliprdr_server_file_contents_request, client/Windows/wf_cliprdr.c, FILECONTENTS_SIZE"
+CVE-2021-37595,"wf_cliprdr_server_file_contents_request, client/Windows/wf_cliprdr.c"
+CVE-2021-37600,/proc/sysvipc/sem
+CVE-2021-3764,ccp_run_aes_gcm_cmd
+CVE-2021-3770,
+CVE-2021-37706,
+CVE-2021-37750,kdc/do_tgs_req.c
+CVE-2021-3778,
+CVE-2021-3796,
+CVE-2021-3798,"C_CreateObject, C_DeriveKey, ECDH"
+CVE-2021-38114,"init_vlc, libavcodec/dnxhddec.c"
+CVE-2021-38160,"drivers/char/virtio_console.c, buf->len"
+CVE-2021-38171,"adts_decode_extradata, libavformat/adtsenc.c, init_get_bits"
+CVE-2021-38199,fs/nfs/nfs4client.c
+CVE-2021-38200,"arch/powerpc/perf/core-book3s.c, perf_event_paranoid"
+CVE-2021-38201,"net/sunrpc/xdr.c, xdr_set_page_base"
+CVE-2021-38203,system_space_info
+CVE-2021-38204,drivers/usb/host/max3421-hcd.c
+CVE-2021-38205,drivers/net/ethernet/xilinx/xilinx_emaclite.c
+CVE-2021-38206,mac80211
+CVE-2021-38207,drivers/net/ethernet/xilinx/ll_temac_main.c
+CVE-2021-38208,net/nfc/llcp_sock.c
+CVE-2021-38209,"net/netfilter/nf_conntrack_standalone.c, NF_SYSCTL_CT_MAX, NF_SYSCTL_CT_EXPECT_MAX"
+CVE-2021-38383,"net_bind, misc.c"
+CVE-2021-3839,"vhost_user_set_inflight_fd, msg->payload.inflight.num_queues"
+CVE-2021-38597,OCSP
+CVE-2021-3872,
+CVE-2021-3875,
+CVE-2021-3881,
+CVE-2021-3888,
+CVE-2021-3889,
+CVE-2021-3903,
+CVE-2021-3905,
+CVE-2021-39191,"OIDCRedirectURLsAllowed, target_link_uri"
+CVE-2021-39212,"`policy.xml`, EPI, EPS, EPSF"
+CVE-2021-3927,
+CVE-2021-3928,
+CVE-2021-3962,
+CVE-2021-3968,
+CVE-2021-3973,
+CVE-2021-3974,
+CVE-2021-3975,"qemuMonitorUnregister, qemuProcessHandleMonitorEOF, virConnectGetAllDomainStats"
+CVE-2021-3984,
+CVE-2021-3997,systemd-tmpfiles
+CVE-2021-40153,"squashfs_opendir, unsquash-1.c"
+CVE-2021-4019,
+CVE-2021-40330,"git_connect_git, connect.c"
+CVE-2021-4043,
+CVE-2021-40524,max_filesize
+CVE-2021-40540,"ulfius_uri_logger, con_info->request"
+CVE-2021-40562,"naludmx_enqueue_or_dispatch, reframe_nalu.c"
+CVE-2021-40563,"naludmx_create_avc_decoder_config, reframe_nalu.c"
+CVE-2021-40564,"avc_parse_slice, av_parsers.c"
+CVE-2021-40565,"gf_avc_parse_nalu, av_parsers.c"
+CVE-2021-40566,"mpgviddmx_process, reframe_mpgvid.c"
+CVE-2021-40567,"gf_odf_size_descriptor, desc_private.c"
+CVE-2021-40568,"svc_parse_slice, av_parsers.c"
+CVE-2021-40569,"iloc_entry_del, box_code_meta.c"
+CVE-2021-40570,"avc_compute_poc, av_parsers.c"
+CVE-2021-40571,"ilst_box_read, box_code_apple.c"
+CVE-2021-40572,"av1dmx_finalize, reframe_av1.c"
+CVE-2021-40573,"gf_list_del, list.c"
+CVE-2021-40574,"gf_text_get_utf8_line, load_text.c"
+CVE-2021-40575,"mpgviddmx_process, reframe_mpgvid.c"
+CVE-2021-40576,"gf_isom_get_payt_count, hint_track.c"
+CVE-2021-40592,"isoffin_read.c, isoffin_process"
+CVE-2021-4069,
+CVE-2021-4076,
+CVE-2021-40818,scheme/webauthn.c
+CVE-2021-41072,"squashfs_opendir, unsquash-2.c"
+CVE-2021-4110,
+CVE-2021-41130,"X-Endpoint-API-UserInfo, ESPv1"
+CVE-2021-41133,"AF_UNIX, /.flatpak-info, xdg-dbus-proxy, VFS"
+CVE-2021-41141,
+CVE-2021-41168,reference_name
+CVE-2021-41193,wire-avs
+CVE-2021-4136,
+CVE-2021-41556,"sqclass.cpp, SquirrelScripts"
+CVE-2021-4166,
+CVE-2021-4173,
+CVE-2021-41864,"prealloc_elems_and_freelist, kernel/bpf/stackmap.c"
+CVE-2021-4187,
+CVE-2021-4188,
+CVE-2021-4192,
+CVE-2021-4193,
+CVE-2021-4216,muraster.c
+CVE-2021-43267,"net/tipc/crypto.c, MSG_CRYPTO"
+CVE-2021-43804,PJMEDIA
+CVE-2021-43824,
+CVE-2021-43825,
+CVE-2021-43826,envoy_v3_api_field_extensions.filters.network.tcp_proxy.v3.TcpProxy.tunneling_config
+CVE-2021-43845,PJMEDIA
+CVE-2021-43860,
+CVE-2021-44108,src/amf/namf-handler.c
+CVE-2021-44109,lib/sbi/message.c
+CVE-2021-45005,JumpList
+CVE-2021-45095,"pep_sock_accept, net/phonet/pep.c"
+CVE-2021-45379,
+CVE-2021-45462,SGW-U/UPF
+CVE-2021-45480,"__rds_conn_create, net/rds/connection.c"
+CVE-2021-46225,GmfOpenMesh
+CVE-2021-46389,iipsrv.fcgi
+CVE-2021-46461,"njs_vmcode_typeof, /src/njs_vmcode.c"
+CVE-2021-46462,"njs_object_set_prototype, /src/njs_object.c"
+CVE-2021-46463,njs_promise_perform_then()
+CVE-2022-0080,
+CVE-2022-0128,
+CVE-2022-0139,radareorg/radare2
+CVE-2022-0156,
+CVE-2022-0158,
+CVE-2022-0173,
+CVE-2022-0213,
+CVE-2022-0240,
+CVE-2022-0261,
+CVE-2022-0284,"GetPixelAlpha, pixel-accessor.h"
+CVE-2022-0318,vim/vim
+CVE-2022-0319,
+CVE-2022-0326,
+CVE-2022-0351,vim/vim
+CVE-2022-0359,
+CVE-2022-0361,
+CVE-2022-0367,"modbus_reply, src/modbus.c"
+CVE-2022-0368,
+CVE-2022-0382,
+CVE-2022-0392,
+CVE-2022-0393,
+CVE-2022-0407,
+CVE-2022-0408,
+CVE-2022-0413,
+CVE-2022-0417,vim/vim
+CVE-2022-0419,radareorg/radare2
+CVE-2022-0443,
+CVE-2022-0476,radareorg/radare2
+CVE-2022-0481,
+CVE-2022-0518,radareorg/radare2
+CVE-2022-0519,radareorg/radare2
+CVE-2022-0520,
+CVE-2022-0521,radareorg/radare2
+CVE-2022-0522,radare2.js
+CVE-2022-0523,radareorg/radare2
+CVE-2022-0525,
+CVE-2022-0554,
+CVE-2022-0559,radareorg/radare2
+CVE-2022-0570,
+CVE-2022-0572,
+CVE-2022-0614,
+CVE-2022-0623,
+CVE-2022-0629,
+CVE-2022-0630,
+CVE-2022-0631,
+CVE-2022-0632,
+CVE-2022-0669,"VHOST_USER_GET_INFLIGHT_FD, VHOST_USER_SET_INFLIGHT_FD"
+CVE-2022-0676,radareorg/radare2
+CVE-2022-0685,vim/vim
+CVE-2022-0695,radareorg/radare2
+CVE-2022-0696,
+CVE-2022-0711,Set-Cookie2
+CVE-2022-0712,radareorg/radare2
+CVE-2022-0713,radareorg/radare2
+CVE-2022-0714,vim/vim
+CVE-2022-0717,mruby/mruby
+CVE-2022-0729,vim/vim
+CVE-2022-0849,r_reg_get_name_idx
+CVE-2022-0890,mruby/mruby
+CVE-2022-0943,vim/vim
+CVE-2022-1031,op_is_set_bp
+CVE-2022-1035,
+CVE-2022-1043,io_uring
+CVE-2022-1052,iterate_chained_fixups
+CVE-2022-1061,parseDragons
+CVE-2022-1071,mrb_vm_exec
+CVE-2022-1106,mrb_vm_exec
+CVE-2022-1154,utf_ptr2char
+CVE-2022-1160,get_one_sourceline
+CVE-2022-1172,gpac/gpac
+CVE-2022-1198,drivers/net/hamradio/6pack.c
+CVE-2022-1199,
+CVE-2022-1201,mrb_vm_exec
+CVE-2022-1205,
+CVE-2022-1207,radareorg/radare2
+CVE-2022-1212,"str_escape, mruby/mruby"
+CVE-2022-1222,gpac/gpac
+CVE-2022-1237,radareorg/radare2
+CVE-2022-1238,libr/bin/format/ne/ne.c
+CVE-2022-1240,"r_str_ncpy, libr/bin/format/mach0/mach0.c"
+CVE-2022-1244,
+CVE-2022-1263,vCPU
+CVE-2022-1276,mrb_get_args
+CVE-2022-1283,r_bin_ne_get_entrypoints
+CVE-2022-1284,
+CVE-2022-1286,"mrb_vm_exec, mruby/mruby"
+CVE-2022-1289,
+CVE-2022-1296,r_bin_ne_get_relocs
+CVE-2022-1297,"r_bin_ne_get_entrypoints, radareorg/radare2"
+CVE-2022-1341,"get_cmdln_options, src/options.c"
+CVE-2022-1353,"pfkey_register, net/key/af_key.c"
+CVE-2022-1381,skip_range
+CVE-2022-1382,radareorg/radare2
+CVE-2022-1383,radareorg/radare2
+CVE-2022-1420,vim/vim
+CVE-2022-1427,"mrb_obj_is_kind_of, mruby/mruby"
+CVE-2022-1437,radareorg/radare2
+CVE-2022-1441,diST_box_read
+CVE-2022-1444,
+CVE-2022-1451,r_bin_java_constant_value_attr_new
+CVE-2022-1452,radareorg/radare2
+CVE-2022-1533,
+CVE-2022-1534,parse_rawml.c:1416
+CVE-2022-1586,"compile_xclass_matchingpath, pcre2_jit_compile.c"
+CVE-2022-1587,"get_recurse_data_length, pcre2_jit_compile.c"
+CVE-2022-1616,append_command
+CVE-2022-1619,cmdline_erase_chars
+CVE-2022-1620,"vim_regexec_string, regexp.c:2729"
+CVE-2022-1621,"vim_strncpy, find_word"
+CVE-2022-1629,find_next_quote
+CVE-2022-1649,libr/bin/format/mach0/mach0.c
+CVE-2022-1674,"vim_regexec_string, regexp.c:2733"
+CVE-2022-1714,radareorg/radare2
+CVE-2022-1720,grab_file_name
+CVE-2022-1725,
+CVE-2022-1733,vim/vim
+CVE-2022-1734,"nfcmrvl_nci_unregister_dev, drivers/nfc/nfcmrvl/main.c"
+CVE-2022-1735,
+CVE-2022-1769,
+CVE-2022-1771,
+CVE-2022-1785,
+CVE-2022-1795,
+CVE-2022-1796,
+CVE-2022-1809,radareorg/radare2
+CVE-2022-1851,
+CVE-2022-1852,"x86_emulate_insn, arch/x86/kvm/emulate.c"
+CVE-2022-1886,
+CVE-2022-1897,
+CVE-2022-1898,
+CVE-2022-1899,radareorg/radare2
+CVE-2022-1907,
+CVE-2022-1908,bfabiszewski/libmobi
+CVE-2022-1927,vim/vim
+CVE-2022-1934,mruby/mruby
+CVE-2022-1942,
+CVE-2022-1968,
+CVE-2022-1974,
+CVE-2022-1975,/net/nfc/netlink.c
+CVE-2022-1987,
+CVE-2022-2000,
+CVE-2022-2042,
+CVE-2022-2061,
+CVE-2022-21144,"libxmljs.parseXml, .toString"
+CVE-2022-21164,
+CVE-2022-21227,
+CVE-2022-2124,vim/vim
+CVE-2022-2125,
+CVE-2022-2126,
+CVE-2022-2129,
+CVE-2022-2153,
+CVE-2022-21654,
+CVE-2022-21655,
+CVE-2022-21656,"default_validator.cc, subjectAltNames, rfc822Name, uniformResourceIndicator, nameConstraints, OpenSSL/BoringSSL"
+CVE-2022-21682,"flatpak-builder, `finish-args`, `--mirror-screenshots-url`, `--nofilesystem=host`, `appstream-util`, `--nofilesystem=home`, `--nofilesystem=host`"
+CVE-2022-21711,
+CVE-2022-21722,PJMEDIA
+CVE-2022-21723,
+CVE-2022-2175,
+CVE-2022-2182,
+CVE-2022-2183,
+CVE-2022-2206,
+CVE-2022-2207,
+CVE-2022-2208,
+CVE-2022-2210,
+CVE-2022-2231,
+CVE-2022-2257,
+CVE-2022-2264,
+CVE-2022-2279,bfabiszewski/libmobi
+CVE-2022-2284,
+CVE-2022-2285,vim/vim
+CVE-2022-2286,
+CVE-2022-2287,
+CVE-2022-2288,vim/vim
+CVE-2022-2289,
+CVE-2022-2301,
+CVE-2022-2304,vim/vim
+CVE-2022-2318,net/rose/rose_timer.c
+CVE-2022-23308,valid.c
+CVE-2022-2343,vim/vim
+CVE-2022-2344,vim/vim
+CVE-2022-2345,
+CVE-2022-23606,
+CVE-2022-23608,
+CVE-2022-23645,
+CVE-2022-24122,kernel/ucount.c
+CVE-2022-24300,ItemStack
+CVE-2022-24301,
+CVE-2022-24448,"nfs_atomic_open, fs/nfs/dir.c"
+CVE-2022-2453,
+CVE-2022-2454,gpac/gpac
+CVE-2022-24754,"PJSIP_CRED_DATA_DIGEST, PJSIP_MD5STRLEN"
+CVE-2022-24763,
+CVE-2022-24764,"pjmedia_sdp_print(), pjmedia_sdp_media_print(), PJSUA2, pjsip/pjproject"
+CVE-2022-24786,pjmedia_rtcp_fb_parse_rpsi
+CVE-2022-24792,"PJSIP, WAV"
+CVE-2022-24793,"parse_rr(), parse_query(), nameserver_count, pjsip/pjproject"
+CVE-2022-24958,"drivers/usb/gadget/legacy/inode.c, dev->buf"
+CVE-2022-24959,"yam_siocdevprivate, drivers/net/hamradio/yam.c"
+CVE-2022-24976,
+CVE-2022-25044,"src/jsvar.c, jsvNewFromString"
+CVE-2022-25139,njs_await_fulfilled
+CVE-2022-2522,
+CVE-2022-2526,"on_stream_io, dns_stream_complete, resolved-dns-stream.c"
+CVE-2022-25297,
+CVE-2022-25298,
+CVE-2022-25299,mg_http_upload
+CVE-2022-25309,"fribidi_cap_rtl_to_unicode, fribidi-char-sets-cap-rtl.c"
+CVE-2022-2549,
+CVE-2022-2553,
+CVE-2022-2566,"build_open_gop_key_points, sc->ctts_data[i].count, sc->sample_offsets_count, av_calloc"
+CVE-2022-2571,vim/vim
+CVE-2022-25761,-
+CVE-2022-2580,vim/vim
+CVE-2022-2581,
+CVE-2022-2598,API
+CVE-2022-2639,reserve_sfa_size
+CVE-2022-26490,"st21nfca_connectivity_event_received, drivers/nfc/st21nfca/se.c"
+CVE-2022-2652,v4l2loopback
+CVE-2022-26530,
+CVE-2022-27007,"njs_function_frame_alloc, njs_function_frame_save"
+CVE-2022-27008,Array.prototype.concat
+CVE-2022-27223,drivers/usb/gadget/udc/udc-xilinx.c
+CVE-2022-27650,
+CVE-2022-27666,"net/ipv4/esp4.c, net/ipv6/esp6.c"
+CVE-2022-27950,drivers/hid/hid-elo.c
+CVE-2022-28044,lrzip.c:initialise_control
+CVE-2022-28049,"njs_vmcode_array, /src/njs_vmcode.c"
+CVE-2022-2816,
+CVE-2022-2817,
+CVE-2022-2819,vim/vim
+CVE-2022-28356,net/llc/af_llc.c
+CVE-2022-28388,"usb_8dev_start_xmit, drivers/net/can/usb/usb_8dev.c"
+CVE-2022-28389,"mcba_usb_start_xmit, drivers/net/can/usb/mcba_usb.c"
+CVE-2022-28390,"ems_usb_start_xmit, drivers/net/can/usb/ems_usb.c"
+CVE-2022-2845,
+CVE-2022-28463,
+CVE-2022-2849,vim/vim
+CVE-2022-2862,
+CVE-2022-2874,
+CVE-2022-28796,"jbd2_journal_wait_updates, fs/jbd2/transaction.c"
+CVE-2022-28805,"lparser.c, luaK_exp2anyregup"
+CVE-2022-2889,
+CVE-2022-29156,"drivers/infiniband/ulp/rtrs/rtrs-clt.c, rtrs_clt_dev_release"
+CVE-2022-29181,
+CVE-2022-2923,
+CVE-2022-29339,"BS_ReadByte, utils/bitstream.c"
+CVE-2022-29340,"gf_isom_parse_movie_boxes_internal, GF_SKIP_BOX"
+CVE-2022-29369,"njs_lvlhsh_bucket_find, njs_lvlhsh.c"
+CVE-2022-29379,"njs_default_module_loader, /src/njs/src/njs_module.c"
+CVE-2022-2946,
+CVE-2022-29582,fs/io_uring.c
+CVE-2022-2959,pipe_resize_ring
+CVE-2022-29779,"njs_value_own_enumerate, src/njs_value.c"
+CVE-2022-29780,"njs_array_prototype_sort, src/njs_array.c"
+CVE-2022-29788,mobi_buffer_getpointer
+CVE-2022-2980,vim/vim
+CVE-2022-2982,
+CVE-2022-29859,component/common/network/dhcp/dhcps.c
+CVE-2022-29869,
+CVE-2022-29967,static_compressed_inmemory_website_callback.c
+CVE-2022-29968,"io_rw_init_file, fs/io_uring.c, kiocb->private"
+CVE-2022-3016,
+CVE-2022-3028,xfrm_probe_algs
+CVE-2022-30292,"sqbaselib.cpp, sq_reservestack"
+CVE-2022-3037,vim/vim
+CVE-2022-30503,"njs_set_number, src/njs_value.h"
+CVE-2022-30592,"liblsquic/lsquic_qenc_hdl.c, MAX_TABLE_CAPACITY"
+CVE-2022-30594,"PTRACE_SEIZE, PT_SUSPEND_SECCOMP"
+CVE-2022-3077,I2C_SMBUS_BLOCK_PROC_CALL
+CVE-2022-3099,
+CVE-2022-31031,pjlib-util/stun_simple
+CVE-2022-31306,"njs_array_convert_to_slow_array, src/njs_array.c"
+CVE-2022-31307,"njs_string_offset, src/njs_string.c"
+CVE-2022-3134,
+CVE-2022-3153,
+CVE-2022-31620,"BitStream<false>::Get, bitstream.hpp"
+CVE-2022-31621,"xbstream_open, extra/mariabackup/ds_xbstream.cc"
+CVE-2022-31622,"create_worker_threads, extra/mariabackup/ds_compress.cc"
+CVE-2022-31623,"create_worker_threads, extra/mariabackup/ds_compress.cc, thd->ctrl_mutex"
+CVE-2022-31624,"log_statement_ex, lock_bigbuffer, plugin/server_audit/server_audit.c"
+CVE-2022-3170,id->name
+CVE-2022-3178,gpac/gpac
+CVE-2022-31796,"HierarchicalBitmapRequester::FetchRegion, hierarchicalbitmaprequester.cpp"
+CVE-2022-3202,"diFree, fs/jfs/inode.c"
+CVE-2022-32201,"Component::SubXOf, component.hpp"
+CVE-2022-32202,"LineBuffer::FetchRegion, linebuffer.cpp"
+CVE-2022-3222,gpac/gpac
+CVE-2022-3234,
+CVE-2022-3235,
+CVE-2022-32414,"njs_vmcode_interpreter, src/njs_vmcode.c"
+CVE-2022-3256,
+CVE-2022-3278,
+CVE-2022-3287,/etc/fwupd/redfish.conf
+CVE-2022-3296,
+CVE-2022-3297,
+CVE-2022-32978,"SingleComponentLSScan::ParseMCU, singlecomponentlsscan.cpp"
+CVE-2022-3299,lib/sbi/client.c
+CVE-2022-33099,luaG_runerror
+CVE-2022-33105,streamGetEdgeID
+CVE-2022-3324,vim/vim
+CVE-2022-3352,
+CVE-2022-33981,"drivers/block/floppy.c, raw_cmd"
+CVE-2022-34295,
+CVE-2022-34494,"rpmsg_virtio_add_ctrl_dev, drivers/rpmsg/virtio_rpmsg_bus.c"
+CVE-2022-34495,"rpmsg_probe, drivers/rpmsg/virtio_rpmsg_bus.c"
+CVE-2022-34927,LoaderXM::load
+CVE-2022-35173,
+CVE-2022-35414,"softmmu/physmem.c, io_readx, io_writex"
+CVE-2022-35978,
+CVE-2022-36123,.bss
+CVE-2022-36752,w2p
+CVE-2022-36879,"xfrm_expand_policies, net/xfrm/xfrm_policy.c"
+CVE-2022-39189,KVM_VCPU_PREEMPTED
+CVE-2022-39190,net/netfilter/nf_tables_api.c
+CVE-2022-39842,"pxa3xx_gcu_write, drivers/video/fbdev/pxa3xx-gcu.c, size_t, copy_from_user"
+CVE-2022-40307,drivers/firmware/efi/capsule-loader.c
+CVE-2022-40673,Helper::flushPageCache
