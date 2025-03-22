@@ -88,7 +88,7 @@ if __name__ == "__main__":
     dataset = sys.argv[1]
     df = pd.read_csv(f'../csv/{dataset}.csv')
     
-    # skip repos（large repo or few cve）
+    # skip repos (large repo or few cve)
     # 37G diff_owncast@@owncast.txt, 27G diff_heartexlabs@@label-studio.txt, 26G diff_HumanSignal@@label-studio.txt, 27G diff_ag-grid@@ag-grid.txt, 46g diff_meshery@@meshery.txt, 14G diff_stanfordnlp@@CoreNLP.txt
     large_repos = ["ag-grid", "owncast", "label-studio", "CoreNLP", "meshery"] 
 

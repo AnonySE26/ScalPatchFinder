@@ -4,11 +4,13 @@ The CVE-to-patch data can be found under `../csv/`
 
 ## Collecting the commit message and diff data 
 
-By running the following code, the commit message and diff data can be found under ____
+Run the following command to prepare commit messages and diffs:
 
-```
+```bash
 python prepare_data.py
 ```
+
+Datasets include `AD` and `patchfinder`, with splits into `train` and `test` sets.
 
 ## Selecting the hard repos as the test data (Section 4.2)
 
