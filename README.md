@@ -20,7 +20,7 @@ First, it pre-ranks all commits in a repo using BM25+Time with ElasticSearch (Se
 
 Given the CVE description and one commit, ScalPatchFinder uses the following feature groups to compute the final similarity score:
 
-| Feature Group     | City       |
+| Feature Group     | Feature       |
 |----------|------------|
 | **Code embedding** | 1. GritLM cosine with truncated diff   |
 |     | 2. Max GritLM cosine with all files in diff   |
