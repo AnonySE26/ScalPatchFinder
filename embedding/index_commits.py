@@ -23,8 +23,8 @@ t1 = time.time()
 voyage_max_tokens = 300000
 grit_batch_size = 10 #int(sys.argv[4])
 #context_window = 256 #int(sys.argv[4])
-feature_path = "../../../feature/" # if len(sys.argv[1]) > 0 else ""
-input_data_path = "../../../repo2commits_diff/" # if len(sys.argv[1]) > 0 else ""
+feature_path = "../feature/" # if len(sys.argv[1]) > 0 else ""
+input_data_path = "../repo2commits_diff/" # if len(sys.argv[1]) > 0 else ""
 INSTRUCTION = "This is a commit (commit message + diff code) of a repository. Represent it to retrieve the patching commit for a CVE description. "
 
  
@@ -283,7 +283,7 @@ if __name__ == "__main__":
    
    parser.add_argument("--model_name", type=str, default="grit_instruct_512_file")
    parser.add_argument("--dataset_name", type=str, default="AD")
-   parser.add_argument("--is_train", type=bool, action="store_false")
+   parser.add_argument("--is_train", action="store_true")
 
    args = parser.parse_args()
 
@@ -291,9 +291,7 @@ if __name__ == "__main__":
    dataset_name = args.dataset_name
    is_train = args.is_train
 
-   raise Exception(model_name, dataset_name, is_train)
-
-   repo2cve2negcommits = json.load(open(feature_path + f"repo2cve2negcommits_{dataset_name}_500_unsampled.json" if args.dataset_name == "patchfinder" else f"../../../feature/repo2cve2negcommits_{dataset_name}_500.json", "r"))
+   repo2cve2negcommits = json.load(open(feature_path + f"repo2cve2negcommits_{dataset_name}_500_unsampled.json" if args.dataset_name == "patchfinder" else f"../feature/repo2cve2negcommits_{dataset_name}_500.json", "r"))
 
    if args.model_name != "voyage":
       from transformers import AutoModel, AutoTokenizer
@@ -306,7 +304,7 @@ if __name__ == "__main__":
    cve_data = read_csv(f"../csv/{dataset_name}_train.csv" if is_train else f"../csv/{dataset_name}_test.csv")
    groupby_list = sorted(list(cve_data.groupby(["owner", "repo"])), key = lambda x:x[0])
 
-   unfinished = [x for x in range(len(groupby_list)) if not os.path.exists("../../../feature/" + groupby_list[x][0][0] + "@@" + groupby_list[x][0][1] + f"/{model_name}/commit2embedding.json")]
+   unfinished = [x for x in range(len(groupby_list)) if not os.path.exists("../feature/" + groupby_list[x][0][0] + "@@" + groupby_list[x][0][1] + f"/{model_name}/commit2embedding.json")]
 
    groupby_list = [groupby_list[unfinished[x]] for x in range(0, len(unfinished))]
 
@@ -330,5 +328,5 @@ if __name__ == "__main__":
             print(gritlm.__file__)
             model = GritLM("GritLM/GritLM-7B", torch_dtype="auto")
         for each_row in tqdm.tqdm(groupby_list):
-            #if each_row[0] != ("stanfordnlp", "CoreNLP"): continue
+            if each_row[0] != ("xuxueli", "xxl-job"): continue
             index_with_huggingface(repo2cve2negcommits, each_row, model, model_name, 512, is_train = is_train)

@@ -233,23 +233,24 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name", type=str, default="grit_instruct_512_file")
     parser.add_argument("--dataset_name", type=str, default="AD")
-    parser.add_argument("--is_file", type=bool, action="store_false")
+    parser.add_argument("--is_file", action="store_true")
     parser.add_argument("--head_count", type=int, default=2)
-    parser.add_argument("--is_train", type=bool, action="store_false")
+    parser.add_argument("--is_train", action="store_true")
     parser.add_argument("--mode", type=str, default="mean")
     args = parser.parse_args()
 
     dataset_name = args.dataset_name
     model_name = args.model_name
     is_file = args.is_file
+
     head_count = args.head_count
     is_train = args.is_train
     mode = args.mode
 
     fold = "train" if is_train else "test"
 
-    repo_directory = "../../../"
-    feature_path = "../../../feature/"
+    repo_directory = "../"
+    feature_path = "../feature/"
 
     data = read_csv(f"../csv/{dataset_name}_{fold}.csv")
     groupby_list = sorted(list(data.groupby(["owner", "repo"])), key = lambda x:x[0])
@@ -258,7 +259,7 @@ if __name__ == "__main__":
 
     repo2cve2gitcommits = get_gt_commits(data)
 
-    repo2cve2negcommits = json.load(open(f"../../../feature/repo2cve2negcommits_{dataset_name}_500_unsampled.json" if dataset_name == "patchfinder" else f"../../../feature/repo2cve2negcommits_{dataset_name}_500.json", "r"))
+    repo2cve2negcommits = json.load(open(f"../feature/repo2cve2negcommits_{dataset_name}_500_unsampled.json" if dataset_name == "patchfinder" else f"../feature/repo2cve2negcommits_{dataset_name}_500.json", "r"))
                                          
     #remaining_repos = read_csv("tmp/missed.txt")
     #remaining_repos = set([(remaining_repos.iloc[x]["owner"], remaining_repos.iloc[x]["repo"]) for x in range(len(remaining_repos))])
@@ -276,6 +277,7 @@ if __name__ == "__main__":
     #remaining_repos = {'apache@@ozone', 'github@@hubot-scripts', 'element-hq@@synapse', 'FasterXML@@jackson-dataformats-text', 'apache@@servicecomb-java-chassis', 'h2database@@h2database', 'jooby-project@@jooby', 'evershopcommerce@@evershop', 'aws@@aws-cdk', 'pnpm@@pnpm', 'filebrowser@@filebrowser', 'kubernetes@@ingress-nginx', 'codenameone@@CodenameOne', 'node-red@@node-red', 'mapproxy@@mapproxy', 'stanfordnlp@@CoreNLP', 'felixrieseberg@@windows-build-tools', 'openshift@@cluster-monitoring-operator', 'wanasit@@chrono', 'apache@@incubator-dolphinscheduler', 'knative@@serving', 'labring@@sealos', 'csaf-poc@@csaf_distribution', 'SiCKRAGE@@SiCKRAGE', 'OHDSI@@WebAPI', 'ansible@@ansible-runner', 'theupdateframework@@tuf', 'kubernetes@@apiextensions-apiserver', 'Azure@@aad-pod-identity', 'swagger-api@@swagger-codegen', 'getsentry@@sentry-javascript', 'localstack@@localstack', 'wger-project@@wger', 'TeraTermProject@@teraterm', 'hyperledger@@aries-cloudagent-python', 'mongodb@@mongo-tools', 'mjwwit@@node-XMLHttpRequest', 'HtmlUnit@@htmlunit', 'plotly@@dash', 'kubernetes-sigs@@secrets-store-csi-driver', 'git-lfs@@git-lfs', 'stleary@@JSON-java', 'browserless@@chrome', 'pingcap@@tidb', 'hibernate@@hibernate-orm', 'hornetq@@hornetq', 'richfaces@@richfaces', 'significant-gravitas@@autogpt', 'nwjs@@npm-installer', 'transifex@@transifex-client', 'nicolargo@@glances', 'graphhopper@@graphhopper', 'multiversx@@mx-chain-go', 'nuxt@@nuxt', 'apache@@lucene', 'celery@@celery'}
 
     for (owner, repo_name), each_row in tqdm.tqdm(groupby_list):
+        if (owner, repo_name) != ("xuxueli", "xxl-job"): continue
         ##if owner + "@@" + repo_name not in repo2cve2negcommits: continue 
         #if dataset_name == "patchfinder":
         #   if (owner, repo_name) == ("snapcore", "snapd"): 

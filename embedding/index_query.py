@@ -90,7 +90,7 @@ def process_cve_group(owner_repo, cve2desc, model_name, model, tokenizer, data, 
         embedding = get_embedding_query(each_cve, desc_text, model_name, INSTRUCTION, model, tokenizer, context_window, cve2highlight, eta)
         cve2embedding[each_cve] = embedding if isinstance(embedding, list) else embedding.tolist()
 
-    output_path = f"../../../feature/{owner}@@{repo}/{model_name}/cve2embedding.json"
+    output_path = f"../feature/{owner}@@{repo}/{model_name}/cve2embedding.json"
     with open(output_path, "w") as f:
         json.dump(cve2embedding, f)
 
@@ -101,7 +101,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name", type=str, default="grit_instruct_512_file")
     parser.add_argument("--dataset_name", type=str, default="AD")
-    parser.add_argument("--is_train", type=bool, action="store_false")
+    parser.add_argument("--is_train", action="store_true")
     args = parser.parse_args()
 
     model_name = args.model_name
@@ -114,13 +114,13 @@ if __name__ == "__main__":
 
     eta = 0.6
 
-    repo2cve2negcommits = json.load(open(f"../../../feature/repo2cve2negcommits_{dataset_name}_500_unsampled.json" if dataset_name == "patchfinder" else f"../../../feature/repo2cve2negcommits_{dataset_name}_500.json", "r"))
+    repo2cve2negcommits = json.load(open(f"../feature/repo2cve2negcommits_{dataset_name}_500_unsampled.json" if dataset_name == "patchfinder" else f"../feature/repo2cve2negcommits_{dataset_name}_500.json", "r"))
 
     if model_name != "voyage":
         from gritlm import GritLM
         import gritlm
         print(gritlm.__file__)
-        from index_commits import gritlm_instruction, get_embedding
+        from index_commits import gritlm_instruction
         import torch
         from transformers import AutoTokenizer, AutoModel
         from sentence_transformers import SentenceTransformer, util
@@ -153,11 +153,11 @@ if __name__ == "__main__":
             results = list(tqdm.tqdm(pool.imap_unordered(process_func, [(owner, repo) for (owner, repo), _ in groupby_list]), total=len(groupby_list)))
     else:
         for owner_repo, _ in tqdm.tqdm(groupby_list):
-            if not os.path.exists(f"../../../feature/{owner_repo[0]}@@{owner_repo[1]}/{model_name}/"):
+            if not os.path.exists(f"../feature/{owner_repo[0]}@@{owner_repo[1]}/{model_name}/"):
                 continue
-            if os.path.exists(f"../../../feature/{owner_repo[0]}@@{owner_repo[1]}/{model_name}/cve2embedding.json"):
+            if os.path.exists(f"../feature/{owner_repo[0]}@@{owner_repo[1]}/{model_name}/cve2embedding.json"):
                 continue
             if args.is_train and (owner_repo[0] + "@@" + owner_repo[1] not in repo2cve2negcommits): continue
-            #if owner_repo != ("apache", "tomcat"): continue
+            if owner_repo != ("xuxueli", "xxl-job"): continue
             process_cve_group(owner_repo, cve2desc, model_name, model, tokenizer, data, context_window, cve2highlight, eta)
 

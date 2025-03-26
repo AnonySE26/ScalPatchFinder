@@ -1,0 +1,77 @@
+CVE,,gpt,manual
+CVE-2008-2938,,allowLinking,allowLinking
+CVE-2011-1419,,ServletSecurity,ServletSecurity
+CVE-2011-3375,,None,None
+CVE-2011-5062,,None,qop=auth
+CVE-2011-5063,,None,None
+CVE-2012-3546,,"org/apache/catalina/realm/RealmBase.java, setUserPrincipal",org/apache/catalina/realm/RealmBase.java
+CVE-2013-4286,,"HTTP connector, AJP connector, Content-Length, Transfer-Encoding",Transfer-Encoding%3A+chunked
+CVE-2013-4322,,None,None
+CVE-2013-4590,,"context.xml, web.xml, *.jspx, *.tagx, *.tld",None
+CVE-2014-0075,,"parseChunkHeader, ChunkedInputFilter.java",java/org/apache/coyote/http11/filters/ChunkedInputFilter.java
+CVE-2014-0095,,java/org/apache/coyote/ajp/AbstractAjpProcessor.java,java/org/apache/coyote/ajp/AbstractAjpProcessor.java
+CVE-2014-0096,,java/org/apache/catalina/servlets/DefaultServlet.java,java/org/apache/catalina/servlets/DefaultServlet.java
+CVE-2014-0099,,java/org/apache/tomcat/util/buf/Ascii.java,java/org/apache/tomcat/util/buf/Ascii.java
+CVE-2014-0119,XSLT,"class loader, XML parser",XSLT
+CVE-2014-0227,,java/org/apache/coyote/http11/filters/ChunkedInputFilter.java,java/org/apache/coyote/http11/filters/ChunkedInputFilter.java
+CVE-2014-0230,,None,None
+CVE-2015-5345,,"Mapper, Filters",None
+CVE-2015-5346,requestedSessionSSL,"CoyoteAdapter.java, Request.java",java/org/apache/catalina/connector/CoyoteAdapter.java
+CVE-2016-0714,,SecurityManager,SecurityManager
+CVE-2016-0762,,LockOutRealm,LockOutRealm
+CVE-2016-0763,,org/apache/naming/factory/ResourceLinkFactory.java,org/apache/naming/factory/ResourceLinkFactory.java
+CVE-2016-5018,SecurityManager ,SecurityManager,SecurityManager
+CVE-2016-6794,,SecurityManager,SecurityManager
+CVE-2016-6796,,"SecurityManager, JSP Servlet",SecurityManager
+CVE-2016-6797,,ResourceLinkFactory,ResourceLinkFactory
+CVE-2016-6816,,None,None
+CVE-2016-6817,,HTTP/2,HTTP/2
+CVE-2016-8735,,JmxRemoteLifecycleListener,JmxRemoteLifecycleListener.java
+CVE-2016-8745,,None,None
+CVE-2016-8747,,Http11InputBuffer.java,Http11InputBuffer.java
+CVE-2017-12617,,Default servlet,None
+CVE-2017-5647,,None,None
+CVE-2017-5648,,SecurityManager,SecurityManager
+CVE-2017-5650,"HTTP/2,WINDOW_UPDATE,GOAWAY",WINDOW_UPDATE,WINDOW_UPDATE
+CVE-2017-5651,,None,None
+CVE-2017-5664,,"DefaultServlet, JSPs, Servlet",DefaultServlet
+CVE-2017-7674,,CORS Filter,CORSFilter
+CVE-2017-7675,HTTP/2,None,HTTP/2
+CVE-2018-11784,,None,/foo/
+CVE-2018-1304,,None,None
+CVE-2018-1305,,None,None
+CVE-2018-1336,,UTF-8 decoder,None
+CVE-2018-8034,,None,None
+CVE-2018-8037,,"NIO, NIO2",NIO2
+CVE-2019-0221,,printenv,SSI+printenv
+CVE-2019-10072,WINDOW_UPDATE,WINDOW_UPDATE,WINDOW_UPDATE
+CVE-2020-11996,HTTP2,HTTP2,HTTP2
+CVE-2020-13935,,None,None
+CVE-2020-13943,,None,HTTP/2
+CVE-2020-17527,HTTP/2,HTTP/2,HTTP/2
+CVE-2020-9484,"PersistenceManager, FileStore, sessionAttributeValueClassNameFilter, SecurityManager",sessionAttributeValueClassNameFilter,sessionAttributeValueClassNameFilter
+CVE-2021-24122,getCanonicalPath,File.getCanonicalPath,File.getCanonicalPath
+CVE-2021-25329,,None,None
+CVE-2021-33037,,None,HTTP/1.0
+CVE-2021-41079,NIO2; OpenSSL,None,NIO2+OpenSSL
+CVE-2021-42340,,None,WebSocket 
+CVE-2021-43980,Http11Processor,Http11Processor,Http11Processor
+CVE-2022-42252,,rejectIllegalHeader,rejectIllegalHeader
+CVE-2022-45143,,JsonErrorReportValve,JsonErrorReportValve
+CVE-2023-24998,FileUploadBase#setFileCountMax,FileUploadBase#setFileCountMax,FileUploadBase#setFileCountMax
+CVE-2023-28708,,"RemoteIpFilter, X-Forwarded-Proto",RemoteIpFilter
+CVE-2023-28709,maxParameterCount,maxParameterCount,maxParameterCount
+CVE-2023-34981,,mod_proxy_ajp,mod_proxy_ajp
+CVE-2023-41080,,None,None
+CVE-2023-42795,,None,None
+CVE-2023-44487,,None,HTTP/2
+CVE-2023-45648,,None,None
+CVE-2023-46589,,None,None
+CVE-2024-21733,,None,None
+CVE-2024-23672,,None,WebSocket 
+CVE-2024-24549,,None,HTTP/2
+CVE-2024-34750,,None,HTTP/2
+CVE-2024-38286,,"OutOfMemoryError, TLS handshake process",OutOfMemoryError
+CVE-2024-52316,"ServerAuthContext,JASPIC",ServerAuthContext,ServerAuthContext
+CVE-2024-52317,,None,HTTP/2
+CVE-2024-52318,,None,None

@@ -4,7 +4,8 @@
 #SBATCH --gres=gpu:1
 #SBATCH --ntasks=1                  
 #SBATCH --cpus-per-task=10        
-#SBATCH --mem=100G                  
+#SBATCH --nodelist=g101
+#SBATCH --mem=50G                  
 #SBATCH --time=24:00:00            
 #SBATCH --output=index_query_0.log 
 
@@ -24,6 +25,6 @@ export LD_LIBRARY_PATH=/cm/shared/apps/nccl2-cuda12.2-gcc11/2.22.3/lib:$LD_LIBRA
 ldd $(python -c "import torch; print(torch.__file__)") | grep nccl
 
 
-python index_commits.py --model_name grit_instruct --dataset_name AD --is_train
-python index_file.py --model_name grit_instruct_512_file --dataset_name AD --is_train
-python index_query.py --model_name grit_instruct --dataset_name AD --is_train
+#python index_commits.py --model_name grit_instruct --dataset_name AD
+#python index_file.py --model_name grit_instruct_512_file --dataset_name AD
+python index_query.py --model_name grit_instruct_512_file --dataset_name AD

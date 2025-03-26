@@ -23,8 +23,8 @@ t1 = time.time()
 
 grit_batch_size = 10 #int(sys.argv[4])
 #context_window = 256 #int(sys.argv[4])
-feature_path = "../../../feature/" # if len(sys.argv[1]) > 0 else ""
-input_data_path = "../../../repo2commits_diff/" # if len(sys.argv[1]) > 0 else ""
+feature_path = "../feature/" # if len(sys.argv[1]) > 0 else ""
+input_data_path = "../repo2commits_diff/" # if len(sys.argv[1]) > 0 else ""
 INSTRUCTION = "This is a commit (commit message + diff code) of a repository. Represent it to retrieve the patching commit for a CVE description. "
 FILE_TOPK = 30
 
@@ -244,7 +244,7 @@ if __name__ == "__main__":
    parser = argparse.ArgumentParser()
    parser.add_argument("--model_name", type=str, default="grit_instruct_512_file")
    parser.add_argument("--dataset_name", type=str, default="AD")
-   parser.add_argument("--is_train", type=bool, action="store_false")
+   parser.add_argument("--is_train", action="store_true")
 
    args = parser.parse_args()
 
@@ -252,8 +252,6 @@ if __name__ == "__main__":
    dataset_name = args.dataset_name
    context_window = 512 
    is_train = args.is_train
-
-   raise Exception(model_name, dataset_name, is_train)
 
    train_K = 500
    import glob
@@ -272,8 +270,8 @@ if __name__ == "__main__":
 #    unfinished = [x for x in range(len(groupby_list)) if not glob.glob(feature_path + groupby_list[x][0][0] + "@@" + groupby_list[x][0][1] + f"/{model_name}/commit_list_*.csv")]
 #    raise Exception(unfinished)
 
-   unfinished = [x for x in range(len(groupby_list)) if groupby_list[x][0] == ("protobuffers", "protobuf")]
-   groupby_list = [groupby_list[unfinished[x]] for x in range(len(unfinished) // 2, 3 * len(unfinished) // 4)]
+#    unfinished = [x for x in range(len(groupby_list)) if groupby_list[x][0] == ("protobuffers", "protobuf")]
+#    groupby_list = [groupby_list[unfinished[x]] for x in range(len(unfinished) // 2, 3 * len(unfinished) // 4)]
 
    #raise Exception(groupby_list)
 
@@ -284,7 +282,7 @@ if __name__ == "__main__":
                    
    #raise Exception([groupby_list[x][0] for x in range(45, 74)])
 
-   repo2cve2negcommits = json.load(open(feature_path + f"repo2cve2negcommits_{dataset_name}_500_unsampled.json" if dataset_name == "patchfinder" else f"../../../feature/repo2cve2negcommits_{dataset_name}_500.json", "r"))
+   repo2cve2negcommits = json.load(open(feature_path + f"repo2cve2negcommits_{dataset_name}_500_unsampled.json" if dataset_name == "patchfinder" else f"../feature/repo2cve2negcommits_{dataset_name}_500.json", "r"))
 
    if model_name.startswith("grit"):
        from gritlm import GritLM
@@ -296,5 +294,5 @@ if __name__ == "__main__":
    # gpu_ids = [0]
 
    for each_row in tqdm.tqdm(groupby_list):
-       #if each_row[0] != ("php", "php-src"): continue
+       if each_row[0] != ("xuxueli", "xxl-job"): continue
        index_with_huggingface(repo2cve2negcommits, each_row, model_name, context_window, model, is_train=is_train)

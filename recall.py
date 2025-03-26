@@ -64,7 +64,7 @@ def calculate_recall(cve_and_cve_row):
     model_name = list(cve_and_cve_row[1]["model_name"])[0]
     suffix = list(cve_and_cve_row[1]["suffix"])[0]
 
-    ranked_commits_dir = "../../feature/" + owner + "@@" + repo + "/" + model_name + f"/result{suffix}/"
+    ranked_commits_dir = "./feature/" + owner + "@@" + repo + "/" + model_name + f"/result{suffix}/"
 
     cve_file_path = os.path.join(ranked_commits_dir, f"{cve_id}.json")
 
@@ -182,7 +182,7 @@ if __name__ == "__main__":
     dataset_name = args.dataset_name
     suffix = args.suffix
     valid_list_path = f"./csv/{dataset_name}_test.csv"
-    ranked_commits_dir = "../../feature/" #"./GithubAD_ranked_commits_bm25_time"
+    ranked_commits_dir = "./feature/" #"./GithubAD_ranked_commits_bm25_time"
     # ranked_commits_dir = "./GithubAD_ranked_commits_bm25_time"
     
     valid_list = pd.read_csv(valid_list_path)
@@ -194,7 +194,7 @@ if __name__ == "__main__":
     cve_to_repo_map = valid_list.set_index("cve")["repo"].to_dict()
 
     groupby_list = list(valid_list.groupby("cve")) #[(x, model_name) for x in list(valid_list.groupby("cve"))]
-    groupby_list = [x for x in groupby_list if (list(x[1]["owner"])[0], list(x[1]["repo"])[0]) in [("mindsdb", "mindsdb"), ("apache", "tomcat"), ("cloudfoundry", "uaa"), ("OpenNMS", "opennms"), ("vantage6", "vantage6"), ("kubernetes", "kubernetes"), ("answerdev", "answer"), ("spring-projects", "spring-framework"),("directus", "directus")]]
+    groupby_list = [x for x in groupby_list if (list(x[1]["owner"])[0], list(x[1]["repo"])[0]) in [("xuxueli", "xxl-job")]]
     for each_cve, each_row in groupby_list:
         this_repo = list(each_row["repo"])[0]
         this_owner = list(each_row["owner"])[0]
