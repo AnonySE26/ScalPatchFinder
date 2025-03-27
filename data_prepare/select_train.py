@@ -26,7 +26,7 @@ if __name__ == "__main__":
         this_K = 250
         data = read_csv(f"../csv/{dataset_name}_train_full.csv")
         # get 250 hard repos and 250 random repos
-        repo_github = read_csv(f"../../../feature/repo_{dataset_name}_train.csv")
+        repo_github = read_csv(f"../feature/repo_{dataset_name}_train.csv")
         hard_train = set([])
         large_commit = [x for x in range(len(repo_github)) if repo_github.iloc[x]["commit_count"] > 5000]
         small_commit = [x for x in range(len(repo_github)) if repo_github.iloc[x]["commit_count"] < 5000]
@@ -53,24 +53,24 @@ if __name__ == "__main__":
         data = data[data.apply(lambda x: x["owner"] + "@@" + x["repo"] in hard_train_repos, axis=1)]
         data.to_csv(f"../csv/{dataset_name}_train.csv")
         
-        json1 = json.load(open(f"../../../feature/repo2cve2negcommits_{dataset_name}_500_full.json", "r"))
-        json2 = json.load(open(f"../../../feature/repo2commits_{dataset_name}_500_full.json", "r"))
-        new_json1 = {key: val for key, val in json1.items() if key in hard_train_repos}
-        new_json2 = {key: val for key, val in json2.items() if key in hard_train_repos}
-        json.dump(new_json1, open(f"../../../feature/repo2cve2negcommits_{dataset_name}_500.json", "w"))
-        json.dump(new_json2, open(f"../../../feature/repo2commits_{dataset_name}_500.json", "w"))
-        sys.exit(0)
+        # json1 = json.load(open(f"../feature/repo2cve2negcommits_{dataset_name}_500_full.json", "r"))
+        # json2 = json.load(open(f"../feature/repo2commits_{dataset_name}_500_full.json", "r"))
+        # new_json1 = {key: val for key, val in json1.items() if key in hard_train_repos}
+        # new_json2 = {key: val for key, val in json2.items() if key in hard_train_repos}
+        # json.dump(new_json1, open(f"../feature/repo2cve2negcommits_{dataset_name}_500.json", "w"))
+        # json.dump(new_json2, open(f"../feature/repo2commits_{dataset_name}_500.json", "w"))
         
     else:
         data = read_csv(f"../csv/{dataset_name}_train.csv")
-        groupby_list = list(data.groupby(["owner", "repo", "cve"]))
+    groupby_list = list(data.groupby(["owner", "repo", "cve"]))
 
 
     for (owner, repo, cve), each_row in tqdm.tqdm(groupby_list):
+        if (owner, repo) != ("xCss", "Valine"): continue
         patch = list(each_row["patch"].tolist())
         each_file = owner + "@@" + repo
         # get bm25 sorted list for the cve
-        path = f"../../../feature/{owner}@@{repo}/bm25_time/result/"
+        path = f"../feature/{owner}@@{repo}/bm25_time/result/"
         if not os.path.exists(path + cve + ".json"): continue
 
         repo2commits.setdefault(each_file, set([]))
@@ -102,19 +102,8 @@ if __name__ == "__main__":
     # for each_file in list(repo2cve2negcommits.keys()):
     #     for cve in list(repo2cve2negcommits[each_file].keys()):
     #         repo2cve2negcommits[each_file][cve] = list(repo2cve2negcommits[each_file][cve])
-    json.dump(repo2cve2negcommits, open(f"../../../feature/repo2cve2negcommits_{dataset_name}_{K}.json", "w"))
+    json.dump(repo2cve2negcommits, open(f"../feature/repo2cve2negcommits_{dataset_name}_{K}.json", "w"))
     for each_file in list(repo2commits.keys()):
         repo2commits[each_file] = list(repo2commits[each_file])
-    json.dump(repo2commits, open(f"../../../feature/repo2commits_{dataset_name}_{K}.json", "w"))
+    json.dump(repo2commits, open(f"../feature/repo2commits_{dataset_name}_{K}.json", "w"))
 
-    # for each_file in tqdm.tqdm(repo2commits.keys()):
-    #     commit2codemsg = {}
-    #     filtered_commits = repo2commits[each_file]
-    #     entry_list = json.load(open("../../../repo2commits_diff/" + each_file + ".json", "r"))
-    #     for entry in entry_list:
-    #         commit_id = entry['commit_id']
-    #         if commit_id not in filtered_commits: continue
-    #         commit_msg = entry.get('commit_msg', "")
-    #         diff = entry['diff']
-    #         commit2codemsg[commit_id] = commit_msg.rstrip("\n") + "\n" + diff
-    #     #json.dump(commit2codemsg, open("../../../feature/" + each_file + "/commit2codemsgtext.json", "w")) 

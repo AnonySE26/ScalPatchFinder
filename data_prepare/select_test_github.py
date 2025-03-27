@@ -15,10 +15,10 @@ def get_repo_list(patchfinder_data, x_range):
 if __name__ == "__main__":
     data_name = sys.argv[1]
     if data_name == "AD":
-        patchfinder_data = read_csv("../patchfinder_test.csv")
+        patchfinder_data = read_csv("../csv/patchfinder_test.csv")
         patchfinder_repo = get_repo_list(patchfinder_data, range(len(patchfinder_data)))
-    cve_data = read_csv(f"../{data_name}.csv")
-    data = read_csv(f"../../../feature/repo_{data_name}.csv").drop_duplicates(subset= ["owner", "repo"])
+    cve_data = read_csv(f"../csv/{data_name}.csv")
+    data = read_csv(f"../feature/repo_{data_name}.csv").drop_duplicates(subset= ["owner", "repo"])
     test_repo_ids = set([])
     train_repos = []
     large_commit = [x for x in range(len(data)) if data.iloc[x]["commit_count"] > 5000]
@@ -34,8 +34,11 @@ if __name__ == "__main__":
         if score[1] < 0.05:
             test_repo_ids.add(x)
     # pick the repos in test_repos with larger #cves
-    test_repo_name = get_repo_list(data, test_repo_ids)
-    overlapped_reponame = patchfinder_repo.intersection(test_repo_name)
+    if data_name == "AD":
+        test_repo_name = get_repo_list(data, test_repo_ids)
+        overlapped_reponame = patchfinder_repo.intersection(test_repo_name)
+    else:
+        overlapped_reponame = set([])
     sorted_idx = sorted(test_repo_ids, key = lambda x:data.iloc[x]["cve_count"], reverse=True)[:150]
     test_repos = []
     for x in range(len(data)):
@@ -47,8 +50,8 @@ if __name__ == "__main__":
             train_repos.append(data.iloc[x])
     test_data = pandas.DataFrame(test_repos)
     train_data = pandas.DataFrame(train_repos)
-    test_data.to_csv(f"../../../feature/repo_{data_name}_test.csv")
-    train_data.to_csv(f"../../../feature/repo_{data_name}_train.csv")
+    test_data.to_csv(f"../feature/repo_{data_name}_test.csv")
+    train_data.to_csv(f"../feature/repo_{data_name}_train.csv")
 
     train_data_repo = [x for x in zip(train_data["owner"], train_data["repo"])]
     test_data_repo = [x for x in zip(test_data["owner"], test_data["repo"])]
@@ -66,6 +69,6 @@ if __name__ == "__main__":
         else:
             missed_repo.add(owner + "@@" + repo)
 
-    pandas.DataFrame(cve_train_data).to_csv(f"../{data_name}_train.csv")
-    pandas.DataFrame(cve_test_data).to_csv(f"../{data_name}_test.csv")
+    pandas.DataFrame(cve_train_data).to_csv(f"../csv/{data_name}_train.csv")
+    pandas.DataFrame(cve_test_data).to_csv(f"../csv/{data_name}_test.csv")
            
