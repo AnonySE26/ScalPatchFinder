@@ -4,7 +4,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --ntasks=1                  
 #SBATCH --cpus-per-task=10        
-#SBATCH --nodelist=g101
 #SBATCH --mem=50G                  
 #SBATCH --time=24:00:00            
 #SBATCH --output=index_query_0.log 

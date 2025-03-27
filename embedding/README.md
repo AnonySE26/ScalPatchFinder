@@ -16,7 +16,7 @@ python index_commits.py \
 --dataset_name AD \
 --is_train
 ```
-
+You can also directly run the command line in submit_gpu_job.sh (slurm)
 
 ## Indexing files with gritLM
 
@@ -28,6 +28,7 @@ python index_file.py \
 --dataset_name AD \
 --is_train train
 ```
+You can also directly run the command line in submit_gpu_job.sh (slurm)
 
 ## Indexing queries with voyage/gritLM
 
@@ -37,6 +38,8 @@ python index_query.py \
 --dataset_name AD \
 --is_train train
 ```
+You can also directly run the command line in submit_gpu_job.sh (slurm)
+
 
 ## Computing similarities based on the vector embeddings
 
@@ -51,3 +54,5 @@ python compute_sim.py \
 --is_train \
 --mode max 
 ```
+You can also directly run compute_sim.sh
+
