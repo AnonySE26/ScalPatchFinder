@@ -56,6 +56,7 @@ def get_recall_from_sortedcommits(cve, ranked_commit_ids, patch):
     return qrel2recall(qrel, len(patch))
 
 
+
 def calculate_recall(cve_and_cve_row):
     cve_id = cve_and_cve_row[0] #cve_row["cve"]
     patch = list(cve_and_cve_row[1]["patch"])
@@ -170,30 +171,10 @@ def count_repo_commit_cve_counts():
 
     return repo_commit_counts, repo_cve_counts
 
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--model_name", type=str, default="ltr")
-    parser.add_argument("--dataset_name", type=str, default="AD")
-    parser.add_argument("--suffix", type=str, default="")
-    args = parser.parse_args()
-
-    model_name = args.model_name
-    dataset_name = args.dataset_name
-    suffix = args.suffix
-    valid_list_path = f"./csv/{dataset_name}_test.csv"
-    ranked_commits_dir = "./feature/" #"./GithubAD_ranked_commits_bm25_time"
-    # ranked_commits_dir = "./GithubAD_ranked_commits_bm25_time"
-    
-    valid_list = pd.read_csv(valid_list_path)
-
-    valid_list["suffix"] = suffix
-    valid_list["model_name"] = model_name
-    # valid_list = valid_list[valid_list['owner'] == 'torvalds']
-    # valid_list = valid_list[valid_list['repo'] == 'tensorflow']
-    cve_to_repo_map = valid_list.set_index("cve")["repo"].to_dict()
+def calculate_recall_with_df(valid_list):
 
     groupby_list = list(valid_list.groupby("cve")) #[(x, model_name) for x in list(valid_list.groupby("cve"))]
+
     groupby_list = [x for x in groupby_list if (list(x[1]["owner"])[0], list(x[1]["repo"])[0]) in [("xuxueli", "xxl-job")]]
     for each_cve, each_row in groupby_list:
         this_repo = list(each_row["repo"])[0]
@@ -202,7 +183,6 @@ if __name__ == "__main__":
             print(this_owner, this_repo, each_cve)
             continue
     print("groupby_list", len(groupby_list))
-    ############################################################################################
     with Pool(10) as pool:
         results = list(tqdm(pool.imap_unordered(calculate_recall, groupby_list), total=len(groupby_list), desc="Calculating Recall@k"))
 
@@ -222,15 +202,33 @@ if __name__ == "__main__":
                 recall_results.setdefault(k, {})
                 recall_results[k][total_cves - 1] = result[k]
 
-
-            
-            #total_mrr += result["mrr"]
-    ##json.dump(recall_results, open("voyage_recall.json", "w"))
-    #for key in recall_results["recall10000"]:
-    #    if recall_results["recall10000"].get(key, -1) > voyage_recall["recall10000"].get(str(key), 0):
-    #        import pdb; pdb.set_trace()
     recall_results = {k: sum(recall_results[k].values()) / total_cves for k in recall_results.keys()}
 
+    return recall_results
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model_name", type=str, default="ltr")
+    parser.add_argument("--dataset_name", type=str, default="AD")
+    parser.add_argument("--suffix", type=str, default="")
+    args = parser.parse_args()
+
+    model_name = args.model_name
+    dataset_name = args.dataset_name
+    suffix = args.suffix
+    valid_list_path = f"./csv/{dataset_name}_test.csv"
+    ranked_commits_dir = "./feature/" #"./GithubAD_ranked_commits_bm25_time"
+    # ranked_commits_dir = "./GithubAD_ranked_commits_bm25_time"
+    
+    valid_list = pd.read_csv(valid_list_path)
+    valid_list["suffix"] = suffix
+    valid_list["model_name"] = model_name
+    # valid_list = valid_list[valid_list['owner'] == 'torvalds']
+    # valid_list = valid_list[valid_list['repo'] == 'tensorflow']
+    cve_to_repo_map = valid_list.set_index("cve")["repo"].to_dict()
+
+    recall_results = calculate_recall_with_df(valid_list)
     print("Overall Recall@k Results:")
     first_ndcg = first_recall = True
     for k in sorted(recall_results.keys(), key = lambda x: (x[0], int(re.search("(\d+)", x).group(1)) if x != "mrr" else 0)):
