@@ -1,0 +1,5 @@
+cve,file_func_name,repo_key,path_in_repo
+CVE-2020-23814,"AppName, AddressList, JobGroupController.java",xuxueli@@xxl-job,['xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobGroupController.java']
+CVE-2020-29204,xxl-job-admin/src/main/java/com/xxl/job/admin/controller/UserController.java,xuxueli@@xxl-job,[]
+CVE-2022-36157,,xuxueli@@xxl-job,[]
+CVE-2022-43183,/admin/controller/JobLogController.java,xuxueli@@xxl-job,['xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobLogController.java']

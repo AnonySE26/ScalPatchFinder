@@ -50,18 +50,19 @@ def merge_data(commits, diffs):
 
 def save_to_json(data, output_path):
     with open(output_path, "w") as file:
+        data = {commit["commit_id"]: commit for commit in data}
         json.dump(data, file, indent=4)
 
-def process_repo(owner_repo, base_path="../../"):
+def process_repo(owner_repo, base_path="../"):
     """
     Processes the specified repository's Commit and Diff data and saves it as a JSON file.
 
     :param owner_repo: Repository identifier in the format "owner@@repo".
     :param base_path: Base path for locating input files.
     """
-    commit_file = f"{base_path}/explain_patch/data/commits/commits_{owner_repo}.txt"
-    diff_file = f"{base_path}/explain_patch/data/diff/diff_{owner_repo}.txt"
-    output_file = f"./repo2commits_diff/{owner_repo}.json"
+    commit_file = f"{base_path}/raw_data/commits/commits_{owner_repo}.txt"
+    diff_file = f"{base_path}/raw_data/diff/diff_{owner_repo}.txt"
+    output_file = f"{base_path}/repo2commits_diff/{owner_repo}.json"
     
     if os.path.exists(output_file):
         # print(f"Skipping {owner_repo}, file already exists.")
@@ -93,16 +94,16 @@ if __name__ == "__main__":
     large_repos = ["ag-grid", "owncast", "label-studio", "CoreNLP", "meshery"] 
 
     df = df[~df['repo'].isin(large_repos)]
-    
+    df = df[(df['repo'] == 'xxl-job') | (df['repo'] == 'Valine')] # test
     repos = (df['owner'] + '@@' + df['repo']).unique()
 
-    output_dir = "./repo2commits_diff"
+    output_dir = "../repo2commits_diff"
     repos_to_process = [repo for repo in repos if not os.path.exists(f"{output_dir}/{repo}.json")]
     # repos_to_process = [repo for repo in repos if os.path.exists(f"{output_dir}/{repo}.json")] # overwrite
     print(f"Processing {len(repos_to_process)} repos...")
     
     from multiprocessing import Pool
-    num_workers = 4
+    num_workers = 2
 
 
     with Pool(processes=num_workers) as pool:

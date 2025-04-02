@@ -1,0 +1,7 @@
+numpy
+pandas
+tqdm
+nltk
+swifter
+transformers
+scikit-learn

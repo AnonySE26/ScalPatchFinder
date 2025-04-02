@@ -277,7 +277,7 @@ if __name__ == "__main__":
     #remaining_repos = {'apache@@ozone', 'github@@hubot-scripts', 'element-hq@@synapse', 'FasterXML@@jackson-dataformats-text', 'apache@@servicecomb-java-chassis', 'h2database@@h2database', 'jooby-project@@jooby', 'evershopcommerce@@evershop', 'aws@@aws-cdk', 'pnpm@@pnpm', 'filebrowser@@filebrowser', 'kubernetes@@ingress-nginx', 'codenameone@@CodenameOne', 'node-red@@node-red', 'mapproxy@@mapproxy', 'stanfordnlp@@CoreNLP', 'felixrieseberg@@windows-build-tools', 'openshift@@cluster-monitoring-operator', 'wanasit@@chrono', 'apache@@incubator-dolphinscheduler', 'knative@@serving', 'labring@@sealos', 'csaf-poc@@csaf_distribution', 'SiCKRAGE@@SiCKRAGE', 'OHDSI@@WebAPI', 'ansible@@ansible-runner', 'theupdateframework@@tuf', 'kubernetes@@apiextensions-apiserver', 'Azure@@aad-pod-identity', 'swagger-api@@swagger-codegen', 'getsentry@@sentry-javascript', 'localstack@@localstack', 'wger-project@@wger', 'TeraTermProject@@teraterm', 'hyperledger@@aries-cloudagent-python', 'mongodb@@mongo-tools', 'mjwwit@@node-XMLHttpRequest', 'HtmlUnit@@htmlunit', 'plotly@@dash', 'kubernetes-sigs@@secrets-store-csi-driver', 'git-lfs@@git-lfs', 'stleary@@JSON-java', 'browserless@@chrome', 'pingcap@@tidb', 'hibernate@@hibernate-orm', 'hornetq@@hornetq', 'richfaces@@richfaces', 'significant-gravitas@@autogpt', 'nwjs@@npm-installer', 'transifex@@transifex-client', 'nicolargo@@glances', 'graphhopper@@graphhopper', 'multiversx@@mx-chain-go', 'nuxt@@nuxt', 'apache@@lucene', 'celery@@celery'}
 
     for (owner, repo_name), each_row in tqdm.tqdm(groupby_list):
-        if (owner, repo_name) != ("xuxueli", "xxl-job"): continue
+        if (owner, repo_name) != ("xuxueli", "xxl-job") and (owner, repo_name) != ("xCss", "Valine"): continue
         ##if owner + "@@" + repo_name not in repo2cve2negcommits: continue 
         #if dataset_name == "patchfinder":
         #   if (owner, repo_name) == ("snapcore", "snapd"): 
@@ -295,7 +295,7 @@ if __name__ == "__main__":
                 continue
             output_dir = repo_directory + f"./feature/{owner}@@{repo_name}/{model_name}/{suffix}/"
         else:
-            if not os.path.exists(feature_path + owner + "@@" + repo_name + f"/{model_name}/commit2embedding.json"):
+            if not os.path.exists(feature_path + owner + "@@" + repo_name + f"/{model_name}/cve2embedding.json"):
                 print(owner, repo_name, "not exist")
                 continue
             output_dir = repo_directory + f"./feature/{owner}@@{repo_name}/{model_name}/{suffix}/"

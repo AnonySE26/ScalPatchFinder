@@ -1,0 +1,8 @@
+pandas==2.2.3
+numpy==1.26.4
+tqdm==4.66.5
+lightgbm==4.5.0
+scikit-learn==1.5.2
+FLAML==2.3.4
+shap==0.47.0
+matplotlib==3.9.2

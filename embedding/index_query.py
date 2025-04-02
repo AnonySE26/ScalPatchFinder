@@ -158,6 +158,6 @@ if __name__ == "__main__":
             if os.path.exists(f"../feature/{owner_repo[0]}@@{owner_repo[1]}/{model_name}/cve2embedding.json"):
                 continue
             if args.is_train and (owner_repo[0] + "@@" + owner_repo[1] not in repo2cve2negcommits): continue
-            if owner_repo != ("xuxueli", "xxl-job"): continue
+            if owner_repo != ("xuxueli", "xxl-job") and owner_repo != ("xCss", "Valine"): continue
             process_cve_group(owner_repo, cve2desc, model_name, model, tokenizer, data, context_window, cve2highlight, eta)
 

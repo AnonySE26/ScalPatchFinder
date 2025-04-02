@@ -328,5 +328,5 @@ if __name__ == "__main__":
             print(gritlm.__file__)
             model = GritLM("GritLM/GritLM-7B", torch_dtype="auto")
         for each_row in tqdm.tqdm(groupby_list):
-            if each_row[0] != ("xuxueli", "xxl-job"): continue
+            if each_row[0] != ("xuxueli", "xxl-job") and each_row[0] != ("xCss", "Valine"): continue
             index_with_huggingface(repo2cve2negcommits, each_row, model, model_name, 512, is_train = is_train)

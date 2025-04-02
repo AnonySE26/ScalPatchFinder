@@ -1,5 +1,11 @@
 ## Dataset Preparation (Prerequisite)
 
+Install dependencies first:
+
+```bash
+pip install -r requirements.txt
+```
+
 Run the following command to prepare commit messages and diffs from repositories located in `anonyICSE26/data_prepare`:
 ```bash
 python prepare_data.py
@@ -45,7 +51,7 @@ python convert_to_json.py <dataset>
 ```
 The converted JSON data will be saved in:
 ```
-./repo2commits_diff
+../repo2commits_diff
 ```
 
 ### 3. Split JSON Data
@@ -56,7 +62,7 @@ python split_multiple_repos.py <dataset>
 ```
 Split files will be saved in:
 ```
-repo2commits_diff/split_{repo}
+../repo2commits_diff/split_{repo}
 ```
 
 ### 4. Index JSON Data into Elasticsearch
@@ -69,7 +75,7 @@ repo2commits_diff/split_{repo}
 
 - **File-name-specific indexing:** (no need to step 3 split files)
   ```bash
-  python load_multiple_repos_files.py --mode <split> <dataset>
+  python load_multiple_repos_files.py --mode <split> --dataset <dataset>
   ```
 
 ### 5. BM25 Ranking
@@ -89,14 +95,17 @@ python bm25_file_multirepos.py <dataset> <split>
 ```
 Results are stored in:
 ```
-./{dataset}_{mode}_bm25_diff_files
+../feature/{owner}@@{repo}/bm25_files/result
 ```
 
 ### 6. Weighted Re-ranking
 
-Perform weighted re-ranking with TF-IDF, considering reserve and publish times:
+Perform weighted re-ranking with TF-IDF, considering reserve and publish times (file part does not need this step):
 ```bash
 python rerank_with_tfidf_add_time.py <bm25_weight> <reserve_time_weight> <publish_time_weight> <dataset>
 ```
-Modify `input_dir` and `output_dir` in the script accordingly.
+Results are stored in:
+```
+../feature/{owner}@@{repo}/bm25_time/result
+```
 

@@ -57,8 +57,39 @@ def get_recall_from_sortedcommits(cve, ranked_commit_ids, patch):
 
 
 
+def load_and_sort_commits(cve_file_path):
+    if not os.path.exists(cve_file_path):
+        return None
+
+    with open(cve_file_path, "r") as f:
+        ranked_commits = json.load(f)
+
+    if isinstance(ranked_commits, list):
+        if len(ranked_commits) > 0 and isinstance(ranked_commits[0], dict):
+            # list of dicts
+            ranked_commits = {
+                item["commit_id"]: item.get("new_score", item.get("score", 0))
+                for item in ranked_commits
+            }
+        elif len(ranked_commits) > 0 and isinstance(ranked_commits[0], list) and len(ranked_commits[0]) == 2:
+            # list of lists
+            ranked_commits = {item[1]: item[0] for item in ranked_commits}
+
+    # sort commit_id
+    if ranked_commits and isinstance(list(ranked_commits.values())[0], dict):
+        sorted_commit_ids = sorted(
+            ranked_commits.keys(),
+            key=lambda x: ranked_commits[x].get("new_score", -1),
+            reverse=True
+        )
+    else:
+        sorted_commit_ids = sorted(ranked_commits.keys(), reverse=True)
+
+    return sorted_commit_ids
+
+
 def calculate_recall(cve_and_cve_row):
-    cve_id = cve_and_cve_row[0] #cve_row["cve"]
+    cve_id = cve_and_cve_row[0]  # cve row ID
     patch = list(cve_and_cve_row[1]["patch"])
     repo = list(cve_and_cve_row[1]["repo"])[0]
     owner = list(cve_and_cve_row[1]["owner"])[0]
@@ -66,31 +97,13 @@ def calculate_recall(cve_and_cve_row):
     suffix = list(cve_and_cve_row[1]["suffix"])[0]
 
     ranked_commits_dir = "./feature/" + owner + "@@" + repo + "/" + model_name + f"/result{suffix}/"
-
     cve_file_path = os.path.join(ranked_commits_dir, f"{cve_id}.json")
 
-    if not os.path.exists(cve_file_path): 
+    sorted_commit_ids = load_and_sort_commits(cve_file_path)
+    if sorted_commit_ids is None:
         return None
 
-    with open(cve_file_path, "r") as f:
-        ranked_commits = json.load(f)
-    
-
-    if isinstance(ranked_commits, list):
-        if len(ranked_commits) > 0 and isinstance(ranked_commits[0], dict):
-            # list of dict
-            ranked_commits = {item["commit_id"]: item.get("new_score", item.get("score", 0)) for item in ranked_commits} 
-        elif len(ranked_commits) > 0 and isinstance(ranked_commits[0], list) and len(ranked_commits[0]) == 2:
-            # list of list
-            ranked_commits = {item[1]: item[0] for item in ranked_commits}
-    
-    # sort commit_id
-    if type(list(ranked_commits.values())[0]) != dict:
-        print("ttt", cve_id, repo, list(ranked_commits.keys())[0])
-    ranked_commit_ids = sorted(ranked_commits.keys(), key=lambda x: ranked_commits[x].get("new_score", -1), reverse=True)
-    #if repo == "tomcat":
-    #    print(cve_id, get_recall_from_sortedcommits(cve_id, ranked_commit_ids, patch))
-    return get_recall_from_sortedcommits(cve_id, ranked_commit_ids, patch)
+    return get_recall_from_sortedcommits(cve_id, sorted_commit_ids, patch)
 
 
 def calculate_recall_by_repo(valid_list):
@@ -171,11 +184,10 @@ def count_repo_commit_cve_counts():
 
     return repo_commit_counts, repo_cve_counts
 
-def calculate_recall_with_df(valid_list):
+def calculate_recall_with_df(groupby_list, ranked_commits_dir, model_name, suffix):
+    # calculate recall based on the valid_list dataframe, assuming results/ already exist
 
-    groupby_list = list(valid_list.groupby("cve")) #[(x, model_name) for x in list(valid_list.groupby("cve"))]
-
-    groupby_list = [x for x in groupby_list if (list(x[1]["owner"])[0], list(x[1]["repo"])[0]) in [("xuxueli", "xxl-job")]]
+     #[(x, model_name) for x in list(valid_list.groupby("cve"))]
     for each_cve, each_row in groupby_list:
         this_repo = list(each_row["repo"])[0]
         this_owner = list(each_row["owner"])[0]
@@ -188,7 +200,6 @@ def calculate_recall_with_df(valid_list):
 
     recall_results = {} #k: 0 for k in k_values}
     total_cves = 0
-    total_mrr = 0
 
     # voyage_recall = json.load(open("voyage_recall.json", "r"))
 
@@ -206,6 +217,33 @@ def calculate_recall_with_df(valid_list):
 
     return recall_results
 
+def calculate_tmp_valid_recall(valid_groupby, tmp_output_dir):
+    total_cves = 0
+    aggregated = {}
+
+    for group in valid_groupby:
+        cve_id = group[0]
+        df = group[1]
+        patch = list(df[df["label"] == 1]["commit_id"])
+        cve_file_path = os.path.join(tmp_output_dir, f"{cve_id}.json")
+        if not os.path.exists(cve_file_path):
+            continue
+
+        sorted_commit_ids = load_and_sort_commits(cve_file_path)
+        if sorted_commit_ids is None:
+            continue
+
+        recall_metrics = get_recall_from_sortedcommits(cve_id, sorted_commit_ids, patch)
+        if recall_metrics is not None:
+            for k, v in recall_metrics.items():
+                aggregated[k] = aggregated.get(k, 0) + v
+            total_cves += 1
+
+    if total_cves == 0:
+        return {}
+
+    recall_results = {k: v / total_cves for k, v in aggregated.items()}
+    return recall_results
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -228,7 +266,10 @@ if __name__ == "__main__":
     # valid_list = valid_list[valid_list['repo'] == 'tensorflow']
     cve_to_repo_map = valid_list.set_index("cve")["repo"].to_dict()
 
-    recall_results = calculate_recall_with_df(valid_list)
+    groupby_list = list(valid_list.groupby("cve"))
+    groupby_list = [x for x in groupby_list if (list(x[1]["owner"])[0], list(x[1]["repo"])[0]) in [("xuxueli", "xxl-job")]]
+
+    recall_results = calculate_recall_with_df(groupby_list, ranked_commits_dir, model_name, suffix)
     print("Overall Recall@k Results:")
     first_ndcg = first_recall = True
     for k in sorted(recall_results.keys(), key = lambda x: (x[0], int(re.search("(\d+)", x).group(1)) if x != "mrr" else 0)):

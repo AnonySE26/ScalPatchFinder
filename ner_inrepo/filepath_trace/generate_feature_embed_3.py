@@ -11,26 +11,26 @@ from multiprocessing import Pool
 
 
 # Initialize Voyage
-with open("../../secret.json", "r") as f:
+with open("../../../secret.json", "r") as f:
     secret = json.load(f)
 token1 = secret.get("voyage")
-token2 = secret.get("voyage_2")
-token3 = secret.get("voyage_3")
-tokens = [token1, token2, token3]
-# voyageai.api_key = token 
+# token2 = secret.get("voyage_2")
+# token3 = secret.get("voyage_3")
+# tokens = [token1, token2, token3]
+tokens = [token1]
 
 
-base_dir = "../feature"
+base_dir = "../../feature"
 batch_size = 500  
 n_processes = 8   
 
 dataset = sys.argv[1]
 fold = sys.argv[2]
 
-cve_file_train = f"./cve2name_with_paths_{dataset}_train.csv"
-cve_file_test = f"./cve2name_with_paths_{dataset}_test.csv"
-commit_file_train = f"./commits_file_path_{dataset}_train.csv"
-commit_file_test = f"./commits_file_path_{dataset}_test.csv"
+cve_file_train = f"../result/cve2name_with_paths_{dataset}_train.csv"
+cve_file_test = f"../result/cve2name_with_paths_{dataset}_test.csv"
+commit_file_train = f"../result/commits_file_path_{dataset}_train.csv"
+commit_file_test = f"../result/commits_file_path_{dataset}_test.csv"
 
 
 ###################################################################
@@ -102,7 +102,7 @@ if fold == "train":
     cve_data_train = pd.read_csv(cve_file_train)
     commit_data_train = pd.read_csv(commit_file_train)
     cve_data, commit_data = cve_data_train, commit_data_train
-    repo2commits_file = f"../feature/repo2commits_{dataset}_500.json"
+    repo2commits_file = f"../../feature/repo2commits_{dataset}_500.json"
     with open(repo2commits_file, "r", encoding="utf-8") as f:
         repo2commits_all = json.load(f)
     
@@ -110,7 +110,7 @@ if fold == "test":
     cve_data_test = pd.read_csv(cve_file_test)
     commit_data_test = pd.read_csv(commit_file_test)
     cve_data, commit_data = cve_data_test, commit_data_test
-    cve2repo2commit = pd.read_csv(f"./{dataset}_test_commits.csv")
+    cve2repo2commit = pd.read_csv(f"../result/{dataset}_test_commits.csv")
 # else:
 #     cve_data_train = pd.read_csv(cve_file_train)
 #     commit_data_train = pd.read_csv(commit_file_train)
@@ -134,7 +134,7 @@ unique_repos = sorted(list(
     set(cve_data["repo_key"].unique()) | set(commit_data["repo_key"].unique())
 ))
 
-# unique_repos = ["apache@@camel"]
+# unique_repos = ["xuxueli@@xxl-job", "xCss@@Valine"] # test
 # unique_repos = unique_repos[99:]
 ########################################################
 # 2. multi-process embedding
@@ -266,12 +266,12 @@ with Pool(processes=n_processes) as pool:
                         # print("len of commits", len(commit_set))
                     commit2path = {cid: paths for cid, paths in commit2path.items() if cid in commit_set}
 
-                with open(commit2path_file, "w", encoding="utf-8") as f:
-                    json.dump(commit2path, f, ensure_ascii=False, indent=2)
+                
             else:
                 commit2path = {}
                 print(f"Repo {repo} has no Commit data.")
-
+        with open(commit2path_file, "w", encoding="utf-8") as f:
+                json.dump(commit2path, f, ensure_ascii=False, indent=2)
         # =========== 3.3 cve2embedding.json ===============
         cve2embedding_file = os.path.join(repo_folder, "cve2embedding.json")
         # if os.path.exists(cve2embedding_file):

@@ -14,7 +14,7 @@ logging.getLogger("elasticsearch").setLevel(logging.WARNING)
 es = Elasticsearch("http://localhost:9200", http_compress=True, timeout=60, max_retries=3, retry_on_timeout=True)
 
 
-BASE_DIRECTORY = "./repo2commits_diff"
+BASE_DIRECTORY = "../repo2commits_diff"
 EXCLUDED_REPOS = {"torvalds@@linux", "aws@@aws-sdk-java", "mjg59@@linux", "containers@@libpod"}
 PROCESSED_INDEXES_FILE = "processed_indexes.txt"
 
@@ -208,4 +208,4 @@ if __name__ == "__main__":
         single_process_repos(BASE_DIRECTORY)
     elif mode == "multi":
         print("Running in multi-process mode...")
-        multi_process_repos(BASE_DIRECTORY, num_workers=4)
+        multi_process_repos(BASE_DIRECTORY, num_workers=1)

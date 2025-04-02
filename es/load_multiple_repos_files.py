@@ -17,10 +17,10 @@ logging.getLogger("elasticsearch").setLevel(logging.WARNING)
 es = Elasticsearch("http://localhost:9200", http_compress=True, timeout=60, max_retries=3, retry_on_timeout=True)
 
 
-BASE_DIRECTORY = "./repo2commits_diff"
+BASE_DIRECTORY = "../repo2commits_diff"
 
 
-PROCESSED_INDEXES_FILE = "processed_indexes_file_patchfinder_train.txt"
+PROCESSED_INDEXES_FILE = "processed_indexes_file.txt"
 if not os.path.exists(PROCESSED_INDEXES_FILE):
     with open(PROCESSED_INDEXES_FILE, "w") as f:
         pass
@@ -235,11 +235,11 @@ def main():
     mode = args.mode
     dataset = args.dataset
     
-    num_processes = 15
+    num_processes = 1
     global PROCESSED_INDEXES_FILE
     if mode == "train":
 
-        PROCESSED_INDEXES_FILE = f"processed_indexes_file_{dataset}_{mode}.txt"
+        PROCESSED_INDEXES_FILE = f"processed_indexes_file.txt"
         train_file = f"../feature/repo2commits_{dataset}_500.json"
         with open(train_file, "r") as f:
             train_data = json.load(f)

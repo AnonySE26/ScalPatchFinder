@@ -12,8 +12,6 @@ mode = sys.argv[2]
 
 cve2desc_path = "../csv/cve2desc.json"
 valid_list_path = f"../csv/{dataset}_{mode}.csv"
-output_dir = f"./{dataset}_{mode}_bm25_diff_files"
-os.makedirs(output_dir, exist_ok=True)
 
 logging.basicConfig(level=logging.WARNING)
 logging.getLogger("elasticsearch").setLevel(logging.WARNING)
@@ -24,7 +22,7 @@ with open(cve2desc_path, "r", encoding="utf-8") as f:
 
 
 valid_list_df = pd.read_csv(valid_list_path)
-
+valid_list_df = valid_list_df[(valid_list_df['repo'] == 'xxl-job') | (valid_list_df['repo'] == 'Valine')] # test
 if mode == "train":
     INDEX_SUFFIX = "_file_train"
 else:
@@ -105,7 +103,7 @@ def group_commit_features(features):
         grouped[commit_id] = sorted(grouped[commit_id], key=lambda pair: pair[1] if pair[1] is not None else 0, reverse=True)
     return grouped
 
-def process_cve(row):
+def process_cve(args):
     """
     For a given CVE:
       - Retrieve the CVE description from cve2desc.
@@ -114,6 +112,7 @@ def process_cve(row):
       - For each commit, generate a file_id based on alphabetical sorting of filenames (starting from 0), without altering the BM25 order.
       - Finally, output the results in CSV format (commit_id, filename, bm25score, file_id) to the output_dir in a file named {cve_id}.csv.
     """
+    row, output_dir = args
     cve_id = row["cve"]
     output_file = os.path.join(output_dir, f"{cve_id}.csv")
     # skip existing files or empty files
@@ -150,7 +149,7 @@ def process_cve(row):
     except Exception as e:
         print(f"Error saving features for {cve_id}: {e}")
 
-def repo_already_processed(group, threshold=100):
+def repo_already_processed(group, output_dir, threshold=100):
     """
     Check if all CVE files in the current repository exist and are non-empty (larger than threshold bytes).
     If all conditions are satisfied, return True, indicating that the repository has been processed; otherwise, return False.
@@ -165,7 +164,9 @@ def repo_already_processed(group, threshold=100):
 def process_all_cves_by_repo(df, num_processes=6):
     grouped = df.groupby(["owner", "repo"])
     for (owner, repo), group in grouped:
-        if repo_already_processed(group):
+        output_dir = f"../feature/{owner}@@{repo}/bm25_files/result"
+        os.makedirs(output_dir, exist_ok=True)
+        if repo_already_processed(group, output_dir):
             print(f"Repo {owner}/{repo} already processed. Skipping.")
             continue
         
@@ -178,7 +179,7 @@ def process_all_cves_by_repo(df, num_processes=6):
         #     print(f"Index {index_name} might already be open or cannot be opened: {e}")
         
         print(f"Processing CVEs for {owner}/{repo} ...")
-        tasks = [row for _, row in group.iterrows()]
+        tasks = [(row, output_dir) for _, row in group.iterrows()]
         with Pool(processes=num_processes) as pool:
             list(tqdm(pool.imap(process_cve, tasks), total=len(tasks), desc=f"Processing {owner}/{repo}"))
 

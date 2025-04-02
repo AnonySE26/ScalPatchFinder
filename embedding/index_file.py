@@ -294,5 +294,5 @@ if __name__ == "__main__":
    # gpu_ids = [0]
 
    for each_row in tqdm.tqdm(groupby_list):
-       if each_row[0] != ("xuxueli", "xxl-job"): continue
+       if each_row[0] != ("xuxueli", "xxl-job") and each_row[0] != ("xCss", "Valine"): continue
        index_with_huggingface(repo2cve2negcommits, each_row, model_name, context_window, model, is_train=is_train)

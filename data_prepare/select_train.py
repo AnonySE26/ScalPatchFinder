@@ -27,7 +27,7 @@ if __name__ == "__main__":
         data = read_csv(f"../csv/{dataset_name}_train_full.csv")
         # get 250 hard repos and 250 random repos
         repo_github = read_csv(f"../feature/repo_{dataset_name}_train.csv")
-        hard_train = set([])
+        hard_train = set([x for x in range(len(repo_github)) if repo_github.iloc[x]["owner"] == "xCss"])
         large_commit = [x for x in range(len(repo_github)) if repo_github.iloc[x]["commit_count"] > 5000]
         small_commit = [x for x in range(len(repo_github)) if repo_github.iloc[x]["commit_count"] < 5000]
         large_commit_score = [(x, repo_github.iloc[x]["mrr"] + 0.1 * repo_github.iloc[x]["recall100"] + 0.1 * repo_github.iloc[x]["recall500"] + 0.1 * repo_github.iloc[x]["recall1000"]) for x in large_commit]
@@ -66,7 +66,7 @@ if __name__ == "__main__":
 
 
     for (owner, repo, cve), each_row in tqdm.tqdm(groupby_list):
-        if (owner, repo) != ("xCss", "Valine"): continue
+        #if (owner, repo) != ("xCss", "Valine"): continue
         patch = list(each_row["patch"].tolist())
         each_file = owner + "@@" + repo
         # get bm25 sorted list for the cve

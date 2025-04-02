@@ -57,7 +57,12 @@ def split_file(input_file, output_dir, max_size=98 * 1024 * 1024, max_record_siz
     """
     try:
         with open(input_file, "r") as f:
-            data = json.load(f)
+            raw_data = json.load(f)  # dict of dict
+            data = []
+            for commit_id, record in raw_data.items():
+                record["commit_id"] = commit_id
+                data.append(record)
+                    
     except Exception as e:
         print(f"Error loading JSON from {input_file}: {e}")
         return
@@ -126,7 +131,11 @@ def process_repo(args):
             # if not os.path.exists(output_file):
             with open(input_file, "r") as src:
                 try:
-                    data = json.load(src)
+                    raw_data = json.load(src)
+                    data = []
+                    for commit_id, record in raw_data.items():
+                        record["commit_id"] = commit_id
+                        data.append(record)
                 except Exception as e:
                     print(f"Error loading JSON from {input_file}: {e}")
                     return
@@ -137,7 +146,8 @@ def process_repo(args):
         else:
             split_file(input_file, output_dir, max_size, max_record_size)
     else:
-        print(f"Input file for {repo} does not exist: {input_file}")
+        # print(f"Input file for {repo} does not exist: {input_file}")
+        return
 
 def process_all_repos(input_csv, base_dir, max_size=98 * 1024 * 1024, max_record_size=98 * 1024 * 1024, num_processes=4):
     """
@@ -157,6 +167,6 @@ if __name__ == '__main__':
         sys.exit(1)
     dataset = sys.argv[1]
     input_csv = f"../csv/{dataset}.csv"
-    base_dir = "."
+    base_dir = "../"
     num_processes = 8
     process_all_repos(input_csv, base_dir, num_processes=num_processes)

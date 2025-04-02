@@ -1,5 +1,10 @@
 # Preparing the data
 
+```bash
+conda create --name data_prepare python==3.10
+pip install -r requirements.txt
+```
+
 The CVE-to-patch data can be found under `../csv/`
 
 ## Collecting the commit message and diff data 

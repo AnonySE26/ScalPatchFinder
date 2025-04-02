@@ -1,0 +1,14 @@
+__pycache__
+*.egg-info/
+.idea/
+
+*.bin
+slurm*
+*.log
+
+resources/
+legacy/
+
+baselines/vfcfinder/tests
+baselines/vfcfinder/.idea
+baselines/vfcfinder/clones

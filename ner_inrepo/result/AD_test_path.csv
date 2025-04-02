@@ -1,0 +1,931 @@
+cve,file_func_name
+CVE-2006-6969,java.util.random
+CVE-2007-0450,"mod_proxy, mod_rewrite, mod_jk"
+CVE-2007-2450,manager/html/upload
+CVE-2007-5461,
+CVE-2007-5615,
+CVE-2008-1947,host-manager/html/add
+CVE-2008-2938,allowLinking
+CVE-2008-5515,"RequestDispatcher, WEB-INF"
+CVE-2009-2693,../../bin/catalina.bat
+CVE-2009-2901,"autoDeploy, appBase"
+CVE-2009-2902,work-directory
+CVE-2009-3555,
+CVE-2010-1622,class.classLoader.URLs[0]
+CVE-2010-2227,
+CVE-2010-3718,ServletContext
+CVE-2010-4172,"orderBy, sessionsList.jsp, sessionDetail.jsp, java/org/apache/catalina/manager/JspHelper.java"
+CVE-2010-4476,Double.parseDouble
+CVE-2011-0013,
+CVE-2011-0534,
+CVE-2011-1088,
+CVE-2011-1183,web.xml
+CVE-2011-1184,
+CVE-2011-1419,"web.xml, ServletSecurity"
+CVE-2011-1475,
+CVE-2011-1498,
+CVE-2011-1582,
+CVE-2011-2204,MemoryUserDatabase
+CVE-2011-2481,"web.xml, context.xml"
+CVE-2011-2526,
+CVE-2011-2730,"spring:hasBindErrors, spring:bind, spring:nestedpath, spring:message, spring:theme, spring:transform"
+CVE-2011-3190,
+CVE-2011-3375,
+CVE-2011-4343,
+CVE-2011-5062,qop=auth
+CVE-2011-5063,
+CVE-2012-3546,"org/apache/catalina/realm/RealmBase.java, setUserPrincipal, /j_security_check"
+CVE-2012-6153,http/conn/ssl/AbstractVerifier.java
+CVE-2013-4152,"DOMSource, StAXSource, SAXSource, StreamSource"
+CVE-2013-4286,
+CVE-2013-4322,
+CVE-2013-4330,CamelFileName
+CVE-2013-4590,"context.xml, web.xml, *.jspx, *.tagx, *.tld"
+CVE-2013-5679,"authenticated-encryption, symmetric-encryption"
+CVE-2013-5960,"authenticated-encryption, symmetric-encryption"
+CVE-2013-6430,"JavaScriptUtils.javaScriptEscape, web/util/JavaScriptUtils.java"
+CVE-2013-7315,
+CVE-2013-7370,
+CVE-2013-7371,
+CVE-2014-0002,
+CVE-2014-0003,
+CVE-2014-0054,Jaxb2RootElementHttpMessageConverter
+CVE-2014-0075,"parseChunkHeader, java/org/apache/coyote/http11/filters/ChunkedInputFilter.java"
+CVE-2014-0095,java/org/apache/coyote/ajp/AbstractAjpProcessor.java
+CVE-2014-0096,java/org/apache/catalina/servlets/DefaultServlet.java
+CVE-2014-0097,ActiveDirectoryLdapAuthenticator
+CVE-2014-0099,java/org/apache/tomcat/util/buf/Ascii.java
+CVE-2014-0168,
+CVE-2014-0225,
+CVE-2014-0227,java/org/apache/coyote/http11/filters/ChunkedInputFilter.java
+CVE-2014-0230,
+CVE-2014-1904,web/servlet/tags/form/FormTag.java
+CVE-2014-2260,plugins/main/content/js/ajenti.coffee
+CVE-2014-3499,
+CVE-2014-3558,"ReflectionHelper, org.hibernate.validator.util.ReflectionHelper"
+CVE-2014-3578,
+CVE-2014-3625,
+CVE-2014-3652,
+CVE-2014-3655,
+CVE-2014-3656,login-status-iframe.html
+CVE-2014-4301,"respond_error, routing.py, ajenti:static/resources.js, ajenti:static/resources.css"
+CVE-2014-4671,
+CVE-2014-5277,docker-py
+CVE-2014-6407,
+CVE-2014-6408,
+CVE-2014-8991,/tmp/pip-build-*
+CVE-2015-0201,
+CVE-2015-0263,converter/jaxp/XmlConverter.java
+CVE-2015-20110,validateToken
+CVE-2015-3171,
+CVE-2015-3189,
+CVE-2015-3192,DTD
+CVE-2015-5170,
+CVE-2015-5171,
+CVE-2015-5172,
+CVE-2015-5211,
+CVE-2015-5250,
+CVE-2015-5344,camel-xstream
+CVE-2015-5346,"CoyoteAdapter.java, Request.java"
+CVE-2015-5348,"camel-jetty, camel-servlet"
+CVE-2015-7528,
+CVE-2015-7561,
+CVE-2015-7764,
+CVE-2015-8013,s2k.js
+CVE-2015-9241,"If-Modified-Since, Last-Modified"
+CVE-2016-0714,session-persistence
+CVE-2016-0762,"Realm, LockOutRealm"
+CVE-2016-0763,"org/apache/naming/factory/ResourceLinkFactory.java, ResourceLinkFactory.setGlobalContext"
+CVE-2016-1000027,
+CVE-2016-1906,
+CVE-2016-3084,Login-server
+CVE-2016-5007,
+CVE-2016-5016,
+CVE-2016-5018,
+CVE-2016-5388,
+CVE-2016-6637,
+CVE-2016-6794,SecurityManager
+CVE-2016-6796,SecurityManager
+CVE-2016-6797,"ResourceLinkFactory, ResourceLink"
+CVE-2016-6809,JMatIO
+CVE-2016-6816,
+CVE-2016-6817,
+CVE-2016-8735,JmxRemoteLifecycleListener
+CVE-2016-8745,
+CVE-2016-8747,Http11InputBuffer.java
+CVE-2016-8749,"Jackson, JacksonXML"
+CVE-2017-1000188,ejs.renderFile
+CVE-2017-1000189,ejs.renderFile
+CVE-2017-12617,
+CVE-2017-12634,camel-castor
+CVE-2017-16031,Math.random()
+CVE-2017-18352,
+CVE-2017-18353,_ah/stop
+CVE-2017-18354,
+CVE-2017-18355,
+CVE-2017-3159,camel-snakeyaml
+CVE-2017-4960,
+CVE-2017-4973,
+CVE-2017-4974,
+CVE-2017-4992,
+CVE-2017-5537,
+CVE-2017-5643,
+CVE-2017-5647,
+CVE-2017-5648,
+CVE-2017-5650,WINDOW_UPDATE
+CVE-2017-5651,Processor
+CVE-2017-5929,"SocketServer, ServerSocketReceiver"
+CVE-2017-5934,
+CVE-2017-7674,
+CVE-2017-7675,HTTP/2
+CVE-2017-8032,
+CVE-2018-1000056,
+CVE-2018-1000073,package.rb
+CVE-2018-1000079,
+CVE-2018-1000105,"GerritManagement.java, GerritServer.java, PluginImpl.java"
+CVE-2018-1000106,"GerritManagement.java, GerritServer.java, PluginImpl.java"
+CVE-2018-1000129,
+CVE-2018-1000130,
+CVE-2018-1000187,ContainerExecDecorator.java
+CVE-2018-1000411,TestObject.java
+CVE-2018-1000601,BasicSSHUserPrivateKey.java
+CVE-2018-1000613,XMSS/XMSS^MT
+CVE-2018-1000656,
+CVE-2018-1002101,
+CVE-2018-1002105,kube-apiserver
+CVE-2018-10894,
+CVE-2018-11039,HiddenHttpMethodFilter
+CVE-2018-11784,
+CVE-2018-1192,SessionID
+CVE-2018-1199,getPathInfo
+CVE-2018-1271,
+CVE-2018-1275,
+CVE-2018-1305,Servlets
+CVE-2018-1339,ChmParser
+CVE-2018-14371,"getLocalePrefix, ResourceManager.java"
+CVE-2018-15761,
+CVE-2018-15801,
+CVE-2018-16848,
+CVE-2018-16849,"std.ssh, private_key_filename"
+CVE-2018-19413,externalIdentity
+CVE-2018-1999040,KubernetesCloud.java
+CVE-2018-21019,components/api.py
+CVE-2018-3711,
+CVE-2018-3717,directory.js
+CVE-2018-5158,
+CVE-2018-8034,
+CVE-2018-8037,"NIO, NIO2"
+CVE-2018-8041,
+CVE-2019-0221,
+CVE-2019-1002101,
+CVE-2019-1003009,"src/main/java/hudson/plugins/active_directory/ActiveDirectoryDomain.java, src/main/java/hudson/plugins/active_directory/ActiveDirectorySecurityRealm.java, src/main/java/hudson/plugins/active_directory/ActiveDirectoryUnixAuthenticationProvider.java"
+CVE-2019-1003012,"blueocean-core-js/src/js/bundleStartup.js, blueocean-core-js/src/js/fetch.ts, blueocean-core-js/src/js/i18n/i18n.js, blueocean-core-js/src/js/urlconfig.js, blueocean-rest/src/main/java/io/jenkins/blueocean/rest/APICrumbExclusion.java, blueocean-web/src/main/java/io/jenkins/blueocean/BlueOceanUI.java, blueocean-web/src/main/resources/io/jenkins/blueocean/BlueOceanUI/index.jelly"
+CVE-2019-1003013,"blueocean-commons/src/main/java/io/jenkins/blueocean/commons/stapler/Export.java, blueocean-commons/src/main/java/io/jenkins/blueocean/commons/stapler/export/ExportConfig.java, blueocean-commons/src/main/java/io/jenkins/blueocean/commons/stapler/export/JSONDataWriter.java, blueocean-rest-impl/src/main/java/io/jenkins/blueocean/service/embedded/UserStatePreloader.java, blueocean-web/src/main/resources/io/jenkins/blueocean/PageStatePreloadDecorator/header.jelly"
+CVE-2019-10072,WINDOW_UPDATE
+CVE-2019-10219,
+CVE-2019-10320,
+CVE-2019-10343,
+CVE-2019-10344,
+CVE-2019-10345,
+CVE-2019-10362,
+CVE-2019-10363,
+CVE-2019-10364,
+CVE-2019-10367,
+CVE-2019-11250,
+CVE-2019-14837,
+CVE-2019-16303,RandomStringUtils
+CVE-2019-16355,
+CVE-2019-16551,
+CVE-2019-16552,Overall/Read
+CVE-2019-17091,faces/context/PartialViewContextImpl.java
+CVE-2019-17572,rocketmq-client
+CVE-2019-17636,@theia/mini-browser
+CVE-2019-20174,additionalSignUpFields
+CVE-2019-25072,
+CVE-2019-25155,demos/hooks-target-blank-demo.html
+CVE-2019-6804,"assets/javascripts/workflowStepEditorKO.js, views/execution/_wfitemEdit.gsp"
+CVE-2019-8903,index.js
+CVE-2020-10686,
+CVE-2020-10776,redirect_uri
+CVE-2020-11053,
+CVE-2020-11971,JMX
+CVE-2020-11996,
+CVE-2020-12642,
+CVE-2020-12760,
+CVE-2020-13935,
+CVE-2020-13943,
+CVE-2020-15091,
+CVE-2020-15111,"c.Attachment(), ctx.Attachment()"
+CVE-2020-15119,dangerouslySetInnerHTML
+CVE-2020-15275,
+CVE-2020-1698,
+CVE-2020-1714,ObjectInputStream
+CVE-2020-17527,HTTP/2
+CVE-2020-1762,
+CVE-2020-1764,
+CVE-2020-2090,
+CVE-2020-2091,
+CVE-2020-2141,
+CVE-2020-2142,
+CVE-2020-2146,
+CVE-2020-2147,
+CVE-2020-2148,Overall/Read
+CVE-2020-2185,
+CVE-2020-2186,
+CVE-2020-2187,
+CVE-2020-2232,
+CVE-2020-2253,
+CVE-2020-2254,
+CVE-2020-2289,
+CVE-2020-2290,
+CVE-2020-2299,
+CVE-2020-2300,
+CVE-2020-2301,
+CVE-2020-2302,
+CVE-2020-2303,
+CVE-2020-2307,
+CVE-2020-2308,
+CVE-2020-2309,Overall/Read
+CVE-2020-23814,"AppName, AddressList, JobGroupController.java"
+CVE-2020-25074,action/cache.py
+CVE-2020-26290,xml-roundtrip-validator
+CVE-2020-26870,serialize-parse
+CVE-2020-26892,JWT
+CVE-2020-27665,"admin::hasPermissions, CTB, content-type-builder"
+CVE-2020-27826,
+CVE-2020-27838,
+CVE-2020-28494,"image.pipe, image.stream, child_process.spawn"
+CVE-2020-28495,
+CVE-2020-29204,xxl-job-admin/src/main/java/com/xxl/job/admin/controller/UserController.java
+CVE-2020-35460,common/InputStreamHelper.java
+CVE-2020-35509,
+CVE-2020-4037,
+CVE-2020-5303,"activeID, RemovePeer, AddPeer"
+CVE-2020-5397,
+CVE-2020-5398,Content-Disposition
+CVE-2020-6950,
+CVE-2020-7611,io.micronaut:micronaut-http-client
+CVE-2020-7765,
+CVE-2020-8123,
+CVE-2020-8551,
+CVE-2020-8552,
+CVE-2020-8564,
+CVE-2020-9484,"PersistenceManager, FileStore, sessionAttributeValueClassNameFilter"
+CVE-2021-20195,
+CVE-2021-20222,
+CVE-2021-21271,"DuplicateVoteEvidence, EvidencePool"
+CVE-2021-21278,"`eval`, `no-new-func`"
+CVE-2021-21291,
+CVE-2021-21306,
+CVE-2021-21320,
+CVE-2021-21376,OMERO.web
+CVE-2021-21377,omero.web.redirect_allowed_hosts
+CVE-2021-21616,
+CVE-2021-21648,
+CVE-2021-21654,
+CVE-2021-21655,
+CVE-2021-21699,
+CVE-2021-22118,WebFlux
+CVE-2021-23344,
+CVE-2021-23389,"U.set, U.get"
+CVE-2021-23390,"U.set, U.get"
+CVE-2021-24040,
+CVE-2021-24122,"File.getCanonicalPath, FindFirstFileW"
+CVE-2021-25329,
+CVE-2021-25735,
+CVE-2021-25736,"spec.ports[*].port, status.loadBalancer.ingress[].ip"
+CVE-2021-25743,
+CVE-2021-25929,
+CVE-2021-25930,"opennms-1-0-stable, opennms-27.1.0-1, meridian-foundation-2015.1.0-1, meridian-foundation-2019.1.18-1, meridian-foundation-2020.1.0-1, meridian-foundation-2020.1.6-1"
+CVE-2021-25931,"`/opennms/admin/userGroupView/users/updateUser`, `ROLE_ADMIN`"
+CVE-2021-25933,"validateFormInput, groupName, groupComment"
+CVE-2021-25934,"createRequisitionedNode, node-label"
+CVE-2021-25962,
+CVE-2021-25963,
+CVE-2021-25967,
+CVE-2021-26296,
+CVE-2021-29451,
+CVE-2021-29620,service-api
+CVE-2021-30080,
+CVE-2021-3127,
+CVE-2021-32620,
+CVE-2021-32621,
+CVE-2021-32629,
+CVE-2021-32641,"flashMessage, languageDictionary"
+CVE-2021-32660,@backstage/tehdocs-common
+CVE-2021-32661,`@backstage/plugin-techdocs`
+CVE-2021-32662,"docs_dir, mkdocs.yml"
+CVE-2021-32702,
+CVE-2021-32730,register_macros.vm
+CVE-2021-32731,resetpasswordinline.vm
+CVE-2021-32769,`**`
+CVE-2021-32831,utils.set
+CVE-2021-33037,transfer-encoding
+CVE-2021-3312,
+CVE-2021-34435,mini-browser
+CVE-2021-3572,
+CVE-2021-3632,
+CVE-2021-37580,ShenyuAdminBootstrap
+CVE-2021-3827,
+CVE-2021-3828,
+CVE-2021-3856,"ClassLoaderTheme, ClasspathThemeResourceProviderFactory"
+CVE-2021-39132,"plugin.yaml, project_acl, system_acl"
+CVE-2021-39133,"`admin`, `system`"
+CVE-2021-39167,TimelockController
+CVE-2021-39207,SafeLoader
+CVE-2021-39216,"VMExternRefActivationsTable, wasmtime::Config::wasm_reference_types"
+CVE-2021-39218,"`externref`, `wasmtime::Config::wasm_reference_types`"
+CVE-2021-39219,"Linker::func_*, Engine, Store, Linker"
+CVE-2021-41079,"NIO+OpenSSL, NIO2+OpenSSL"
+CVE-2021-41132,jQuery.html()
+CVE-2021-41151,"`github:publish:pull-request`, `@backstage/plugin-scaffolder-backend`"
+CVE-2021-41264,"UUPSUpgradeable, @openzeppelin/contracts, @openzeppelin/contracts-upgradeable"
+CVE-2021-42340,
+CVE-2021-42550,
+CVE-2021-43783,@backstage/plugin-scaffolder-backend
+CVE-2021-43786,
+CVE-2021-43787,
+CVE-2021-43788,languages/
+CVE-2021-43812,
+CVE-2021-43831,
+CVE-2021-43854,"PunktSentenceTokenizer, sent_tokenize, word_tokenize"
+CVE-2021-43980,Http11Processor
+CVE-2021-44217,
+CVE-2022-0265,hazelcast/hazelcast
+CVE-2022-0577,scrapy/scrapy
+CVE-2022-0664,
+CVE-2022-0764,strapi/strapi
+CVE-2022-1053,
+CVE-2022-1245,client_id
+CVE-2022-21208,
+CVE-2022-21646,"Lookup, LookupResources, lookup's"
+CVE-2022-21680,block.def
+CVE-2022-21681,inline.reflinkSearch
+CVE-2022-21700,"DefaultArgumentConversionContext, DefaultRequestBinderRegistry, FixedRequestBinderRegistry, ConversionService, RequestArgumentBinder, MediaType, DefaultRequestBinderRegistry.class, registerDefaultConverters, addConverter, CharSequence.class, MediaType.class, charSequence, MediaType.of, IllegalArgumentException"
+CVE-2022-22950,
+CVE-2022-22965,
+CVE-2022-22968,"disallowedFields, DataBinder"
+CVE-2022-22970,"MultipartFile, javax.servlet.Part"
+CVE-2022-22971,
+CVE-2022-22976,BCrypt
+CVE-2022-23080,
+CVE-2022-23106,
+CVE-2022-23223,
+CVE-2022-23457,Validator.getValidDirectoryPath
+CVE-2022-23615,
+CVE-2022-23616,XWiki/ResetPassword
+CVE-2022-23617,
+CVE-2022-23618,
+CVE-2022-23619,
+CVE-2022-23620,AbstractSxExportURLFactoryActionHandler#processSx
+CVE-2022-23621,"XWiki#invokeServletAndReturnAsString, $xwiki.invokeServletAndReturnAsString"
+CVE-2022-23622,"`registerinline.vm`, `$escapetool.xml($!request.xredirect)`"
+CVE-2022-23650,
+CVE-2022-23915,
+CVE-2022-23945,
+CVE-2022-24193,
+CVE-2022-24375,deleteSubscription
+CVE-2022-24710,
+CVE-2022-24727,
+CVE-2022-24770,
+CVE-2022-24797,"`/debug`, `/metrics`"
+CVE-2022-24815,"EntityManager.java, Conditions.just(criteria.toString())"
+CVE-2022-24858,baseUrl
+CVE-2022-25167,
+CVE-2022-25231,
+CVE-2022-25304,
+CVE-2022-2576,DTLS_VERIFY_PEERS_ON_RESUMPTION_THRESHOLD
+CVE-2022-27772,org.springframework.boot.web.server.AbstractConfigurableWebServerFactory.createTempDir
+CVE-2022-2806,ovirt-log-collector/sosreport
+CVE-2022-29078,outputFunctionName
+CVE-2022-29161,xwiki-platform-crypto
+CVE-2022-29172,"user_metdata, auth0-lock"
+CVE-2022-29251,"FlamingoThemesCode.WebHomeSheet, newThemeName"
+CVE-2022-29252,WikiManager.JoinWiki
+CVE-2022-29253,
+CVE-2022-29258,Filter.FilterStreamDescriptorForm
+CVE-2022-29885,EncryptInterceptor
+CVE-2022-30126,"StandardsText, StandardsExtractingContentHandler"
+CVE-2022-30952,
+CVE-2022-30954,
+CVE-2022-30973,"StandardsText, StandardsExtractingContentHandler"
+CVE-2022-31093,callbackUrl
+CVE-2022-31110,
+CVE-2022-31127,sendVerificationRequest
+CVE-2022-31150,
+CVE-2022-31151,
+CVE-2022-31259,/p1/p2/:name
+CVE-2022-3423,nocodb/nocodb
+CVE-2022-34916,
+CVE-2022-3500,
+CVE-2022-3509,
+CVE-2022-3510,
+CVE-2022-35924,"next-auth, EmailProvider, signIn, normalizeIdentifier"
+CVE-2022-35948,content-type
+CVE-2022-35949,"undici.request, path/pathname"
+CVE-2022-35961,"ECDSA.recover, ECDSA.tryRecover"
+CVE-2022-36045,"utils.generateUUID, Math.random()"
+CVE-2022-36076,
+CVE-2022-36090,
+CVE-2022-36092,
+CVE-2022-36093,xpart.vm
+CVE-2022-36094,viewattachrev.vm
+CVE-2022-36095,documentTags.vm
+CVE-2022-36096,"XWiki.DeletedAttachments, JavaScriptExtension"
+CVE-2022-36097,"moveStep1.vm, webapp/xwiki/templates/moveStep1.vm"
+CVE-2022-36098,XWiki.Mentions.MentionsMacro
+CVE-2022-36099,"XWikiServerClassSheet, XWiki.XWikiServerClassSheet, WikiManager.XWikiServerClassSheet, xwiki-platform-wiki-ui-mainwiki"
+CVE-2022-36100,Main.Tags
+CVE-2022-36157,
+CVE-2022-3798,/api/v2/open/tablesInfo
+CVE-2022-3799,/api/v2/open/tablesInfo
+CVE-2022-3800,"/api/v2/open/rowsInfo, table_name"
+CVE-2022-3801,/api/v2/open/rowsInfo
+CVE-2022-3802,/api/v2/open/rowsInfo
+CVE-2022-39222,
+CVE-2022-39228,
+CVE-2022-39263,"`@next-auth/upstash-redis-adapter`, `next-auth`"
+CVE-2022-39288,
+CVE-2022-39368,
+CVE-2022-3952,"createTempDir, WarFileLauncher.java"
+CVE-2022-3978,/register/abort
+CVE-2022-41919,"Content-Type, Pre-Flight, application/x-www-form-urlencoded, multipart/form-data, text/plain, application/json, @fastify/csrf"
+CVE-2022-41927,"$services.csrf.isTokenValid, $request.get, $response.sendError"
+CVE-2022-41929,"org.xwiki.platform:xwiki-platform-oldcore, User#setDisabledStatus"
+CVE-2022-41930,"org.xwiki.platform:xwiki-platform-user-profile-ui, XWiki.XWikiUserProfileSheet"
+CVE-2022-41931,IconThemesCode.IconPickerMacro
+CVE-2022-41933,
+CVE-2022-41934,Menu.MenuMacro
+CVE-2022-41935,XWiki.LiveTableResultsMacros
+CVE-2022-41936,
+CVE-2022-41937,Filter.WebHome
+CVE-2022-41954,"File.createTempFile, java.io.tmpdir"
+CVE-2022-42252,"rejectIllegalHeader, Content-Length"
+CVE-2022-42468,"providerURL, JNDI"
+CVE-2022-42965,
+CVE-2022-43183,/admin/controller/JobLogController.java
+CVE-2022-45143,JsonErrorReportValve
+CVE-2022-4520,"components/registry/org.wso2.carbon.registry.search.ui/src/main/resources/web/search/advancedSearchForm-ajaxprocessor.jsp, mediaType, rightOp, leftOp, rightPropertyValue, leftPropertyValue"
+CVE-2022-4521,"parentPath, profile_menu"
+CVE-2022-45380,
+CVE-2022-45908,paddle.audio.functional.get_window
+CVE-2022-46164,
+CVE-2022-46742,paddle.audio.functional.get_window
+CVE-2022-47894,
+CVE-2023-0481,File.createTempFile()
+CVE-2023-0739,answerdev/answer
+CVE-2023-0740,
+CVE-2023-0741,
+CVE-2023-0743,
+CVE-2023-0744,
+CVE-2023-0867,
+CVE-2023-0868,
+CVE-2023-0871,
+CVE-2023-0872,
+CVE-2023-0934,
+CVE-2023-1176,mlflow/mlflow
+CVE-2023-1237,answerdev/answer
+CVE-2023-1239,
+CVE-2023-1535,
+CVE-2023-1537,answerdev/answer
+CVE-2023-1538,answerdev/answer
+CVE-2023-1539,
+CVE-2023-1540,answerdev/answer
+CVE-2023-1541,answerdev/answer
+CVE-2023-1543,answerdev/answer
+CVE-2023-1584,
+CVE-2023-1712,
+CVE-2023-1974,answerdev/answer
+CVE-2023-1975,answerdev/answer
+CVE-2023-1976,
+CVE-2023-20860,mvcRequestMatcher
+CVE-2023-20861,
+CVE-2023-20863,release+
+CVE-2023-20873,
+CVE-2023-20883,
+CVE-2023-22493,
+CVE-2023-22621,
+CVE-2023-22738,
+CVE-2023-22893,
+CVE-2023-2356,mlflow/mlflow
+CVE-2023-23929,
+CVE-2023-23930,
+CVE-2023-23936,headers.host
+CVE-2023-24423,
+CVE-2023-24807,"Headers.set(), Headers.append(), headerValueNormalize()"
+CVE-2023-25571,"`@backstage/catalog-model`, `@backstage/core-components`, `@backstage/plugin-catalog-backend`, `window.open`"
+CVE-2023-25763,
+CVE-2023-25764,
+CVE-2023-25765,
+CVE-2023-2590,
+CVE-2023-26045,
+CVE-2023-26056,
+CVE-2023-26150,
+CVE-2023-26151,
+CVE-2023-26470,
+CVE-2023-26471,org.xwiki.platform:xwiki-platform-rendering-async-macro
+CVE-2023-26472,IconThemesCode.IconThemeSheet
+CVE-2023-26475,
+CVE-2023-26476,"LiveTableResults, WikisLiveTableResultsMacros"
+CVE-2023-26477,"newThemeName, FlamingoThemesCode.WebHomeSheet"
+CVE-2023-26478,"org.xwiki.store.script.TemporaryAttachmentsScriptService#uploadTemporaryAttachment, com.xpn.xwiki.doc.XWikiAttachment, com.xpn.xwiki.api.Attachment"
+CVE-2023-26479,#NAME?
+CVE-2023-26480,
+CVE-2023-26491,
+CVE-2023-26492,`/files/import`
+CVE-2023-27479,"XWiki.UIExtensionClass, PanelsCode.ApplicationsPanelConfigurationSheet"
+CVE-2023-2780,
+CVE-2023-2800,huggingface/transformers
+CVE-2023-28443,directus_refresh_token
+CVE-2023-2850,
+CVE-2023-28635,
+CVE-2023-28708,"RemoteIpFilter, X-Forwarded-Proto"
+CVE-2023-28709,maxParameterCount
+CVE-2023-29014,
+CVE-2023-29015,
+CVE-2023-29016,
+CVE-2023-29193,"`--grpc-preshared-key`, `/debug/pprof/cmdline`, `--metrics-addr`, `--metrics-enabled=false`, `SPICEDB_GRPC_PRESHARED_KEY=yoursecret`, `--metrics-addr=localhost:9090`"
+CVE-2023-29202,"`content`, WEB-INF/lib/xwiki-platform-rendering-macro-rss-XX.jar"
+CVE-2023-29204,
+CVE-2023-29206,
+CVE-2023-29207,
+CVE-2023-29208,
+CVE-2023-29209,"HTMLConverter, CKEditor"
+CVE-2023-29210,
+CVE-2023-29211,"WikiManager.DeleteWiki, wikiId"
+CVE-2023-29212,
+CVE-2023-29213,org.xwiki.platform:xwiki-platform-logging-ui
+CVE-2023-29214,
+CVE-2023-29506,
+CVE-2023-29507,DocumentAuthors
+CVE-2023-29509,"documentTree, FlamingoThemesCode.WebHome"
+CVE-2023-29510,
+CVE-2023-29511,XWiki.AdminFieldsDisplaySheet
+CVE-2023-29512,"imported.vm, importinline.vm, packagelist.vm"
+CVE-2023-29514,
+CVE-2023-29515,"AppWithinMinutes, /xwiki/bin/view/AppWithinMinutes/CreateApplication?wizard=true"
+CVE-2023-29516,XWiki.AttachmentSelector
+CVE-2023-29518,Invitation.InvitationCommon
+CVE-2023-29519,
+CVE-2023-29521,Macro.VFSTreeMacro
+CVE-2023-29522,
+CVE-2023-29523,
+CVE-2023-29525,"since-parameter, XWiki.Notifications.Code.LegacyNotificationAdministration, <xwikiwebapp>/templates/distribution/eventmigration.wiki"
+CVE-2023-2974,quarkus.http.ssl.protocols
+CVE-2023-30094,
+CVE-2023-30172,
+CVE-2023-30537,FlamingoThemesCode.WebHome
+CVE-2023-30542,"GovernorCompatibilityBravo, ProposalCreated, getActions"
+CVE-2023-30609,
+CVE-2023-30620,tarfile.extractall()
+CVE-2023-30797,
+CVE-2023-30840,"csi-nodeplugin-fluid, fluid-csi, fluid-system"
+CVE-2023-30861,"session.permanent, SESSION_REFRESH_EACH_REQUEST, Cache-Control"
+CVE-2023-31544,
+CVE-2023-32068,
+CVE-2023-32069,XWiki.ClassSheet
+CVE-2023-32071,
+CVE-2023-32077,
+CVE-2023-32078,
+CVE-2023-33189,
+CVE-2023-33201,
+CVE-2023-33202,org.bouncycastle.openssl.PEMParser
+CVE-2023-33246,
+CVE-2023-33264,
+CVE-2023-3348,
+CVE-2023-34042,"spring-security.xsd, spring-security-config"
+CVE-2023-34053,"ObservationRegistry, io.micrometer:micrometer-core, org.springframework.boot:spring-boot-actuator"
+CVE-2023-34054,
+CVE-2023-34055,org.springframework.boot:spring-boot-actuator
+CVE-2023-34062,
+CVE-2023-34093,privateAttributes
+CVE-2023-34233,
+CVE-2023-34239,
+CVE-2023-34442,
+CVE-2023-34464,"org.xwiki.platform:xwiki-platform-web, org.xwiki.platform:xwiki-platform-web-templates"
+CVE-2023-34465,"Mail.MailConfig, XWiki.XWikiAdminGroup"
+CVE-2023-34467,
+CVE-2023-34981,mod_proxy_ajp
+CVE-2023-35150,
+CVE-2023-35151,
+CVE-2023-35152,
+CVE-2023-35153,"AppWithinMinutes.FormFieldCategoryClass, /xwiki/bin/view/AppWithinMinutes/ClassEditSheet, AppWithinMinutes.ClassEditSheet"
+CVE-2023-35155,
+CVE-2023-35156,xwiki/bin/get/FlamingoThemes/Cerulean?xpage=xpart&vm=delete.vm&xredirect=javascript:alert(document.domain)
+CVE-2023-35157,
+CVE-2023-35158,"xpage=restore, showBatch=true, xredirect=javascript:alert(document.domain)"
+CVE-2023-35159,xwiki/bin/deletespace/Sandbox/?xredirect=javascript:alert(document.domain)
+CVE-2023-35160,"xwiki/bin/view/XWiki/Main, xpage=resubmit, resubmit=javascript:alert(document.domain), xback=javascript:alert(document.domain)"
+CVE-2023-35161,"DeleteApplication, xwiki/bin/view/AppWithinMinutes/DeleteApplication"
+CVE-2023-35162,previewactions.vm
+CVE-2023-35166,TipsPanel
+CVE-2023-35926,"scaffolder-backend, `vm2`, `@backstage/plugin-scaffolder-backend`"
+CVE-2023-36468,rev=1.1
+CVE-2023-36469,XWiki.Notifications.Code.NotificationRSSService
+CVE-2023-36470,
+CVE-2023-36477,"CKEditor, XWiki.XWikiAdminGroup"
+CVE-2023-3674,
+CVE-2023-37259,
+CVE-2023-37266,
+CVE-2023-37277,
+CVE-2023-37462,SkinsCode.XWikiSkinsSheet
+CVE-2023-37469,
+CVE-2023-37477,`/hosts/firewall/ip`
+CVE-2023-3765,mlflow/mlflow
+CVE-2023-37909,Menu.UIExtensionSheet
+CVE-2023-37910,
+CVE-2023-37911,
+CVE-2023-37913,
+CVE-2023-37914,"Invitation.WebHome, Invitation.InvitationCommon, Invitation.InvitationConfig"
+CVE-2023-38200,
+CVE-2023-38201,
+CVE-2023-38509,"org.xwiki.platform:xwiki-platform-livetable-ui, XWiki.LiveTableResultsMacros"
+CVE-2023-38674,paddle.nanmedian
+CVE-2023-38675,paddle.linalg.matrix_rank
+CVE-2023-38676,paddle.dot
+CVE-2023-38677,paddle.linalg.eig
+CVE-2023-38678,paddle.mode
+CVE-2023-38699,
+CVE-2023-39410,
+CVE-2023-40014,"ERC2771Context, _msgSender, address(0), MinimalForwarder"
+CVE-2023-40176,
+CVE-2023-40177,AppWithinMinutes.Content
+CVE-2023-40311,
+CVE-2023-40312,
+CVE-2023-40313,
+CVE-2023-40315,"ROLE_FILESYSTEM_EDITOR, ROLE_ADMIN"
+CVE-2023-4033,mlflow/mlflow
+CVE-2023-40572,
+CVE-2023-40573,
+CVE-2023-41037,"`verificationResult.data`, `getText()`, `armor()`, `openpgp.readCleartextMessage()`, `openpgp.cleartext.readArmored()`"
+CVE-2023-41046,"XClass, TextArea, VelocityCode, VelocityWiki, xwiki/1.0"
+CVE-2023-41080,
+CVE-2023-4124,
+CVE-2023-4125,answerdev/answer
+CVE-2023-4126,answerdev/answer
+CVE-2023-4127,
+CVE-2023-41338,"ctx.IsFromLocal, X-Forwarded-For"
+CVE-2023-41881,
+CVE-2023-41882,/api/collaboration/{id}/task
+CVE-2023-42795,
+CVE-2023-43116,"PIPELINE_PATH, fix-buildkite-agent-builds-permissions"
+CVE-2023-43616,
+CVE-2023-43617,
+CVE-2023-43618,ips?
+CVE-2023-43619,.ssh/authorized_keys
+CVE-2023-43620,
+CVE-2023-43621,
+CVE-2023-43741,"PIPELINE_PATH, fix-buildkite-agent-builds-permissions"
+CVE-2023-44487,
+CVE-2023-45128,"Session, SameSite=Lax, SameSite=Secure, Secure, HttpOnly"
+CVE-2023-45134,"org.xwiki.platform:xwiki-platform-web, org.xwiki.platform:xwiki-platform-web-templates, org.xwiki.platform:xwiki-web-standard, createinline.vm"
+CVE-2023-45136,createinline.vm
+CVE-2023-45137,"org.xwiki.platform:xwiki-platform-web, org.xwiki.platform:xwiki-platform-web-templates, createinline.vm"
+CVE-2023-45141,"Session, SameSite=Lax, SameSite=Secure, Secure, HttpOnly"
+CVE-2023-45143,RequestInit.headers
+CVE-2023-45648,
+CVE-2023-45820,
+CVE-2023-45860,
+CVE-2023-46242,
+CVE-2023-46243,
+CVE-2023-46244,"$doc.document.authors.contentAuthor, XWiki.superadmin"
+CVE-2023-46255,
+CVE-2023-46589,
+CVE-2023-46731,XWiki.AdminSheet
+CVE-2023-46732,
+CVE-2023-46738,"HandlerNode, ObjectNode"
+CVE-2023-46739,UserService
+CVE-2023-46740,accessKey
+CVE-2023-46741,
+CVE-2023-47112,
+CVE-2023-47631,`parent_id`
+CVE-2023-4815,
+CVE-2023-48240,"xwiki-platform-diff-xml-<version>.jar, WEB-INF/lib"
+CVE-2023-48241,Solr-based
+CVE-2023-48299,
+CVE-2023-49795,file.py
+CVE-2023-49796,file.py
+CVE-2023-50248,`/dataset/new`
+CVE-2023-50715,
+CVE-2023-50719,Solr-based
+CVE-2023-50720,objcontent:email*
+CVE-2023-50721,XWiki.SearchAdmin
+CVE-2023-50722,XWiki.ConfigurableClass
+CVE-2023-50723,"XWiki.ConfigurableClassMacros, XWiki.ConfigurableClass"
+CVE-2023-50732,
+CVE-2023-5104,
+CVE-2023-51449,
+CVE-2023-51699,JuicefsRuntime
+CVE-2023-52302,paddle.nextafter
+CVE-2023-52303,paddle.put_along_axis
+CVE-2023-52304,paddle.searchsorted
+CVE-2023-52305,paddle.topk
+CVE-2023-52306,paddle.lerp
+CVE-2023-52307,paddle.linalg.lu_unpack
+CVE-2023-52308,paddle.amin
+CVE-2023-52309,paddle.repeat_interleave
+CVE-2023-52310,get_online_pass_interval
+CVE-2023-52311,_wget_download
+CVE-2023-52312,paddle.crop
+CVE-2023-52313,"paddle.argmin, paddle.argmax"
+CVE-2023-52314,convert_shape_compare
+CVE-2023-5675,"quarkus.security.jaxrs.deny-unannotated-endpoints, quarkus.security.jaxrs.default-roles-allowed"
+CVE-2023-5752,"hg+, --config"
+CVE-2023-6014,
+CVE-2023-6018,
+CVE-2023-6378,
+CVE-2023-6393,@CacheResult
+CVE-2023-6481,
+CVE-2023-6563,
+CVE-2023-6568,mlflow/server/auth/__init__.py
+CVE-2023-6572,gradio-app/gradio
+CVE-2023-6709,mlflow/mlflow
+CVE-2023-6730,huggingface/transformers
+CVE-2023-6753,mlflow/mlflow
+CVE-2023-6831,
+CVE-2023-6911,Registry
+CVE-2023-6940,
+CVE-2023-6944,
+CVE-2023-6974,
+CVE-2023-6975,
+CVE-2023-6976,
+CVE-2023-6977,
+CVE-2023-7079,
+CVE-2023-7080,"wrangler@3.19.0, wrangler@2.20.2, wrangler@3.16.0, wrangler@3.18.0"
+CVE-2024-0520,"mlflow/mlflow, mlflow.data.http_dataset_source.py, Content-Disposition"
+CVE-2024-0815,paddle.utils.download._wget_download
+CVE-2024-0817,IrGraph.draw
+CVE-2024-0818,
+CVE-2024-0874,
+CVE-2024-0964,
+CVE-2024-10220,
+CVE-2024-11023,
+CVE-2024-1183,
+CVE-2024-1540,deploy+test-visual.yml
+CVE-2024-1561,`launch(share=True)`
+CVE-2024-1724,"$HOME/bin, PATH"
+CVE-2024-1727,"gradio-app/gradio, gradio/routes.py"
+CVE-2024-1728,
+CVE-2024-1729,routes.py
+CVE-2024-1892,"XMLFeedSpider, scrapy/scrapy"
+CVE-2024-1979,
+CVE-2024-21648,
+CVE-2024-21649,
+CVE-2024-21650,
+CVE-2024-21653,
+CVE-2024-21671,
+CVE-2024-21733,
+CVE-2024-2206,"self.replica_urls, X-Direct-Url, /proxy, /, /config"
+CVE-2024-22193,
+CVE-2024-22234,AuthenticationTrustResolver.isFullyAuthenticated
+CVE-2024-22257,AuthenticatedVoter#vote
+CVE-2024-22259,UriComponentsBuilder
+CVE-2024-23639,
+CVE-2024-23656,"cmd/dex/serve.go, tlsConfig"
+CVE-2024-23672,
+CVE-2024-23823,v6
+CVE-2024-24549,
+CVE-2024-24566,ACCESS_CODE
+CVE-2024-24750,
+CVE-2024-24758,Proxy-Authentication
+CVE-2024-24759,
+CVE-2024-24768,
+CVE-2024-24770,"/recover/lost, /2fa/lost"
+CVE-2024-26150,resolveSafeChildPath
+CVE-2024-27097,
+CVE-2024-27101,"CheckPermission, BulkCheckPermission, LookupSubjects"
+CVE-2024-27133,
+CVE-2024-27295,
+CVE-2024-27296,
+CVE-2024-27303,"NSExec, `.nsh`"
+CVE-2024-27609,
+CVE-2024-27926,
+CVE-2024-27927,
+CVE-2024-28087,
+CVE-2024-28180,"Decrypt, DecryptMulti"
+CVE-2024-28239,`directus/auth/login/google?redirect=http://malicious-fishing-site.com`
+CVE-2024-29068,
+CVE-2024-29069,
+CVE-2024-29181,@strapi/plugin-content-manager
+CVE-2024-29191,"`links.html`, `innerHTML`"
+CVE-2024-29192,`/api/config`
+CVE-2024-29193,"Object.entries, innerHTML"
+CVE-2024-29868,
+CVE-2024-30172,Ed25519
+CVE-2024-30260,undici.request()
+CVE-2024-30261,fetch()
+CVE-2024-31217,@strapi/plugin-upload
+CVE-2024-31464,
+CVE-2024-31465,"XWiki.SearchSuggestSourceClass, XWiki.SearchSuggestSourceSheet"
+CVE-2024-31621,api/v1
+CVE-2024-31860,
+CVE-2024-31862,
+CVE-2024-31863,
+CVE-2024-31864,
+CVE-2024-31865,
+CVE-2024-31866,ZEPPELIN_INTP_CLASSPATH_OVERRIDES
+CVE-2024-31867,
+CVE-2024-31868,helium.json
+CVE-2024-31979,
+CVE-2024-31981,XWiki.PDFClass
+CVE-2024-31982,Main.DatabaseSearch
+CVE-2024-31983,
+CVE-2024-31984,Main.SolrSpaceFacet
+CVE-2024-31985,Scheduler.WebHome
+CVE-2024-31987,
+CVE-2024-31988,RTFrontend.ConvertHTML
+CVE-2024-31997,
+CVE-2024-32001,LookupSubjects
+CVE-2024-32964,
+CVE-2024-32969,
+CVE-2024-33883,
+CVE-2024-34065,@strapi/plugin-users-permissions
+CVE-2024-34342,isEvalSupported
+CVE-2024-34478,
+CVE-2024-34511,"PIPELINE_PATH, fix-buildkite-agent-builds-permissions, br_multicast_add_group, net/bridge/br_multicast.c, $RepeatedMsgReduction, NIO+OpenSSL, NIO2+OpenSSL"
+CVE-2024-34708,alias[workaround]
+CVE-2024-34709,directus_session
+CVE-2024-34750,HTTP/2
+CVE-2024-35180,
+CVE-2024-35198,
+CVE-2024-35199,
+CVE-2024-3568,"load_repo_checkpoint(), TFPreTrainedModel(), pickle.load()"
+CVE-2024-3572,lxml.etree.fromstring
+CVE-2024-3573,
+CVE-2024-36115,"token-secret, GHSL-2024-072"
+CVE-2024-36116,"JavadocEndpoints.kt, file.name, '$workspace$/plugins', GHSL-2024-073"
+CVE-2024-36117,
+CVE-2024-36128,
+CVE-2024-37898,
+CVE-2024-37899,services.logging.getLogger
+CVE-2024-37900,
+CVE-2024-37901,"XWiki.SearchSuggestConfig, XWiki.SearchSuggestSourceClass"
+CVE-2024-38286,
+CVE-2024-38355,"Socket.IO, Node.js, socket.io@4.6.2"
+CVE-2024-38361,
+CVE-2024-38365,"FindAndDelete, removeOpCodeByData"
+CVE-2024-38369,
+CVE-2024-38372,"fetch(), response.arrayBuffer()"
+CVE-2024-38460,
+CVE-2024-3848,mlflow/mlflow
+CVE-2024-38809,"If-Match, If-None-Match"
+CVE-2024-38816,"WebMvc.fn, WebFlux.fn, RouterFunctions, FileSystemResource"
+CVE-2024-38820,"disallowedFields, DataBinder, String.toLowerCase"
+CVE-2024-38821,
+CVE-2024-39303,
+CVE-2024-39698,"packages/electron-updater/src/windowsExecutableCodeSignatureVerifier.ts, verifySignature"
+CVE-2024-39699,
+CVE-2024-39705,averaged_perceptron_tagger
+CVE-2024-39895,/graphql
+CVE-2024-39896,
+CVE-2024-39907,1.10.12-tls
+CVE-2024-40464,"sendMail, beego/core/logs/smtp.go"
+CVE-2024-40465,"getCacheFileName, file.go"
+CVE-2024-40761,
+CVE-2024-4146,
+CVE-2024-41677,render-ssr.ts
+CVE-2024-41888,
+CVE-2024-41890,
+CVE-2024-41947,
+CVE-2024-41950,"Pipelines, Components"
+CVE-2024-4367,PDF.js
+CVE-2024-45591,/xwiki/rest/wikis/xwiki/spaces/Main/pages/WebHome/history
+CVE-2024-45596,
+CVE-2024-45801,
+CVE-2024-45846,
+CVE-2024-45847,
+CVE-2024-45848,ChromaDB
+CVE-2024-45849,"MindsDB, SharePoint, INSERT"
+CVE-2024-45850,
+CVE-2024-45851,"MindsDB, SharePoint, 'INSERT'"
+CVE-2024-46978,XWiki.Notifications.Code.NotificationPreferenceService
+CVE-2024-46979,"XWiki/Notifications/Code/NotificationFilterPreferenceLivetableResults, XWiki.Notifications.Code.NotificationFilterPreferenceLivetableResults"
+CVE-2024-46989,
+CVE-2024-46990,"`127.X.X.X`, `127.0.0.1`"
+CVE-2024-47066,src/app/api/proxy/route.ts
+CVE-2024-47164,is_in_or_equal
+CVE-2024-47561,
+CVE-2024-47762,APP_CONFIG_backend_listen_port=7007
+CVE-2024-47824,matrix-react-sdk
+CVE-2024-48910,
+CVE-2024-4941,"postprocess(), gradio/components/json_component.py, processing_utils.move_files_to_cache()"
+CVE-2024-49750,
+CVE-2024-49771,
+CVE-2024-52316,ServerAuthContext
+CVE-2024-52317,HTTP/2
+CVE-2024-52318,
+CVE-2024-5389,
+CVE-2024-5452,deepdiff.Delta
+CVE-2024-5520,
+CVE-2024-6087,
+CVE-2024-6582,saml.ts
+CVE-2024-6587,api_base
+CVE-2024-6862,
+CVE-2024-6867,run_id
+CVE-2024-7254,DiscardUnknownFieldsParser
+CVE-2024-7558,JUJU_CONTEXT_ID
+CVE-2024-8037,"JUJU_CONTEXT_ID, @/var/lib/juju/agents/unit-xxxx-yyyy/agent.socket"
+CVE-2024-8038,
+CVE-2024-8646,
+CVE-2024-9148,
+CVE-2024-9329,/management/domain

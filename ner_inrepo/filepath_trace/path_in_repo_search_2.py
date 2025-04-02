@@ -11,8 +11,8 @@ import argparse
 
 def load_repo_mapping(dataset="AD"):
 
-    test_csv_path = f"../csv/{dataset}_test.csv"
-    train_csv_path = f"../csv/{dataset}_train.csv"
+    test_csv_path = f"../../csv/{dataset}_test.csv"
+    train_csv_path = f"../../csv/{dataset}_train.csv"
     dfs = []
     
     for csv_path in [test_csv_path, train_csv_path]:
@@ -20,6 +20,7 @@ def load_repo_mapping(dataset="AD"):
             try:
                 df_csv = pd.read_csv(csv_path)
                 df_csv = df_csv[df_csv["owner"]!= 'torvalds']
+                df_csv =  df_csv[(df_csv['repo'] == 'xxl-job') | (df_csv['repo'] == 'Valine')] # test
                 if set(['cve', 'owner', 'repo']).issubset(df_csv.columns):
                     dfs.append(df_csv[['cve', 'owner', 'repo']])
                 else:
@@ -130,8 +131,8 @@ def main():
     dataset = args.dataset
     mode = args.mode
     
-    test_path = f"../ner/{dataset}_test_path.csv"
-    train_path = f"../ner/{dataset}_train_path.csv"
+    test_path = f"../result/{dataset}_test_path.csv"
+    train_path = f"../result/{dataset}_train_path.csv"
     
     
     try:
@@ -143,18 +144,18 @@ def main():
         
     # df = pd.concat([df_test, df_train])
     if args.split == "train":
-        output_csv = f"./cve2name_with_paths_{dataset}_train.csv"
+        output_csv = f"../result/cve2name_with_paths_{dataset}_train.csv"
         df = df_train
     else:
-        output_csv = f"./cve2name_with_paths_{dataset}_test.csv"
+        output_csv = f"../result/cve2name_with_paths_{dataset}_test.csv"
         df = df_test
     # Load owner/repo mapping, keyed by CVE
     mapping = load_repo_mapping(dataset=dataset)
     print(f"Loaded {len(mapping)} CVEs")
     
-    # Read GitHub tokens
+    # GitHub tokens
     try:
-        with open("../../secret.json", "r") as f:
+        with open("../../../secret.json", "r") as f:
             secret = json.load(f)
     except Exception as e:
         print(f"Failed to read token file: {e}")
@@ -190,6 +191,7 @@ def main():
             token = token4
         else:
             token = token5
+        # token = secret.get("github", "") # test
         tasks.append((cve, word, full_repo, token))
     
     if mode == "multi":
@@ -207,16 +209,16 @@ def main():
     
     new_repo_keys = []
     new_path_in_repo = []
-    # Note: tasks and results are in one-to-one correspondence
-    for res in results:
+    # tasks and results are in one-to-one correspondence
+    for task, res in zip(tasks, results):
+        cve, word, full_repo, token = task
         if res:
-            # Here res should have only one key (i.e., full_repo), extract it directly
             repo_key, paths = list(res.items())[0]
-            new_repo_keys.append(repo_key)
-            new_path_in_repo.append(paths)
         else:
-            new_repo_keys.append("")
-            new_path_in_repo.append([])
+            repo_key = full_repo
+            paths = []
+        new_repo_keys.append(repo_key.replace("/", "@@"))
+        new_path_in_repo.append(paths)
 
     # Filter rows where CVE exists in the mapping (corresponding to tasks)
     df = df.loc[df["cve"].isin(mapping.keys())].copy()

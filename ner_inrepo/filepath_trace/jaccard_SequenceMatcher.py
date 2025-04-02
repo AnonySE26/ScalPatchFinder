@@ -34,14 +34,12 @@ def custom_path_similarity(path1, path2, base_weight=0.8, dir_weight=0.2):
     score = base_weight * base_sim + dir_weight * dir_sim
     return score
 
-# Pre-create output directory
-os.makedirs("./output", exist_ok=True)
 
 dataset = sys.argv[1]
 split = sys.argv[2]
 # Read data
-cve_df = pd.read_csv(f'./cve2name_with_paths_{dataset}_{split}.csv')
-commit_df = pd.read_csv(f'./commits_file_path_{dataset}_{split}.csv')
+cve_df = pd.read_csv(f'../result/cve2name_with_paths_{dataset}_{split}.csv')
+commit_df = pd.read_csv(f'../result/commits_file_path_{dataset}_{split}.csv')
 
 # Build CVE -> file path set mapping, and also record repo info (assume column name is repo_key)
 cve_path_dict = {}
@@ -99,7 +97,9 @@ def process_single_cve(cve):
                     max_sim = sim
         result[commit] = {"new_score": max_sim}
     # Write result to JSON file named {cve}.json
-    output_file = f"./output/{cve}.json"
+    output_file = f"../../feature/{repo}/jaccard/result/{cve}.json"
+    output_dir = os.path.dirname(output_file)
+    os.makedirs(output_dir, exist_ok=True)
     with open(output_file, "w") as f:
          json.dump(result, f, indent=4)
     return cve, result

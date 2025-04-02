@@ -3,7 +3,10 @@
 ## Install
 
 ```
+conda env remove -n embedding
 conda env create -f environment.yml
+conda activate embedding
+pip install torch torchvision torchaudio triton gritlm
 ```
 
 ## Indexing commits with voyage/gritLM

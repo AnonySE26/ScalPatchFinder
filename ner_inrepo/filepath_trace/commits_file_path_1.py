@@ -27,10 +27,10 @@ def extract_file_paths(commit_diff):
 def process_repo(repo_info):
     owner = repo_info['owner']
     repo = repo_info['repo']
-    json_file_path = f"../repo2commits_diff/{owner}@@{repo}.json"
+    json_file_path = f"../../repo2commits_diff/{owner}@@{repo}.json"
     
     if not os.path.exists(json_file_path):
-        print(f"file {json_file_path} doesn't exist, skip {owner}@@{repo}")
+        # print(f"file {json_file_path} doesn't exist, skip {owner}@@{repo}")
         return
 
     print(f"processing {owner}@@{repo} ...")
@@ -142,7 +142,7 @@ if __name__ == '__main__':
     type = sys.argv[2]
     base_output_folder = "../../feature"
 
-    repo_list_path = f"../csv/{dataset}_{type}.csv"
+    repo_list_path = f"../../csv/{dataset}_{type}.csv"
     df_repos = pd.read_csv(repo_list_path)
     unique_repos = df_repos[['owner', 'repo']].drop_duplicates()
     unique_repos = unique_repos[~((unique_repos["owner"] == "torvalds") & (unique_repos["repo"] == "linux"))]
@@ -153,16 +153,11 @@ if __name__ == '__main__':
     # # test repos
     # allowed_repos = {
 
-    #     "mindsdb@@mindsdb",
-    #     "spring-projects@@spring-framework",
-    #     "answerdev@@answer",
-    #     "cloudfoundry@@uaa",
-    #     "kubernetes@@kubernetes",
-    #     "OpenNMS@@opennms",
-    #     "vantage6@@vantage6"
+    #     "xuxueli@@xxl-job",
+    #     "xCss@@Valine"
     # }
     # unique_repos["repo_key"] = unique_repos["owner"] + "@@" + unique_repos["repo"]
-    # unique_repos = unique_repos[~unique_repos["repo_key"].isin(allowed_repos)]
+    # unique_repos = unique_repos[unique_repos["repo_key"].isin(allowed_repos)]
     #######################################################
     repo_records = unique_repos.to_dict(orient="records")
     pool = multiprocessing.Pool(processes=4)
@@ -170,6 +165,6 @@ if __name__ == '__main__':
     pool.close()
     pool.join()
 
-    # merged_csv_path = f"./commits_file_path_{dataset}_{type}.csv"
-    # merge_csv_files(merged_csv_path, allowed_repo_keys)
+    merged_csv_path = f"../result/commits_file_path_{dataset}_{type}.csv"
+    merge_csv_files(merged_csv_path, allowed_repo_keys)
     
