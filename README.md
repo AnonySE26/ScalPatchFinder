@@ -93,14 +93,14 @@ The CVE description usually contain mentions of identifying words, e.g., functio
 
 Since VFCFinder requires a prohibitively higher cost than the other baselines, we only compare SPFinder and VFCFinder on the following repositories. They are among the most challenging repositories in GitHub Advisory Database, i.e., the BM25 scores are lower. 
 
-mindsdb/mindsdb
-apache/tomcat
-spring-projects/spring-framework
-vantage6/vantage6
-answerdev/answer
-directus/directus
-OpenNMS/opennms
-cloudfoundry/uaa
+* mindsdb/mindsdb
+* apache/tomcat
+* spring-projects/spring-framework
+* vantage6/vantage6
+* answerdev/answer
+* directus/directus
+* OpenNMS/opennms
+* cloudfoundry/uaa
 
 ### The complete list of merged PR for new patches found by SPFinder (Section IV.D)
 
