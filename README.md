@@ -1,6 +1,6 @@
 # SPFinder: A Scalable and Effective System for Tracing Known Vulnerability Patches
 
-This repository contains the code and data sample for our submission: ScalPatchFinder: A Scalable and Effective Retrieval System for Security Vulnerability Patches.
+This repository contains the code and data sample for our submission: SPFinder: A Scalable and Effective System for Tracing Known Vulnerability Patches
 
 <p align="center">
     <img src="figs/overview2.png"  width=800>
@@ -22,17 +22,13 @@ First, given the a CVE description and all commits (commit message + code diff) 
 
 Given the CVE description and each commit, SPFinder uses the following feature groups to compute the final similarity score:
 
-| Feature Group      | Feature                                                              |
-|--------------------|----------------------------------------------------------------------|
-| **Code embedding** | 1. GritLM cosine with truncated diff                                 |
-|                    | 2. Max GritLM cosine with all files in diff                          |
-|                    | 3. GritLM cosine with mean of top-1 vectors of all files in diff     |
-|                    | 4. GritLM cosine with mean of top-2 vectors of all files in diff     |
-| **BM25**           | 5. BM25 ElasticSearch                                                |
-| **Time**           | 6. \#commits between CVE reserve time and commit                     |
-|                    | 7. \#commits between CVE publish time and commit                     |
-| **Path**           | 8. Jaccard Index between NER-paths and commit-paths                  |
-|                    | 9. Voyage AI~\cite{voyage} cosine between NER-paths and commit-paths |
+| Feature Group          | Feature                                                                                                                     |
+|------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| Code Embedding         | 1. Commit-level similarity                                                                                                  |
+| Hierarchical Embedding | 2. Max of file-level similarity<br>3. Cosine with top-1 file embedding<br>4. Cosine with mean of top-2 file embeddings      |
+| BM25                   | 5. BM25 score                                                                                                               |
+| Time                   | 6. #commits between CVE reserve time and commit<br>7. \#commits between CVE publish time and commit                         |
+| Path embedding         | 8. Jaccard Index between NER-paths and commit-paths<br>9. Voyage AI~\cite{voyage} cosine between NER-paths and commit-paths |
 
 
 
@@ -43,7 +39,7 @@ To reproduce SPFinder, first, you need to collect the dataset following the `REA
 * `repo2commits_diff/`, which stores all the commit and diff data
 * `csv/AD_train.csv` and `csv/AD_test.csv`, which stores the patch of each CVE
 
-You can then reproduce ScalPatchFinder by following the steps below. Notice that we store the output of all steps under `feature/method_name/result`, including the baselines:
+You can then reproduce SPFinder by following the steps below. Notice that we store the output of all steps under `feature/method_name/result`, including the baselines:
 
 * `BM25+Time with ElasticSearch (Section 3.2)`: first, pre-rank all commits following the `README.md` under `es`, the output of this step is saved under `feature/bm25_time/result`
 
@@ -69,7 +65,7 @@ which will reproduce the following Table 4 results with the following model_name
 * `bm25_time`: BM25+time
 * `patchscout`: PatchScout (Tan et al. 2021) 
 * `patchfinder`: PatchFinder (Li et al. 2024) 
-* `ltr`: ScalPatchFinder
+* `ltr`: SPFinder
 * `grit_instruct_512_file`: grit_head2 when suffix is `_head2` 
 
 
