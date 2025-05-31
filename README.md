@@ -15,7 +15,7 @@ SPFinder is a tool for retrieving the missing links to patches of CVEs. Given th
 
 ## Pipeline of SPFinder
 
-First, given the a CVE description and all commits (commit message + code diff) of a repository, SPFinder first pre-ranks all commits using BM25 + CVE time information; then, for the top 10k commits, it extracts 9 features(Table~\ref{tab:feature_set}) including hierarchical embedding and path embedding; finally, it leverages LightGBM to combine these features into the final ranking score.
+As shown in the figure above, first, given the a CVE description and all commits (commit message + code diff) of a repository, SPFinder first pre-ranks all commits using BM25 + CVE time information; then, for the top 10k commits, it extracts 9 features including hierarchical embedding and path embedding; finally, it leverages LightGBM to combine these features into the final ranking score.
 
 
 ## Features used in SPFinder
