@@ -3,7 +3,7 @@
 This repository contains the code and data sample for our submission: ScalPatchFinder: A Scalable and Effective Retrieval System for Security Vulnerability Patches.
 
 <p align="center">
-    <img src="figs/overview.png"  width=800>
+    <img src="figs/overview.pdf"  width=800>
     <br>
 </p>
 
@@ -77,6 +77,6 @@ which will reproduce the following Table 4 results with the following model_name
 
 
 <p align="center">
-    <img src="figs/table4.png"  width=800>
+    <img src="figs/table5.png"  width=800>
     <br>
 </p>
