@@ -77,7 +77,7 @@ which will reproduce the following Table 4 results with the following model_name
 
 
 <p align="center">
-    <img src="figs/table5.png"  width=800>
+    <img src="figs/runtime.png"  width=800>
     <br>
 </p>
 
