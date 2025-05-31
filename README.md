@@ -80,7 +80,7 @@ which will reproduce the following Table 4 results with the following model_name
 In our experiment, we observe the inference runtime cost of LLMs grow linearly as shown below: 
 
 <p align="center">
-    <img src="figs/runtime.png"  width=800>
+    <img src="figs/runtime_2.png"  width=800>
     <br>
 </p>
 
