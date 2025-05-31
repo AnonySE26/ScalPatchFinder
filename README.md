@@ -1,4 +1,4 @@
-# ScalPatchFinder: A Scalable and Effective Retrieval System for Security Vulnerability Patches
+# SPFinder: A Scalable and Effective System for Tracing Known Vulnerability Patches
 
 This repository contains the code and data sample for our submission: ScalPatchFinder: A Scalable and Effective Retrieval System for Security Vulnerability Patches.
 
@@ -9,18 +9,18 @@ This repository contains the code and data sample for our submission: ScalPatchF
 
 
 
-## Overview of ScalPatchFinder
+## Overview of SPFinder
 
-ScalPatchFinder is a tool for retrieving the missing links to patches of CVEs. Given the text description of the CVE, ScalPatchFinder casts this problem as retrieving the commit (commit message, code diff) which most closely match the CVE description. The backbone of ScalPatchFinder is a top-ranked text embedding LLM named [GritLM-7B](https://huggingface.co/GritLM/GritLM-7B). It leverages a hierarchical embedding technique to reduce the truncation of the commit diff code. It further leverages pre-ranking using ElasticSearch and the time difference between CVE and commit, as well as NER + path search to bridge the gap by out-of-commit mentions in the CVE description. By combining these features in a learning-to-rank framework, ScalPatchFinder outperforms existing work: [PatchScout](https://yuanxzhang.github.io/paper/patchscout-ccs21.pdf), [PatchFinder](https://dl.acm.org/doi/10.1145/3650212.3680305), and [VFCFinder](https://dl.acm.org/doi/pdf/10.1145/3634737.3657007), it further outperforms the Recall@10 of VoyageAI, a commercial embedding API with state-of-the-art performance, by 13\% and 28\% on our two datasets: patchfinder and GitHubAD. 
+SPFinder is a tool for retrieving the missing links to patches of CVEs. Given the text description of the CVE, SPFinder casts this problem as retrieving the commit (commit message, code diff) which most closely match the CVE description. The backbone of SPFinder are GritLM [GritLM-7B](https://huggingface.co/GritLM/GritLM-7B) and CodeXEmbed [CodeXEmbed](https://huggingface.co/Salesforce/SFR-Embedding-Mistral). It leverages a hierarchical embedding technique to extend the context length for representing a commit. It further proposes a three-phase framework for improving the scalability. SPFinder outperforms existing work: [PatchScout](https://yuanxzhang.github.io/paper/patchscout-ccs21.pdf), [PatchFinder](https://dl.acm.org/doi/10.1145/3650212.3680305), and [VFCFinder](https://dl.acm.org/doi/pdf/10.1145/3634737.3657007) on two datasets (GitHubAD and PatchFinder), it further outperforms the MRR and Recall@10 of VoyageAI, a commercial embedding API with state-of-the-art performance, by 18\% and 28\% on our the two datasets. 
 
-## Pipeline of ScalPatchFinder
+## Pipeline of SPFinder
 
-First, it pre-ranks all commits in a repo using BM25+Time with ElasticSearch (Section 3.2). Second, for the top-10000 commits, it computes the code embedding using our hierarchical embedding approach (Section 3.3). Third, to bridge the gap when the CVE description mentions out-of-commit entities (e.g., package names, function names), it includes a path similarity feature by searching for the file paths matching these entities, then computing their similarity with the commit paths (Section 3.4). Finally, it leverages learning-to-rank (Section 3.5) to combine all features. 
+First, given the a CVE description and all commits (commit message + code diff) of a repository, SPFinder first pre-ranks all commits using BM25 + CVE time information; then, for the top 10k commits, it extracts 9 features(Table~\ref{tab:feature_set}) including hierarchical embedding and path embedding; finally, it leverages LightGBM to combine these features into the final ranking score.
 
 
-## Features used in ScalPatchFinder
+## Features used in SPFinder
 
-Given the CVE description and one commit, ScalPatchFinder uses the following feature groups to compute the final similarity score:
+Given the CVE description and each commit, SPFinder uses the following feature groups to compute the final similarity score:
 
 | Feature Group      | Feature                                                              |
 |--------------------|----------------------------------------------------------------------|
@@ -36,9 +36,9 @@ Given the CVE description and one commit, ScalPatchFinder uses the following fea
 
 
 
-## Instruction of reproducing ScalPatchFinder
+## Instruction of reproducing SPFinder
 
-To reproduce ScalPatchFinder, first, you need to collect the dataset following the `README.md` under data_prepare. This will creates the following directories: 
+To reproduce SPFinder, first, you need to collect the dataset following the `README.md` under data_prepare. This will creates the following directories: 
 
 * `repo2commits_diff/`, which stores all the commit and diff data
 * `csv/AD_train.csv` and `csv/AD_test.csv`, which stores the patch of each CVE
@@ -53,7 +53,7 @@ You can then reproduce ScalPatchFinder by following the steps below. Notice that
 
 * `learning to rank (Section 3.5)`: finally, aggregate all features using lightgbm's LambdaRank algorithm by following the `README.md` under `ltr`, the output of this step is saved under `feature/ltr/result`. 
 
-## Instruction of evaluating the ranking score of ScalPatchFinder and baselines
+## Instruction of evaluating the ranking score of SPFinder and baselines
 
 After the similarities are stored, you can evaluate the ranking score of each method using 
 
