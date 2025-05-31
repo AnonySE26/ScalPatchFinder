@@ -1,6 +1,6 @@
 # ScalPatchFinder: A Scalable and Effective Retrieval System for Security Vulnerability Patches
 
-This repository contains the code and data sample for our ICSE26 submission: ScalPatchFinder: A Scalable and Effective Retrieval System for Security Vulnerability Patches.
+This repository contains the code and data sample for our submission: ScalPatchFinder: A Scalable and Effective Retrieval System for Security Vulnerability Patches.
 
 <p align="center">
     <img src="figs/overview.png"  width=800>
