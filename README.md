@@ -73,7 +73,9 @@ which will reproduce the following Table 4 results with the following model_name
     <br>
 </p>
 
-## Inference Runtime Cost vs Context Length
+## Supplementary materials
+
+### Runtime with context length (Section III.B)
 
 
 <p align="center">
@@ -81,5 +83,25 @@ which will reproduce the following Table 4 results with the following model_name
     <br>
 </p>
 
+### NER (Section III.C)
 
+The CVE description usually contain mentions of identifying words, e.g., function names, variable names, file names, which can be used for retrieving the patch. We use named entity recognition to extract the identifying words from the description, More specifically, we leverage OpenAI's gpt-4o for the NER. The prompt is as follows:
 
+`Given the CVE description of [software name], extract the entities (variable, file, method, class, other modules) in the code to help retrieve the patching commit of the vulnerability. Extract entities that are camel/snake case or similar, e.g., connected using -, :, +. Only output words in the description. Do not extract: (1): words describing the software name/versions; (2): words describing the vulnerability and exploit method.`
+
+### The 8 repositories used for comparing SPFinder and VFCFinder (Section IV.C)
+
+Since VFCFinder requires a prohibitively higher cost than the other baselines, we only compare SPFinder and VFCFinder on the following repositories. They are among the most challenging repositories in GitHub Advisory Database, i.e., the BM25 scores are lower. 
+
+mindsdb/mindsdb
+apache/tomcat
+spring-projects/spring-framework
+vantage6/vantage6
+answerdev/answer
+directus/directus
+OpenNMS/opennms
+cloudfoundry/uaa
+
+### The complete list of merged PR for new patches found by SPFinder (Section IV.D)
+
+The list can be found under merged_pr.pd in this directory
