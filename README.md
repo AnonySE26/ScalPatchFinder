@@ -66,13 +66,20 @@ which will reproduce the following Table 4 results with the following model_name
 * `patchscout`: PatchScout (Tan et al. 2021) 
 * `patchfinder`: PatchFinder (Li et al. 2024) 
 * `ltr`: SPFinder
-* `grit_instruct_512_file`: grit_head2 when suffix is `_head2` 
+* `grit_instruct_512_file`: grit_head2 when suffix is `_head2`
 
+<p align="center">
+    <img src="figs/table5.png"  width=800>
+    <br>
+</p>
 
-
+## Inference Runtime Cost vs Context Length
 
 
 <p align="center">
     <img src="figs/table5.png"  width=800>
     <br>
 </p>
+
+
+
