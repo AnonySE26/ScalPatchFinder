@@ -3,7 +3,7 @@
 This repository contains the code and data sample for our submission: ScalPatchFinder: A Scalable and Effective Retrieval System for Security Vulnerability Patches.
 
 <p align="center">
-    <img src="figs/overview.pdf"  width=800>
+    <img src="figs/overview2.png"  width=800>
     <br>
 </p>
 
