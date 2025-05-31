@@ -41,13 +41,13 @@ To reproduce SPFinder, first, you need to collect the dataset following the `REA
 
 You can then reproduce SPFinder by following the steps below. Notice that we store the output of all steps under `feature/method_name/result`, including the baselines:
 
-* `BM25+Time with ElasticSearch (Section 3.2)`: first, pre-rank all commits following the `README.md` under `es`, the output of this step is saved under `feature/bm25_time/result`
+* `BM25+Time with ElasticSearch`: first, pre-rank all commits following the `README.md` under `es`, the output of this step is saved under `feature/bm25_time/result`
 
-* `hierarchical embedding (Section 3.3)`: next, run code embedding following the `README.md` under `embedding`, the output of this step is saved under `feature/grit_instruct/result` (i.e., feature 1), `feature/grit_instruct_512_file/result_head1` (i.e., feature 3), `feature/grit_instruct_512_file/result_head2` (i.e., feature 4), and `feature/grit_instruct_512_file/result_head5_max` (i.e., feature 2). 
+* `hierarchical embedding`: next, run code embedding following the `README.md` under `embedding`, the output of this step is saved under `feature/grit_instruct/result` (i.e., feature 1), `feature/grit_instruct_512_file/result_head1` (i.e., feature 3), `feature/grit_instruct_512_file/result_head2` (i.e., feature 4), and `feature/grit_instruct_512_file/result_head5_max` (i.e., feature 2). 
 
-* `ner + in-repo search (Section 3.4)`: next, augment the file paths to bridge the CVE-patch gap by following the `README.md` under `ner_inrepo`, the output of this step is saved under `feature/path/result` (i.e., feature 9)
+* `ner + in-repo search`: next, augment the file paths to bridge the CVE-patch gap by following the `README.md` under `ner_inrepo`, the output of this step is saved under `feature/path/result` (i.e., feature 9)
 
-* `learning to rank (Section 3.5)`: finally, aggregate all features using lightgbm's LambdaRank algorithm by following the `README.md` under `ltr`, the output of this step is saved under `feature/ltr/result`. 
+* `learning to rank`: finally, aggregate all features using lightgbm's LambdaRank algorithm by following the `README.md` under `ltr`, the output of this step is saved under `feature/ltr/result`. 
 
 ## Instruction of evaluating the ranking score of SPFinder and baselines
 
